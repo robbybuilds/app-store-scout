@@ -1,0 +1,22 @@
+{
+  "countries": ["us"],
+  "charts": ["top-grossing", "top-free", "top-paid"],
+  "genres": [
+    { "id": 0, "name": "All apps" },
+    { "id": 6000, "name": "Business" },
+    { "id": 6002, "name": "Utilities" },
+    { "id": 6007, "name": "Productivity" },
+    { "id": 6008, "name": "Photo & Video" },
+    { "id": 6012, "name": "Lifestyle" },
+    { "id": 6013, "name": "Health & Fitness" },
+    { "id": 6015, "name": "Finance" },
+    { "id": 6017, "name": "Education" },
+    { "id": 6020, "name": "Medical" },
+    { "id": 6023, "name": "Food & Drink" }
+  ],
+  "report": {
+    "smallAppMaxRatings": 5000,
+    "newAppMaxAgeDays": 365,
+    "listSize": 15
+  }
+}

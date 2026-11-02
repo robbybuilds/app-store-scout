@@ -1,0 +1,18 @@
+{
+ "resultCount": 1,
+ "results": [
+  {
+   "trackId": 6448311069,
+   "trackName": "ChatGPT",
+   "artistName": "OpenAI OpCo, LLC",
+   "artistId": 1684349733,
+   "primaryGenreName": "Productivity",
+   "price": 0.0,
+   "userRatingCount": 11820399,
+   "averageUserRating": 4.8247,
+   "releaseDate": "2023-05-18T07:00:00Z",
+   "currentVersionReleaseDate": "2026-10-27T16:49:11Z",
+   "trackViewUrl": "https://apps.apple.com/us/app/chatgpt/id6448311069?uo=4"
+  }
+ ]
+}

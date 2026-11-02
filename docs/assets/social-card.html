@@ -1,0 +1,43 @@
+<!doctype html>
+<!-- Source for social-card.png (1280x640). Render: see docs/assets/README.md -->
+<html>
+<head>
+<meta charset="utf-8">
+<style>
+  :root { --bg: #0b100e; --panel: #0f1513; --line: #1d2723; --mint: #5ad8a6; --text: #eef4f1; --muted: #8fa39a; }
+  * { box-sizing: border-box; margin: 0; }
+  body { width: 1280px; height: 640px; background: var(--bg); color: var(--text);
+    font-family: -apple-system, "SF Pro Display", "Helvetica Neue", sans-serif; padding: 64px 72px; display: flex; gap: 56px; }
+  .left { flex: 1; display: flex; flex-direction: column; }
+  .label { font: 600 18px ui-monospace, "SF Mono", Menlo, monospace; color: var(--mint); letter-spacing: .08em; text-transform: uppercase; }
+  h1 { font-size: 72px; font-weight: 800; letter-spacing: -.03em; margin-top: 20px; line-height: 1; }
+  p { font-size: 30px; line-height: 1.3; color: var(--text); margin-top: 28px; max-width: 520px; }
+  .foot { margin-top: auto; font: 500 20px ui-monospace, "SF Mono", Menlo, monospace; color: var(--muted); }
+  .foot b { color: var(--mint); font-weight: 600; }
+  .card { width: 520px; align-self: center; background: var(--panel); border: 1px solid var(--line); border-radius: 18px; padding: 28px 30px; }
+  .card h2 { font: 600 16px ui-monospace, "SF Mono", Menlo, monospace; color: var(--muted); text-transform: uppercase; letter-spacing: .08em; }
+  .row { display: flex; align-items: baseline; justify-content: space-between; padding: 16px 0; border-bottom: 1px solid var(--line); }
+  .row:last-of-type { border-bottom: 0; }
+  .niche { font-size: 26px; font-weight: 650; }
+  .count { font: 600 20px ui-monospace, "SF Mono", Menlo, monospace; color: var(--mint); }
+  .sub { font-size: 17px; color: var(--muted); margin-top: 4px; }
+  .date { font: 500 15px ui-monospace, "SF Mono", Menlo, monospace; color: var(--muted); margin-top: 14px; }
+</style>
+</head>
+<body>
+  <div class="left">
+    <div class="label">Free · open source</div>
+    <h1>App Store<br>Scout</h1>
+    <p>Find the App Store niches where new and small apps are already making money.</p>
+    <div class="foot">github.com/<b>robbybuilds/app-store-scout</b></div>
+  </div>
+  <div class="card">
+    <h2>Niches where newcomers earn</h2>
+    <div class="row"><div><div class="niche">Meal planner</div><div class="sub">#4, #5, #8, #11 in Food &amp; Drink</div></div><div class="count">12 publishers</div></div>
+    <div class="row"><div><div class="niche">AI note taker</div><div class="sub">#53, #54, #58 grossing</div></div><div class="count">4 publishers</div></div>
+    <div class="row"><div><div class="niche">AI video generator</div><div class="sub">#61, #74, #75 in Photo &amp; Video</div></div><div class="count">4 publishers</div></div>
+    <div class="row"><div><div class="niche">AI medical scribe</div><div class="sub">#23, #33, #94 in Medical</div></div><div class="count">3 publishers</div></div>
+    <div class="date">US top-grossing charts · 2 Nov 2026</div>
+  </div>
+</body>
+</html>

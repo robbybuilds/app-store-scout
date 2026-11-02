@@ -1,0 +1,47 @@
+name: Daily scan
+
+on:
+  schedule:
+    - cron: "0 14 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: daily-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 24
+
+      - name: Scan Apple's charts
+        run: node src/cli.ts scan
+
+      - name: Write the report
+        run: |
+          if [ "$(date -u +%u)" = "1" ]; then
+            node src/cli.ts report --archive
+          else
+            node src/cli.ts report
+          fi
+
+      - name: Commit the snapshot
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data reports
+          if git diff --cached --quiet; then
+            echo "Nothing changed."
+          else
+            git commit -m "Scan $(date -u +%F)"
+            git push
+          fi

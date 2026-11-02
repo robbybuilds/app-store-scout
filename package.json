@@ -1,0 +1,27 @@
+{
+  "name": "app-store-scout",
+  "version": "0.1.0",
+  "description": "Free, open-source App Store research: daily chart snapshots, ratings history and a weekly shortlist of apps worth studying.",
+  "type": "module",
+  "license": "MIT",
+  "author": "Robby Houston (https://github.com/robbybuilds)",
+  "repository": "github:robbybuilds/app-store-scout",
+  "keywords": ["app-store", "ios", "market-research", "indie-hacker", "app-ideas", "rss"],
+  "engines": {
+    "node": ">=22.18"
+  },
+  "bin": {
+    "app-store-scout": "src/cli.ts"
+  },
+  "scripts": {
+    "scan": "node src/cli.ts scan",
+    "report": "node src/cli.ts report",
+    "app": "node src/cli.ts app",
+    "test": "node --test test/*.test.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.8.0"
+  }
+}
