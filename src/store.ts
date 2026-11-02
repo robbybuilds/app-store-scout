@@ -6,6 +6,7 @@
 //   data/<country>/reviews/<app-id>.csv    every review seen for the apps we research, 1 to 3 stars first
 //   data/<country>/search.csv              one line per niche search per day: how crowded the search is
 //   data/<country>/search/YYYY-MM-DD.csv   the top 10 App Store search results for each niche that day
+//   data/<country>/volume.csv              monthly Google searches for each niche (seodata.dev)
 
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
@@ -14,6 +15,7 @@ import type { Chart } from "./config.ts";
 import { parseCsv, toCsv } from "./csv.ts";
 import { type Review, sortCriticalFirst } from "./reviews.ts";
 import type { SearchRow, SearchSummary } from "./search.ts";
+import type { Volume } from "./volume.ts";
 
 export interface ChartRow {
   chart: Chart;
@@ -50,6 +52,7 @@ const RATING_COLUMNS: (keyof RatingRow)[] = ["app_id", "rating_count", "average_
 const REVIEW_COLUMNS: (keyof Review)[] = ["id", "rating", "version", "date", "title", "body"];
 const SEARCH_SUMMARY_COLUMNS: (keyof SearchSummary)[] = ["date", "term", "results", "established", "new_apps", "top10_median_ratings"];
 const SEARCH_COLUMNS: (keyof SearchRow)[] = ["date", "term", "position", "app_id", "name", "publisher", "rating_count", "released_at"];
+const VOLUME_COLUMNS: (keyof Volume)[] = ["term", "keyword", "volume", "cpc", "competition", "similar", "checked_at"];
 const APP_COLUMNS: (keyof AppDetails)[] = [
   "appId", "name", "publisher", "publisherId", "primaryGenre", "price",
   "ratingCount", "averageRating", "releasedAt", "updatedAt", "url",
@@ -209,6 +212,30 @@ export class Store {
       });
     }
     return out;
+  }
+
+  readVolumes(country: string): Map<string, Volume> {
+    const path = join(this.root, country, "volume.csv");
+    if (!existsSync(path)) return new Map();
+    return new Map(
+      parseCsv(readFileSync(path, "utf8")).map((r) => [
+        r.term,
+        {
+          term: r.term,
+          keyword: r.keyword,
+          volume: Number(r.volume),
+          cpc: Number(r.cpc),
+          competition: Number(r.competition),
+          similar: r.similar,
+          checked_at: r.checked_at,
+        },
+      ]),
+    );
+  }
+
+  writeVolumes(country: string, volumes: Map<string, Volume>): void {
+    const sorted = [...volumes.values()].sort((a, b) => a.term.localeCompare(b.term));
+    writeFileSync(join(this.root, country, "volume.csv"), toCsv(VOLUME_COLUMNS, sorted));
   }
 
   /** The most recent `days` snapshots, oldest first. */

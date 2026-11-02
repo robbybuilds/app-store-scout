@@ -26,12 +26,14 @@ About six minutes later your fork has its first snapshot and a fresh report. Aft
 
 To track other countries or categories, edit [`scout.config.json`](scout.config.json).
 
+Optional: Google search volumes come from [seodata.dev](https://www.seodata.dev), which allows 20 free lookups a day without a key. Each niche is looked up once a month, so that's usually enough. For 50 a day, get a free key there and add it in your fork under **Settings → Secrets and variables → Actions** as `SEODATA_KEY`. To turn it off, set `"searchVolume": false` in the config.
+
 ## What's in the daily report
 
 | Section | What it shows | Ready after |
 |---|---|---|
 | **Niches where newcomers are earning** | Phrases shared by new or small apps from 3+ publishers on grossing charts | Day 1 |
-| **Inside each niche** | How crowded the App Store search is, the top results, and what 1 to 3 star reviews complain about | Day 1 |
+| **Inside each niche** | How crowded the App Store search is, the top results, monthly Google searches, and what 1 to 3 star reviews complain about | Day 1 |
 | **Genres at a glance** | How many new and small apps made each category's grossing chart | Day 1 |
 | **Small and paying** | Apps on a grossing chart with fewer than 5,000 ratings | Day 1 |
 | **New and paying** | Apps released in the last year that are already on a grossing chart | Day 1 |
@@ -74,7 +76,7 @@ No. The fork-and-click setup above needs none, and the report is a page you read
 Not yet. Google Play has no free chart feed like Apple's.
 
 **Where does the data come from?**
-Four free Apple endpoints, none of which need a key: the chart feeds (ranks), the iTunes Lookup API (ratings, release dates, publishers), the iTunes Search API (what customers see when they search for a niche) and the customer reviews feed (the most recent 500 reviews per app). Each scan saves Apple's own "last updated" time, so a stale feed can't pass as fresh data.
+Four free Apple endpoints, none of which need a key: the chart feeds (ranks), the iTunes Lookup API (ratings, release dates, publishers), the iTunes Search API (what customers see when they search for a niche) and the customer reviews feed (the most recent 500 reviews per app). Monthly Google search volumes come from [seodata.dev](https://www.seodata.dev), a free third-party service. Each scan saves Apple's own "last updated" time, so a stale feed can't pass as fresh data.
 
 ## The data
 
@@ -86,6 +88,7 @@ data/us/scans.csv                when each scan ran and how fresh Apple's feed w
 data/us/reviews/6777471316.csv   every review seen for that app, 1 to 3 stars first
 data/us/search.csv               per niche per day: results, established apps, new apps
 data/us/search/2026-11-02.csv    the top 10 search results for each niche that day
+data/us/volume.csv               monthly Google searches per niche, refreshed every 30 days
 ```
 
 The default config covers 3 charts × 11 categories × 100 apps in the US: about 3,300 chart positions and 2,800 apps a day, roughly 150 KB. Reviews are read for about 80 apps: around 3 MB the first day, then only new reviews. Reviewer names are never saved.
@@ -96,6 +99,7 @@ The default config covers 3 charts × 11 categories × 100 apps in the US: about
 - **Charts stop at 100**, so the long tail is invisible.
 - **The category and grossing charts use Apple's older RSS feed.** It works today, and Apple could retire it. If that happens, the scan logs the failure and saves nothing for that chart.
 - **Reviews are the latest 500 per app**, and unhappy customers write more of them. Read them for themes, not as a satisfaction score. The complaint themes are keyword matches, so open the reviews before you trust a percentage.
+- **Google volumes are estimates** from seodata.dev, for "<niche> app". They measure web searches, not App Store searches. Check the related phrases too: "video generator app" gets 30 searches a month, while "ai video generator" gets 165,000.
 - **Search stops at 200 results**, so "190 results" means "a lot", not an exact count.
 - **Name-based niches are a starting point.** "Recipe" groups recipe managers with recipe magazines. Open the apps before you draw conclusions.
 

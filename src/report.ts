@@ -12,6 +12,7 @@ import {
 } from "./signals.ts";
 import { complaintThemes, isCritical, type Review } from "./reviews.ts";
 import { ESTABLISHED_RATINGS, SEARCH_LIMIT } from "./search.ts";
+import { parseSimilar } from "./volume.ts";
 import type { Store } from "./store.ts";
 
 const cell = (text: string) => text.replace(/\|/g, "\\|").replace(/\n/g, " ");
@@ -47,6 +48,7 @@ const pct = (share: number) => `${Math.round(share * 100)}%`;
 // For each niche: how crowded its App Store search is, and what its apps' unhappy users say.
 function nicheDetails(store: Store, config: Config, country: string, clusters: ReturnType<typeof researchTargets>["niches"]): string[] {
   const searches = store.readSearch(country);
+  const volumes = store.readVolumes(country);
   const out: string[] = [];
   out.push("## Inside each niche\n");
   out.push(
@@ -73,6 +75,17 @@ function nicheDetails(store: Store, config: Config, country: string, clusters: R
         const top = search.top.slice(0, 5).map((t) => `${t.position}. ${cell(t.name)} (${num(t.rating_count)})`);
         out.push(`**Top search results:** ${top.join(" · ")}\n`);
       }
+    }
+
+    const volume = volumes.get(c.term);
+    if (volume) {
+      const cpc = volume.cpc ? `, and advertisers pay about $${volume.cpc.toFixed(2)} a click` : "";
+      const related = parseSimilar(volume.similar).map((s) => `${cell(s.keyword)} (${num(s.volume)})`);
+      out.push(
+        `**Google searches:** "${cell(volume.keyword)}" gets about ${num(volume.volume)} a month in ${country.toUpperCase()}${cpc}` +
+          (related.length ? `. Related: ${related.join(" · ")}` : "") +
+          ` ([seodata.dev](https://www.seodata.dev), ${volume.checked_at}).\n`,
+      );
     }
 
     const reviews: (Review & { app: string })[] = c.apps.flatMap((s) =>

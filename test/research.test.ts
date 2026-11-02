@@ -4,6 +4,7 @@ import { test } from "node:test";
 import type { AppDetails } from "../src/apple.ts";
 import { complaintThemes, parseReviews, type Review, reviewsUrl, sortCriticalFirst } from "../src/reviews.ts";
 import { searchUrl, summariseSearch, topResults } from "../src/search.ts";
+import { isStale, parseSimilar, parseVolume, volumeUrl } from "../src/volume.ts";
 
 const fixture = (name: string) => JSON.parse(readFileSync(new URL(`fixtures/${name}`, import.meta.url), "utf8"));
 
@@ -96,4 +97,37 @@ test("summariseSearch measures how crowded a search is", () => {
     topResults("2026-11-02", "meal planner", results, 2).map((r) => [r.position, r.app_id]),
     [[1, "1"], [2, "2"]],
   );
+});
+
+test("parseVolume keeps the three biggest related phrases", () => {
+  const v = parseVolume(
+    {
+      keyword: "meal planner app", volume: 2400, cpc: 4.52, competition: 0.6,
+      similar: [
+        { keyword: "meal plan app", volume: 2400 },
+        { keyword: "meal planning app", volume: 9900 },
+        { keyword: "free meal planning app", volume: 2900 },
+        { keyword: "dead phrase", volume: 0 },
+        { keyword: "food planner app", volume: 9900 },
+      ],
+    },
+    "meal planner",
+    "2026-11-02",
+  );
+  assert.equal(v.keyword, "meal planner app");
+  assert.equal(v.volume, 2400);
+  assert.deepEqual(parseSimilar(v.similar), [
+    { keyword: "meal planning app", volume: 9900 },
+    { keyword: "food planner app", volume: 9900 },
+    { keyword: "free meal planning app", volume: 2900 },
+  ]);
+  assert.deepEqual(parseSimilar(""), []);
+});
+
+test("volumeUrl and isStale", () => {
+  assert.equal(volumeUrl("meal planner app", "us"), "https://api.seodata.dev/v1/keyword?q=meal+planner+app&country=us");
+  const v = parseVolume({ volume: 0 }, "x", "2026-10-01");
+  assert.equal(isStale(undefined, "2026-11-02"), true);
+  assert.equal(isStale(v, "2026-10-30"), false);
+  assert.equal(isStale(v, "2026-10-31"), true);
 });

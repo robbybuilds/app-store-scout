@@ -25,6 +25,9 @@ jobs:
 
       - name: Scan Apple's charts
         run: node src/cli.ts scan
+        env:
+          # Optional: a free seodata.dev key raises search volume lookups from 20 to 50 a day.
+          SEODATA_KEY: ${{ secrets.SEODATA_KEY }}
 
       - name: Write the report
         run: |

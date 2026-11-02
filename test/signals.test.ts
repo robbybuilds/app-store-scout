@@ -24,7 +24,7 @@ const config: Config = {
     { id: 6013, name: "Health & Fitness" },
   ],
   report: { smallAppMaxRatings: 5000, newAppMaxAgeDays: 365, listSize: 10 },
-  research: { niches: 10, reviewPages: 10 },
+  research: { niches: 10, reviewPages: 10, searchVolume: true },
 };
 
 function app(appId: string, ratingCount: number, releasedAt: string): AppDetails {

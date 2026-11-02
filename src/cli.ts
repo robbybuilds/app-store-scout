@@ -8,6 +8,7 @@ import { buildReport } from "./report.ts";
 import { fetchNewReviews, isCritical } from "./reviews.ts";
 import { type SearchRow, type SearchSummary, searchApps, summariseSearch, topResults } from "./search.ts";
 import { computeSignals, researchTargets } from "./signals.ts";
+import { DailyLimitReached, fetchVolume, isStale } from "./volume.ts";
 import { type ChartRow, Store } from "./store.ts";
 
 const HELP = `app-store-scout: free App Store research from Apple's public feeds
@@ -103,6 +104,22 @@ async function research(country: string): Promise<void> {
     await sleep(3000);
   }
   if (summaries.length) store.writeSearch(country, today, summaries, top);
+
+  if (config.research.searchVolume) {
+    const volumes = store.readVolumes(country);
+    for (const niche of niches.filter((n) => isStale(volumes.get(n.term), today))) {
+      try {
+        const v = await fetchVolume(niche.term, country, today, process.env.SEODATA_KEY || undefined);
+        volumes.set(niche.term, v);
+        console.log(`  volume "${v.keyword}": ${v.volume} searches a month`);
+      } catch (error) {
+        console.error(`  volume "${niche.term}": ${(error as Error).message}`);
+        if (error instanceof DailyLimitReached) break;
+      }
+      await sleep(500);
+    }
+    store.writeVolumes(country, volumes);
+  }
 
   let added = 0;
   for (const appId of appIds) {

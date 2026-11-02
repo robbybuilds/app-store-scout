@@ -27,9 +27,11 @@ What a customer sees when they search the App Store for the niche, and what the 
 
 ### recipe
 
-**Search:** 192 results for "recipe" (Apple returns at most 200). 24 have 10,000+ ratings, 52 came out in the last 365 days. The top 10 have a median of 42,672 ratings.
+**Search:** 192 results for "recipe" (Apple returns at most 200). 25 have 10,000+ ratings, 55 came out in the last 365 days. The top 10 have a median of 26,965 ratings.
 
 **Top search results:** 1. ReciMe: Recipes & Meal Planner (325,385) · 2. Tasty: Recipes, Cooking Videos (432,898) · 3. Recipe Keeper (31,149) · 4. NYT Cooking: Quick Tasty Meals (549,427) · 5. RecipeBox - Save Your Recipes! (14,013)
+
+**Google searches:** "recipe app" gets about 6,600 a month in US, and advertisers pay about $2.24 a click. Related: recipe apps (5,400) · recipes app (5,400) · apps for recipes (5,400) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
 **Complaints** in 906 reviews with 1 to 3 stars: Price and subscription 51% · Bugs and crashes 15% · Login and account 10% · Sync and lost data 9%
 
@@ -41,9 +43,11 @@ Worst first, newest first:
 
 ### meal planner
 
-**Search:** 190 results for "meal planner" (Apple returns at most 200). 22 have 10,000+ ratings, 100 came out in the last 365 days. The top 10 have a median of 9,169 ratings.
+**Search:** 191 results for "meal planner" (Apple returns at most 200). 17 have 10,000+ ratings, 105 came out in the last 365 days. The top 10 have a median of 9,162 ratings.
 
-**Top search results:** 1. mise - meal planner (4,296) · 2. Meal Planner & Weekly Menu (1,660) · 3. TapCook: Budget Meal Plans (6,128) · 4. Daily Meal Planner (1,843) · 5. MealPrepPro Planner & Recipes (12,209)
+**Top search results:** 1. mise - meal planner (4,240) · 2. Meal Planner & Weekly Menu (1,655) · 3. TapCook: Budget Meal Plans (6,053) · 4. Daily Meal Planner (1,843) · 5. ReciMe: Recipes & Meal Planner (324,833)
+
+**Google searches:** "meal planner app" gets about 2,400 a month in US, and advertisers pay about $4.52 a click. Related: apps for meal planning (9,900) · food planner app (9,900) · meal planning app (9,900) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
 **Complaints** in 512 reviews with 1 to 3 stars: Price and subscription 63% · Missing features 10% · Bugs and crashes 8% · Login and account 8%
 
@@ -55,9 +59,11 @@ Worst first, newest first:
 
 ### anatomy
 
-**Search:** 181 results for "anatomy" (Apple returns at most 200). 3 have 10,000+ ratings, 33 came out in the last 365 days. The top 10 have a median of 3,159 ratings.
+**Search:** 181 results for "anatomy" (Apple returns at most 200). 3 have 10,000+ ratings, 35 came out in the last 365 days. The top 10 have a median of 3,159 ratings.
 
-**Top search results:** 1. Complete Anatomy for iPhone (3,666) · 2. Daily Anatomy Flashcards (7,640) · 3. Anatomy Learning - 3D Atlas (1,443) · 4. Essential Anatomy 5 (20,704) · 5. TeachMe Anatomy: 3D Human Body (2,652)
+**Top search results:** 1. Complete Anatomy for iPhone (3,666) · 2. Daily Anatomy Flashcards (7,641) · 3. Anatomy Learning - 3D Atlas (1,440) · 4. Essential Anatomy 5 (20,704) · 5. TeachMe Anatomy: 3D Human Body (2,651)
+
+**Google searches:** "anatomy app" gets about 1,900 a month in US, and advertisers pay about $2.58 a click. Related: atlas anatomy (2,400) · anatomy application (1,900) · app anatomy (1,600) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
 **Complaints** in 340 reviews with 1 to 3 stars: Price and subscription 55% · Bugs and crashes 15% · Login and account 9% · Missing features 9%
 
@@ -71,7 +77,9 @@ Worst first, newest first:
 
 **Search:** 185 results for "recipe manager" (Apple returns at most 200). 16 have 10,000+ ratings, 72 came out in the last 365 days. The top 10 have a median of 3,500 ratings.
 
-**Top search results:** 1. Mela - Recipe Manager (886) · 2. Crouton: Recipe Manager (2,948) · 3. Paprika Recipe Manager 3 (54,197) · 4. ReciMe: Recipes & Meal Planner (325,581) · 5. Recipe Keeper (31,156)
+**Top search results:** 1. Paprika Recipe Manager 3 (54,197) · 2. Mela - Recipe Manager (886) · 3. Crouton: Recipe Manager (2,948) · 4. ReciMe: Recipes & Meal Planner (325,581) · 5. Recipe Keeper (31,156)
+
+**Google searches:** "recipe manager app" gets about 140 a month in US, and advertisers pay about $6.35 a click. Related: recipe app (6,600) · recipe apps (5,400) · recipes app (5,400) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
 **Complaints** in 166 reviews with 1 to 3 stars: Price and subscription 50% · Bugs and crashes 13% · Customer support 13% · Sync and lost data 12%
 
@@ -87,6 +95,8 @@ Worst first, newest first:
 
 **Top search results:** 1. Budget app - spending tracker (16,279) · 2. EveryDollar: Budget Management (84,201) · 3. Fleur - Budget Planner App (13,145) · 4. Monarch: Budget & Track Money (116,576) · 5. Rocket Money - Bills & Budgets (404,254)
 
+**Google searches:** "budget app" gets about 90,500 a month in US, and advertisers pay about $8.97 a click. Related: budget application (90,500) · budget apps (90,500) · budgeting app (90,500) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
+
 **Complaints** in 525 reviews with 1 to 3 stars: Price and subscription 58% · Login and account 33% · Bugs and crashes 24% · Customer support 10%
 
 Worst first, newest first:
@@ -101,6 +111,8 @@ Worst first, newest first:
 
 **Top search results:** 1. Otter Transcribe Voice Notes (87,667) · 2. Goodnotes: AI Notes, Docs, PDF (466,714) · 3. Summary - AI Note Taker (56,423) · 4. Notability: AI Notes & Planner (458,507) · 5. Microsoft OneNote (1,070,900)
 
+**Google searches:** "note taker app" gets about 9,900 a month in US, and advertisers pay about $4.62 a click. Related: note taking apps (12,100) · note-taking apps (12,100) · note taking app (9,900) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
+
 **Complaints** in 385 reviews with 1 to 3 stars: Price and subscription 50% · Customer support 17% · Bugs and crashes 15% · Sync and lost data 11%
 
 Worst first, newest first:
@@ -111,9 +123,11 @@ Worst first, newest first:
 
 ### video generator
 
-**Search:** 169 results for "video generator" (Apple returns at most 200). 43 have 10,000+ ratings, 63 came out in the last 365 days. The top 10 have a median of 6,825 ratings.
+**Search:** 169 results for "video generator" (Apple returns at most 200). 44 have 10,000+ ratings, 61 came out in the last 365 days. The top 10 have a median of 6,825 ratings.
 
 **Top search results:** 1. VideoGPT - AI Video Generator (55,702) · 2. AI Video - Generator (500) · 3. AI Video Generator - Bunsy (45) · 4. AI Video - AI Video Generator (29,885) · 5. CapCut: Photo & Video Editor (1,125,752)
+
+**Google searches:** "video generator app" gets about 30 a month in US, and advertisers pay about $3.80 a click. Related: ai video generator (165,000) · ai video maker (18,100) · videos ai (18,100) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
 **Complaints** in 668 reviews with 1 to 3 stars: Price and subscription 62% · Bugs and crashes 5% · Ads 3% · Sync and lost data 3%
 
@@ -129,6 +143,8 @@ Worst first, newest first:
 
 **Top search results:** 1. Food Hunt: Pixel Puzzle (53,970) · 2. Taco Bell Fast Food & Delivery (1,139,501) · 3. Chick-fil-A (4,287,695) · 4. Subway® (1,219,075) · 5. Wendy’s (1,940,504)
 
+**Google searches:** "food app" gets about 6,600 a month in US, and advertisers pay about $6.76 a click. Related: food delivery (201,000) · delivery food apps (74,000) · food delivery app (74,000) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
+
 **Complaints** in 166 reviews with 1 to 3 stars: Price and subscription 69% · Login and account 14% · Sync and lost data 8% · Wrong or inaccurate 7%
 
 Worst first, newest first:
@@ -139,9 +155,11 @@ Worst first, newest first:
 
 ### guide
 
-**Search:** 184 results for "guide" (Apple returns at most 200). 33 have 10,000+ ratings, 4 came out in the last 365 days. The top 10 have a median of 12,255 ratings.
+**Search:** 184 results for "guide" (Apple returns at most 200). 31 have 10,000+ ratings, 4 came out in the last 365 days. The top 10 have a median of 12,255 ratings.
 
 **Top search results:** 1. GetYourGuide: Plan & Book (335,303) · 2. GuideAlong \| GPS Audio Tours (16,318) · 3. The MICHELIN Guide (7,561) · 4. Tripadvisor: Plan & Book Trips (481,856) · 5. Viator Tours & Attractions (297,186)
+
+**Google searches:** "guide app" gets about 1,300 a month in US, and advertisers pay about $3.95 a click. Related: find my guide (1,900) · guide apps (1,300) · guides app (1,300) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
 **Complaints** in 74 reviews with 1 to 3 stars: Price and subscription 62% · Bugs and crashes 20% · Login and account 16% · Sync and lost data 7%
 
@@ -153,9 +171,11 @@ Worst first, newest first:
 
 ### medical scribe
 
-**Search:** 179 results for "medical scribe" (Apple returns at most 200). 5 have 10,000+ ratings, 36 came out in the last 365 days. The top 10 have a median of 277 ratings.
+**Search:** 179 results for "medical scribe" (Apple returns at most 200). 4 have 10,000+ ratings, 36 came out in the last 365 days. The top 10 have a median of 277 ratings.
 
 **Top search results:** 1. Medical Scribe (17) · 2. Heidi — AI Care Partner (2,581) · 3. Freed: AI Medical Scribe (514) · 4. Doximity (200,312) · 5. Medical Scribe - HIPAA Dictate (2)
+
+**Google searches:** "medical scribe app" gets about 90 a month in US, and advertisers pay about $10.24 a click. Related: ai scribing (1,900) · ai medical scribe (1,900) · scribe app (1,900) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
 **Complaints** in 13 reviews with 1 to 3 stars: Price and subscription 23% · Bugs and crashes 23% · Customer support 23% · Wrong or inaccurate 15%
 

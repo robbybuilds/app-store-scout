@@ -8,30 +8,30 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-02,recipe,7,312101965,Epicurious,Advance Magazine Publishers Inc.,99314,2009-04-24
 2026-11-02,recipe,8,1610039604,Simply Recipes for iOS,Christian Stevenson,78,2022-03-08
 2026-11-02,recipe,9,771068291,Kitchen Stories Easy Recipes,AJNS New Media,22780,2014-02-11
-2026-11-02,recipe,10,1303222868,Paprika Recipe Manager 3,Hindsight Labs LLC,54194,2017-11-15
-2026-11-02,meal planner,1,6777471316,mise - meal planner,TEGS LABS LTD,4296,2026-06-10
-2026-11-02,meal planner,2,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,1660,2023-08-11
-2026-11-02,meal planner,3,6769601354,TapCook: Budget Meal Plans,TestMaxx,6128,2026-07-17
+2026-11-02,recipe,10,1583947369,Pepper - Recipe Organizer,Pepper App Inc.,11042,2021-09-04
+2026-11-02,meal planner,1,6777471316,mise - meal planner,TEGS LABS LTD,4240,2026-06-10
+2026-11-02,meal planner,2,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,1655,2023-08-11
+2026-11-02,meal planner,3,6769601354,TapCook: Budget Meal Plans,TestMaxx,6053,2026-07-17
 2026-11-02,meal planner,4,1612213187,Daily Meal Planner,Futasaji LLC,1843,2022-03-26
-2026-11-02,meal planner,5,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,12209,2017-08-03
-2026-11-02,meal planner,6,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,325385,2021-11-12
-2026-11-02,meal planner,7,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",52785,2013-04-16
-2026-11-02,meal planner,8,981637806,Eat This Much - Meal Planner,Eat This Much Inc.,22178,2015-06-15
+2026-11-02,meal planner,5,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,324833,2021-11-12
+2026-11-02,meal planner,6,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,12209,2017-08-03
+2026-11-02,meal planner,7,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",52777,2013-04-16
+2026-11-02,meal planner,8,981637806,Eat This Much - Meal Planner,Eat This Much Inc.,22177,2015-06-15
 2026-11-02,meal planner,9,1215348056,Plan to Eat,"Plan To Eat, LLC",6115,2017-07-19
-2026-11-02,meal planner,10,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432898,2017-07-27
+2026-11-02,meal planner,10,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432892,2017-07-27
 2026-11-02,anatomy,1,1309253074,Complete Anatomy for iPhone,3D4Medical from Elsevier,3666,2017-12-16
-2026-11-02,anatomy,2,1271405479,Daily Anatomy Flashcards,Kenhub,7640,2017-08-17
-2026-11-02,anatomy,3,1593953398,Anatomy Learning - 3D Atlas,3DMedical OU,1443,2021-11-09
+2026-11-02,anatomy,2,1271405479,Daily Anatomy Flashcards,Kenhub,7641,2017-08-17
+2026-11-02,anatomy,3,1593953398,Anatomy Learning - 3D Atlas,3DMedical OU,1440,2021-11-09
 2026-11-02,anatomy,4,596684220,Essential Anatomy 5,3D4Medical from Elsevier,20704,2013-02-14
-2026-11-02,anatomy,5,1047116087,TeachMe Anatomy: 3D Human Body,TeachMeSeries Limited,2652,2015-11-07
-2026-11-02,anatomy,6,1114940725,Anatomist – The Anatomy Game,Andrew Meyerson,5634,2016-06-14
-2026-11-02,anatomy,7,1117998129,Human Anatomy Atlas 2027,Visible Body Apps,20873,2016-07-28
-2026-11-02,anatomy,8,1149322730,Muscle & Motion: Anatomy,Muscle & Motion LTD,672,2016-11-22
+2026-11-02,anatomy,5,1047116087,TeachMe Anatomy: 3D Human Body,TeachMeSeries Limited,2651,2015-11-07
+2026-11-02,anatomy,6,1114940725,Anatomist – The Anatomy Game,Andrew Meyerson,5636,2016-06-14
+2026-11-02,anatomy,7,1117998129,Human Anatomy Atlas 2027,Visible Body Apps,20871,2016-07-28
+2026-11-02,anatomy,8,1149322730,Muscle & Motion: Anatomy,Muscle & Motion LTD,671,2016-11-22
 2026-11-02,anatomy,9,697065866,3D Bones and Muscles (Anatomy),Education Mobile,2608,2013-09-11
 2026-11-02,anatomy,10,1486431352,Anatomy Game,Horea Bucerzan,322,2019-12-03
-2026-11-02,recipe manager,1,1548466041,Mela - Recipe Manager,Silvio Rizzi,886,2021-08-15
-2026-11-02,recipe manager,2,1461650987,Crouton: Recipe Manager,Crouton LLC,2948,2019-09-02
-2026-11-02,recipe manager,3,1303222868,Paprika Recipe Manager 3,Hindsight Labs LLC,54197,2017-11-15
+2026-11-02,recipe manager,1,1303222868,Paprika Recipe Manager 3,Hindsight Labs LLC,54197,2017-11-15
+2026-11-02,recipe manager,2,1548466041,Mela - Recipe Manager,Silvio Rizzi,886,2021-08-15
+2026-11-02,recipe manager,3,1461650987,Crouton: Recipe Manager,Crouton LLC,2948,2019-09-02
 2026-11-02,recipe manager,4,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,325581,2021-11-12
 2026-11-02,recipe manager,5,974683711,Recipe Keeper,Tudorspan Limited,31156,2015-04-02
 2026-11-02,recipe manager,6,1574776971,Pestle: Recipe Manager,Will Bishop,1845,2022-01-20
@@ -56,8 +56,8 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-02,note taker,5,410395246,Microsoft OneNote,Microsoft Corporation,1070900,2011-01-18
 2026-11-02,note taker,6,6504206467,Minutes: AI Meeting Note Taker,Minutes AI,14016,2024-06-12
 2026-11-02,note taker,7,6739429409,Granola - AI Meeting Notes,Granola inc,14652,2025-04-29
-2026-11-02,note taker,8,6752771071,AI Note Taker - Talk To Text,Chan Tai,5,2025-09-29
-2026-11-02,note taker,9,6479320349,Coconote - AI Note Taker,Quizlet Inc,17335,2024-04-15
+2026-11-02,note taker,8,6479320349,Coconote - AI Note Taker,Quizlet Inc,17335,2024-04-15
+2026-11-02,note taker,9,6752771071,AI Note Taker - Talk To Text,Chan Tai,5,2025-09-29
 2026-11-02,note taker,10,6760299554,Note Taker AI - 100% local,Connected Mate,5,2026-04-07
 2026-11-02,video generator,1,6451396274,VideoGPT - AI Video Generator,ElevenThirteen LLC,55702,2024-01-31
 2026-11-02,video generator,2,6730124637,AI Video - Generator,Video Bakery Ltd.,500,2024-10-07
