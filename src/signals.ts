@@ -183,6 +183,8 @@ export interface Cluster {
   term: string;
   apps: AppSignal[];
   publishers: number;
+  /** Narrower phrases whose apps are mostly inside this niche, e.g. "recipe manager" under "recipe". */
+  related: string[];
 }
 
 // Words that say nothing about what an app does.
@@ -194,7 +196,8 @@ const STOPWORDS = new Set(
 // Words that only mean something as part of a phrase ("video generator", not "video").
 const TOO_VAGUE_ALONE = new Set(
   ("video photo text tracker track monitor assistant learn scanner scan maker editor manager generator " +
-    "note chat health tool money planner keeper finder reader player remote widget").split(" "),
+    "note chat health tool money planner keeper finder reader player remote widget " +
+    "food drink guide document baby kid care home life family business finance medical photo").split(" "),
 );
 
 function stem(word: string): string {
@@ -238,13 +241,13 @@ export function nicheClusters(signals: AppSignal[], config: Config, minPublisher
       // so keep only its most common genre. Two-word phrases are specific enough as they are.
       if (term.includes(" ")) {
         const apps = all.sort(byGrossingRank);
-        return { term, apps, publishers: new Set(apps.map((s) => s.details!.publisherId)).size };
+        return { term, apps, publishers: new Set(apps.map((s) => s.details!.publisherId)).size, related: [] as string[] };
       }
       const genres = new Map<string, number>();
       for (const s of all) genres.set(s.details!.primaryGenre, (genres.get(s.details!.primaryGenre) ?? 0) + 1);
       const genre = [...genres].sort((a, b) => b[1] - a[1])[0][0];
       const apps = all.filter((s) => s.details!.primaryGenre === genre).sort(byGrossingRank);
-      return { term, apps, publishers: new Set(apps.map((s) => s.details!.publisherId)).size };
+      return { term, apps, publishers: new Set(apps.map((s) => s.details!.publisherId)).size, related: [] as string[] };
     })
     .filter((c) => c.publishers >= minPublishers)
     // Phrases first, then by how many publishers, then by best rank.
@@ -265,7 +268,45 @@ export function nicheClusters(signals: AppSignal[], config: Config, minPublisher
       for (const s of c.apps) covered.add(s.appId);
     }
   }
-  return chosen.sort((a, b) => b.publishers - a.publishers || a.apps[0].grossing!.rank - b.apps[0].grossing!.rank);
+  chosen.sort((a, b) => b.publishers - a.publishers || a.apps[0].grossing!.rank - b.apps[0].grossing!.rank);
+
+  // A niche whose apps mostly sit inside a bigger one is the same niche, so fold it in.
+  const kept: Cluster[] = [];
+  for (const c of chosen) {
+    const parent = kept.find((k) => c.apps.filter((s) => k.apps.includes(s)).length >= c.apps.length * 0.6);
+    if (parent) parent.related.push(c.term);
+    else kept.push(c);
+  }
+  return kept;
+}
+
+/** The genre most of a niche's apps belong to. */
+export function nicheGenre(c: Cluster): string {
+  const counts = new Map<string, number>();
+  for (const s of c.apps) counts.set(s.details!.primaryGenre, (counts.get(s.details!.primaryGenre) ?? 0) + 1);
+  return [...counts].sort((a, b) => b[1] - a[1])[0][0];
+}
+
+/**
+ * The top `count` niches, at most `perGenre` from any one genre so one category
+ * (Food & Drink names are full of keywords) can't fill the list. Backfills if there aren't enough.
+ */
+export function topNiches(clusters: Cluster[], count: number, perGenre = 2): Cluster[] {
+  const picked: Cluster[] = [];
+  const skipped: Cluster[] = [];
+  const perGenreCount = new Map<string, number>();
+  for (const c of clusters) {
+    if (picked.length >= count) break;
+    const genre = nicheGenre(c);
+    const n = perGenreCount.get(genre) ?? 0;
+    if (n < perGenre) {
+      picked.push(c);
+      perGenreCount.set(genre, n + 1);
+    } else {
+      skipped.push(c);
+    }
+  }
+  return [...picked, ...skipped.slice(0, count - picked.length)];
 }
 
 /**
@@ -273,7 +314,7 @@ export function nicheClusters(signals: AppSignal[], config: Config, minPublisher
  * and the apps whose reviews we read (every app in those niches, plus the small and new lists).
  */
 export function researchTargets(signals: AppSignal[], config: Config): { niches: Cluster[]; appIds: string[] } {
-  const niches = nicheClusters(signals, config).slice(0, config.research.niches);
+  const niches = topNiches(nicheClusters(signals, config), config.research.niches);
   const apps = [
     ...niches.flatMap((c) => c.apps),
     ...smallAndPaying(signals, config).slice(0, config.report.listSize),

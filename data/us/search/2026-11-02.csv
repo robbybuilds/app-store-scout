@@ -8,37 +8,27 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-02,recipe,7,312101965,Epicurious,Advance Magazine Publishers Inc.,99314,2009-04-24
 2026-11-02,recipe,8,1610039604,Simply Recipes for iOS,Christian Stevenson,78,2022-03-08
 2026-11-02,recipe,9,771068291,Kitchen Stories Easy Recipes,AJNS New Media,22780,2014-02-11
-2026-11-02,recipe,10,1583947369,Pepper - Recipe Organizer,Pepper App Inc.,11042,2021-09-04
-2026-11-02,meal planner,1,6777471316,mise - meal planner,TEGS LABS LTD,4240,2026-06-10
-2026-11-02,meal planner,2,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,1655,2023-08-11
-2026-11-02,meal planner,3,6769601354,TapCook: Budget Meal Plans,TestMaxx,6053,2026-07-17
+2026-11-02,recipe,10,1303222868,Paprika Recipe Manager 3,Hindsight Labs LLC,54194,2017-11-15
+2026-11-02,meal planner,1,6777471316,mise - meal planner,TEGS LABS LTD,4296,2026-06-10
+2026-11-02,meal planner,2,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,1660,2023-08-11
+2026-11-02,meal planner,3,6769601354,TapCook: Budget Meal Plans,TestMaxx,6128,2026-07-17
 2026-11-02,meal planner,4,1612213187,Daily Meal Planner,Futasaji LLC,1843,2022-03-26
-2026-11-02,meal planner,5,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,324833,2021-11-12
-2026-11-02,meal planner,6,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,12209,2017-08-03
-2026-11-02,meal planner,7,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",52777,2013-04-16
-2026-11-02,meal planner,8,981637806,Eat This Much - Meal Planner,Eat This Much Inc.,22177,2015-06-15
+2026-11-02,meal planner,5,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,12209,2017-08-03
+2026-11-02,meal planner,6,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,325385,2021-11-12
+2026-11-02,meal planner,7,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",52785,2013-04-16
+2026-11-02,meal planner,8,981637806,Eat This Much - Meal Planner,Eat This Much Inc.,22178,2015-06-15
 2026-11-02,meal planner,9,1215348056,Plan to Eat,"Plan To Eat, LLC",6115,2017-07-19
-2026-11-02,meal planner,10,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432892,2017-07-27
+2026-11-02,meal planner,10,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432898,2017-07-27
 2026-11-02,anatomy,1,1309253074,Complete Anatomy for iPhone,3D4Medical from Elsevier,3666,2017-12-16
-2026-11-02,anatomy,2,1271405479,Daily Anatomy Flashcards,Kenhub,7641,2017-08-17
-2026-11-02,anatomy,3,1593953398,Anatomy Learning - 3D Atlas,3DMedical OU,1440,2021-11-09
+2026-11-02,anatomy,2,1271405479,Daily Anatomy Flashcards,Kenhub,7640,2017-08-17
+2026-11-02,anatomy,3,1593953398,Anatomy Learning - 3D Atlas,3DMedical OU,1443,2021-11-09
 2026-11-02,anatomy,4,596684220,Essential Anatomy 5,3D4Medical from Elsevier,20704,2013-02-14
-2026-11-02,anatomy,5,1047116087,TeachMe Anatomy: 3D Human Body,TeachMeSeries Limited,2651,2015-11-07
-2026-11-02,anatomy,6,1114940725,Anatomist – The Anatomy Game,Andrew Meyerson,5636,2016-06-14
-2026-11-02,anatomy,7,1117998129,Human Anatomy Atlas 2027,Visible Body Apps,20871,2016-07-28
-2026-11-02,anatomy,8,1149322730,Muscle & Motion: Anatomy,Muscle & Motion LTD,671,2016-11-22
+2026-11-02,anatomy,5,1047116087,TeachMe Anatomy: 3D Human Body,TeachMeSeries Limited,2652,2015-11-07
+2026-11-02,anatomy,6,1114940725,Anatomist – The Anatomy Game,Andrew Meyerson,5634,2016-06-14
+2026-11-02,anatomy,7,1117998129,Human Anatomy Atlas 2027,Visible Body Apps,20873,2016-07-28
+2026-11-02,anatomy,8,1149322730,Muscle & Motion: Anatomy,Muscle & Motion LTD,672,2016-11-22
 2026-11-02,anatomy,9,697065866,3D Bones and Muscles (Anatomy),Education Mobile,2608,2013-09-11
 2026-11-02,anatomy,10,1486431352,Anatomy Game,Horea Bucerzan,322,2019-12-03
-2026-11-02,recipe manager,1,1303222868,Paprika Recipe Manager 3,Hindsight Labs LLC,54197,2017-11-15
-2026-11-02,recipe manager,2,1548466041,Mela - Recipe Manager,Silvio Rizzi,886,2021-08-15
-2026-11-02,recipe manager,3,1461650987,Crouton: Recipe Manager,Crouton LLC,2948,2019-09-02
-2026-11-02,recipe manager,4,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,325581,2021-11-12
-2026-11-02,recipe manager,5,974683711,Recipe Keeper,Tudorspan Limited,31156,2015-04-02
-2026-11-02,recipe manager,6,1574776971,Pestle: Recipe Manager,Will Bishop,1845,2022-01-20
-2026-11-02,recipe manager,7,6806478438,Decadent: Recipe Manager,JOEY J ROBERIE,4,2026-09-22
-2026-11-02,recipe manager,8,6443578246,Deglaze: Recipe Manager,Deglazed LLC,4051,2023-09-07
-2026-11-02,recipe manager,9,1073341917,Recipe Keeper: CookBook,CookBook Co. Pty Ltd,2710,2016-09-06
-2026-11-02,recipe manager,10,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",52786,2013-04-16
 2026-11-02,budget,1,1525179720,Budget app - spending tracker,InnerGrow,16279,2020-08-29
 2026-11-02,budget,2,942571931,EveryDollar: Budget Management,The Lampo Group Incorporated,84201,2015-02-28
 2026-11-02,budget,3,1621020173,Fleur - Budget Planner App,Akash Jain,13145,2022-05-22
@@ -56,8 +46,8 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-02,note taker,5,410395246,Microsoft OneNote,Microsoft Corporation,1070900,2011-01-18
 2026-11-02,note taker,6,6504206467,Minutes: AI Meeting Note Taker,Minutes AI,14016,2024-06-12
 2026-11-02,note taker,7,6739429409,Granola - AI Meeting Notes,Granola inc,14652,2025-04-29
-2026-11-02,note taker,8,6479320349,Coconote - AI Note Taker,Quizlet Inc,17335,2024-04-15
-2026-11-02,note taker,9,6752771071,AI Note Taker - Talk To Text,Chan Tai,5,2025-09-29
+2026-11-02,note taker,8,6752771071,AI Note Taker - Talk To Text,Chan Tai,5,2025-09-29
+2026-11-02,note taker,9,6479320349,Coconote - AI Note Taker,Quizlet Inc,17335,2024-04-15
 2026-11-02,note taker,10,6760299554,Note Taker AI - 100% local,Connected Mate,5,2026-04-07
 2026-11-02,video generator,1,6451396274,VideoGPT - AI Video Generator,ElevenThirteen LLC,55702,2024-01-31
 2026-11-02,video generator,2,6730124637,AI Video - Generator,Video Bakery Ltd.,500,2024-10-07
@@ -69,26 +59,6 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-02,video generator,8,6781255253,VidFlex - AI Video Generator,Asam Iftikhar,20,2026-07-15
 2026-11-02,video generator,9,6737295005,AI Video Generator-VideoMax,COREMAX AI PTE. LTD.,13149,2024-11-25
 2026-11-02,video generator,10,6789066071,AI Video Generator - OceanArt,Asif Rehman,5,2026-09-14
-2026-11-02,food,1,6769314786,Food Hunt: Pixel Puzzle,FUNFINITY PTE. LTD,53970,2026-05-14
-2026-11-02,food,2,497387361,Taco Bell Fast Food & Delivery,Taco Bell,1139501,2012-01-26
-2026-11-02,food,3,488818252,Chick-fil-A,"Chick-fil-A, Inc.",4287695,2011-12-16
-2026-11-02,food,4,901941015,Subway®,SUBWAY Restaurants,1219075,2014-07-30
-2026-11-02,food,5,540518599,Wendy’s,"Wendy's International, LLC",1940504,2012-07-10
-2026-11-02,food,6,903990394,Panda Express,Panda Express,631361,2014-08-20
-2026-11-02,food,7,454719277,Wingstop,"Wingstop Restaurants, Inc.",1428811,2011-08-08
-2026-11-02,food,8,1386566985,Popeyes® Chicken,"Popeyes Louisiana Kitchen, Inc.",493346,2018-07-31
-2026-11-02,food,9,638323895,BURGER KING® App,Burger King Corporation,477684,2013-05-08
-2026-11-02,food,10,1530642656,Raising Cane's Chicken Fingers,Raising Cane’s Chicken Fingers,422710,2020-10-26
-2026-11-02,guide,1,705079381,GetYourGuide: Plan & Book,GetYourGuide,335303,2013-10-30
-2026-11-02,guide,2,1460032075,GuideAlong | GPS Audio Tours,GyPSy Guide LLC,16318,2021-04-06
-2026-11-02,guide,3,1541129177,The MICHELIN Guide,Tablet Inc,7561,2020-11-24
-2026-11-02,guide,4,284876795,Tripadvisor: Plan & Book Trips,Tripadvisor,481856,2019-02-05
-2026-11-02,guide,5,434832826,Viator Tours & Attractions,Viator,297186,2011-05-16
-2026-11-02,guide,6,318062323,SmartGuide travel guide & map,SmartGuide s.r.o.,1004,2009-06-09
-2026-11-02,guide,7,1042822181,Meeting Guide,"Alcoholics Anonymous World Services, Inc.",1049,2015-11-02
-2026-11-02,guide,8,981952703,RA Guide,Resident Advisor,8192,2015-06-23
-2026-11-02,guide,9,1613164871,Guide: Safe and simple,Emento,0,2022-11-07
-2026-11-02,guide,10,311035142,TripIt: Travel Planner,TripIt,312821,2009-04-10
 2026-11-02,medical scribe,1,6482050489,Medical Scribe,"Leveled Platforms, Inc",17,2024-04-11
 2026-11-02,medical scribe,2,6504471106,Heidi — AI Care Partner,Heidi Health Trading Pty Ltd,2581,2024-09-18
 2026-11-02,medical scribe,3,6449428266,Freed: AI Medical Scribe,Freed Inc,514,2023-05-29
@@ -99,3 +69,33 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-02,medical scribe,8,1093512676,iScribeHealth,"JPJ Ventures, LLC",562,2018-08-15
 2026-11-02,medical scribe,9,6759507499,Notat AI: Medical Scribe,JAWIZ AS,2,2026-05-07
 2026-11-02,medical scribe,10,1499229832,DeepScribe,DeepScribe,39,2020-05-07
+2026-11-02,stock,1,1069512882,Stocks,Apple,907003,2016-05-10
+2026-11-02,stock,2,881599819,StockX: Live Marketplace,StockX LLC,1312524,2014-06-06
+2026-11-02,stock,3,938003185,Robinhood: Trading & Investing,"Robinhood Markets, Inc.",4900444,2014-12-11
+2026-11-02,stock,4,348177453,Fidelity Investments,Fidelity Investments,3378013,2010-02-22
+2026-11-02,stock,5,1205990992,TradingView: Track All Markets,TradingView,422599,2017-04-24
+2026-11-02,stock,6,591644846,Stock Master: Investing Stocks,"Apponance, Inc.",73006,2013-03-07
+2026-11-02,stock,7,886427730,Coinbase: Buy Crypto & Stocks,"Coinbase, Inc.",1797987,2014-06-22
+2026-11-02,stock,8,1179213067,Webull: Investing & Trading,Webull Technologies Pte. Ltd.,343042,2017-01-18
+2026-11-02,stock,9,328412701,"Yahoo Finance: Stocks, Markets",Yahoo,627886,2009-09-08
+2026-11-02,stock,10,517166254,Stocks Tracker:Real-time stock,Dajax LLC,54967,2012-04-11
+2026-11-02,dating,1,930441707,Bumble Dating App: Meet & Date,Bumble Holding Limited,1769937,2014-11-19
+2026-11-02,dating,2,547702041,Tinder Dating App: Date & Chat,Tinder LLC,1757913,2012-08-03
+2026-11-02,dating,3,389638243,Plenty of Fish : Dating App,PlentyOfFish,1809426,2010-09-17
+2026-11-02,dating,4,1673723000,Duet Dating App: Chat & Meet,WINK TECH LIMITED,107027,2023-02-26
+2026-11-02,dating,5,1250946975,Hily Dating App: Meet. Date.,Hily Corp.,386819,2017-08-14
+2026-11-02,dating,6,1595390736,Instinct: Casual Dating App,Instinct Dating Company,141141,2021-11-24
+2026-11-02,dating,7,1042814349,HUD™: Casual Dating App,HUD STUDIO LIMITED,208402,2015-10-29
+2026-11-02,dating,8,887914690,Feeld: Open & Curious Dating,Feeld Ltd,102466,2014-06-29
+2026-11-02,dating,9,338701294,OkCupid Dating: Date Singles,"Match Group Americas, LLC",289600,2009-11-25
+2026-11-02,dating,10,601174087,DOWN: The Casual Dating App,"Down App, Inc.",131668,2013-05-01
+2026-11-02,printer,1,469284907,HP,HP Inc.,4252684,2011-10-19
+2026-11-02,printer,2,664425773,Canon PRINT,Canon Inc.,625708,2013-07-22
+2026-11-02,printer,3,429047995,Pinterest,"Pinterest, Inc.",5812224,2011-04-28
+2026-11-02,printer,4,1477796092,Epson Smart Panel,Seiko Epson Corporation,404777,2020-03-31
+2026-11-02,printer,5,1329476705,Tap & Print: Smart Printer App,Smart Mobile Apps FZCO,3596,2018-01-12
+2026-11-02,printer,6,1592740556,Fun Print,Shenzhen Miaoxuewang Technology Co. Ltd,472,2021-11-01
+2026-11-02,printer,7,1541008027,Printer app ®,"SMM service, s.r.o.",9995,2020-12-30
+2026-11-02,printer,8,326876192,Epson iPrint,Seiko Epson Corporation,266881,2009-12-14
+2026-11-02,printer,9,1597439129,Smart Printer App & Scan,Kain Suite Pte. Ltd.,83269,2021-12-04
+2026-11-02,printer,10,1504437272,Printer App: Print & Scan PDF,Hendrik Folkerts,25146,2020-03-26

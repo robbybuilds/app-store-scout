@@ -138,7 +138,8 @@ export function buildReport(store: Store, config: Config, country: string): stri
   out.push("## Niches where newcomers are earning\n");
   out.push(
     "Phrases shared by new or small apps from **different publishers** that are all on a top-grossing chart today. " +
-      "One app can be luck or a big ad budget; three unrelated publishers earning with the same idea is a niche.\n",
+      "One app can be luck or a big ad budget; three unrelated publishers earning with the same idea is a niche. " +
+      "At most two niches per genre, so one category can't fill the list.\n",
   );
   const clusters = researchTargets(signals, config).niches;
   if (!clusters.length) {
@@ -149,7 +150,8 @@ export function buildReport(store: Store, config: Config, country: string): stri
     for (const c of clusters) {
       const examples = c.apps.slice(0, 3).map((s) => `${appLink(s)} (#${s.grossing!.rank} ${genreName(config, s.grossing!.genreId)})`);
       const more = c.apps.length > 3 ? ` +${c.apps.length - 3} more` : "";
-      out.push(`| **${cell(c.term)}** | ${c.publishers} | ${examples.join(", ")}${more} |`);
+      const related = c.related.length ? ` (also ${c.related.map(cell).join(", ")})` : "";
+      out.push(`| **${cell(c.term)}**${related} | ${c.publishers} | ${examples.join(", ")}${more} |`);
     }
     out.push("");
   }

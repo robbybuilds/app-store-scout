@@ -1,11 +1,14 @@
 term,keyword,volume,cpc,competition,similar,checked_at
 anatomy,anatomy app,1900,2.58,0.23,atlas anatomy:2400; anatomy application:1900; app anatomy:1600,2026-11-02
 budget,budget app,90500,8.97,0.15,budget application:90500; budget apps:90500; budgeting app:90500,2026-11-02
+dating,dating app,301000,5.85,0.55,app for dating:301000; dating apps:246000; best dating apps:110000,2026-11-02
 food,food app,6600,6.76,0.49,food delivery:201000; delivery food apps:74000; food delivery app:74000,2026-11-02
 guide,guide app,1300,3.95,0.22,find my guide:1900; guide apps:1300; guides app:1300,2026-11-02
 meal planner,meal planner app,2400,4.52,0.6,apps for meal planning:9900; food planner app:9900; meal planning app:9900,2026-11-02
 medical scribe,medical scribe app,90,10.24,0.53,ai scribing:1900; ai medical scribe:1900; scribe app:1900,2026-11-02
 note taker,note taker app,9900,4.62,0.22,note taking apps:12100; note-taking apps:12100; note taking app:9900,2026-11-02
+printer,printer app,3600,1.81,0.37,hp smart app:49500; hp printer app:12100; print app:3600,2026-11-02
 recipe,recipe app,6600,2.24,0.18,recipe apps:5400; recipes app:5400; apps for recipes:5400,2026-11-02
 recipe manager,recipe manager app,140,6.35,0.05,recipe app:6600; recipe apps:5400; recipes app:5400,2026-11-02
+stock,stock app,18100,10.8,0.67,app stocks:60500; stock apps:18100; stocks app:18100,2026-11-02
 video generator,video generator app,30,3.8,0.7,ai video generator:165000; ai video maker:18100; videos ai:18100,2026-11-02

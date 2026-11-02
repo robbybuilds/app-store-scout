@@ -9,6 +9,7 @@ import {
   nameTerms,
   newAndPaying,
   nicheClusters,
+  topNiches,
   ratingsMomentum,
   smallAndPaying,
   snapshotDaysAgo,
@@ -138,4 +139,34 @@ test("nicheClusters needs several publishers sharing a phrase", () => {
   assert.equal(cluster.publishers, 3);
   assert.equal(cluster.apps.length, 4);
   assert.deepEqual(nicheClusters(sigs.slice(0, 2), config), []);
+});
+
+function signal(id: string, name: string, rank: number, primaryGenre = "Food & Drink") {
+  return {
+    ...byId("small-new"),
+    appId: id,
+    grossing: { chart: "top-grossing" as const, genreId: 6023, rank },
+    details: { ...app(id, 100, "2026-06-01"), name, publisherId: id, primaryGenre },
+  };
+}
+
+test("nicheClusters folds a narrower phrase into the niche that already holds its apps", () => {
+  const sigs = [
+    signal("a", "Deglaze: Recipe Manager", 1),
+    signal("b", "Crouton: Recipe Manager", 2),
+    signal("c", "Pestle: Recipe Manager", 3),
+    signal("d", "Delish Recipes", 4),
+    signal("e", "Daily Bite: Save Recipes", 5),
+    signal("f", "RecipeLab Healthy Recipes", 6),
+  ];
+  const clusters = nicheClusters(sigs, config);
+  assert.deepEqual(clusters.map((c) => c.term), ["recipe"]);
+  assert.deepEqual(clusters[0].related, ["recipe manager"]);
+});
+
+test("topNiches takes at most two niches per genre, then backfills", () => {
+  const niche = (term: string, genre: string) => ({ term, apps: [signal(term, term, 1, genre)], publishers: 3, related: [] });
+  const clusters = [niche("a", "Food"), niche("b", "Food"), niche("c", "Food"), niche("d", "Finance")];
+  assert.deepEqual(topNiches(clusters, 3).map((c) => c.term), ["a", "b", "d"]);
+  assert.deepEqual(topNiches(clusters, 4).map((c) => c.term), ["a", "b", "d", "c"]);
 });

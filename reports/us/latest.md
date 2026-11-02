@@ -6,20 +6,20 @@
 
 ## Niches where newcomers are earning
 
-Phrases shared by new or small apps from **different publishers** that are all on a top-grossing chart today. One app can be luck or a big ad budget; three unrelated publishers earning with the same idea is a niche.
+Phrases shared by new or small apps from **different publishers** that are all on a top-grossing chart today. One app can be luck or a big ad budget; three unrelated publishers earning with the same idea is a niche. At most two niches per genre, so one category can't fill the list.
 
 | Niche | Publishers | Examples (top-grossing rank) |
 |---|--:|---|
-| **recipe** | 24 | [Whipp: Meal Planner & Recipes](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) (#5 Food & Drink), [Mob: Meal Planner and Recipes](https://apps.apple.com/us/app/mob-meal-planner-and-recipes/id6670216494) (#25 Food & Drink), [Delish: Original Fun Recipes](https://apps.apple.com/us/app/delish-original-fun-recipes/id6747781542) (#26 Food & Drink) +22 more |
+| **recipe** (also recipe manager, recipe keeper) | 24 | [Whipp: Meal Planner & Recipes](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) (#5 Food & Drink), [Mob: Meal Planner and Recipes](https://apps.apple.com/us/app/mob-meal-planner-and-recipes/id6670216494) (#25 Food & Drink), [Delish: Original Fun Recipes](https://apps.apple.com/us/app/delish-original-fun-recipes/id6747781542) (#26 Food & Drink) +22 more |
 | **meal planner** | 12 | [mise - meal planner](https://apps.apple.com/us/app/mise-meal-planner/id6777471316) (#4 Food & Drink), [Whipp: Meal Planner & Recipes](https://apps.apple.com/us/app/whipp-meal-planner-recipes/id6778126199) (#5 Food & Drink), [NeatEat - Meal Planner](https://apps.apple.com/us/app/neateat-meal-planner/id6783742855) (#8 Food & Drink) +9 more |
 | **anatomy** | 5 | [Complete Anatomy for iPhone](https://apps.apple.com/us/app/complete-anatomy-for-iphone/id1309253074) (#22 Medical), [Anatomy 3D Atlas](https://apps.apple.com/us/app/anatomy-3d-atlas/id1034069206) (#31 Medical), [Easy Anatomy 3D with Voice AI](https://apps.apple.com/us/app/easy-anatomy-3d-with-voice-ai/id1130351296) (#47 Medical) +2 more |
-| **recipe manager** | 4 | [Deglaze: Recipe Manager](https://apps.apple.com/us/app/deglaze-recipe-manager/id6443578246) (#27 Food & Drink), [Crouton: Recipe Manager](https://apps.apple.com/us/app/crouton-recipe-manager/id1461650987) (#54 Food & Drink), [Pestle: Recipe Manager](https://apps.apple.com/us/app/pestle-recipe-manager/id1574776971) (#87 Food & Drink) +1 more |
 | **budget** | 4 | [Dollarwise: Budget & Tracking](https://apps.apple.com/us/app/dollarwise-budget-tracking/id6739215932) (#37 Finance), [Monbark: Budget & Money Track](https://apps.apple.com/us/app/monbark-budget-money-track/id6777478123) (#40 Finance), [Budget Bestie](https://apps.apple.com/us/app/budget-bestie/id6460258044) (#48 Finance) +1 more |
 | **note taker** | 4 | [Fieldy - AI note taker](https://apps.apple.com/us/app/fieldy-ai-note-taker/id6480278540) (#53 Utilities), [Owll: AI Note Taker&Assistant](https://apps.apple.com/us/app/owll-ai-note-taker-assistant/id6450300197) (#54 Utilities), [Cue: AI Note Taker & Recorder](https://apps.apple.com/us/app/cue-ai-note-taker-recorder/id6741517781) (#58 Productivity) +1 more |
 | **video generator** | 4 | [AI Video Generator - Vixel](https://apps.apple.com/us/app/ai-video-generator-vixel/id6756965785) (#61 Photo & Video), [AI Catch: AI Video Generator](https://apps.apple.com/us/app/ai-catch-ai-video-generator/id6739276631) (#74 Photo & Video), [Dance AI - Video Generator](https://apps.apple.com/us/app/dance-ai-video-generator/id6758041184) (#75 Photo & Video) +1 more |
-| **food** | 4 | [Sidekick by Sorted Food](https://apps.apple.com/us/app/sidekick-by-sorted-food/id1472765520) (#65 Food & Drink), [Gluten Free Scanner: GF Foods](https://apps.apple.com/us/app/gluten-free-scanner-gf-foods/id6761664785) (#74 Food & Drink), [FoodGauge: Food Health Scanner](https://apps.apple.com/us/app/foodgauge-food-health-scanner/id6800990262) (#77 Food & Drink) +2 more |
-| **guide** | 3 | [Sanford Guide Antimicrobial](https://apps.apple.com/us/app/sanford-guide-antimicrobial/id863196620) (#6 Medical), [Johns Hopkins Antibiotic Guide](https://apps.apple.com/us/app/johns-hopkins-antibiotic-guide/id429504851) (#28 Medical), [MSK Sono: Ultrasound Guide](https://apps.apple.com/us/app/msk-sono-ultrasound-guide/id6765696708) (#53 Medical) |
 | **medical scribe** | 3 | [Freed: AI Medical Scribe](https://apps.apple.com/us/app/freed-ai-medical-scribe/id6449428266) (#23 Medical), [Chartnote: AI Medical Scribe](https://apps.apple.com/us/app/chartnote-ai-medical-scribe/id1589970506) (#33 Medical), [Commure - AI Medical Scribe](https://apps.apple.com/us/app/commure-ai-medical-scribe/id6737444157) (#94 Medical) |
+| **stock** | 3 | [Stocks to Buy Now AI Signals](https://apps.apple.com/us/app/stocks-to-buy-now-ai-signals/id1565527320) (#25 Finance), [Barebone - AI Stock Research](https://apps.apple.com/us/app/barebone-ai-stock-research/id6737490098) (#68 Finance), [Benson AI: Stock Trading](https://apps.apple.com/us/app/benson-ai-stock-trading/id6470971278) (#81 Finance) |
+| **dating** | 3 | [Lox Club - Jewish Dating App](https://apps.apple.com/us/app/lox-club-jewish-dating-app/id1523344686) (#34 Lifestyle), [Nymph: Open-Minded Dating App](https://apps.apple.com/us/app/nymph-open-minded-dating-app/id6475792735) (#44 Lifestyle), [Chyrpe: Female-Led Dating](https://apps.apple.com/us/app/chyrpe-female-led-dating/id6478389867) (#57 Lifestyle) |
+| **printer** | 3 | [Smart Air Printer - AnyPrint](https://apps.apple.com/us/app/smart-air-printer-anyprint/id6745872842) (#48 Business), [Air Printer App: Smart Print](https://apps.apple.com/us/app/air-printer-app-smart-print/id6461213041) (#74 Business), [Smart Printer App for HP *](https://apps.apple.com/us/app/smart-printer-app-for-hp/id6747405146) (#89 Business) |
 
 ## Inside each niche
 
@@ -27,7 +27,7 @@ What a customer sees when they search the App Store for the niche, and what the 
 
 ### recipe
 
-**Search:** 192 results for "recipe" (Apple returns at most 200). 25 have 10,000+ ratings, 55 came out in the last 365 days. The top 10 have a median of 26,965 ratings.
+**Search:** 192 results for "recipe" (Apple returns at most 200). 24 have 10,000+ ratings, 52 came out in the last 365 days. The top 10 have a median of 42,672 ratings.
 
 **Top search results:** 1. ReciMe: Recipes & Meal Planner (325,385) · 2. Tasty: Recipes, Cooking Videos (432,898) · 3. Recipe Keeper (31,149) · 4. NYT Cooking: Quick Tasty Meals (549,427) · 5. RecipeBox - Save Your Recipes! (14,013)
 
@@ -43,9 +43,9 @@ Worst first, newest first:
 
 ### meal planner
 
-**Search:** 191 results for "meal planner" (Apple returns at most 200). 17 have 10,000+ ratings, 105 came out in the last 365 days. The top 10 have a median of 9,162 ratings.
+**Search:** 190 results for "meal planner" (Apple returns at most 200). 22 have 10,000+ ratings, 100 came out in the last 365 days. The top 10 have a median of 9,169 ratings.
 
-**Top search results:** 1. mise - meal planner (4,240) · 2. Meal Planner & Weekly Menu (1,655) · 3. TapCook: Budget Meal Plans (6,053) · 4. Daily Meal Planner (1,843) · 5. ReciMe: Recipes & Meal Planner (324,833)
+**Top search results:** 1. mise - meal planner (4,296) · 2. Meal Planner & Weekly Menu (1,660) · 3. TapCook: Budget Meal Plans (6,128) · 4. Daily Meal Planner (1,843) · 5. MealPrepPro Planner & Recipes (12,209)
 
 **Google searches:** "meal planner app" gets about 2,400 a month in US, and advertisers pay about $4.52 a click. Related: apps for meal planning (9,900) · food planner app (9,900) · meal planning app (9,900) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
@@ -59,9 +59,9 @@ Worst first, newest first:
 
 ### anatomy
 
-**Search:** 181 results for "anatomy" (Apple returns at most 200). 3 have 10,000+ ratings, 35 came out in the last 365 days. The top 10 have a median of 3,159 ratings.
+**Search:** 181 results for "anatomy" (Apple returns at most 200). 3 have 10,000+ ratings, 33 came out in the last 365 days. The top 10 have a median of 3,159 ratings.
 
-**Top search results:** 1. Complete Anatomy for iPhone (3,666) · 2. Daily Anatomy Flashcards (7,641) · 3. Anatomy Learning - 3D Atlas (1,440) · 4. Essential Anatomy 5 (20,704) · 5. TeachMe Anatomy: 3D Human Body (2,651)
+**Top search results:** 1. Complete Anatomy for iPhone (3,666) · 2. Daily Anatomy Flashcards (7,640) · 3. Anatomy Learning - 3D Atlas (1,443) · 4. Essential Anatomy 5 (20,704) · 5. TeachMe Anatomy: 3D Human Body (2,652)
 
 **Google searches:** "anatomy app" gets about 1,900 a month in US, and advertisers pay about $2.58 a click. Related: atlas anatomy (2,400) · anatomy application (1,900) · app anatomy (1,600) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
 
@@ -72,22 +72,6 @@ Worst first, newest first:
 - ★☆☆☆☆ "Scam!! Renews itself after canceling subscription despite not using!" (Complete Anatomy for iPhone, 2026-10-29)
 - ★☆☆☆☆ "Bad" (Anatomy Learning - 3D Atlas, 2026-10-19)
 - ★☆☆☆☆ "Constant request to review" (Anatomy 3D Atlas, 2026-10-17)
-
-### recipe manager
-
-**Search:** 185 results for "recipe manager" (Apple returns at most 200). 16 have 10,000+ ratings, 72 came out in the last 365 days. The top 10 have a median of 3,500 ratings.
-
-**Top search results:** 1. Paprika Recipe Manager 3 (54,197) · 2. Mela - Recipe Manager (886) · 3. Crouton: Recipe Manager (2,948) · 4. ReciMe: Recipes & Meal Planner (325,581) · 5. Recipe Keeper (31,156)
-
-**Google searches:** "recipe manager app" gets about 140 a month in US, and advertisers pay about $6.35 a click. Related: recipe app (6,600) · recipe apps (5,400) · recipes app (5,400) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
-
-**Complaints** in 166 reviews with 1 to 3 stars: Price and subscription 50% · Bugs and crashes 13% · Customer support 13% · Sync and lost data 12%
-
-Worst first, newest first:
-
-- ★☆☆☆☆ "Update is terrible" (Crouton: Recipe Manager, 2026-10-27)
-- ★☆☆☆☆ "Everything is pay walled" (Pestle: Recipe Manager, 2026-10-27)
-- ★☆☆☆☆ "Crashes" (Pestle: Recipe Manager, 2026-10-13)
 
 ### budget
 
@@ -123,7 +107,7 @@ Worst first, newest first:
 
 ### video generator
 
-**Search:** 169 results for "video generator" (Apple returns at most 200). 44 have 10,000+ ratings, 61 came out in the last 365 days. The top 10 have a median of 6,825 ratings.
+**Search:** 169 results for "video generator" (Apple returns at most 200). 43 have 10,000+ ratings, 63 came out in the last 365 days. The top 10 have a median of 6,825 ratings.
 
 **Top search results:** 1. VideoGPT - AI Video Generator (55,702) · 2. AI Video - Generator (500) · 3. AI Video Generator - Bunsy (45) · 4. AI Video - AI Video Generator (29,885) · 5. CapCut: Photo & Video Editor (1,125,752)
 
@@ -137,41 +121,9 @@ Worst first, newest first:
 - ★☆☆☆☆ "Scam" (AI Video Generator - Vixel, 2026-10-31)
 - ★☆☆☆☆ "Пустышка, лишь бы деньги тащить" (AI Catch: AI Video Generator, 2026-10-31)
 
-### food
-
-**Search:** 192 results for "food" (Apple returns at most 200). 133 have 10,000+ ratings, 14 came out in the last 365 days. The top 10 have a median of 885,431 ratings.
-
-**Top search results:** 1. Food Hunt: Pixel Puzzle (53,970) · 2. Taco Bell Fast Food & Delivery (1,139,501) · 3. Chick-fil-A (4,287,695) · 4. Subway® (1,219,075) · 5. Wendy’s (1,940,504)
-
-**Google searches:** "food app" gets about 6,600 a month in US, and advertisers pay about $6.76 a click. Related: food delivery (201,000) · delivery food apps (74,000) · food delivery app (74,000) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
-
-**Complaints** in 166 reviews with 1 to 3 stars: Price and subscription 69% · Login and account 14% · Sync and lost data 8% · Wrong or inaccurate 7%
-
-Worst first, newest first:
-
-- ★☆☆☆☆ "Do not hit extend free trial" (FoodGauge: Food Health Scanner, 2026-10-29)
-- ★☆☆☆☆ "Ask for reviews before I use app" (FoodGauge: Food Health Scanner, 2026-10-22)
-- ★☆☆☆☆ "Disappointing & predatory" (Allergy & Food Scanner: Nosher, 2026-09-04)
-
-### guide
-
-**Search:** 184 results for "guide" (Apple returns at most 200). 31 have 10,000+ ratings, 4 came out in the last 365 days. The top 10 have a median of 12,255 ratings.
-
-**Top search results:** 1. GetYourGuide: Plan & Book (335,303) · 2. GuideAlong \| GPS Audio Tours (16,318) · 3. The MICHELIN Guide (7,561) · 4. Tripadvisor: Plan & Book Trips (481,856) · 5. Viator Tours & Attractions (297,186)
-
-**Google searches:** "guide app" gets about 1,300 a month in US, and advertisers pay about $3.95 a click. Related: find my guide (1,900) · guide apps (1,300) · guides app (1,300) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
-
-**Complaints** in 74 reviews with 1 to 3 stars: Price and subscription 62% · Bugs and crashes 20% · Login and account 16% · Sync and lost data 7%
-
-Worst first, newest first:
-
-- ★☆☆☆☆ "Extremely slow and freezes frequently" (Sanford Guide Antimicrobial, 2025-01-09)
-- ★☆☆☆☆ "Not able to access antibiotic guide only hiv guide" (Johns Hopkins Antibiotic Guide, 2024-07-07)
-- ★☆☆☆☆ "Expensive for what?" (Sanford Guide Antimicrobial, 2023-11-19)
-
 ### medical scribe
 
-**Search:** 179 results for "medical scribe" (Apple returns at most 200). 4 have 10,000+ ratings, 36 came out in the last 365 days. The top 10 have a median of 277 ratings.
+**Search:** 179 results for "medical scribe" (Apple returns at most 200). 5 have 10,000+ ratings, 36 came out in the last 365 days. The top 10 have a median of 277 ratings.
 
 **Top search results:** 1. Medical Scribe (17) · 2. Heidi — AI Care Partner (2,581) · 3. Freed: AI Medical Scribe (514) · 4. Doximity (200,312) · 5. Medical Scribe - HIPAA Dictate (2)
 
@@ -184,6 +136,54 @@ Worst first, newest first:
 - ★☆☆☆☆ "Would not recommend" (Chartnote: AI Medical Scribe, 2025-09-02)
 - ★☆☆☆☆ "If I could give zero stars, I would" (Freed: AI Medical Scribe, 2025-03-20)
 - ★☆☆☆☆ "Update" (Freed: AI Medical Scribe, 2024-11-03)
+
+### stock
+
+**Search:** 192 results for "stock" (Apple returns at most 200). 43 have 10,000+ ratings, 18 came out in the last 365 days. The top 10 have a median of 767,445 ratings.
+
+**Top search results:** 1. Stocks (907,003) · 2. StockX: Live Marketplace (1,312,524) · 3. Robinhood: Trading & Investing (4,900,444) · 4. Fidelity Investments (3,378,013) · 5. TradingView: Track All Markets (422,599)
+
+**Google searches:** "stock app" gets about 18,100 a month in US, and advertisers pay about $10.80 a click. Related: app stocks (60,500) · stock apps (18,100) · stocks app (18,100) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
+
+**Complaints** in 77 reviews with 1 to 3 stars: Price and subscription 62% · Sync and lost data 26% · Login and account 10% · Wrong or inaccurate 9%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Don't buy it" (Stocks to Buy Now AI Signals, 2026-10-31)
+- ★☆☆☆☆ "Not a good option" (Benson AI: Stock Trading, 2026-10-21)
+- ★☆☆☆☆ "Lost > $5000" (Stocks to Buy Now AI Signals, 2026-09-23)
+
+### dating
+
+**Search:** 181 results for "dating" (Apple returns at most 200). 85 have 10,000+ ratings, 1 came out in the last 365 days. The top 10 have a median of 249,001 ratings.
+
+**Top search results:** 1. Bumble Dating App: Meet & Date (1,769,937) · 2. Tinder Dating App: Date & Chat (1,757,913) · 3. Plenty of Fish : Dating App (1,809,426) · 4. Duet Dating App: Chat & Meet (107,027) · 5. Hily Dating App: Meet. Date. (386,819)
+
+**Google searches:** "dating app" gets about 301,000 a month in US, and advertisers pay about $5.85 a click. Related: app for dating (301,000) · dating apps (246,000) · best dating apps (110,000) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
+
+**Complaints** in 733 reviews with 1 to 3 stars: Price and subscription 60% · Bugs and crashes 8% · Login and account 7% · Missing features 7%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Fake profiles" (Nymph: Open-Minded Dating App, 2026-11-01)
+- ★☆☆☆☆ "Still Sucks" (Chyrpe: Female-Led Dating, 2026-10-30)
+- ★☆☆☆☆ "confused..." (Chyrpe: Female-Led Dating, 2026-10-29)
+
+### printer
+
+**Search:** 189 results for "printer" (Apple returns at most 200). 19 have 10,000+ ratings, 48 came out in the last 365 days. The top 10 have a median of 175,075 ratings.
+
+**Top search results:** 1. HP (4,252,684) · 2. Canon PRINT (625,708) · 3. Pinterest (5,812,224) · 4. Epson Smart Panel (404,777) · 5. Tap & Print: Smart Printer App (3,596)
+
+**Google searches:** "printer app" gets about 3,600 a month in US, and advertisers pay about $1.81 a click. Related: hp smart app (49,500) · hp printer app (12,100) · print app (3,600) ([seodata.dev](https://www.seodata.dev), 2026-11-02).
+
+**Complaints** in 83 reviews with 1 to 3 stars: Price and subscription 76% · Login and account 7% · Ads 4% · Sync and lost data 2%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Worthless app" (Smart Printer App for HP *, 2026-10-29)
+- ★☆☆☆☆ "Too expensive" (Smart Air Printer - AnyPrint, 2026-10-03)
+- ★☆☆☆☆ "Asking TOO Much TOO Soon" (Smart Printer App for HP *, 2026-09-29)
 
 ## Genres at a glance
 
