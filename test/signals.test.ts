@@ -25,13 +25,13 @@ const config: Config = {
     { id: 6013, name: "Health & Fitness" },
   ],
   report: { smallAppMaxRatings: 5000, newAppMaxAgeDays: 365, listSize: 10 },
-  research: { niches: 10, reviewPages: 10, searchVolume: true },
+  research: { niches: 10, reviewPages: 10, searchVolume: true, prices: true },
 };
 
 function app(appId: string, ratingCount: number, releasedAt: string): AppDetails {
   return {
-    appId, name: `App ${appId}`, publisher: "Pub", publisherId: "1", primaryGenre: "Health & Fitness",
-    price: 0, ratingCount, averageRating: 4.5, releasedAt, updatedAt: releasedAt, url: "",
+    appId, name: `App ${appId}`, publisher: "Pub", publisherId: "1", seller: "Pub Inc.", primaryGenre: "Health & Fitness",
+    price: 0, ratingCount, averageRating: 4.5, releasedAt, updatedAt: releasedAt, version: "1.0", languages: 1, url: "",
   };
 }
 

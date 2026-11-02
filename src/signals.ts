@@ -3,6 +3,7 @@
 
 import type { AppDetails } from "./apple.ts";
 import type { Chart, Config } from "./config.ts";
+import { looksLikeIndividual } from "./publishers.ts";
 import type { ChartRow, Snapshot } from "./store.ts";
 
 export interface Position {
@@ -127,6 +128,11 @@ export function smallAndPaying(signals: AppSignal[], config: Config): AppSignal[
 /** Released recently and already on a grossing chart. Rare, so worth a look. */
 export function newAndPaying(signals: AppSignal[], config: Config): AppSignal[] {
   return signals.filter((s) => s.grossing && isNew(s, config)).sort(byGrossingRank);
+}
+
+/** On a grossing chart and sold under a person's own name: very likely one developer. */
+export function soloAndPaying(signals: AppSignal[]): AppSignal[] {
+  return signals.filter((s) => s.grossing && looksLikeIndividual(s.details?.seller ?? "")).sort(byGrossingRank);
 }
 
 /** Biggest gains on the same grossing chart over a week. */
@@ -311,7 +317,7 @@ export function topNiches(clusters: Cluster[], count: number, perGenre = 2): Clu
 
 /**
  * What the daily scan researches in more depth: the top niches (searched on the App Store)
- * and the apps whose reviews we read (every app in those niches, plus the small and new lists).
+ * and the apps whose reviews and prices we read (every app in those niches, plus the small, new and solo lists).
  */
 export function researchTargets(signals: AppSignal[], config: Config): { niches: Cluster[]; appIds: string[] } {
   const niches = topNiches(nicheClusters(signals, config), config.research.niches);
@@ -319,6 +325,7 @@ export function researchTargets(signals: AppSignal[], config: Config): { niches:
     ...niches.flatMap((c) => c.apps),
     ...smallAndPaying(signals, config).slice(0, config.report.listSize),
     ...newAndPaying(signals, config).slice(0, config.report.listSize),
+    ...soloAndPaying(signals).slice(0, config.report.listSize),
   ];
   return { niches, appIds: [...new Set(apps.map((s) => s.appId))] };
 }

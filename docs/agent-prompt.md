@@ -13,7 +13,7 @@ In the app-store-scout repo:
 4. Read the "Inside each niche" section. Pick the 5 most promising apps. For each, read
    data/us/reviews/<app-id>.csv (1 to 3 star reviews come first). Group the complaints in
    your own words and count them. Use data/us/search/<today>.csv to see who ranks when a
-   customer searches for the niche.
+   customer searches for the niche, and data/us/prices.csv to see what the niche's apps charge.
 5. Fill in templates/shortlist.md for each app and save it as research/<today>.md.
 
 Rules:

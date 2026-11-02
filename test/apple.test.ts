@@ -39,6 +39,9 @@ test("parseLookup keeps the fields we track", () => {
   assert.equal(app.releasedAt, "2023-05-18");
   assert.ok(app.ratingCount > 0);
   assert.ok(!app.url.includes("?"));
+  assert.equal(app.seller, "OpenAI OpCo, LLC");
+  assert.equal(app.version, "1.2026.300");
+  assert.equal(app.languages, 4);
 });
 
 test("csv round-trips commas, quotes and newlines", () => {

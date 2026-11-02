@@ -66,8 +66,8 @@ test("complaintThemes counts themes in 1 to 3 star reviews only", () => {
 
 function result(appId: string, ratingCount: number, releasedAt: string): AppDetails {
   return {
-    appId, name: `App ${appId}`, publisher: "Pub", publisherId: "1", primaryGenre: "Food & Drink",
-    price: 0, ratingCount, averageRating: 4.5, releasedAt, updatedAt: releasedAt, url: "",
+    appId, name: `App ${appId}`, publisher: "Pub", publisherId: "1", seller: "Pub Inc.", primaryGenre: "Food & Drink",
+    price: 0, ratingCount, averageRating: 4.5, releasedAt, updatedAt: releasedAt, version: "1.0", languages: 1, url: "",
   };
 }
 

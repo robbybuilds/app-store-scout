@@ -22,6 +22,7 @@
   "research": {
     "niches": 10,
     "reviewPages": 10,
-    "searchVolume": true
+    "searchVolume": true,
+    "prices": true
   }
 }

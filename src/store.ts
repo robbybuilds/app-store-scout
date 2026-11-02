@@ -7,12 +7,16 @@
 //   data/<country>/search.csv              one line per niche search per day: how crowded the search is
 //   data/<country>/search/YYYY-MM-DD.csv   the top 10 App Store search results for each niche that day
 //   data/<country>/volume.csv              monthly Google searches for each niche (seodata.dev)
+//   data/<country>/publishers.csv          how many apps each researched publisher has, refreshed monthly
+//   data/<country>/prices.csv              in-app purchase prices from researched apps' pages, refreshed weekly
 
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { AppDetails } from "./apple.ts";
 import type { Chart } from "./config.ts";
 import { parseCsv, toCsv } from "./csv.ts";
+import type { PriceRow } from "./prices.ts";
+import type { Publisher } from "./publishers.ts";
 import { type Review, sortCriticalFirst } from "./reviews.ts";
 import type { SearchRow, SearchSummary } from "./search.ts";
 import type { Volume } from "./volume.ts";
@@ -53,9 +57,11 @@ const REVIEW_COLUMNS: (keyof Review)[] = ["id", "rating", "version", "date", "ti
 const SEARCH_SUMMARY_COLUMNS: (keyof SearchSummary)[] = ["date", "term", "results", "established", "new_apps", "top10_median_ratings"];
 const SEARCH_COLUMNS: (keyof SearchRow)[] = ["date", "term", "position", "app_id", "name", "publisher", "rating_count", "released_at"];
 const VOLUME_COLUMNS: (keyof Volume)[] = ["term", "keyword", "volume", "cpc", "competition", "similar", "checked_at"];
+const PUBLISHER_COLUMNS: (keyof Publisher)[] = ["publisher_id", "publisher", "apps", "total_ratings", "checked_at"];
+const PRICE_COLUMNS: (keyof PriceRow)[] = ["app_id", "item", "price", "price_text", "period", "checked_at"];
 const APP_COLUMNS: (keyof AppDetails)[] = [
-  "appId", "name", "publisher", "publisherId", "primaryGenre", "price",
-  "ratingCount", "averageRating", "releasedAt", "updatedAt", "url",
+  "appId", "name", "publisher", "publisherId", "seller", "primaryGenre", "price",
+  "ratingCount", "averageRating", "releasedAt", "updatedAt", "version", "languages", "url",
 ];
 
 export class Store {
@@ -103,12 +109,16 @@ export class Store {
           name: r.name,
           publisher: r.publisher,
           publisherId: r.publisherId,
+          // Apps saved before these columns existed fill them in on their next scan.
+          seller: r.seller ?? "",
           primaryGenre: r.primaryGenre,
           price: Number(r.price),
           ratingCount: Number(r.ratingCount),
           averageRating: Number(r.averageRating),
           releasedAt: r.releasedAt,
           updatedAt: r.updatedAt,
+          version: r.version ?? "",
+          languages: Number(r.languages ?? 0),
           url: r.url,
         },
       ]),
@@ -236,6 +246,53 @@ export class Store {
   writeVolumes(country: string, volumes: Map<string, Volume>): void {
     const sorted = [...volumes.values()].sort((a, b) => a.term.localeCompare(b.term));
     writeFileSync(join(this.root, country, "volume.csv"), toCsv(VOLUME_COLUMNS, sorted));
+  }
+
+  readPublishers(country: string): Map<string, Publisher> {
+    const path = join(this.root, country, "publishers.csv");
+    if (!existsSync(path)) return new Map();
+    return new Map(
+      parseCsv(readFileSync(path, "utf8")).map((r) => [
+        r.publisher_id,
+        {
+          publisher_id: r.publisher_id,
+          publisher: r.publisher,
+          apps: Number(r.apps),
+          total_ratings: Number(r.total_ratings),
+          checked_at: r.checked_at,
+        },
+      ]),
+    );
+  }
+
+  writePublishers(country: string, publishers: Map<string, Publisher>): void {
+    const sorted = [...publishers.values()].sort((a, b) => a.publisher_id.localeCompare(b.publisher_id));
+    writeFileSync(join(this.root, country, "publishers.csv"), toCsv(PUBLISHER_COLUMNS, sorted));
+  }
+
+  /** Every price row, grouped by app. An app checked and found to sell nothing has one row with no item. */
+  readPrices(country: string): Map<string, PriceRow[]> {
+    const path = join(this.root, country, "prices.csv");
+    const out = new Map<string, PriceRow[]>();
+    if (!existsSync(path)) return out;
+    for (const r of parseCsv(readFileSync(path, "utf8"))) {
+      const rows = out.get(r.app_id) ?? [];
+      rows.push({
+        app_id: r.app_id,
+        item: r.item,
+        price: r.price === "" ? null : Number(r.price),
+        price_text: r.price_text,
+        period: r.period as PriceRow["period"],
+        checked_at: r.checked_at,
+      });
+      out.set(r.app_id, rows);
+    }
+    return out;
+  }
+
+  writePrices(country: string, prices: Map<string, PriceRow[]>): void {
+    const sorted = [...prices.keys()].sort().flatMap((id) => prices.get(id)!);
+    writeFileSync(join(this.root, country, "prices.csv"), toCsv(PRICE_COLUMNS, sorted));
   }
 
   /** The most recent `days` snapshots, oldest first. */
