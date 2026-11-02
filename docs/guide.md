@@ -32,6 +32,8 @@ This repo only collects the facts at the top of that table. That's on purpose.
 |---|---|---|
 | **Apple's chart feeds** (what this repo uses) | Top free, top paid and top grossing, overall and per category, up to 100 apps, any country. No key. | Ranks, not downloads or money. The per-category and grossing feeds are Apple's older RSS format; they work today but aren't promised forever. |
 | **iTunes Lookup API** (also used here) | Ratings count, average rating, release date, last update, price, publisher, for up to ~200 apps per request. | Ratings lag installs and many users never rate. |
+| **iTunes Search API** (also used here) | The apps a customer sees when searching a phrase, up to 200, with the same details as Lookup. | About 20 calls a minute. Search order is Apple's, not a popularity ranking. |
+| **Customer reviews feed** (also used here) | The most recent 500 reviews per app per country: rating, title, text, app version, date. | Unhappy customers are overrepresented. Old reviews drop off, so the repo keeps every review it has seen. |
 | **[AppTrendKit](https://www.apptrendkit.com/)** | Estimated downloads and revenue. The 300 biggest apps are free, plus 2 more full app pages a day, or 5 with a free account. | Estimates are modelled from chart and listing signals. Their own test: within 2× of publicly reported revenue for five of seven apps, worst miss 5.7×. CSV and API are paid. |
 | **[RevenueCat State of Subscription Apps](https://www.revenuecat.com/state-of-subscription-apps/)** | Category benchmarks: revenue per install, conversion, retention, pricing. 115,000+ apps, $16B+ revenue. | Aggregated from RevenueCat customers (iOS, Android and web), mostly 2025 data. Benchmarks, not any one app's numbers. |
 | **[42matters iOS statistics](https://42matters.com/ios-apple-app-store-statistics-and-trends)** | Market-wide counts: total apps, free vs paid, new releases per day. | Context, not competitor data. |
@@ -59,8 +61,9 @@ Two more findings worth knowing:
 3. **Look for clusters, not single apps.** The report's *Niches where newcomers are earning* section does a first pass for you. Twelve unrelated publishers with meal planners on the Food & Drink grossing chart says more than one breakout app.
 4. **Pick 3 to 5 apps** and fill in [the shortlist template](../templates/shortlist.md).
 5. **Spend your free estimate lookups on that shortlist**, not on browsing. Record the provider and period next to every estimate.
-6. **Read the 1 and 2 star reviews.** Repeated complaints are the product spec for your narrower version.
-7. **Check you can reach the audience** without outspending a big brand on ads.
+6. **Read the 1 to 3 star reviews.** The report's *Inside each niche* section counts complaint themes, and `data/us/reviews/<app-id>.csv` has the full text, worst first. Repeated complaints are the product spec for your narrower version.
+7. **Check the search.** If the top 10 results for the niche's phrase all have tens of thousands of ratings, you'll need a narrower phrase to be found.
+8. **Check you can reach the audience** without outspending a big brand on ads.
 
 ## Signals worth taking seriously
 

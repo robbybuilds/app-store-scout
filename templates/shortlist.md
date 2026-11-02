@@ -24,12 +24,12 @@ Copy this block once per app (3 to 5 apps a week).
 - Revenue: ~$___/month gross (source, country, period)
 - Actual MRR and profit: unknown
 
-**What reviewers complain about** (from 1 and 2 star reviews, with counts):
+**What reviewers complain about** (from 1 to 3 star reviews in `data/us/reviews/<app-id>.csv`, with counts):
 1.
 2.
 3.
 
-**Similar apps** (other publishers serving the same need):
+**Similar apps** (other publishers serving the same need; see `data/us/search/<date>.csv`):
 
 **A narrower version I could build:** (one audience, one job, one fix for the top complaint)
 

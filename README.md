@@ -2,7 +2,7 @@
 
 **Find app ideas that are already making money.**
 
-Every day, App Store Scout reads Apple's top-grossing charts and points out niches where several *different* publishers' new or small apps are all earning. It's free and open source, and it runs on GitHub Actions in your own fork.
+Every day, App Store Scout reads Apple's top-grossing charts and points out niches where several *different* publishers' new or small apps are all earning. Then it searches the App Store for each niche to see how crowded it is, and reads those apps' 1, 2 and 3 star reviews to find what customers are unhappy about. It's free and open source, and it runs on GitHub Actions in your own fork.
 
 **[See today's niches →](reports/us/latest.md)**
 
@@ -14,13 +14,15 @@ On 2 November 2026, the US Food & Drink top-grossing chart had **meal planners f
 
 The same scan turned up AI note takers (4 publishers), AI video generators (4) and AI medical scribes (3). One app on a chart can be luck or a big ad budget. Several unrelated small teams earning with the same idea usually means real demand.
 
+It also read 512 critical reviews of meal planner apps. **63% of them mention price, subscriptions or free trials.** A meal planner that's honest about its pricing has a head start.
+
 ## Get your own daily scan in 3 clicks
 
 1. Click **Fork** at the top of this page.
 2. In your fork, open the **Actions** tab and click **"I understand my workflows, go ahead and enable them"**.
 3. Open **Actions → Daily scan → Run workflow**.
 
-About two minutes later your fork has its first snapshot and a fresh report. After that it scans every day at 14:00 UTC and keeps a dated copy of the report every Monday. GitHub runs it for free on public repos.
+About six minutes later your fork has its first snapshot and a fresh report. After that it scans every day at 14:00 UTC and keeps a dated copy of the report every Monday. GitHub runs it for free on public repos.
 
 To track other countries or categories, edit [`scout.config.json`](scout.config.json).
 
@@ -29,6 +31,7 @@ To track other countries or categories, edit [`scout.config.json`](scout.config.
 | Section | What it shows | Ready after |
 |---|---|---|
 | **Niches where newcomers are earning** | Phrases shared by new or small apps from 3+ publishers on grossing charts | Day 1 |
+| **Inside each niche** | How crowded the App Store search is, the top results, and what 1 to 3 star reviews complain about | Day 1 |
 | **Genres at a glance** | How many new and small apps made each category's grossing chart | Day 1 |
 | **Small and paying** | Apps on a grossing chart with fewer than 5,000 ratings | Day 1 |
 | **New and paying** | Apps released in the last year that are already on a grossing chart | Day 1 |
@@ -45,16 +48,16 @@ You need Node 22.18 or newer. There's nothing else to install.
 ```bash
 git clone https://github.com/robbybuilds/app-store-scout
 cd app-store-scout
-npm run scan       # save today's charts and ratings (about 2 minutes)
+npm run scan       # save today's charts and ratings, then search niches and read reviews
 npm run report     # write reports/us/latest.md
-npm run app -- 6777471316   # one app's chart and ratings history
+npm run app -- 6777471316   # one app's chart history and its worst reviews
 ```
 
 Add `-- --country gb` to scan or report another country.
 
 ## Let an AI agent do the legwork
 
-[docs/agent-prompt.md](docs/agent-prompt.md) has copy-paste prompts for Claude Code, Codex or any agent that can run commands. The agent runs the scan, reads the report, pulls the 1 and 2 star reviews for the most promising apps, and fills in the shortlist for you.
+[docs/agent-prompt.md](docs/agent-prompt.md) has copy-paste prompts for Claude Code, Codex or any agent that can run commands. The agent runs the scan, reads the report and the saved reviews for the most promising apps, and fills in the shortlist for you.
 
 ## Questions
 
@@ -71,7 +74,7 @@ No. The fork-and-click setup above needs none, and the report is a page you read
 Not yet. Google Play has no free chart feed like Apple's.
 
 **Where does the data come from?**
-Apple's public chart feeds and iTunes Lookup API. Each scan saves Apple's own "last updated" time, so a stale feed can't pass as fresh data.
+Four free Apple endpoints, none of which need a key: the chart feeds (ranks), the iTunes Lookup API (ratings, release dates, publishers), the iTunes Search API (what customers see when they search for a niche) and the customer reviews feed (the most recent 500 reviews per app). Each scan saves Apple's own "last updated" time, so a stale feed can't pass as fresh data.
 
 ## The data
 
@@ -80,15 +83,20 @@ data/us/charts/2026-11-02.csv    chart, genre_id, rank, app_id
 data/us/ratings/2026-11-02.csv   app_id, rating_count, average_rating
 data/us/apps.csv                 name, publisher, genre, price, ratings, release date, link
 data/us/scans.csv                when each scan ran and how fresh Apple's feed was
+data/us/reviews/6777471316.csv   every review seen for that app, 1 to 3 stars first
+data/us/search.csv               per niche per day: results, established apps, new apps
+data/us/search/2026-11-02.csv    the top 10 search results for each niche that day
 ```
 
-The default config covers 3 charts × 11 categories × 100 apps in the US: about 3,300 chart positions and 2,800 apps a day, roughly 150 KB.
+The default config covers 3 charts × 11 categories × 100 apps in the US: about 3,300 chart positions and 2,800 apps a day, roughly 150 KB. Reviews are read for about 80 apps: around 3 MB the first day, then only new reviews. Reviewer names are never saved.
 
 ## Limits
 
 - **Ratings lag downloads.** Most people never leave a rating.
 - **Charts stop at 100**, so the long tail is invisible.
 - **The category and grossing charts use Apple's older RSS feed.** It works today, and Apple could retire it. If that happens, the scan logs the failure and saves nothing for that chart.
+- **Reviews are the latest 500 per app**, and unhappy customers write more of them. Read them for themes, not as a satisfaction score. The complaint themes are keyword matches, so open the reviews before you trust a percentage.
+- **Search stops at 200 results**, so "190 results" means "a lot", not an exact count.
 - **Name-based niches are a starting point.** "Recipe" groups recipe managers with recipe magazines. Open the apps before you draw conclusions.
 
 ## Contributing

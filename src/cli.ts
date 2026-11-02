@@ -5,12 +5,16 @@ import { parseArgs } from "node:util";
 import { fetchChart, lookupApps, sleep } from "./apple.ts";
 import { genreName, loadConfig } from "./config.ts";
 import { buildReport } from "./report.ts";
+import { fetchNewReviews, isCritical } from "./reviews.ts";
+import { type SearchRow, type SearchSummary, searchApps, summariseSearch, topResults } from "./search.ts";
+import { computeSignals, researchTargets } from "./signals.ts";
 import { type ChartRow, Store } from "./store.ts";
 
 const HELP = `app-store-scout: free App Store research from Apple's public feeds
 
 Usage:
-  app-store-scout scan   [--country us]               Save today's charts and ratings to data/
+  app-store-scout scan   [--country us]               Save today's charts and ratings, then research
+  app-store-scout research [--country us]             Only search the top niches and read reviews
   app-store-scout report [--country us] [--archive]   Write reports/<country>/latest.md
   app-store-scout app <app-id> [--country us]         Show one app's chart and ratings history
 
@@ -76,6 +80,44 @@ async function scan(country: string): Promise<void> {
     apps,
   );
   console.log(`  saved ${rows.length} chart rows and ${apps.length} apps for ${today}` + (failures ? ` (${failures} charts failed)` : ""));
+  await research(country);
+}
+
+// Searches the App Store for each top niche and reads the reviews of the apps worth a closer look.
+async function research(country: string): Promise<void> {
+  const signals = computeSignals(store.recent(country, 30), store.readApps(country));
+  const { niches, appIds } = researchTargets(signals, config);
+
+  const summaries: SearchSummary[] = [];
+  const top: SearchRow[] = [];
+  for (const niche of niches) {
+    try {
+      const results = await searchApps(country, niche.term);
+      summaries.push(summariseSearch(today, niche.term, results, config.report.newAppMaxAgeDays));
+      top.push(...topResults(today, niche.term, results));
+      console.log(`  search "${niche.term}": ${results.length} results`);
+    } catch (error) {
+      console.error(`  search "${niche.term}": failed (${(error as Error).message})`);
+    }
+    // The Search API allows roughly 20 calls a minute.
+    await sleep(3000);
+  }
+  if (summaries.length) store.writeSearch(country, today, summaries, top);
+
+  let added = 0;
+  for (const appId of appIds) {
+    try {
+      const known = new Set(store.readReviews(country, appId).map((r) => r.id));
+      const fresh = await fetchNewReviews(country, appId, known, config.research.reviewPages);
+      if (fresh.length) store.addReviews(country, appId, fresh);
+      added += fresh.length;
+      console.log(`  reviews ${appId}: ${fresh.length} new (${fresh.filter(isCritical).length} with 1 to 3 stars)`);
+    } catch (error) {
+      console.error(`  reviews ${appId}: failed (${(error as Error).message})`);
+    }
+    await sleep(300);
+  }
+  console.log(`  researched ${summaries.length} niches and ${appIds.length} apps (${added} new reviews)`);
 }
 
 function report(country: string): void {
@@ -101,6 +143,11 @@ function showApp(country: string, appId: string): void {
     const ratings = snap.ratings.get(appId)?.rating_count;
     console.log(`${snap.date}  ${ratings === undefined ? "" : `${ratings.toLocaleString("en-US")} ratings  `}${positions.join(", ") || "not charting"}`);
   }
+  const critical = store.readReviews(country, appId).filter(isCritical);
+  if (critical.length) {
+    console.log(`\n${critical.length} reviews with 1 to 3 stars, worst first:`);
+    for (const r of critical.slice(0, 20)) console.log(`  ${"★".repeat(r.rating)} ${r.date}  ${r.title}: ${r.body.slice(0, 160)}`);
+  }
 }
 
 async function main(): Promise<void> {
@@ -108,6 +155,7 @@ async function main(): Promise<void> {
   for (const country of countries) {
     console.log(`${command} ${country}`);
     if (command === "scan") await scan(country);
+    else if (command === "research") await research(country);
     else if (command === "report") report(country);
     else if (command === "app" && arg) showApp(country, arg);
     else return void console.log(HELP);

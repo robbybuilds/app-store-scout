@@ -1,0 +1,195 @@
+{
+ "feed": {
+  "entry": [
+   {
+    "author": {
+     "name": {
+      "label": "redacted"
+     },
+     "uri": {
+      "label": ""
+     },
+     "label": ""
+    },
+    "updated": {
+     "label": "2026-10-31T00:08:01-07:00"
+    },
+    "im:rating": {
+     "label": "1"
+    },
+    "im:version": {
+     "label": "1.1.23"
+    },
+    "id": {
+     "label": "14732613457"
+    },
+    "title": {
+     "label": "It\u2019s Eh"
+    },
+    "content": {
+     "label": "It won\u2019t let me push through not using the \u201cfree trial\u201d it\u2019s very frustrating makes the app not even worth trying.",
+     "attributes": {
+      "type": "text"
+     }
+    },
+    "link": {
+     "attributes": {
+      "rel": "related",
+      "href": "https://itunes.apple.com/us/review?id=6777471316&type=Purple%20Software"
+     }
+    },
+    "im:voteSum": {
+     "label": "0"
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "im:voteCount": {
+     "label": "0"
+    }
+   },
+   {
+    "author": {
+     "name": {
+      "label": "redacted"
+     },
+     "uri": {
+      "label": ""
+     },
+     "label": ""
+    },
+    "updated": {
+     "label": "2026-10-30T06:08:40-07:00"
+    },
+    "im:rating": {
+     "label": "2"
+    },
+    "im:version": {
+     "label": "1.1.23"
+    },
+    "id": {
+     "label": "14729556537"
+    },
+    "title": {
+     "label": "Not honest with prices"
+    },
+    "content": {
+     "label": "I tried out a free subscription with mise to try to save money while grocery shopping. First thing I noticed is their \u201ccheap\u201d meals are not cheap at all. They\u2019ll say a meal cost 9 dollars to make but then you scroll down and you need 14 ingredients from the store. They\u2019re pricing it by the measurements but unfortunately they don\u2019t really sell 1/4 cup of flour at the store you kind of have to buy the whole thing. So that \u201c9 dollar meal\u201d that you want to make is actually about to cost you 28.57 when you buy all the ingredients.",
+     "attributes": {
+      "type": "text"
+     }
+    },
+    "link": {
+     "attributes": {
+      "rel": "related",
+      "href": "https://itunes.apple.com/us/review?id=6777471316&type=Purple%20Software"
+     }
+    },
+    "im:voteSum": {
+     "label": "0"
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "im:voteCount": {
+     "label": "0"
+    }
+   },
+   {
+    "author": {
+     "name": {
+      "label": "redacted"
+     },
+     "uri": {
+      "label": ""
+     },
+     "label": ""
+    },
+    "updated": {
+     "label": "2026-10-29T05:54:30-07:00"
+    },
+    "im:rating": {
+     "label": "5"
+    },
+    "im:version": {
+     "label": "1.1.23"
+    },
+    "id": {
+     "label": "14725555979"
+    },
+    "title": {
+     "label": "you have to try"
+    },
+    "content": {
+     "label": "omg was so good easy and my family loved it",
+     "attributes": {
+      "type": "text"
+     }
+    },
+    "link": {
+     "attributes": {
+      "rel": "related",
+      "href": "https://itunes.apple.com/us/review?id=6777471316&type=Purple%20Software"
+     }
+    },
+    "im:voteSum": {
+     "label": "0"
+    },
+    "im:contentType": {
+     "attributes": {
+      "term": "Application",
+      "label": "Application"
+     }
+    },
+    "im:voteCount": {
+     "label": "0"
+    }
+   }
+  ],
+  "link": [
+   {
+    "attributes": {
+     "rel": "alternate",
+     "type": "text/html",
+     "href": "https://music.apple.com/WebObjects/MZStore.woa/wa/viewGrouping?cc=us&id=1"
+    }
+   },
+   {
+    "attributes": {
+     "rel": "self",
+     "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=6777471316/sortby=mostrecent/json"
+    }
+   },
+   {
+    "attributes": {
+     "rel": "first",
+     "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=6777471316/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=6777471316/sortby=mostrecent/json"
+    }
+   },
+   {
+    "attributes": {
+     "rel": "last",
+     "href": "https://itunes.apple.com/us/rss/customerreviews/page=3/id=6777471316/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=6777471316/sortby=mostrecent/json"
+    }
+   },
+   {
+    "attributes": {
+     "rel": "previous",
+     "href": "https://itunes.apple.com/us/rss/customerreviews/page=1/id=6777471316/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=6777471316/sortby=mostrecent/json"
+    }
+   },
+   {
+    "attributes": {
+     "rel": "next",
+     "href": "https://itunes.apple.com/us/rss/customerreviews/page=2/id=6777471316/sortby=mostrecent/xml?urlDesc=/customerreviews/page=1/id=6777471316/sortby=mostrecent/json"
+    }
+   }
+  ]
+ }
+}

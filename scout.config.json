@@ -18,5 +18,9 @@
     "smallAppMaxRatings": 5000,
     "newAppMaxAgeDays": 365,
     "listSize": 15
+  },
+  "research": {
+    "niches": 10,
+    "reviewPages": 10
   }
 }

@@ -15,6 +15,7 @@
   },
   "scripts": {
     "scan": "node src/cli.ts scan",
+    "research": "node src/cli.ts research",
     "report": "node src/cli.ts report",
     "app": "node src/cli.ts app",
     "test": "node --test test/*.test.ts",

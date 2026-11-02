@@ -21,6 +21,150 @@ Phrases shared by new or small apps from **different publishers** that are all o
 | **guide** | 3 | [Sanford Guide Antimicrobial](https://apps.apple.com/us/app/sanford-guide-antimicrobial/id863196620) (#6 Medical), [Johns Hopkins Antibiotic Guide](https://apps.apple.com/us/app/johns-hopkins-antibiotic-guide/id429504851) (#28 Medical), [MSK Sono: Ultrasound Guide](https://apps.apple.com/us/app/msk-sono-ultrasound-guide/id6765696708) (#53 Medical) |
 | **medical scribe** | 3 | [Freed: AI Medical Scribe](https://apps.apple.com/us/app/freed-ai-medical-scribe/id6449428266) (#23 Medical), [Chartnote: AI Medical Scribe](https://apps.apple.com/us/app/chartnote-ai-medical-scribe/id1589970506) (#33 Medical), [Commure - AI Medical Scribe](https://apps.apple.com/us/app/commure-ai-medical-scribe/id6737444157) (#94 Medical) |
 
+## Inside each niche
+
+What a customer sees when they search the App Store for the niche, and what the niche's apps get criticised for in their 1 to 3 star reviews. Complaints are the spec for a better version.
+
+### recipe
+
+**Search:** 192 results for "recipe" (Apple returns at most 200). 24 have 10,000+ ratings, 52 came out in the last 365 days. The top 10 have a median of 42,672 ratings.
+
+**Top search results:** 1. ReciMe: Recipes & Meal Planner (325,385) · 2. Tasty: Recipes, Cooking Videos (432,898) · 3. Recipe Keeper (31,149) · 4. NYT Cooking: Quick Tasty Meals (549,427) · 5. RecipeBox - Save Your Recipes! (14,013)
+
+**Complaints** in 906 reviews with 1 to 3 stars: Price and subscription 51% · Bugs and crashes 15% · Login and account 10% · Sync and lost data 9%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Trial Scam" (Whipp: Meal Planner & Recipes, 2026-10-31)
+- ★☆☆☆☆ "Inaccurate" (Whipp: Meal Planner & Recipes, 2026-10-29)
+- ★☆☆☆☆ "don't sign up for membership" (Whipp: Meal Planner & Recipes, 2026-10-28)
+
+### meal planner
+
+**Search:** 190 results for "meal planner" (Apple returns at most 200). 22 have 10,000+ ratings, 100 came out in the last 365 days. The top 10 have a median of 9,169 ratings.
+
+**Top search results:** 1. mise - meal planner (4,296) · 2. Meal Planner & Weekly Menu (1,660) · 3. TapCook: Budget Meal Plans (6,128) · 4. Daily Meal Planner (1,843) · 5. MealPrepPro Planner & Recipes (12,209)
+
+**Complaints** in 512 reviews with 1 to 3 stars: Price and subscription 63% · Missing features 10% · Bugs and crashes 8% · Login and account 8%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "It’s Eh" (mise - meal planner, 2026-10-31)
+- ★☆☆☆☆ "Trial Scam" (Whipp: Meal Planner & Recipes, 2026-10-31)
+- ★☆☆☆☆ "Eggs are vegan ig" (NeatEat - Meal Planner, 2026-10-31)
+
+### anatomy
+
+**Search:** 181 results for "anatomy" (Apple returns at most 200). 3 have 10,000+ ratings, 33 came out in the last 365 days. The top 10 have a median of 3,159 ratings.
+
+**Top search results:** 1. Complete Anatomy for iPhone (3,666) · 2. Daily Anatomy Flashcards (7,640) · 3. Anatomy Learning - 3D Atlas (1,443) · 4. Essential Anatomy 5 (20,704) · 5. TeachMe Anatomy: 3D Human Body (2,652)
+
+**Complaints** in 340 reviews with 1 to 3 stars: Price and subscription 55% · Bugs and crashes 15% · Login and account 9% · Missing features 9%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Scam!! Renews itself after canceling subscription despite not using!" (Complete Anatomy for iPhone, 2026-10-29)
+- ★☆☆☆☆ "Bad" (Anatomy Learning - 3D Atlas, 2026-10-19)
+- ★☆☆☆☆ "Constant request to review" (Anatomy 3D Atlas, 2026-10-17)
+
+### recipe manager
+
+**Search:** 185 results for "recipe manager" (Apple returns at most 200). 16 have 10,000+ ratings, 72 came out in the last 365 days. The top 10 have a median of 3,500 ratings.
+
+**Top search results:** 1. Mela - Recipe Manager (886) · 2. Crouton: Recipe Manager (2,948) · 3. Paprika Recipe Manager 3 (54,197) · 4. ReciMe: Recipes & Meal Planner (325,581) · 5. Recipe Keeper (31,156)
+
+**Complaints** in 166 reviews with 1 to 3 stars: Price and subscription 50% · Bugs and crashes 13% · Customer support 13% · Sync and lost data 12%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Update is terrible" (Crouton: Recipe Manager, 2026-10-27)
+- ★☆☆☆☆ "Everything is pay walled" (Pestle: Recipe Manager, 2026-10-27)
+- ★☆☆☆☆ "Crashes" (Pestle: Recipe Manager, 2026-10-13)
+
+### budget
+
+**Search:** 194 results for "budget" (Apple returns at most 200). 21 have 10,000+ ratings, 43 came out in the last 365 days. The top 10 have a median of 14,900 ratings.
+
+**Top search results:** 1. Budget app - spending tracker (16,279) · 2. EveryDollar: Budget Management (84,201) · 3. Fleur - Budget Planner App (13,145) · 4. Monarch: Budget & Track Money (116,576) · 5. Rocket Money - Bills & Budgets (404,254)
+
+**Complaints** in 525 reviews with 1 to 3 stars: Price and subscription 58% · Login and account 33% · Bugs and crashes 24% · Customer support 10%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Overpriced cookie cutter app" (Dollarwise: Budget & Tracking, 2026-10-23)
+- ★☆☆☆☆ "Confusing" (Monbark: Budget & Money Track, 2026-10-17)
+- ★☆☆☆☆ "WASTE OF TIME" (Budget Bestie, 2026-10-17)
+
+### note taker
+
+**Search:** 194 results for "note taker" (Apple returns at most 200). 19 have 10,000+ ratings, 44 came out in the last 365 days. The top 10 have a median of 36,879 ratings.
+
+**Top search results:** 1. Otter Transcribe Voice Notes (87,667) · 2. Goodnotes: AI Notes, Docs, PDF (466,714) · 3. Summary - AI Note Taker (56,423) · 4. Notability: AI Notes & Planner (458,507) · 5. Microsoft OneNote (1,070,900)
+
+**Complaints** in 385 reviews with 1 to 3 stars: Price and subscription 50% · Customer support 17% · Bugs and crashes 15% · Sync and lost data 11%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Don’t sign onto this" (Cue: AI Note Taker & Recorder, 2026-10-30)
+- ★☆☆☆☆ "Scam" (Cue: AI Note Taker & Recorder, 2026-10-26)
+- ★☆☆☆☆ "App doesn’t work" (Cue: AI Note Taker & Recorder, 2026-10-22)
+
+### video generator
+
+**Search:** 169 results for "video generator" (Apple returns at most 200). 43 have 10,000+ ratings, 63 came out in the last 365 days. The top 10 have a median of 6,825 ratings.
+
+**Top search results:** 1. VideoGPT - AI Video Generator (55,702) · 2. AI Video - Generator (500) · 3. AI Video Generator - Bunsy (45) · 4. AI Video - AI Video Generator (29,885) · 5. CapCut: Photo & Video Editor (1,125,752)
+
+**Complaints** in 668 reviews with 1 to 3 stars: Price and subscription 62% · Bugs and crashes 5% · Ads 3% · Sync and lost data 3%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Not worth" (AI Video Generator - Vixel, 2026-10-31)
+- ★☆☆☆☆ "Scam" (AI Video Generator - Vixel, 2026-10-31)
+- ★☆☆☆☆ "Пустышка, лишь бы деньги тащить" (AI Catch: AI Video Generator, 2026-10-31)
+
+### food
+
+**Search:** 192 results for "food" (Apple returns at most 200). 133 have 10,000+ ratings, 14 came out in the last 365 days. The top 10 have a median of 885,431 ratings.
+
+**Top search results:** 1. Food Hunt: Pixel Puzzle (53,970) · 2. Taco Bell Fast Food & Delivery (1,139,501) · 3. Chick-fil-A (4,287,695) · 4. Subway® (1,219,075) · 5. Wendy’s (1,940,504)
+
+**Complaints** in 166 reviews with 1 to 3 stars: Price and subscription 69% · Login and account 14% · Sync and lost data 8% · Wrong or inaccurate 7%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Do not hit extend free trial" (FoodGauge: Food Health Scanner, 2026-10-29)
+- ★☆☆☆☆ "Ask for reviews before I use app" (FoodGauge: Food Health Scanner, 2026-10-22)
+- ★☆☆☆☆ "Disappointing & predatory" (Allergy & Food Scanner: Nosher, 2026-09-04)
+
+### guide
+
+**Search:** 184 results for "guide" (Apple returns at most 200). 33 have 10,000+ ratings, 4 came out in the last 365 days. The top 10 have a median of 12,255 ratings.
+
+**Top search results:** 1. GetYourGuide: Plan & Book (335,303) · 2. GuideAlong \| GPS Audio Tours (16,318) · 3. The MICHELIN Guide (7,561) · 4. Tripadvisor: Plan & Book Trips (481,856) · 5. Viator Tours & Attractions (297,186)
+
+**Complaints** in 74 reviews with 1 to 3 stars: Price and subscription 62% · Bugs and crashes 20% · Login and account 16% · Sync and lost data 7%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Extremely slow and freezes frequently" (Sanford Guide Antimicrobial, 2025-01-09)
+- ★☆☆☆☆ "Not able to access antibiotic guide only hiv guide" (Johns Hopkins Antibiotic Guide, 2024-07-07)
+- ★☆☆☆☆ "Expensive for what?" (Sanford Guide Antimicrobial, 2023-11-19)
+
+### medical scribe
+
+**Search:** 179 results for "medical scribe" (Apple returns at most 200). 5 have 10,000+ ratings, 36 came out in the last 365 days. The top 10 have a median of 277 ratings.
+
+**Top search results:** 1. Medical Scribe (17) · 2. Heidi — AI Care Partner (2,581) · 3. Freed: AI Medical Scribe (514) · 4. Doximity (200,312) · 5. Medical Scribe - HIPAA Dictate (2)
+
+**Complaints** in 13 reviews with 1 to 3 stars: Price and subscription 23% · Bugs and crashes 23% · Customer support 23% · Wrong or inaccurate 15%
+
+Worst first, newest first:
+
+- ★☆☆☆☆ "Would not recommend" (Chartnote: AI Medical Scribe, 2025-09-02)
+- ★☆☆☆☆ "If I could give zero stars, I would" (Freed: AI Medical Scribe, 2025-03-20)
+- ★☆☆☆☆ "Update" (Freed: AI Medical Scribe, 2024-11-03)
+
 ## Genres at a glance
 
 How crowded each genre's top-grossing chart looks. More new apps (released in the last 365 days) and more small apps (under 5,000 ratings) suggest newcomers can still earn there.

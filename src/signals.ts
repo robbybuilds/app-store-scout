@@ -267,3 +267,17 @@ export function nicheClusters(signals: AppSignal[], config: Config, minPublisher
   }
   return chosen.sort((a, b) => b.publishers - a.publishers || a.apps[0].grossing!.rank - b.apps[0].grossing!.rank);
 }
+
+/**
+ * What the daily scan researches in more depth: the top niches (searched on the App Store)
+ * and the apps whose reviews we read (every app in those niches, plus the small and new lists).
+ */
+export function researchTargets(signals: AppSignal[], config: Config): { niches: Cluster[]; appIds: string[] } {
+  const niches = nicheClusters(signals, config).slice(0, config.research.niches);
+  const apps = [
+    ...niches.flatMap((c) => c.apps),
+    ...smallAndPaying(signals, config).slice(0, config.report.listSize),
+    ...newAndPaying(signals, config).slice(0, config.report.listSize),
+  ];
+  return { niches, appIds: [...new Set(apps.map((s) => s.appId))] };
+}

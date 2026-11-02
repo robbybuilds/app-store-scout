@@ -5,11 +5,13 @@ import {
   genreSummaries,
   grossingClimbers,
   newAndPaying,
-  nicheClusters,
   ratingsMomentum,
+  researchTargets,
   smallAndPaying,
   stayingPower,
 } from "./signals.ts";
+import { complaintThemes, isCritical, type Review } from "./reviews.ts";
+import { ESTABLISHED_RATINGS, SEARCH_LIMIT } from "./search.ts";
 import type { Store } from "./store.ts";
 
 const cell = (text: string) => text.replace(/\|/g, "\\|").replace(/\n/g, " ");
@@ -39,6 +41,65 @@ function table(config: Config, rows: AppSignal[], extra: { title: string; value:
   return lines.join("\n") + "\n";
 }
 
+const stars = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
+const pct = (share: number) => `${Math.round(share * 100)}%`;
+
+// For each niche: how crowded its App Store search is, and what its apps' unhappy users say.
+function nicheDetails(store: Store, config: Config, country: string, clusters: ReturnType<typeof researchTargets>["niches"]): string[] {
+  const searches = store.readSearch(country);
+  const out: string[] = [];
+  out.push("## Inside each niche\n");
+  out.push(
+    "What a customer sees when they search the App Store for the niche, and what the niche's apps get " +
+      "criticised for in their 1 to 3 star reviews. Complaints are the spec for a better version.\n",
+  );
+  if (!searches.size) {
+    out.push("_Run `npm run research` (or a full `npm run scan`) to fill this in._\n");
+    return out;
+  }
+
+  for (const c of clusters) {
+    out.push(`### ${c.term}\n`);
+    const search = searches.get(c.term);
+    if (search) {
+      const { results, established, new_apps, top10_median_ratings } = search.summary;
+      const count = results >= SEARCH_LIMIT ? `${SEARCH_LIMIT}+` : String(results);
+      out.push(
+        `**Search:** ${count} results for "${c.term}" (Apple returns at most ${SEARCH_LIMIT}). ${established} have ${num(ESTABLISHED_RATINGS)}+ ratings, ` +
+          `${new_apps} came out in the last ${config.report.newAppMaxAgeDays} days. ` +
+          `The top 10 have a median of ${num(top10_median_ratings)} ratings.\n`,
+      );
+      if (search.top.length) {
+        const top = search.top.slice(0, 5).map((t) => `${t.position}. ${cell(t.name)} (${num(t.rating_count)})`);
+        out.push(`**Top search results:** ${top.join(" · ")}\n`);
+      }
+    }
+
+    const reviews: (Review & { app: string })[] = c.apps.flatMap((s) =>
+      store.readReviews(country, s.appId).map((r) => ({ ...r, app: s.details?.name ?? s.appId })),
+    );
+    const { critical, themes } = complaintThemes(reviews);
+    if (!critical) {
+      out.push("_No 1 to 3 star reviews collected yet._\n");
+      continue;
+    }
+    out.push(
+      `**Complaints** in ${num(critical)} reviews with 1 to 3 stars: ` +
+        (themes.length ? themes.slice(0, 4).map((t) => `${t.name} ${pct(t.share)}`).join(" · ") : "no common theme") +
+        "\n",
+    );
+    const recent = reviews
+      .filter(isCritical)
+      .sort((a, b) => a.rating - b.rating || b.date.localeCompare(a.date))
+      .filter((r) => r.title)
+      .slice(0, 3)
+      .map((r) => `- ${stars(r.rating)} "${cell(r.title)}" (${cell(r.app)}, ${r.date})`);
+    out.push("Worst first, newest first:\n");
+    out.push(recent.join("\n") + "\n");
+  }
+  return out;
+}
+
 export function buildReport(store: Store, config: Config, country: string): string {
   const snapshots = store.recent(country, 30);
   const latest = snapshots.at(-1);
@@ -66,7 +127,7 @@ export function buildReport(store: Store, config: Config, country: string): stri
     "Phrases shared by new or small apps from **different publishers** that are all on a top-grossing chart today. " +
       "One app can be luck or a big ad budget; three unrelated publishers earning with the same idea is a niche.\n",
   );
-  const clusters = nicheClusters(signals, config).slice(0, 10);
+  const clusters = researchTargets(signals, config).niches;
   if (!clusters.length) {
     out.push("_No clusters today._\n");
   } else {
@@ -79,6 +140,8 @@ export function buildReport(store: Store, config: Config, country: string): stri
     }
     out.push("");
   }
+
+  out.push(...nicheDetails(store, config, country, clusters));
 
   out.push("## Genres at a glance\n");
   out.push(

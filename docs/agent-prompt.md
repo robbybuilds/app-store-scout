@@ -10,8 +10,10 @@ In the app-store-scout repo:
 1. Run `npm run scan` then `npm run report`.
 2. Read reports/us/latest.md. Focus on "New and paying" and "Small and paying".
 3. Find clusters: 2 or more apps from different publishers solving the same narrow need.
-4. Pick the 5 most promising apps. For each, open its App Store page and read the most
-   recent 1 and 2 star reviews. Group the complaints and count them.
+4. Read the "Inside each niche" section. Pick the 5 most promising apps. For each, read
+   data/us/reviews/<app-id>.csv (1 to 3 star reviews come first). Group the complaints in
+   your own words and count them. Use data/us/search/<today>.csv to see who ranks when a
+   customer searches for the niche.
 5. Fill in templates/shortlist.md for each app and save it as research/<today>.md.
 
 Rules:
@@ -25,7 +27,7 @@ Rules:
 
 ```text
 In the app-store-scout repo, run `npm run app -- <app-id>` and summarise this app's
-chart and ratings history. Then read its recent 1 and 2 star reviews on the App Store and
-list the top 3 complaints with counts. Suggest a narrower app that fixes the top complaint
+chart and ratings history. Then read data/us/reviews/<app-id>.csv (run `npm run research`
+first if it's missing) and list the top 3 complaints in its 1 to 3 star reviews, with counts. Suggest a narrower app that fixes the top complaint
 for one specific audience.
 ```
