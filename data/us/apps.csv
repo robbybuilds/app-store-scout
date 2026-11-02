@@ -795,7 +795,7 @@ appId,name,publisher,publisherId,primaryGenre,price,ratingCount,averageRating,re
 1537148648,iUniform AGSU,John Rudio,566663214,Utilities,4.99,42,2.29,2021-08-10,2022-04-18,https://apps.apple.com/us/app/iuniform-agsu/id1537148648
 1537177988,Starlink,SpaceX,1486258477,Utilities,0,114975,4.92,2020-10-26,2026-10-25,https://apps.apple.com/us/app/starlink/id1537177988
 1538521095,"SimplyWise: Receipts, Expenses","SimplyWise, Inc.",1538521097,Finance,0,38330,4.85,2020-12-05,2026-10-15,https://apps.apple.com/us/app/simplywise-receipts-expenses/id1538521095
-1538761576,Authenticator App,2Stable,1534145511,Productivity,0,49680,4.64,2020-11-18,2026-10-30,https://apps.apple.com/us/app/authenticator-app/id1538761576
+1538761576,Authenticator App,2Stable,1534145511,Productivity,0,49680,4.64,2020-11-18,2026-11-02,https://apps.apple.com/us/app/authenticator-app/id1538761576
 1538999662,KFC US: Ordering & Delivery,Kentucky Fried Chicken,1497150409,Food & Drink,0,11790,4.06,2021-02-24,2026-10-29,https://apps.apple.com/us/app/kfc-us-ordering-delivery/id1538999662
 1539090879,TV Remote - Universal Control,EVOLLY.APP,1422593523,Utilities,0,630345,4.44,2020-11-19,2026-09-28,https://apps.apple.com/us/app/tv-remote-universal-control/id1539090879
 1539331570,Camera Tools for GoPro® Heros,Harald Meyer,389514018,Photo & Video,17.99,119,4.39,2020-11-11,2026-09-02,https://apps.apple.com/us/app/camera-tools-for-gopro-heros/id1539331570
@@ -2097,7 +2097,7 @@ appId,name,publisher,publisherId,primaryGenre,price,ratingCount,averageRating,re
 6747046603,GhostLedger,Matthew Elliott,1815549651,Finance,9.99,2,5,2025-06-17,2026-01-12,https://apps.apple.com/us/app/ghostledger/id6747046603
 6747363502,Hearing Buddy - Speech To Text,Krager Labs LLC,641756538,Medical,0,164,4.14,2025-09-16,2026-10-30,https://apps.apple.com/us/app/hearing-buddy-speech-to-text/id6747363502
 6747405146,Smart Printer App for HP *,Netsis Mobile FZCO,1625553533,Business,0,2379,4,2025-07-01,2026-03-22,https://apps.apple.com/us/app/smart-printer-app-for-hp/id6747405146
-6747768621,Milo: Your Money Guide,Brite Tech Inc.,1697384631,Finance,0,1659,4.84,2025-08-07,2026-10-18,https://apps.apple.com/us/app/milo-your-money-guide/id6747768621
+6747768621,Milo: Your Money Guide,Brite Tech Inc.,1697384631,Finance,0,1659,4.84,2025-08-07,2026-11-02,https://apps.apple.com/us/app/milo-your-money-guide/id6747768621
 6747781542,Delish: Original Fun Recipes,"Hearst Communications, Inc.",342026653,Food & Drink,0,1515,4.49,2025-11-10,2026-10-19,https://apps.apple.com/us/app/delish-original-fun-recipes/id6747781542
 6747881785,Cattle Weight Pro,Anass Damri,1778031747,Business,1.99,0,0,2025-06-29,2025-06-30,https://apps.apple.com/us/app/cattle-weight-pro/id6747881785
 6747902090,Haptic Vibration Timer,Cumulus Coding Ltd,1749368125,Health & Fitness,0.99,12,2.42,2025-09-01,2026-10-25,https://apps.apple.com/us/app/haptic-vibration-timer/id6747902090
@@ -2608,7 +2608,7 @@ appId,name,publisher,publisherId,primaryGenre,price,ratingCount,averageRating,re
 785638228,Layout Photo Collage - Mixgram,Lyam Apps,1192692567,Photo & Video,0,52318,4.72,2014-05-07,2026-10-20,https://apps.apple.com/us/app/layout-photo-collage-mixgram/id785638228
 791324886,toPhonetics Converter,Mu-sonic,791324889,Education,3.99,92,4.4,2014-01-21,2026-06-05,https://apps.apple.com/us/app/tophonetics-converter/id791324886
 791467318,Vargo Anesthesia Mega App,Vargo Anesthesia Inc,441512939,Medical,79.99,177,4.71,2014-01-09,2026-10-30,https://apps.apple.com/us/app/vargo-anesthesia-mega-app/id791467318
-792750948,Peloton: Fitness & Workouts,"Peloton Interactive, Inc.",792750951,Health & Fitness,0,818899,4.92,2014-02-15,2026-10-20,https://apps.apple.com/us/app/peloton-fitness-workouts/id792750948
+792750948,Peloton: Fitness & Workouts,"Peloton Interactive, Inc.",792750951,Health & Fitness,0,818899,4.92,2014-02-15,2026-11-02,https://apps.apple.com/us/app/peloton-fitness-workouts/id792750948
 793232740,Cadrage Director's Viewfinder,Cadrage GmbH,793232743,Photo & Video,19.99,378,4.74,2014-01-19,2026-10-24,https://apps.apple.com/us/app/cadrage-directors-viewfinder/id793232740
 794141485,Amazon Seller,AMZN Mobile LLC,297606954,Business,0,109446,4.55,2014-03-03,2026-10-27,https://apps.apple.com/us/app/amazon-seller/id794141485
 794921622,Barcode Check,Stefan Arnhold,432185706,Business,19.99,7,3.86,2014-01-16,2025-03-26,https://apps.apple.com/us/app/barcode-check/id794921622
