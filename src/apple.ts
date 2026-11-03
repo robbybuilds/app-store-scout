@@ -1,5 +1,6 @@
 // Apple's public, keyless endpoints:
 // - Legacy iTunes RSS charts (the only free feed with top-grossing and per-genre charts, 100 apps max)
+// - Legacy iTunes RSS new releases: the ~110 most recent free and paid apps (ignores genre filters)
 // - iTunes Lookup API for ratings, release dates and publisher details (up to 200 ids per call)
 
 import type { Chart } from "./config.ts";
@@ -98,6 +99,23 @@ export function parseChart(json: unknown): ChartResult {
 
 export async function fetchChart(country: string, chart: Chart, genreId: number): Promise<ChartResult> {
   return parseChart(await fetchJson(chartUrl(country, chart, genreId)));
+}
+
+export type NewFeed = "new-free" | "new-paid";
+export const NEW_FEEDS: NewFeed[] = ["new-free", "new-paid"];
+
+const NEW_FEED_NAMES: Record<NewFeed, string> = {
+  "new-free": "newfreeapplications",
+  "new-paid": "newpaidapplications",
+};
+
+export function newAppsUrl(country: string, feed: NewFeed): string {
+  return `https://itunes.apple.com/${country}/rss/${NEW_FEED_NAMES[feed]}/limit=100/json`;
+}
+
+/** Apple's newest releases. Same format as a chart, but the order is newness, not popularity. */
+export async function fetchNewApps(country: string, feed: NewFeed): Promise<ChartResult> {
+  return parseChart(await fetchJson(newAppsUrl(country, feed)));
 }
 
 interface RawLookup {

@@ -2,24 +2,28 @@
 import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parseArgs } from "node:util";
-import { fetchChart, lookupApps, sleep } from "./apple.ts";
+import { fetchChart, fetchNewApps, lookupApps, NEW_FEEDS, sleep } from "./apple.ts";
 import { genreName, loadConfig } from "./config.ts";
-import { fetchPrices, isStale as pricesStale } from "./prices.ts";
+import { fetchPage, mergeVersions } from "./pages.ts";
+import { isStale as pricesStale } from "./prices.ts";
 import { fetchPublisher, looksLikeIndividual, isStale as publisherStale } from "./publishers.ts";
 import { buildReport } from "./report.ts";
+import { buildSite } from "./site.ts";
 import { fetchNewReviews, isCritical } from "./reviews.ts";
 import { type SearchRow, type SearchSummary, searchApps, summariseSearch, topResults } from "./search.ts";
 import { computeSignals, researchTargets } from "./signals.ts";
 import { DailyLimitReached, fetchVolume, isStale } from "./volume.ts";
-import { type ChartRow, Store } from "./store.ts";
+import { type ChartRow, type NewAppRow, Store } from "./store.ts";
 
 const HELP = `app-store-scout: free App Store research from Apple's public feeds
 
 Usage:
   app-store-scout scan   [--country us]               Save today's charts and ratings, then research
-  app-store-scout research [--country us]             Only search the top niches and read reviews
+                                                      (research only runs in research.countries)
+  app-store-scout research [--country us]             Only search the top niches, read reviews and prices
   app-store-scout report [--country us] [--archive]   Write reports/<country>/latest.md
   app-store-scout app <app-id> [--country us]         Show one app's chart and ratings history
+  app-store-scout site [--url <url>] [--out public]   Build the website from the saved data
 
 Options:
   --config <path>   Config file (default: scout.config.json)
@@ -33,6 +37,9 @@ const { values, positionals } = parseArgs({
     config: { type: "string", default: "scout.config.json" },
     data: { type: "string", default: "data" },
     archive: { type: "boolean", default: false },
+    url: { type: "string" },
+    repo: { type: "string" },
+    out: { type: "string", default: "public" },
     help: { type: "boolean", short: "h", default: false },
   },
 });
@@ -42,6 +49,7 @@ const config = loadConfig(values.config);
 const store = new Store(values.data);
 const countries = values.country ? [values.country.toLowerCase()] : config.countries;
 const today = new Date().toISOString().slice(0, 10);
+const researched = (country: string) => config.research.countries.includes(country);
 
 async function scan(country: string): Promise<void> {
   const rows: ChartRow[] = [];
@@ -65,8 +73,27 @@ async function scan(country: string): Promise<void> {
   }
   if (!rows.length) throw new Error(`Every chart failed for ${country}; nothing saved.`);
 
-  const ids = [...new Set(rows.map((r) => r.app_id))];
-  console.log(`  looking up ${ids.length} apps...`);
+  // Apple's newest releases, followed for a while so we can see which ones take off.
+  let followed: string[] = [];
+  if (researched(country) && config.research.newApps) {
+    const fresh: NewAppRow[] = [];
+    for (const feed of NEW_FEEDS) {
+      try {
+        const result = await fetchNewApps(country, feed);
+        for (const e of result.entries) fresh.push({ feed, position: e.rank, app_id: e.appId });
+        console.log(`  ${country} ${feed}: ${result.entries.length} apps`);
+      } catch (error) {
+        console.error(`  ${country} ${feed}: failed (${(error as Error).message})`);
+      }
+      await sleep(300);
+    }
+    if (fresh.length) store.writeNewApps(country, today, fresh);
+    const since = new Date(Date.parse(today) - config.research.trackNewAppsDays * 86_400_000).toISOString().slice(0, 10);
+    followed = [...store.newAppsSince(country, since).keys()];
+  }
+
+  const ids = [...new Set([...rows.map((r) => r.app_id), ...followed])];
+  console.log(`  looking up ${ids.length} apps${followed.length ? ` (${followed.length} new releases followed)` : ""}...`);
   const apps = await lookupApps(country, ids);
   const charts = config.charts.length * config.genres.length;
   store.writeSnapshot(
@@ -83,13 +110,14 @@ async function scan(country: string): Promise<void> {
     apps,
   );
   console.log(`  saved ${rows.length} chart rows and ${apps.length} apps for ${today}` + (failures ? ` (${failures} charts failed)` : ""));
-  await research(country);
+  if (researched(country)) await research(country);
 }
 
 // Searches the App Store for each top niche and reads the reviews of the apps worth a closer look.
 async function research(country: string): Promise<void> {
   const signals = computeSignals(store.recent(country, 30), store.readApps(country));
   const { niches, appIds } = researchTargets(signals, config);
+  store.writeNiches(country, today, niches.flatMap((n) => n.apps.map((s) => ({ term: n.term, app_id: s.appId }))));
 
   const summaries: SearchSummary[] = [];
   const top: SearchRow[] = [];
@@ -152,20 +180,33 @@ async function research(country: string): Promise<void> {
   }
   store.writePublishers(country, publishers);
 
-  // What each researched app charges, from its App Store page. Weekly.
-  if (config.research.prices) {
+  // What each researched app charges, how it's rated star by star, how often it ships, and
+  // which apps Apple puts next to it. All from one App Store page fetch a week.
+  if (config.research.pages) {
     const prices = store.readPrices(country);
-    for (const appId of appIds.filter((id) => pricesStale(prices.get(id), today))) {
+    const pages = store.readPages(country);
+    const versions = store.readVersions(country);
+    const similar = store.readSimilar(country);
+    for (const appId of appIds.filter((id) => pricesStale(prices.get(id), today) || !pages.has(id))) {
       try {
-        const rows = await fetchPrices(country, appId, today);
-        prices.set(appId, rows);
-        console.log(`  prices ${appId}: ${rows.filter((r) => r.item).length} in-app purchases`);
+        const page = await fetchPage(country, appId, today);
+        prices.set(appId, page.prices);
+        pages.set(appId, page.page);
+        mergeVersions(versions, page.versions);
+        similar.set(appId, page.similar);
+        console.log(
+          `  page ${appId}: ${page.prices.filter((r) => r.item).length} in-app purchases, ` +
+            `${page.versions.length} versions, ${page.similar.length} similar apps`,
+        );
       } catch (error) {
-        console.error(`  prices ${appId}: failed (${(error as Error).message})`);
+        console.error(`  page ${appId}: failed (${(error as Error).message})`);
       }
       await sleep(1000);
     }
     store.writePrices(country, prices);
+    store.writePages(country, pages);
+    store.writeVersions(country, versions);
+    store.writeSimilar(country, similar);
   }
 
   console.log(`  researched ${summaries.length} niches and ${appIds.length} apps (${added} new reviews)`);
@@ -188,12 +229,23 @@ function showApp(country: string, appId: string): void {
   const details = store.readApps(country).get(appId);
   console.log(details ? `${details.name} by ${details.publisher}\n${details.url}\nReleased ${details.releasedAt}, updated ${details.updatedAt}` : appId);
   if (details?.seller) {
-    const person = looksLikeIndividual(details.seller) ? " (looks like an individual developer)" : "";
+    const person = looksLikeIndividual(details.seller, details.name) ? " (looks like an individual developer)" : "";
     const catalogue = store.readPublishers(country).get(details.publisherId);
     console.log(`Seller: ${details.seller}${person}` + (catalogue ? `, ${catalogue.apps} apps in the catalogue` : ""));
   }
   const purchases = (store.readPrices(country).get(appId) ?? []).filter((r) => r.item);
   if (purchases.length) console.log(`In-app purchases: ${purchases.map((r) => `${r.item} ${r.price_text}`).join(", ")}`);
+  const page = store.readPages(country).get(appId);
+  if (page) {
+    const stars = [page.stars_5, page.stars_4, page.stars_3, page.stars_2, page.stars_1];
+    const total = Math.max(1, stars.reduce((a, b) => a + b, 0));
+    console.log(`Ratings by star (5 to 1): ${stars.map((n) => `${Math.round((n / total) * 100)}%`).join(" ")}`);
+    console.log(`Privacy label: ${page.privacy || "none given"}${page.tracking ? ` (tracks: ${page.tracking.replace(/;/g, ", ")})` : ""}`);
+  }
+  const releases = store.readVersions(country).get(appId) ?? [];
+  if (releases.length) console.log(`Releases: ${releases.length} seen, latest ${releases[0].version} on ${releases[0].date}`);
+  const similar = store.readSimilar(country).get(appId) ?? [];
+  if (similar.length) console.log(`Apple also suggests: ${similar.map((r) => r.name).join(", ")}`);
   for (const snap of store.recent(country, 90)) {
     const positions = snap.charts
       .filter((r) => r.app_id === appId)
@@ -208,9 +260,21 @@ function showApp(country: string, appId: string): void {
   }
 }
 
+// The GitHub Pages site. In Actions the workflow passes the Pages URL; locally it guesses from the repo.
+function site(): void {
+  const repo = values.repo ?? process.env.GITHUB_REPOSITORY ?? "robbybuilds/app-store-scout";
+  const [owner, name] = repo.split("/");
+  const url = values.url ?? process.env.SITE_URL ?? `https://${owner.toLowerCase()}.github.io/${name}`;
+  const { pages } = buildSite(store, config, { url, repo, out: values.out!, assets: join(dirname(import.meta.dirname), "web") });
+  console.log(`  wrote ${pages} pages to ${values.out}/ for ${url}`);
+}
+
 async function main(): Promise<void> {
   if (values.help || !command) return void console.log(HELP);
-  for (const country of countries) {
+  if (command === "site") return site();
+  // Research only makes sense where it's configured, unless a country is asked for by name.
+  const targets = command === "research" && !values.country ? config.research.countries : countries;
+  for (const country of targets) {
     console.log(`${command} ${country}`);
     if (command === "scan") await scan(country);
     else if (command === "research") await research(country);

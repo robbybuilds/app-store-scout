@@ -132,7 +132,52 @@ export function newAndPaying(signals: AppSignal[], config: Config): AppSignal[] 
 
 /** On a grossing chart and sold under a person's own name: very likely one developer. */
 export function soloAndPaying(signals: AppSignal[]): AppSignal[] {
-  return signals.filter((s) => s.grossing && looksLikeIndividual(s.details?.seller ?? "")).sort(byGrossingRank);
+  return signals.filter((s) => s.grossing && looksLikeIndividual(s.details?.seller ?? "", s.details?.name)).sort(byGrossingRank);
+}
+
+/**
+ * On a grossing chart but not updated in `minDays`: still earning on an app its developer may have
+ * stopped working on. Reviews usually say what's broken, and that's the opening.
+ */
+export function neglectedEarners(signals: AppSignal[], today: string, minDays = 365): AppSignal[] {
+  return signals
+    .filter((s) => s.grossing && s.details?.updatedAt && daysBetween(s.details.updatedAt.slice(0, 10), today) >= minDays)
+    .sort(byGrossingRank);
+}
+
+/**
+ * Apps from Apple's new-releases feeds that are gaining ratings fastest for their age.
+ * Includes ones that have since reached a chart, so their chart position shows too.
+ */
+export function freshLaunches(
+  signals: AppSignal[],
+  followed: Map<string, string>,
+  snapshot: Snapshot,
+  apps: Map<string, AppDetails>,
+  minRatings = 10,
+): AppSignal[] {
+  const onChart = new Map(signals.map((s) => [s.appId, s]));
+  const perDay = (s: AppSignal) => s.ratingCount! / Math.max(1, s.ageDays!);
+  return [...followed.keys()]
+    .map((appId): AppSignal => {
+      const charted = onChart.get(appId);
+      if (charted) return charted;
+      const details = apps.get(appId);
+      return {
+        appId,
+        details,
+        grossing: null,
+        best: null,
+        grossingRankChange7: null,
+        daysOnChart: 0,
+        windowDays: 0,
+        ratingCount: snapshot.ratings.get(appId)?.rating_count ?? details?.ratingCount ?? null,
+        ratingDelta7: null,
+        ageDays: details?.releasedAt ? Math.max(0, daysBetween(details.releasedAt, snapshot.date)) : null,
+      };
+    })
+    .filter((s) => s.ratingCount !== null && s.ratingCount >= minRatings && s.ageDays !== null)
+    .sort((a, b) => perDay(b) - perDay(a));
 }
 
 /** Biggest gains on the same grossing chart over a week. */
@@ -201,7 +246,7 @@ const STOPWORDS = new Set(
 
 // Words that only mean something as part of a phrase ("video generator", not "video").
 const TOO_VAGUE_ALONE = new Set(
-  ("video photo text tracker track monitor assistant learn scanner scan maker editor manager generator " +
+  ("video photo text tracker track monitor assistant learn scanner scan maker editor manager generator storie " +
     "note chat health tool money planner keeper finder reader player remote widget " +
     "food drink guide document baby kid care home life family business finance medical photo").split(" "),
 );
@@ -230,11 +275,23 @@ export function nameTerms(name: string): string[] {
  * Niches where several different publishers' new or small apps are all earning:
  * apps on a grossing chart that share a phrase in their names.
  */
+/**
+ * Words from the tracked genres' names ("game", "puzzle", "weather", "news"). On their own they
+ * just name a category, so they'd swallow every app in it; inside a phrase ("word game") they're fine.
+ */
+export function genreWords(config: Config): Set<string> {
+  return new Set(
+    config.genres.flatMap((g) => g.name.toLowerCase().split(/[^\p{L}\p{N}]+/u).filter((w) => w.length > 2).map(stem)),
+  );
+}
+
 export function nicheClusters(signals: AppSignal[], config: Config, minPublishers = 3): Cluster[] {
   const candidates = signals.filter((s) => s.grossing && s.details && (isNew(s, config) || isSmall(s, config)));
+  const categoryWords = genreWords(config);
   const byTerm = new Map<string, AppSignal[]>();
   for (const s of candidates) {
     for (const term of nameTerms(s.details!.name)) {
+      if (!term.includes(" ") && categoryWords.has(term)) continue;
       const list = byTerm.get(term) ?? [];
       list.push(s);
       byTerm.set(term, list);

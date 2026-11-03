@@ -30,9 +30,16 @@ test("looksLikeIndividual spots a person's name and rejects company names", () =
     "Appercut Sp. z o.o.", "Frameo A/S", "Telegram FZ-LLC", "INNOVATIVE CONNECTING PTE.LIMITED", "PT SANDI DAYA GUNA",
     "Rocket Money", "Simon & Schuster", "CBS Mobile", "LG Electronics", "Citibank, N.A.", "Khan Academy",
     "Internal Revenue Service", "Core of the Heart", "Logical Images", "Sesame Workshop (Apps)",
+    "HUNGRYBIRD YAZILIM ANONIM SIRKETI", "YARD VENTURE, UAB", "Cloudbit d.o.o.", "Big Blue Bubble", "Monkey Taps",
+    "playus soft", "Discovery Communications",
   ]) {
     assert.ok(!looksLikeIndividual(name), name);
   }
+  // A seller whose name is in the app's own title is a brand.
+  assert.ok(!looksLikeIndividual("Ultimate Guitar", "Ultimate Guitar: Chords & Tabs"));
+  assert.ok(!looksLikeIndividual("Consumer Reports", "Consumer Reports"));
+  assert.ok(looksLikeIndividual("Anete Ziedina", "Potto - meal planner"));
+  assert.ok(looksLikeIndividual("John White"));
 });
 
 test("parseCatalogue counts a publisher's apps and ratings, ignoring other publishers", () => {
