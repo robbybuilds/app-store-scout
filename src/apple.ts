@@ -23,12 +23,17 @@ export interface AppDetails {
   name: string;
   publisher: string;
   publisherId: string;
+  /** The legal seller on the App Store page: a company, or the developer's own name. */
+  seller: string;
   primaryGenre: string;
   price: number;
   ratingCount: number;
   averageRating: number;
   releasedAt: string;
   updatedAt: string;
+  version: string;
+  /** How many languages the listing says the app supports. */
+  languages: number;
   url: string;
 }
 
@@ -46,6 +51,10 @@ export function chartUrl(country: string, chart: Chart, genreId: number, limit =
 }
 
 export async function fetchJson(url: string, attempts = 3): Promise<unknown> {
+  return JSON.parse(await fetchText(url, attempts));
+}
+
+export async function fetchText(url: string, attempts = 3): Promise<string> {
   let lastError: unknown;
   for (let attempt = 1; attempt <= attempts; attempt++) {
     try {
@@ -54,7 +63,7 @@ export async function fetchJson(url: string, attempts = 3): Promise<unknown> {
         signal: AbortSignal.timeout(30_000),
       });
       if (!res.ok) throw new Error(`HTTP ${res.status} for ${url}`);
-      return await res.json();
+      return await res.text();
     } catch (error) {
       lastError = error;
       if (attempt < attempts) await sleep(1000 * 2 ** attempt);
@@ -96,12 +105,15 @@ interface RawLookup {
   trackName: string;
   artistName: string;
   artistId: number;
+  sellerName?: string;
   primaryGenreName: string;
   price?: number;
   userRatingCount?: number;
   averageUserRating?: number;
   releaseDate: string;
   currentVersionReleaseDate?: string;
+  version?: string;
+  languageCodesISO2A?: string[];
   trackViewUrl: string;
 }
 
@@ -114,12 +126,15 @@ export function parseLookup(json: unknown): AppDetails[] {
       name: r.trackName,
       publisher: r.artistName,
       publisherId: String(r.artistId),
+      seller: r.sellerName ?? r.artistName,
       primaryGenre: r.primaryGenreName,
       price: r.price ?? 0,
       ratingCount: r.userRatingCount ?? 0,
       averageRating: Math.round((r.averageUserRating ?? 0) * 100) / 100,
       releasedAt: r.releaseDate?.slice(0, 10) ?? "",
       updatedAt: r.currentVersionReleaseDate?.slice(0, 10) ?? "",
+      version: r.version ?? "",
+      languages: r.languageCodesISO2A?.length ?? 0,
       url: r.trackViewUrl?.split("?")[0] ?? "",
     }));
 }

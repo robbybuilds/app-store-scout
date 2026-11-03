@@ -8,8 +8,11 @@ import {
   ratingsMomentum,
   researchTargets,
   smallAndPaying,
+  soloAndPaying,
   stayingPower,
 } from "./signals.ts";
+import { formatPrice, type PeriodSummary, pricingSummary } from "./prices.ts";
+import { CATALOGUE_LIMIT, looksLikeIndividual, type Publisher } from "./publishers.ts";
 import { complaintThemes, isCritical, type Review } from "./reviews.ts";
 import { ESTABLISHED_RATINGS, SEARCH_LIMIT } from "./search.ts";
 import { parseSimilar } from "./volume.ts";
@@ -42,6 +45,24 @@ function table(config: Config, rows: AppSignal[], extra: { title: string; value:
   return lines.join("\n") + "\n";
 }
 
+const PERIOD_LABELS: Record<string, string> = {
+  weekly: "Weekly",
+  monthly: "Monthly",
+  yearly: "Yearly",
+  lifetime: "Lifetime",
+};
+
+function periodText(p: PeriodSummary): string {
+  const range = p.min === p.max ? "" : `, ${formatPrice(p.sample, p.min)} to ${formatPrice(p.sample, p.max)}`;
+  return `${PERIOD_LABELS[p.period]} ${formatPrice(p.sample, p.median)} (${p.apps} app${p.apps === 1 ? "" : "s"}${range})`;
+}
+
+/** "3 apps" or "200+ apps" for a publisher's catalogue. */
+function catalogueSize(p: Publisher | undefined): string {
+  if (!p) return "?";
+  return p.apps >= CATALOGUE_LIMIT ? `${CATALOGUE_LIMIT}+` : String(p.apps);
+}
+
 const stars = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
 const pct = (share: number) => `${Math.round(share * 100)}%`;
 
@@ -49,6 +70,8 @@ const pct = (share: number) => `${Math.round(share * 100)}%`;
 function nicheDetails(store: Store, config: Config, country: string, clusters: ReturnType<typeof researchTargets>["niches"]): string[] {
   const searches = store.readSearch(country);
   const volumes = store.readVolumes(country);
+  const prices = store.readPrices(country);
+  const publishers = store.readPublishers(country);
   const out: string[] = [];
   out.push("## Inside each niche\n");
   out.push(
@@ -85,6 +108,31 @@ function nicheDetails(store: Store, config: Config, country: string, clusters: R
         `**Google searches:** "${cell(volume.keyword)}" gets about ${num(volume.volume)} a month in ${country.toUpperCase()}${cpc}` +
           (related.length ? `. Related: ${related.join(" · ")}` : "") +
           ` ([seodata.dev](https://www.seodata.dev), ${volume.checked_at}).\n`,
+      );
+    }
+
+    const pricing = pricingSummary(c.apps.map((s) => prices.get(s.appId) ?? []));
+    if (pricing.checked) {
+      // "Premium", tip jars and credit packs don't say how long they last, so they get a count, not a price.
+      const named = pricing.periods.filter((p) => p.period !== "other");
+      const other = pricing.periods.find((p) => p.period === "other");
+      out.push(
+        `**Pricing:** ${pricing.selling} of ${pricing.checked} apps list in-app purchases on their App Store page.` +
+          (named.length ? ` Median price per app: ${named.map(periodText).join(" · ")}.` : "") +
+          (other ? ` ${other.apps} app${other.apps === 1 ? " sells" : "s sell"} purchases whose names don't say the plan length.` : "") +
+          "\n",
+      );
+    }
+
+    const known = c.apps.filter((s) => s.details?.seller);
+    if (known.length) {
+      const individuals = known.filter((s) => looksLikeIndividual(s.details!.seller)).length;
+      const catalogues = c.apps.map((s) => publishers.get(s.details?.publisherId ?? "")).filter((p): p is Publisher => !!p);
+      const oneApp = catalogues.filter((p) => p.apps === 1).length;
+      out.push(
+        `**Who makes them:** ${individuals} of ${known.length} apps are sold under a person's own name (likely solo developers)` +
+          (catalogues.length ? `, and ${oneApp} of ${catalogues.length} publishers have no other app` : "") +
+          ".\n",
       );
     }
 
@@ -171,6 +219,19 @@ export function buildReport(store: Store, config: Config, country: string): stri
     );
   }
   out.push("");
+
+  out.push("## Solo developers earning\n");
+  out.push(
+    "On a top-grossing chart and sold under a person's own name rather than a company's. Apple shows an individual " +
+      "developer's legal name as the seller, so these are very likely one person. It's a guess from the name.\n",
+  );
+  const publishers = store.readPublishers(country);
+  out.push(
+    table(config, soloAndPaying(signals), {
+      title: "Their apps",
+      value: (s) => catalogueSize(publishers.get(s.details?.publisherId ?? "")),
+    }),
+  );
 
   out.push("## Small and paying\n");
   out.push(`On a top-grossing chart with fewer than ${num(small)} ratings: earning without a huge audience.\n`);

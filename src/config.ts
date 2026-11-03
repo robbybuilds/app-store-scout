@@ -26,6 +26,8 @@ export interface Config {
     reviewPages: number;
     /** Look up monthly Google searches for each niche on seodata.dev (free, a third-party service). */
     searchVolume: boolean;
+    /** Read in-app purchase prices from researched apps' App Store pages (undocumented, weekly). */
+    prices: boolean;
   };
 }
 
@@ -34,7 +36,7 @@ export const CHARTS: Chart[] = ["top-free", "top-paid", "top-grossing"];
 export function loadConfig(path = "scout.config.json"): Config {
   const config = JSON.parse(readFileSync(path, "utf8")) as Config;
   // Configs from before research existed still work.
-  config.research = { niches: 10, reviewPages: 10, searchVolume: true, ...(config.research as Partial<Config["research"]> | undefined) };
+  config.research = { niches: 10, reviewPages: 10, searchVolume: true, prices: true, ...(config.research as Partial<Config["research"]> | undefined) };
   for (const chart of config.charts) {
     if (!CHARTS.includes(chart)) throw new Error(`Unknown chart "${chart}" in ${path}`);
   }

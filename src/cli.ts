@@ -4,6 +4,8 @@ import { dirname, join } from "node:path";
 import { parseArgs } from "node:util";
 import { fetchChart, lookupApps, sleep } from "./apple.ts";
 import { genreName, loadConfig } from "./config.ts";
+import { fetchPrices, isStale as pricesStale } from "./prices.ts";
+import { fetchPublisher, looksLikeIndividual, isStale as publisherStale } from "./publishers.ts";
 import { buildReport } from "./report.ts";
 import { fetchNewReviews, isCritical } from "./reviews.ts";
 import { type SearchRow, type SearchSummary, searchApps, summariseSearch, topResults } from "./search.ts";
@@ -134,6 +136,38 @@ async function research(country: string): Promise<void> {
     }
     await sleep(300);
   }
+  // Who makes each researched app: how many other apps its publisher has. Monthly.
+  const apps = store.readApps(country);
+  const publishers = store.readPublishers(country);
+  const publisherIds = [...new Set(appIds.map((id) => apps.get(id)?.publisherId).filter((id): id is string => !!id))];
+  for (const id of publisherIds.filter((id) => publisherStale(publishers.get(id), today))) {
+    try {
+      const p = await fetchPublisher(country, id, today);
+      publishers.set(id, p);
+      console.log(`  publisher ${p.publisher || id}: ${p.apps} apps`);
+    } catch (error) {
+      console.error(`  publisher ${id}: failed (${(error as Error).message})`);
+    }
+    await sleep(300);
+  }
+  store.writePublishers(country, publishers);
+
+  // What each researched app charges, from its App Store page. Weekly.
+  if (config.research.prices) {
+    const prices = store.readPrices(country);
+    for (const appId of appIds.filter((id) => pricesStale(prices.get(id), today))) {
+      try {
+        const rows = await fetchPrices(country, appId, today);
+        prices.set(appId, rows);
+        console.log(`  prices ${appId}: ${rows.filter((r) => r.item).length} in-app purchases`);
+      } catch (error) {
+        console.error(`  prices ${appId}: failed (${(error as Error).message})`);
+      }
+      await sleep(1000);
+    }
+    store.writePrices(country, prices);
+  }
+
   console.log(`  researched ${summaries.length} niches and ${appIds.length} apps (${added} new reviews)`);
 }
 
@@ -153,6 +187,13 @@ function report(country: string): void {
 function showApp(country: string, appId: string): void {
   const details = store.readApps(country).get(appId);
   console.log(details ? `${details.name} by ${details.publisher}\n${details.url}\nReleased ${details.releasedAt}, updated ${details.updatedAt}` : appId);
+  if (details?.seller) {
+    const person = looksLikeIndividual(details.seller) ? " (looks like an individual developer)" : "";
+    const catalogue = store.readPublishers(country).get(details.publisherId);
+    console.log(`Seller: ${details.seller}${person}` + (catalogue ? `, ${catalogue.apps} apps in the catalogue` : ""));
+  }
+  const purchases = (store.readPrices(country).get(appId) ?? []).filter((r) => r.item);
+  if (purchases.length) console.log(`In-app purchases: ${purchases.map((r) => `${r.item} ${r.price_text}`).join(", ")}`);
   for (const snap of store.recent(country, 90)) {
     const positions = snap.charts
       .filter((r) => r.app_id === appId)
