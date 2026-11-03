@@ -352,8 +352,8 @@ ${common && common[1] > 1 ? `<p class="fact">In ${num(common[1])} of them, unhap
   const figures = `<section class="section section--s pear torn" style="--tear: ${tear(23, 9, 48)}" aria-labelledby="figures-title"><div class="container">
 <div class="head"><h2 id="figures-title">Every App Store top 100, every morning</h2></div>
 <dl class="figures">
-<div><dt>categories</dt><dd>${config.genres.length}</dd></div>
-<div><dt>countries</dt><dd>${config.countries.length}</dd></div>
+<div><dt>categories</dt><dd>${new Set(scans.charts.map((r) => r.genre_id)).size}</dd></div>
+<div><dt>${all.length === 1 ? "country" : "countries"}</dt><dd>${all.length}</dd></div>
 <div><dt>charts each</dt><dd>${config.charts.length}</dd></div>
 <div><dt>${shortName(d.country)} apps today</dt><dd>${num(appsToday)}</dd></div>
 </dl>
@@ -374,8 +374,9 @@ ${common && common[1] > 1 ? `<p class="fact">In ${num(common[1])} of them, unhap
 <p><a class="link" href="${href(ctx, `/countries/${c.country}/`)}">Open the ${esc(shortName(c.country))} page</a></p></div></div>`;
     })
     .join("");
-  const countries = `<section class="section" aria-labelledby="countries-title"><div class="container">
-<div class="head"><h2 id="countries-title">${others.length === 7 ? "Seven" : num(others.length)} more App Stores</h2><p class="lead">The same scan in each country. Pick one.</p></div>
+  // Shown once a second country has data; a fresh fork or a one-country config skips it.
+  const countries = !others.length ? "" : `<section class="section" aria-labelledby="countries-title"><div class="container">
+<div class="head"><h2 id="countries-title">${["One", "Two", "Three", "Four", "Five", "Six", "Seven", "Eight", "Nine"][others.length - 1] ?? num(others.length)} more App Store${others.length === 1 ? "" : "s"}</h2><p class="lead">The same scan in each country. Pick one.</p></div>
 <fieldset class="seg" data-switch="country"><legend>Country</legend>${pills}</fieldset>
 <div class="panels">${panels}</div>
 </div></section>`;
