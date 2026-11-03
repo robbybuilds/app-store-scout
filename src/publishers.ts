@@ -22,7 +22,7 @@ export const RECHECK_DAYS = 30;
 const LEGAL = new Set(
   ("inc incorporated llc ltd limited co corp corporation company gmbh ug ag ab as a/s asa aps oy oyj se sa sas sarl " +
     "srl spa sl slu sro bv bvba nv pty pte plc llp lp pllc pc kk ooo oao zao fzco fze fzllc ou oü og kg gbr ohg " +
-    "lda ltda bhd sdn pt tbk cc mfg pbc sp oo trust").split(" "),
+    "lda ltda bhd sdn pt tbk cc mfg pbc sp oo trust anonim sirketi şirketi uab doo sia kft zrt spol").split(" "),
 );
 
 // Words in the names of organisations and brands, rarely in a person's.
@@ -33,21 +33,39 @@ const ORGANISATION = new Set(
     "images institute instruments insurance interactive international investments labs learning markets media " +
     "medical mobile money motor motors mutual national network office organization pharmacy publishing school " +
     "service services shop society software solutions state states storage studio studios systems tech technologies " +
-    "technology university united ventures wireless workshop").split(" "),
+    "technology university united ventures wireless workshop communications reports soft yazilim teknoloji").split(" "),
 );
 
 // "Core of the Heart" and "Simon & Schuster" are names of things, not people.
 // ("de", "van" and "dall'" stay allowed: they're common in people's names.)
 const LINKING = new Set("of the and a an for so by to at in on with &".split(" "));
 
+// Everyday words. A name made only of these ("Big Blue Bubble", "Monkey Taps") is a brand;
+// a person's name has at least one word that isn't on the list ("John White").
+const EVERYDAY = new Set(
+  ("big little small tiny huge great good best happy lucky smart bright clever ultimate super mega hyper " +
+    "blue red green yellow orange purple pink black white gray grey golden silver dark light " +
+    "bubble bubbles monkey monkeys taps tap pixel pixels cloud clouds star stars moon sun sky rain snow fire ice " +
+    "rocket robot ninja panda bear bears fox wolf tiger lion cat cats dog dogs bird birds bee bees owl fish " +
+    "apple apples cherry berry lemon mango peach banana cookie candy sugar honey " +
+    "guitar piano music sound sounds game play fun joy dream dreams magic wonder idea ideas spark " +
+    "consumer reports news daily weekly true real simple quick fast easy clean fresh pure free open " +
+    "hello hey yes stack loop code coder bits bytes byte box boxes house home farm garden tree trees " +
+    "north south east west island ocean river mountain stone rock gold diamond crown king queen").split(" "),
+);
+
 /**
  * Apple sells an individual developer's apps under their own legal name, and a company's
  * under the company's. So a seller with two to four words, no digits, no legal form and no
  * organisation words is very likely one person. It's a guess from the name, so the report says "likely".
  */
-export function looksLikeIndividual(seller: string): boolean {
+export function looksLikeIndividual(seller: string, appName = ""): boolean {
   const name = seller.trim();
   if (!name || /\d/.test(name) || /\bn\.a\.?$/i.test(name)) return false;
+  // A brand names its app after itself ("Ultimate Guitar: Chords & Tabs"); people rarely do.
+  if (appName && appName.toLowerCase().includes(name.toLowerCase())) return false;
+  // People capitalise their names; "playus soft" is a brand.
+  if (/^[\p{Ll}\s.,'’-]+$/u.test(name) && /[a-z]/.test(name)) return false;
   const words = name.split(/[\s,]+/).filter(Boolean);
   if (words.length < 2 || words.length > 4) return false;
   const pieces = words.flatMap((w) => {
@@ -55,6 +73,7 @@ export function looksLikeIndividual(seller: string): boolean {
     return [lower, lower.replace(/[.'’]/g, ""), ...lower.split(/[.-]/)];
   });
   if (pieces.some((w) => LEGAL.has(w) || ORGANISATION.has(w) || LINKING.has(w))) return false;
+  if (words.every((w) => EVERYDAY.has(w.toLowerCase()))) return false;
   // An acronym next to ordinary words, like "CBS Mobile" or "LG Electronics". A name written
   // all in capitals ("HONGBO WANG") is fine.
   const acronym = (w: string) => /^\p{Lu}{2,4}$/u.test(w);

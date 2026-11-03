@@ -8,6 +8,7 @@ import { fetchPage, mergeVersions } from "./pages.ts";
 import { isStale as pricesStale } from "./prices.ts";
 import { fetchPublisher, looksLikeIndividual, isStale as publisherStale } from "./publishers.ts";
 import { buildReport } from "./report.ts";
+import { buildSite } from "./site.ts";
 import { fetchNewReviews, isCritical } from "./reviews.ts";
 import { type SearchRow, type SearchSummary, searchApps, summariseSearch, topResults } from "./search.ts";
 import { computeSignals, researchTargets } from "./signals.ts";
@@ -22,6 +23,7 @@ Usage:
   app-store-scout research [--country us]             Only search the top niches, read reviews and prices
   app-store-scout report [--country us] [--archive]   Write reports/<country>/latest.md
   app-store-scout app <app-id> [--country us]         Show one app's chart and ratings history
+  app-store-scout site [--url <url>] [--out public]   Build the website from the saved data
 
 Options:
   --config <path>   Config file (default: scout.config.json)
@@ -35,6 +37,9 @@ const { values, positionals } = parseArgs({
     config: { type: "string", default: "scout.config.json" },
     data: { type: "string", default: "data" },
     archive: { type: "boolean", default: false },
+    url: { type: "string" },
+    repo: { type: "string" },
+    out: { type: "string", default: "public" },
     help: { type: "boolean", short: "h", default: false },
   },
 });
@@ -112,6 +117,7 @@ async function scan(country: string): Promise<void> {
 async function research(country: string): Promise<void> {
   const signals = computeSignals(store.recent(country, 30), store.readApps(country));
   const { niches, appIds } = researchTargets(signals, config);
+  store.writeNiches(country, today, niches.flatMap((n) => n.apps.map((s) => ({ term: n.term, app_id: s.appId }))));
 
   const summaries: SearchSummary[] = [];
   const top: SearchRow[] = [];
@@ -223,7 +229,7 @@ function showApp(country: string, appId: string): void {
   const details = store.readApps(country).get(appId);
   console.log(details ? `${details.name} by ${details.publisher}\n${details.url}\nReleased ${details.releasedAt}, updated ${details.updatedAt}` : appId);
   if (details?.seller) {
-    const person = looksLikeIndividual(details.seller) ? " (looks like an individual developer)" : "";
+    const person = looksLikeIndividual(details.seller, details.name) ? " (looks like an individual developer)" : "";
     const catalogue = store.readPublishers(country).get(details.publisherId);
     console.log(`Seller: ${details.seller}${person}` + (catalogue ? `, ${catalogue.apps} apps in the catalogue` : ""));
   }
@@ -254,8 +260,18 @@ function showApp(country: string, appId: string): void {
   }
 }
 
+// The GitHub Pages site. In Actions the workflow passes the Pages URL; locally it guesses from the repo.
+function site(): void {
+  const repo = values.repo ?? process.env.GITHUB_REPOSITORY ?? "robbybuilds/app-store-scout";
+  const [owner, name] = repo.split("/");
+  const url = values.url ?? process.env.SITE_URL ?? `https://${owner.toLowerCase()}.github.io/${name}`;
+  const { pages } = buildSite(store, config, { url, repo, out: values.out!, assets: join(dirname(import.meta.dirname), "web") });
+  console.log(`  wrote ${pages} pages to ${values.out}/ for ${url}`);
+}
+
 async function main(): Promise<void> {
   if (values.help || !command) return void console.log(HELP);
+  if (command === "site") return site();
   // Research only makes sense where it's configured, unless a country is asked for by name.
   const targets = command === "research" && !values.country ? config.research.countries : countries;
   for (const country of targets) {

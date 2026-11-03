@@ -4,7 +4,7 @@
 
 Every day, App Store Scout reads Apple's top-grossing charts and points out niches where several *different* publishers' new or small apps are all earning. Then it searches the App Store for each niche to see how crowded it is, reads those apps' 1, 2 and 3 star reviews to find what customers are unhappy about, checks what they charge, and flags the ones built by a single developer. It's free and open source, and it runs on GitHub Actions in your own fork.
 
-**[See today's niches →](reports/us/latest.md)**
+**[See today's niches on the website](https://robbybuilds.github.io/app-store-scout/)** or [read the Markdown report](reports/us/latest.md).
 
 ![App Store Scout: niches where new and small apps are earning on the US top-grossing charts](docs/assets/social-card.png)
 
@@ -21,6 +21,8 @@ It also read 512 critical reviews of meal planner apps. **63% of them mention pr
 1. Click **Fork** at the top of this page.
 2. In your fork, open the **Actions** tab and click **"I understand my workflows, go ahead and enable them"**.
 3. Open **Actions → Daily scan → Run workflow**.
+
+For your own copy of the website too, open **Settings → Pages** and set **Source** to **GitHub Actions**. The site rebuilds after every scan at `https://<you>.github.io/app-store-scout/`, also for free.
 
 The first run takes a little over an hour, because it reads every app's recent reviews once. Then your fork has its first snapshots and fresh reports, one per country. After that it scans every day at 14:00 UTC and keeps a dated copy of the report every Monday. GitHub runs it for free on public repos.
 
@@ -57,10 +59,15 @@ git clone https://github.com/robbybuilds/app-store-scout
 cd app-store-scout
 npm run scan       # save today's charts and ratings, then search niches and read reviews
 npm run report     # write reports/us/latest.md
+npm run site       # build the website into public/ (open public/index.html through any local server)
 npm run app -- 6777471316   # one app's chart history and its worst reviews
 ```
 
 Add `-- --country gb` to scan or report another country.
+
+## The website
+
+The site is plain HTML that `npm run site` builds from the CSV files: a home page with today's niches, a page for every niche Scout has researched (it keeps the day each was first spotted), a page for every researched app, a page per country, a sitemap and structured data for search engines. It has no dependencies and no tracking. The design follows [Hallmark](https://github.com/Nutlope/hallmark)'s Hum theme. The stylesheets in [`web/`](web/) start with the stamp that records each design decision.
 
 ## Let an AI agent do the legwork
 
@@ -96,6 +103,7 @@ data/us/search.csv               per niche per day: results, established apps, n
 data/us/search/2026-11-02.csv    the top 10 search results for each niche that day
 data/us/volume.csv               monthly Google searches per niche, refreshed every 30 days
 data/us/publishers.csv           how many apps each researched publisher has, refreshed every 30 days
+data/us/niches/2026-11-02.csv    the niches researched that day and the apps in each
 data/us/prices.csv               each researched app's in-app purchases and prices, refreshed weekly
 data/us/pages.csv                its ratings by star, privacy label, age rating, size and Editors' Choice badge, weekly
 data/us/versions.csv             every release seen on those pages: version and date (Apple shows the latest 25)

@@ -4,6 +4,7 @@
 //   data/<country>/apps.csv                latest details for every app ever seen (history is in git); ratings
 //                                          live in ratings/, so this file only changes when an app does
 //   data/<country>/new/YYYY-MM-DD.csv      apps in Apple's new-releases feeds that day (followed for 90 days)
+//   data/<country>/niches/YYYY-MM-DD.csv   the niches researched that day and the apps in each
 //   data/<country>/scans.csv               one line per scan: when it ran and how fresh Apple's feed was
 //   data/<country>/reviews/<app-id>.csv    every review seen for the apps we research, 1 to 3 stars first
 //   data/<country>/search.csv              one line per niche search per day: how crowded the search is
@@ -40,6 +41,21 @@ export interface NewAppRow {
   app_id: string;
 }
 
+export interface NicheRow {
+  term: string;
+  app_id: string;
+}
+
+/** Every niche ever researched in a country, from the daily niche files. */
+export interface NicheHistory {
+  term: string;
+  firstSeen: string;
+  lastSeen: string;
+  daysSeen: number;
+  /** The apps in the niche on the last day it was seen. */
+  appIds: string[];
+}
+
 export interface ScanRow {
   date: string;
   scanned_at: string;
@@ -64,6 +80,7 @@ export interface Snapshot {
 
 const CHART_COLUMNS: (keyof ChartRow)[] = ["chart", "genre_id", "rank", "app_id"];
 const NEW_APP_COLUMNS: (keyof NewAppRow)[] = ["feed", "position", "app_id"];
+const NICHE_COLUMNS: (keyof NicheRow)[] = ["term", "app_id"];
 const SCAN_COLUMNS: (keyof ScanRow)[] = ["date", "scanned_at", "source_updated_at", "charts_ok", "charts_failed", "apps"];
 const RATING_COLUMNS: (keyof RatingRow)[] = ["app_id", "rating_count", "average_rating"];
 const REVIEW_COLUMNS: (keyof Review)[] = ["id", "rating", "version", "date", "title", "body"];
@@ -122,6 +139,32 @@ export class Store {
   writeNewApps(country: string, date: string, rows: NewAppRow[]): void {
     mkdirSync(this.dir(country, "new"), { recursive: true });
     writeFileSync(join(this.dir(country, "new"), `${date}.csv`), toCsv(NEW_APP_COLUMNS, rows));
+  }
+
+  writeNiches(country: string, date: string, rows: NicheRow[]): void {
+    mkdirSync(this.dir(country, "niches"), { recursive: true });
+    writeFileSync(join(this.dir(country, "niches"), `${date}.csv`), toCsv(NICHE_COLUMNS, rows));
+  }
+
+  /** Every niche researched so far, most recently seen first. */
+  nicheHistory(country: string): NicheHistory[] {
+    const dir = this.dir(country, "niches");
+    const out = new Map<string, NicheHistory>();
+    if (!existsSync(dir)) return [];
+    const files = readdirSync(dir).filter((f) => /^\d{4}-\d{2}-\d{2}\.csv$/.test(f)).sort();
+    for (const file of files) {
+      const date = file.slice(0, 10);
+      const byTerm = new Map<string, string[]>();
+      for (const r of parseCsv(readFileSync(join(dir, file), "utf8"))) byTerm.set(r.term, [...(byTerm.get(r.term) ?? []), r.app_id]);
+      for (const [term, appIds] of byTerm) {
+        const h = out.get(term) ?? { term, firstSeen: date, lastSeen: date, daysSeen: 0, appIds };
+        h.lastSeen = date;
+        h.daysSeen++;
+        h.appIds = appIds;
+        out.set(term, h);
+      }
+    }
+    return [...out.values()].sort((a, b) => b.lastSeen.localeCompare(a.lastSeen) || b.daysSeen - a.daysSeen);
   }
 
   /** Apps seen in a new-releases feed on or after `since`, with the first day each was seen. */

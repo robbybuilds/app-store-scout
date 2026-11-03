@@ -199,7 +199,7 @@ function nicheDetails(store: Store, config: Config, country: string, clusters: R
 
     const known = c.apps.filter((s) => s.details?.seller);
     if (known.length) {
-      const individuals = known.filter((s) => looksLikeIndividual(s.details!.seller)).length;
+      const individuals = known.filter((s) => looksLikeIndividual(s.details!.seller, s.details!.name)).length;
       const catalogues = c.apps.map((s) => publishers.get(s.details?.publisherId ?? "")).filter((p): p is Publisher => !!p);
       const oneApp = catalogues.filter((p) => p.apps === 1).length;
       out.push(

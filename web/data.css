@@ -1,0 +1,13 @@
+/* Hallmark · shape: app screen (the reference pages: niches, apps, countries, how it works) · genre: playful · theme: Hum, lent: palette, faces, radius, surfaces · job: read a niche's or an app's record · signature: the app table with Apple's own ranks, prices and star splits beside it
+ * axes: light/rounded-sans/chromatic-yellow · posture: restrained on these pages · contrast: pass · copy: verbatim (app titles, publishers and review titles are quoted exactly as the App Store lists them) · v2.0.0 */
+/* Hallmark · pre-emit critique: P4 H4 E4 S5 R5 V3 · weakest: V, every reference page shares one skeleton on purpose so a visitor learns it once; the home page carries the variety */
+/* Hallmark · dismissed F1 · the straight quotes are inside App Store titles such as "Recipe Keeper - Cook'n", quoted as listed */
+/* Hallmark · answered F25 · on a phone the publisher and examples columns drop; the app name, its rank and the figure stay in view */
+@import url("./style.css");
+
+/* A fixed scale here (1.2), not the home page's fluid display sizes. */
+.doc-head h1 { font-size: var(--text-3xl); max-width: 30ch; }
+.block h2 { font-size: var(--text-xl); }
+.faq { display: grid; gap: var(--space-lg); margin: 0; }
+.faq dt { font-weight: 600; font-size: var(--text-lg); }
+.faq dd { margin: var(--space-2xs) 0 0; max-width: 65ch; color: var(--color-ink-2); }

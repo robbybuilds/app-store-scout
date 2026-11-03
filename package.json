@@ -17,6 +17,7 @@
     "scan": "node src/cli.ts scan",
     "research": "node src/cli.ts research",
     "report": "node src/cli.ts report",
+    "site": "node src/cli.ts site",
     "app": "node src/cli.ts app",
     "test": "node --test test/*.test.ts",
     "typecheck": "tsc --noEmit"

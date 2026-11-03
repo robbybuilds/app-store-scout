@@ -132,7 +132,7 @@ export function newAndPaying(signals: AppSignal[], config: Config): AppSignal[] 
 
 /** On a grossing chart and sold under a person's own name: very likely one developer. */
 export function soloAndPaying(signals: AppSignal[]): AppSignal[] {
-  return signals.filter((s) => s.grossing && looksLikeIndividual(s.details?.seller ?? "")).sort(byGrossingRank);
+  return signals.filter((s) => s.grossing && looksLikeIndividual(s.details?.seller ?? "", s.details?.name)).sort(byGrossingRank);
 }
 
 /**
