@@ -1,13 +1,21 @@
 term,keyword,volume,cpc,competition,similar,checked_at
 anatomy,anatomy app,1900,2.58,0.23,atlas anatomy:2400; anatomy application:1900; app anatomy:1600,2026-11-02
 budget,budget app,90500,8.97,0.15,budget application:90500; budget apps:90500; budgeting app:90500,2026-11-02
+client,client app,320,49.06,0.22,apps for client management:2400; client management software:1600; best app for client management:480,2026-11-03
 dating,dating app,301000,5.85,0.55,app for dating:301000; dating apps:246000; best dating apps:110000,2026-11-02
+drama,drama app,720,2.62,0.27,kdrama app:4400; k-dramas app:2400; dramas app:720,2026-11-03
+flight,flight app,12100,3.37,0.32,plane tracker app:40500; flight tracker app:40500; track flight app:18100,2026-11-03
 food,food app,6600,6.76,0.49,food delivery:201000; delivery food apps:74000; food delivery app:74000,2026-11-02
+forecast,forecast app,480,4.02,0.3,weather app:201000; app weather:201000; weather apps:201000,2026-11-03
 guide,guide app,1300,3.95,0.22,find my guide:1900; guide apps:1300; guides app:1300,2026-11-02
 meal planner,meal planner app,2400,4.52,0.6,apps for meal planning:9900; food planner app:9900; meal planning app:9900,2026-11-02
 medical scribe,medical scribe app,90,10.24,0.53,ai scribing:1900; ai medical scribe:1900; scribe app:1900,2026-11-02
+merge,merge app,1000,28.91,0.01,merge application:1000; merge apps:1000; merge watch:170,2026-11-03
 note taker,note taker app,9900,4.62,0.22,note taking apps:12100; note-taking apps:12100; note taking app:9900,2026-11-02
+novel,novel app,1900,2.76,0.07,all free novel:12100; novel reader app:2400; novels app:1900,2026-11-03
+party,party app,1300,0.15,0.13,partiful:110000; partiful app:2400; third party apps:2400,2026-11-03
 printer,printer app,3600,1.81,0.37,hp smart app:49500; hp printer app:12100; print app:3600,2026-11-02
+read,read app,12100,2.18,0.35,book app:33100; book apps:33100; books app:33100,2026-11-03
 recipe,recipe app,6600,2.24,0.18,recipe apps:5400; recipes app:5400; apps for recipes:5400,2026-11-02
 recipe manager,recipe manager app,140,6.35,0.05,recipe app:6600; recipe apps:5400; recipes app:5400,2026-11-02
 stock,stock app,18100,10.8,0.67,app stocks:60500; stock apps:18100; stocks app:18100,2026-11-02
