@@ -712,11 +712,12 @@ function searchPages(ctx: Ctx, all: CountryData[], main: CountryData): void {
     .map((t) => `<li><a href="${href(ctx, `/search/?q=${encodeURIComponent(t)}`)}">${esc(t)}</a></li>`)
     .join("");
   const body = `<section class="doc-head"><div class="container">${trail.html}<h1>Search today’s charts</h1>
-<p class="lead">${esc(`Every app on ${main.country === "us" ? "the US" : countryName(main.country)} charts today, ${num(main.signals.length)} of them, by name, publisher or category. The summary turns any word into a quick niche check.`)}</p></div></section>
+<p class="lead">${esc(`Every app on ${main.country === "us" ? "the US" : countryName(main.country)} charts today, ${num(main.signals.length)} of them, by name, publisher or category. Type a word, pick a filter, or both. The summary turns any of them into a quick niche check.`)}</p></div></section>
 <section class="block block--table"><div class="container"><div class="body">
 <form id="search" class="search" role="search" action="${href(ctx, "/search/")}" data-base="${ctx.base}" data-small="${config.report.smallAppMaxRatings}" data-new-days="${config.report.newAppMaxAgeDays}" data-today="${main.date}">
 <div class="search-row">
 <label class="field"><span>Search apps</span><input type="search" name="q" autocomplete="off" spellcheck="false" placeholder="language, fasting, budget"></label>
+<label class="field field--select"><span>Category</span><select name="cat"><option value="">Any category</option></select></label>
 <label class="field field--select"><span>Country</span><select name="c">${options}</select></label>
 </div>
 <fieldset class="checks"><legend class="visually-hidden">Only show</legend>
@@ -725,7 +726,7 @@ function searchPages(ctx: Ctx, all: CountryData[], main: CountryData): void {
 <label><input type="checkbox" name="fresh"> Released in the last year</label>
 </fieldset>
 </form>
-<div id="hint"><p>Try one of these:</p><ul class="chips">${examples}</ul></div>
+<div id="hint"><p>Try one of these:</p><ul class="chips">${examples}<li><a href="${href(ctx, "/search/?grossing=1&amp;small=1")}">earning with under ${num(config.report.smallAppMaxRatings)} ratings</a></li></ul></div>
 <p id="status" role="status" aria-live="polite"></p>
 <dl id="summary" class="summary"></dl>
 <div id="results"></div>

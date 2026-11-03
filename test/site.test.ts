@@ -79,7 +79,11 @@ test("buildSite writes the home, niche, app and country pages with a sitemap", (
     assert.deepEqual(index.apps.map((a) => [a[0], a[6], a[9]]), [["1", 1, 1], ["2", 2, 0], ["3", 3, 0]]);
     assert.deepEqual(index.categories, ["Health & Fitness"]);
     assert.ok(existsSync(join(out, "data/search-gb.json")));
-    assert.match(readFileSync(join(out, "search/index.html"), "utf8"), /<option value="us">United States<\/option><option value="gb">/);
+    const search = readFileSync(join(out, "search/index.html"), "utf8");
+    assert.match(search, /<option value="us">United States<\/option><option value="gb">/);
+    // The category list is filled from the index in the browser; filters alone get a starter link.
+    assert.match(search, /<select name="cat"><option value="">Any category<\/option><\/select>/);
+    assert.match(search, /href="\/scout\/search\/\?grossing=1&amp;small=1"/);
 
     const sitemap = readFileSync(join(out, "sitemap.xml"), "utf8");
     assert.equal((sitemap.match(/<loc>/g) ?? []).length, pages);
