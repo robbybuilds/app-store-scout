@@ -4,7 +4,8 @@ import { dirname, join } from "node:path";
 import { parseArgs } from "node:util";
 import { fetchChart, fetchNewApps, lookupApps, NEW_FEEDS, sleep } from "./apple.ts";
 import { genreName, loadConfig } from "./config.ts";
-import { fetchPrices, isStale as pricesStale } from "./prices.ts";
+import { fetchPage, mergeVersions } from "./pages.ts";
+import { isStale as pricesStale } from "./prices.ts";
 import { fetchPublisher, looksLikeIndividual, isStale as publisherStale } from "./publishers.ts";
 import { buildReport } from "./report.ts";
 import { fetchNewReviews, isCritical } from "./reviews.ts";
@@ -173,20 +174,33 @@ async function research(country: string): Promise<void> {
   }
   store.writePublishers(country, publishers);
 
-  // What each researched app charges, from its App Store page. Weekly.
-  if (config.research.prices) {
+  // What each researched app charges, how it's rated star by star, how often it ships, and
+  // which apps Apple puts next to it. All from one App Store page fetch a week.
+  if (config.research.pages) {
     const prices = store.readPrices(country);
-    for (const appId of appIds.filter((id) => pricesStale(prices.get(id), today))) {
+    const pages = store.readPages(country);
+    const versions = store.readVersions(country);
+    const similar = store.readSimilar(country);
+    for (const appId of appIds.filter((id) => pricesStale(prices.get(id), today) || !pages.has(id))) {
       try {
-        const rows = await fetchPrices(country, appId, today);
-        prices.set(appId, rows);
-        console.log(`  prices ${appId}: ${rows.filter((r) => r.item).length} in-app purchases`);
+        const page = await fetchPage(country, appId, today);
+        prices.set(appId, page.prices);
+        pages.set(appId, page.page);
+        mergeVersions(versions, page.versions);
+        similar.set(appId, page.similar);
+        console.log(
+          `  page ${appId}: ${page.prices.filter((r) => r.item).length} in-app purchases, ` +
+            `${page.versions.length} versions, ${page.similar.length} similar apps`,
+        );
       } catch (error) {
-        console.error(`  prices ${appId}: failed (${(error as Error).message})`);
+        console.error(`  page ${appId}: failed (${(error as Error).message})`);
       }
       await sleep(1000);
     }
     store.writePrices(country, prices);
+    store.writePages(country, pages);
+    store.writeVersions(country, versions);
+    store.writeSimilar(country, similar);
   }
 
   console.log(`  researched ${summaries.length} niches and ${appIds.length} apps (${added} new reviews)`);
@@ -215,6 +229,17 @@ function showApp(country: string, appId: string): void {
   }
   const purchases = (store.readPrices(country).get(appId) ?? []).filter((r) => r.item);
   if (purchases.length) console.log(`In-app purchases: ${purchases.map((r) => `${r.item} ${r.price_text}`).join(", ")}`);
+  const page = store.readPages(country).get(appId);
+  if (page) {
+    const stars = [page.stars_5, page.stars_4, page.stars_3, page.stars_2, page.stars_1];
+    const total = Math.max(1, stars.reduce((a, b) => a + b, 0));
+    console.log(`Ratings by star (5 to 1): ${stars.map((n) => `${Math.round((n / total) * 100)}%`).join(" ")}`);
+    console.log(`Privacy label: ${page.privacy || "none given"}${page.tracking ? ` (tracks: ${page.tracking.replace(/;/g, ", ")})` : ""}`);
+  }
+  const releases = store.readVersions(country).get(appId) ?? [];
+  if (releases.length) console.log(`Releases: ${releases.length} seen, latest ${releases[0].version} on ${releases[0].date}`);
+  const similar = store.readSimilar(country).get(appId) ?? [];
+  if (similar.length) console.log(`Apple also suggests: ${similar.map((r) => r.name).join(", ")}`);
   for (const snap of store.recent(country, 90)) {
     const positions = snap.charts
       .filter((r) => r.app_id === appId)

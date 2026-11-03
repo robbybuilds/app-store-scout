@@ -31,8 +31,11 @@ export interface Config {
     reviewPages: number;
     /** Look up monthly Google searches for each niche on seodata.dev (free, a third-party service). */
     searchVolume: boolean;
-    /** Read in-app purchase prices from researched apps' App Store pages (undocumented, weekly). */
-    prices: boolean;
+    /**
+     * Read researched apps' App Store pages weekly (undocumented): in-app purchase prices, star
+     * breakdown, version history, privacy label and the apps Apple suggests alongside.
+     */
+    pages: boolean;
     /** Save Apple's new-releases feeds (about 220 apps a day) and follow those apps' ratings. */
     newApps: boolean;
     /** How long to keep following an app after it shows up in a new-releases feed. */
@@ -44,16 +47,18 @@ export const CHARTS: Chart[] = ["top-free", "top-paid", "top-grossing"];
 
 export function loadConfig(path = "scout.config.json"): Config {
   const config = JSON.parse(readFileSync(path, "utf8")) as Config;
-  // Configs from before research existed still work.
+  // Configs from before research existed still work, and "prices" is the old name for "pages".
+  const research = (config.research ?? {}) as Partial<Config["research"]> & { prices?: boolean };
+  const { prices, ...rest } = research;
   config.research = {
     countries: config.countries.slice(0, 1),
     niches: 10,
     reviewPages: 10,
     searchVolume: true,
-    prices: true,
+    pages: prices ?? true,
     newApps: true,
     trackNewAppsDays: 90,
-    ...(config.research as Partial<Config["research"]> | undefined),
+    ...rest,
   };
   for (const chart of config.charts) {
     if (!CHARTS.includes(chart)) throw new Error(`Unknown chart "${chart}" in ${path}`);

@@ -84,6 +84,12 @@ test("loadConfig researches only the first country when a config doesn't say", (
     writeFileSync(path, JSON.stringify({ ...base, research: { countries: ["us"], newApps: false } }));
     assert.deepEqual(loadConfig(path).research.countries, ["us"]);
     assert.equal(loadConfig(path).research.newApps, false);
+    assert.equal(config.research.pages, true);
+
+    // "prices" is the old name for "pages".
+    writeFileSync(path, JSON.stringify({ ...base, research: { prices: false } }));
+    assert.equal(loadConfig(path).research.pages, false);
+    assert.ok(!("prices" in loadConfig(path).research));
   } finally {
     rmSync(dir, { recursive: true, force: true });
   }

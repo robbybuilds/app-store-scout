@@ -8,6 +8,7 @@ import {
   genreSummaries,
   grossingClimbers,
   nameTerms,
+  neglectedEarners,
   newAndPaying,
   nicheClusters,
   topNiches,
@@ -26,7 +27,7 @@ const config: Config = {
     { id: 6013, name: "Health & Fitness" },
   ],
   report: { smallAppMaxRatings: 5000, newAppMaxAgeDays: 365, listSize: 10 },
-  research: { countries: ["us"], niches: 10, reviewPages: 10, searchVolume: true, prices: true, newApps: true, trackNewAppsDays: 90 },
+  research: { countries: ["us"], niches: 10, reviewPages: 10, searchVolume: true, pages: true, newApps: true, trackNewAppsDays: 90 },
 };
 
 function app(appId: string, ratingCount: number, releasedAt: string): AppDetails {
@@ -184,4 +185,9 @@ test("genre names alone aren't niches, but phrases that contain them are", () =>
   const terms = nicheClusters(computeSignals([charted], list), games).map((c) => c.term);
   assert.ok(terms.includes("word game"), terms.join(", "));
   assert.ok(!terms.includes("game"), terms.join(", "));
+});
+
+test("neglectedEarners lists grossing apps not updated in a year, best rank first", () => {
+  assert.deepEqual(neglectedEarners(signals, "2026-11-02").map((s) => s.appId), ["big", "small-old"]);
+  assert.deepEqual(neglectedEarners(signals, "2026-11-02", 3000).map((s) => s.appId), ["big"]);
 });

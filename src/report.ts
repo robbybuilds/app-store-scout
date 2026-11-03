@@ -4,7 +4,9 @@ import {
   computeSignals,
   freshLaunches,
   genreSummaries,
+  daysBetween,
   grossingClimbers,
+  neglectedEarners,
   newAndPaying,
   ratingsMomentum,
   researchTargets,
@@ -12,6 +14,7 @@ import {
   soloAndPaying,
   stayingPower,
 } from "./signals.ts";
+import { alsoSuggested, lowStarShare, type PageRow, releasesWithin, type SimilarRow, type VersionRow } from "./pages.ts";
 import { formatPrice, type PeriodSummary, pricingSummary } from "./prices.ts";
 import { CATALOGUE_LIMIT, looksLikeIndividual, type Publisher } from "./publishers.ts";
 import { complaintThemes, isCritical, type Review } from "./reviews.ts";
@@ -67,12 +70,81 @@ function catalogueSize(p: Publisher | undefined): string {
 const stars = (n: number) => "★".repeat(n) + "☆".repeat(5 - n);
 const pct = (share: number) => `${Math.round(share * 100)}%`;
 
+const plural = (n: number, word: string) => `${n} ${word}${n === 1 ? "" : "s"}`;
+
+function median(values: number[]): number {
+  const sorted = [...values].sort((a, b) => a - b);
+  const mid = Math.floor(sorted.length / 2);
+  return sorted.length % 2 ? sorted[mid] : (sorted[mid - 1] + sorted[mid]) / 2;
+}
+
+// What the niche's App Store pages add: how unhappy users are, how often the apps ship,
+// what their privacy labels admit to, and the competitors Apple shows next to them.
+function pageLines(
+  country: string,
+  apps: AppSignal[],
+  pages: Map<string, PageRow>,
+  versions: Map<string, VersionRow[]>,
+  similar: Map<string, SimilarRow[]>,
+  today: string,
+): string[] {
+  const out: string[] = [];
+  const read = apps.filter((s) => pages.has(s.appId));
+  if (!read.length) return out;
+
+  const shares = read
+    .map((s) => ({ s, share: lowStarShare(pages.get(s.appId)!) }))
+    .filter((x): x is { s: AppSignal; share: number } => x.share !== null)
+    .sort((a, b) => b.share - a.share);
+  if (shares.length) {
+    const worst = shares.slice(0, 2).filter((x) => x.share >= 0.1).map((x) => `${appLink(x.s)} ${pct(x.share)}`);
+    out.push(
+      `**Star ratings:** in the median app, ${pct(median(shares.map((x) => x.share)))} of ratings are 1 or 2 stars` +
+        (worst.length ? `. Least loved: ${worst.join(" · ")}` : "") +
+        ".\n",
+    );
+  }
+
+  const shipped = read.map((s) => releasesWithin(versions.get(s.appId) ?? [], today));
+  const stale = apps.filter((s) => s.details?.updatedAt && daysBetween(s.details.updatedAt.slice(0, 10), today) >= 180).length;
+  out.push(
+    `**Updates:** the median app shipped ${plural(median(shipped), "release")} in the last 90 days` +
+      (stale ? `; ${stale} of ${apps.length} haven't shipped one in 6 months` : "") +
+      ".\n",
+  );
+
+  const labels = read.map((s) => pages.get(s.appId)!);
+  const tracking = labels.filter((p) => p.privacy === "tracking").length;
+  const none = labels.filter((p) => p.privacy === "none").length;
+  out.push(
+    `**Privacy labels:** ${tracking} of ${labels.length} apps use data to track you across other companies' apps` +
+      (none ? `, and ${none} ${none === 1 ? "says it collects" : "say they collect"} nothing` : "") +
+      ".\n",
+  );
+
+  const suggested = alsoSuggested(
+    read.map((s) => similar.get(s.appId) ?? []),
+    new Set(apps.map((s) => s.appId)),
+  ).slice(0, 5);
+  if (suggested.length) {
+    const names = suggested.map(
+      (x) => `[${cell(x.name)}](https://apps.apple.com/${country}/app/id${x.similar_id}) (${x.apps} of ${read.length})`,
+    );
+    out.push(`**Apple also suggests:** ${names.join(" · ")}. Apps Apple shows next to these that aren't in this niche's list.\n`);
+  }
+  return out;
+}
+
 // For each niche: how crowded its App Store search is, and what its apps' unhappy users say.
 function nicheDetails(store: Store, config: Config, country: string, clusters: ReturnType<typeof researchTargets>["niches"]): string[] {
   const searches = store.readSearch(country);
   const volumes = store.readVolumes(country);
   const prices = store.readPrices(country);
   const publishers = store.readPublishers(country);
+  const pages = store.readPages(country);
+  const versions = store.readVersions(country);
+  const similar = store.readSimilar(country);
+  const today = store.dates(country).at(-1) ?? "";
   const out: string[] = [];
   out.push("## Inside each niche\n");
   out.push(
@@ -136,6 +208,8 @@ function nicheDetails(store: Store, config: Config, country: string, clusters: R
           ".\n",
       );
     }
+
+    out.push(...pageLines(country, c.apps, pages, versions, similar, today));
 
     const reviews: (Review & { app: string })[] = c.apps.flatMap((s) =>
       store.readReviews(country, s.appId).map((r) => ({ ...r, app: s.details?.name ?? s.appId })),
@@ -248,6 +322,18 @@ export function buildReport(store: Store, config: Config, country: string): stri
   out.push("## New and paying\n");
   out.push(`Released in the last ${newDays} days and already on a top-grossing chart. Most new apps never get here.\n`);
   out.push(table(config, newAndPaying(signals, config), { title: "Age (days)", value: (s) => num(s.ageDays) }));
+
+  out.push("## Earning without updates\n");
+  out.push(
+    "On a top-grossing chart but not updated in over a year. People still pay for these apps while their " +
+      "developers seem to have moved on: their 1 to 3 star reviews are a list of what to fix in a rival.\n",
+  );
+  out.push(
+    table(config, neglectedEarners(signals, latest.date), {
+      title: "Last update",
+      value: (s) => s.details!.updatedAt.slice(0, 10),
+    }),
+  );
 
   if (config.research.countries.includes(country) && config.research.newApps) {
     const since = new Date(Date.parse(latest.date) - config.research.trackNewAppsDays * 86_400_000).toISOString().slice(0, 10);

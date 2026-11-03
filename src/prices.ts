@@ -2,8 +2,6 @@
 // Apple has no API for this, so it's read from the JSON the web page embeds. That JSON is
 // undocumented: if Apple changes the page, the scan logs it, saves nothing and carries on.
 
-import { fetchText } from "./apple.ts";
-
 export type Period = "weekly" | "monthly" | "yearly" | "lifetime" | "other" | "";
 
 export interface PriceRow {
@@ -81,10 +79,18 @@ function annotations(node: unknown, out: Node[] = []): Node[] {
  * Empty if the app sells nothing; throws if the page has no data we recognise.
  */
 export function parsePrices(html: string, appId: string, checkedAt: string): PriceRow[] {
+  return pricesFrom(pageData(html), appId, checkedAt);
+}
+
+/** The JSON an App Store page embeds. Throws if it isn't there. */
+export function pageData(html: string): unknown {
   const script = html.match(/<script[^>]*id="?serialized-server-data"?[^>]*>([\s\S]*?)<\/script>/);
   if (!script) throw new Error("no page data found (Apple may have changed the page)");
+  return JSON.parse(script[1]);
+}
 
-  const lists = annotations(JSON.parse(script[1])).map((a) =>
+export function pricesFrom(data: unknown, appId: string, checkedAt: string): PriceRow[] {
+  const lists = annotations(data).map((a) =>
     (a.items ?? []).filter((i) => i.$kind === "textPair" && i.trailingText && parsePrice(i.trailingText) !== null),
   );
   const pairs = lists.sort((a, b) => b.length - a.length)[0] ?? [];
@@ -109,8 +115,7 @@ export function parsePrices(html: string, appId: string, checkedAt: string): Pri
 }
 
 /** One app's purchases, or a single empty row recording that it lists none. */
-export async function fetchPrices(country: string, appId: string, checkedAt: string): Promise<PriceRow[]> {
-  const rows = parsePrices(await fetchText(pageUrl(country, appId)), appId, checkedAt);
+export function withNoneMarker(rows: PriceRow[], appId: string, checkedAt: string): PriceRow[] {
   return rows.length ? rows : [{ app_id: appId, item: "", price: null, price_text: "", period: "", checked_at: checkedAt }];
 }
 

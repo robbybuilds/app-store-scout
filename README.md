@@ -26,7 +26,7 @@ The first run takes a little over an hour, because it reads every app's recent r
 
 Out of the box it scans 41 categories (every app category, Games and 16 game subgenres) in 8 countries: the US, UK, Canada, Australia, Germany, France, Japan and South Korea. The deeper research (App Store searches, reviews, prices and new releases) runs for the US only, because it takes longer and the complaint themes only read English. To change either, edit [`scout.config.json`](scout.config.json): `countries` for charts, `research.countries` for research.
 
-To skip reading prices from App Store pages, set `"prices": false` in the config.
+To skip reading App Store pages (prices, star breakdowns, version history, privacy labels and similar apps), set `"pages": false` in the config.
 
 Optional: Google search volumes come from [seodata.dev](https://www.seodata.dev), which allows 20 free lookups a day without a key. Each niche is looked up once a month, so that's usually enough. For 50 a day, get a free key there and add it in your fork under **Settings → Secrets and variables → Actions** as `SEODATA_KEY`. To turn it off, set `"searchVolume": false` in the config.
 
@@ -35,11 +35,12 @@ Optional: Google search volumes come from [seodata.dev](https://www.seodata.dev)
 | Section | What it shows | Ready after |
 |---|---|---|
 | **Niches where newcomers are earning** | Phrases shared by new or small apps from 3+ publishers on grossing charts | Day 1 |
-| **Inside each niche** | How crowded the App Store search is, the top results, monthly Google searches, what the apps charge, who makes them, and what 1 to 3 star reviews complain about | Day 1 |
+| **Inside each niche** | How crowded the App Store search is, the top results, monthly Google searches, what the apps charge, who makes them, how many of their ratings are 1 or 2 stars, how often they ship updates, their privacy labels, the competitors Apple suggests next to them, and what 1 to 3 star reviews complain about | Day 1 |
 | **Genres at a glance** | How many new and small apps made each category's grossing chart | Day 1 |
 | **Solo developers earning** | Apps on a grossing chart sold under a person's own name, with how many apps that developer has | Day 1 |
 | **Small and paying** | Apps on a grossing chart with fewer than 5,000 ratings | Day 1 |
 | **New and paying** | Apps released in the last year that are already on a grossing chart | Day 1 |
+| **Earning without updates** | Apps on a grossing chart whose developer hasn't shipped an update in over a year | Day 1 |
 | **Fresh launches gaining ratings** | Apps from Apple's new-releases feeds, followed for 90 days, ranked by ratings gained per day | 1 to 2 weeks (launches need time to collect ratings) |
 | **Climbing the grossing charts** | Places gained in a week | Day 8 |
 | **Ratings momentum** | Fastest ratings growth in a week, relative to size | Day 8 |
@@ -80,7 +81,7 @@ No. The fork-and-click setup above needs none, and the report is a page you read
 Not yet. Google Play has no free chart feed like Apple's.
 
 **Where does the data come from?**
-Four free Apple endpoints, none of which need a key: the chart feeds (ranks), the iTunes Lookup API (ratings, release dates, sellers and each publisher's other apps), the iTunes Search API (what customers see when they search for a niche) and the customer reviews feed (the most recent 500 reviews per app). In-app purchase prices are read from the researched apps' public App Store pages, once a week. Monthly Google search volumes come from [seodata.dev](https://www.seodata.dev), a free third-party service. Each scan saves Apple's own "last updated" time, so a stale feed can't pass as fresh data.
+Four free Apple endpoints, none of which need a key: the chart feeds (ranks), the iTunes Lookup API (ratings, release dates, sellers and each publisher's other apps), the iTunes Search API (what customers see when they search for a niche) and the customer reviews feed (the most recent 500 reviews per app). In-app purchase prices, star breakdowns, version history, privacy labels and Apple's "You Might Also Like" suggestions are read from the researched apps' public App Store pages, once a week. Monthly Google search volumes come from [seodata.dev](https://www.seodata.dev), a free third-party service. Each scan saves Apple's own "last updated" time, so a stale feed can't pass as fresh data.
 
 ## The data
 
@@ -96,6 +97,9 @@ data/us/search/2026-11-02.csv    the top 10 search results for each niche that d
 data/us/volume.csv               monthly Google searches per niche, refreshed every 30 days
 data/us/publishers.csv           how many apps each researched publisher has, refreshed every 30 days
 data/us/prices.csv               each researched app's in-app purchases and prices, refreshed weekly
+data/us/pages.csv                its ratings by star, privacy label, age rating, size and Editors' Choice badge, weekly
+data/us/versions.csv             every release seen on those pages: version and date (Apple shows the latest 25)
+data/us/similar.csv              the 10 apps Apple suggests under "You Might Also Like", in Apple's order, weekly
 ```
 
 The default config covers 3 charts × 41 categories × 100 apps in 8 countries: about 12,000 chart positions and 9,000 apps per country per day. Each country adds about 540 KB a day (170 KB compressed), so roughly 1.3 MB a day across all eight once git compresses it. The US research reads reviews for about 200 apps: around 12 MB the first day, then only new reviews. Reviewer names are never saved.
@@ -109,7 +113,7 @@ The default config covers 3 charts × 41 categories × 100 apps in 8 countries: 
 - **Reviews are the latest 500 per app**, and unhappy customers write more of them. Read them for themes, not as a satisfaction score. The complaint themes are keyword matches, so open the reviews before you trust a percentage.
 - **Google volumes are estimates** from seodata.dev, for "<niche> app". They measure web searches, not App Store searches. Check the related phrases too: "video generator app" gets 30 searches a month, while "ai video generator" gets 165,000.
 - **Search stops at 200 results**, so "190 results" means "a lot", not an exact count.
-- **Prices come from App Store web pages**, which have no official API. If Apple changes the page, the scan logs it and saves no prices. Apple lists at most 10 purchases per app, and the plan length (weekly, yearly) is guessed from each purchase's name.
+- **Prices, star breakdowns, versions and similar apps come from App Store web pages**, which have no official API. If Apple changes the page, the scan logs it and saves nothing from it. Apple lists at most 10 purchases per app, and the plan length (weekly, yearly) is guessed from each purchase's name.
 - **"Solo developer" is a guess from the seller's name.** Apple shows an individual's legal name as the seller, but a company can have a name that looks like a person's, and the reverse.
 - **Name-based niches are a starting point.** "Recipe" groups recipe managers with recipe magazines. Open the apps before you draw conclusions.
 

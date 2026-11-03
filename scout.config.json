@@ -54,7 +54,7 @@
     "niches": 10,
     "reviewPages": 10,
     "searchVolume": true,
-    "prices": true,
+    "pages": true,
     "newApps": true,
     "trackNewAppsDays": 90
   }

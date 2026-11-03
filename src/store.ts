@@ -11,12 +11,16 @@
 //   data/<country>/volume.csv              monthly Google searches for each niche (seodata.dev)
 //   data/<country>/publishers.csv          how many apps each researched publisher has, refreshed monthly
 //   data/<country>/prices.csv              in-app purchase prices from researched apps' pages, refreshed weekly
+//   data/<country>/pages.csv               star breakdown, privacy label and badges from those pages, weekly
+//   data/<country>/versions.csv            every release seen on those pages (each check adds the latest 25)
+//   data/<country>/similar.csv             the apps Apple suggests under "You Might Also Like", weekly
 
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { AppDetails, NewFeed } from "./apple.ts";
 import type { Chart } from "./config.ts";
 import { parseCsv, toCsv } from "./csv.ts";
+import type { PageRow, SimilarRow, VersionRow } from "./pages.ts";
 import type { PriceRow } from "./prices.ts";
 import type { Publisher } from "./publishers.ts";
 import { type Review, sortCriticalFirst } from "./reviews.ts";
@@ -68,6 +72,12 @@ const SEARCH_COLUMNS: (keyof SearchRow)[] = ["date", "term", "position", "app_id
 const VOLUME_COLUMNS: (keyof Volume)[] = ["term", "keyword", "volume", "cpc", "competition", "similar", "checked_at"];
 const PUBLISHER_COLUMNS: (keyof Publisher)[] = ["publisher_id", "publisher", "apps", "total_ratings", "checked_at"];
 const PRICE_COLUMNS: (keyof PriceRow)[] = ["app_id", "item", "price", "price_text", "period", "checked_at"];
+const PAGE_COLUMNS: (keyof PageRow)[] = [
+  "app_id", "stars_5", "stars_4", "stars_3", "stars_2", "stars_1", "editors_choice", "age_rating", "size_mb",
+  "privacy", "tracking", "checked_at",
+];
+const VERSION_COLUMNS: (keyof VersionRow)[] = ["app_id", "version", "date"];
+const SIMILAR_COLUMNS: (keyof SimilarRow)[] = ["app_id", "position", "similar_id", "name", "developer", "checked_at"];
 // No ratings here: they change daily for almost every app, which would rewrite the whole file
 // (and grow the repo) every day. They're in ratings/<date>.csv and joined back in by readApps.
 const APP_COLUMNS: (keyof AppDetails)[] = [
@@ -332,6 +342,70 @@ export class Store {
   writePrices(country: string, prices: Map<string, PriceRow[]>): void {
     const sorted = [...prices.keys()].sort().flatMap((id) => prices.get(id)!);
     writeFileSync(join(this.root, country, "prices.csv"), toCsv(PRICE_COLUMNS, sorted));
+  }
+
+  readPages(country: string): Map<string, PageRow> {
+    const path = join(this.root, country, "pages.csv");
+    if (!existsSync(path)) return new Map();
+    return new Map(
+      parseCsv(readFileSync(path, "utf8")).map((r) => [
+        r.app_id,
+        {
+          app_id: r.app_id,
+          stars_5: Number(r.stars_5),
+          stars_4: Number(r.stars_4),
+          stars_3: Number(r.stars_3),
+          stars_2: Number(r.stars_2),
+          stars_1: Number(r.stars_1),
+          editors_choice: r.editors_choice === "true",
+          age_rating: r.age_rating,
+          size_mb: r.size_mb === "" ? null : Number(r.size_mb),
+          privacy: r.privacy as PageRow["privacy"],
+          tracking: r.tracking,
+          checked_at: r.checked_at,
+        },
+      ]),
+    );
+  }
+
+  writePages(country: string, pages: Map<string, PageRow>): void {
+    const sorted = [...pages.keys()].sort().map((id) => pages.get(id)!);
+    writeFileSync(join(this.root, country, "pages.csv"), toCsv(PAGE_COLUMNS, sorted));
+  }
+
+  /** Every release seen, grouped by app, newest first. */
+  readVersions(country: string): Map<string, VersionRow[]> {
+    const path = join(this.root, country, "versions.csv");
+    const out = new Map<string, VersionRow[]>();
+    if (!existsSync(path)) return out;
+    for (const r of parseCsv(readFileSync(path, "utf8"))) {
+      const rows = out.get(r.app_id) ?? [];
+      rows.push({ app_id: r.app_id, version: r.version, date: r.date });
+      out.set(r.app_id, rows);
+    }
+    return out;
+  }
+
+  writeVersions(country: string, versions: Map<string, VersionRow[]>): void {
+    const sorted = [...versions.keys()].sort().flatMap((id) => versions.get(id)!);
+    writeFileSync(join(this.root, country, "versions.csv"), toCsv(VERSION_COLUMNS, sorted));
+  }
+
+  readSimilar(country: string): Map<string, SimilarRow[]> {
+    const path = join(this.root, country, "similar.csv");
+    const out = new Map<string, SimilarRow[]>();
+    if (!existsSync(path)) return out;
+    for (const r of parseCsv(readFileSync(path, "utf8"))) {
+      const rows = out.get(r.app_id) ?? [];
+      rows.push({ ...r, position: Number(r.position) } as SimilarRow);
+      out.set(r.app_id, rows);
+    }
+    return out;
+  }
+
+  writeSimilar(country: string, similar: Map<string, SimilarRow[]>): void {
+    const sorted = [...similar.keys()].sort().flatMap((id) => similar.get(id)!);
+    writeFileSync(join(this.root, country, "similar.csv"), toCsv(SIMILAR_COLUMNS, sorted));
   }
 
   /** The most recent `days` snapshots, oldest first. */

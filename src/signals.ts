@@ -136,6 +136,16 @@ export function soloAndPaying(signals: AppSignal[]): AppSignal[] {
 }
 
 /**
+ * On a grossing chart but not updated in `minDays`: still earning on an app its developer may have
+ * stopped working on. Reviews usually say what's broken, and that's the opening.
+ */
+export function neglectedEarners(signals: AppSignal[], today: string, minDays = 365): AppSignal[] {
+  return signals
+    .filter((s) => s.grossing && s.details?.updatedAt && daysBetween(s.details.updatedAt.slice(0, 10), today) >= minDays)
+    .sort(byGrossingRank);
+}
+
+/**
  * Apps from Apple's new-releases feeds that are gaining ratings fastest for their age.
  * Includes ones that have since reached a chart, so their chart position shows too.
  */
