@@ -56,7 +56,8 @@ export function searchIndex(
 /**
  * The search script, inlined on /search/. It reads the index for the chosen country, matches
  * every word of the query against names, publishers and categories (as word prefixes, so
- * "lang" finds "Language"), and builds the table with DOM calls, never innerHTML.
+ * "lang" finds "Language"), and builds the table with DOM calls, never innerHTML. The filters
+ * work with or without a query, so a category or "top grossing" alone lists every app that fits.
  */
 export const SEARCH_SCRIPT = String.raw`
 (() => {
@@ -80,42 +81,64 @@ export const SEARCH_SCRIPT = String.raw`
 
   function el(tag, text, cls) { const e = document.createElement(tag); if (text !== undefined) e.textContent = text; if (cls) e.className = cls; return e; }
 
-  async function run() {
+  // Categories come from the index, so the list is filled once per country.
+  function fillCategories(index, wanted) {
+    if (form.cat.dataset.country === index.country) return;
+    const any = form.cat.options[0];
+    form.cat.replaceChildren(any);
+    for (const name of [...index.categories].filter(Boolean).sort((x, y) => x.localeCompare(y))) form.cat.append(new Option(name, name));
+    form.cat.value = [...form.cat.options].some((o) => o.value === wanted) ? wanted : "";
+    form.cat.dataset.country = index.country;
+  }
+
+  let seq = 0;
+  async function run(wantedCat) {
+    const id = ++seq;
     const q = form.q.value.trim();
     const c = form.c.value;
     const only = { grossing: form.grossing.checked, small: form.small.checked, fresh: form.fresh.checked };
+    out.replaceChildren(); summary.replaceChildren();
+    if (!cache.has(c)) status.textContent = "Loading the index…";
+    let index;
+    try { index = await load(c); } catch { if (id === seq) status.textContent = "Couldn’t load the search index. Reload the page to try again."; return; }
+    if (id !== seq) return;
+    fillCategories(index, wantedCat ?? form.cat.value);
+    const cat = form.cat.value;
     const params = new URLSearchParams();
     if (q) params.set("q", q);
     if (c !== form.c.options[0].value) params.set("c", c);
+    if (cat) params.set("cat", cat);
     for (const k of Object.keys(only)) if (only[k]) params.set(k, "1");
     history.replaceState(null, "", params.size ? "?" + params : location.pathname);
-    out.replaceChildren(); summary.replaceChildren();
-    hint.hidden = !!q;
-    if (!q) { status.textContent = ""; return; }
-    status.textContent = "Loading the index…";
-    let index;
-    try { index = await load(c); } catch { status.textContent = "Couldn’t load the search index. Reload the page to try again."; return; }
+    const filtered = !!cat || Object.values(only).some(Boolean);
+    hint.hidden = !!q || filtered;
+    status.textContent = "";
+    if (!q && !filtered) return;
     const terms = words(q).map(stem);
     const hits = [];
     for (const a of index.apps) {
-      const name = words(a[1]).map(stem), pub = words(a[2]).map(stem), cat = words(index.categories[a[3]] || "").map(stem);
-      let score = 0;
-      for (const t of terms) {
-        const s = name.some((w) => w.startsWith(t)) ? 3 : cat.some((w) => w.startsWith(t)) ? 2 : pub.some((w) => w.startsWith(t)) ? 1 : 0;
-        if (!s) { score = 0; break; }
-        score += s;
-      }
-      if (!score) continue;
+      if (cat && index.categories[a[3]] !== cat) continue;
       if (only.grossing && !a[6]) continue;
       if (only.small && a[4] >= +small) continue;
       if (only.fresh && daysOld(a[5]) > +newDays) continue;
+      // With no query every app scores 1, so the order falls back to grossing rank, then ratings.
+      let score = terms.length ? 0 : 1;
+      if (terms.length) {
+        const name = words(a[1]).map(stem), pub = words(a[2]).map(stem), category = words(index.categories[a[3]] || "").map(stem);
+        for (const t of terms) {
+          const s = name.some((w) => w.startsWith(t)) ? 3 : category.some((w) => w.startsWith(t)) ? 2 : pub.some((w) => w.startsWith(t)) ? 1 : 0;
+          if (!s) { score = 0; break; }
+          score += s;
+        }
+      }
+      if (!score) continue;
       hits.push([score, a]);
     }
     hits.sort((x, y) => (x[1][6] || 999) - (y[1][6] || 999) || y[0] - x[0] || y[1][4] - x[1][4]);
     const grossing = hits.filter((h) => h[1][6]);
     const smallEarning = grossing.filter((h) => h[1][4] < +small).length;
     const newEarning = grossing.filter((h) => daysOld(h[1][5]) <= +newDays).length;
-    status.textContent = hits.length ? "" : "No apps on today’s charts match “" + q + "”.";
+    status.textContent = hits.length ? "" : q ? "No apps on today’s charts match “" + q + "”" + (filtered ? " with these filters." : ".") : "No apps on today’s charts fit these filters.";
     if (!hits.length) return;
     const ratings = hits.map((h) => h[1][4]).sort((x, y) => x - y);
     const median = ratings[Math.floor(ratings.length / 2)];
@@ -153,8 +176,8 @@ export const SEARCH_SCRIPT = String.raw`
   if (p.get("c") && [...form.c.options].some((o) => o.value === p.get("c"))) form.c.value = p.get("c");
   for (const k of ["grossing", "small", "fresh"]) form[k].checked = p.get(k) === "1";
   let timer;
-  form.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(run, 150); });
+  form.addEventListener("input", () => { clearTimeout(timer); timer = setTimeout(() => run(), 150); });
   form.addEventListener("submit", (e) => { e.preventDefault(); run(); });
-  run();
+  run(p.get("cat") ?? "");
 })();
 `;
