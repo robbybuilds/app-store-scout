@@ -29,6 +29,16 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-03,merge,8,6618142292,Flambé®: Merge and Cook,Microfun Limited,15620,2025-05-08
 2026-11-03,merge,9,6443755785,Seaside Escape®: Merge & Story,Microfun Limited,31796,2022-11-24
 2026-11-03,merge,10,1623318294,Gossip Harbor®: Merge & Story,Microfun Limited,212420,2022-07-07
+2026-11-03,guess,1,687484959,GUESS,"GUESS?, Inc.",245,2013-09-09
+2026-11-03,guess,2,933135994,Akinator,Elokence,426626,2016-09-20
+2026-11-03,guess,3,6478244679,GUESS Official Store,"GUESS?, Inc.",0,2026-10-20
+2026-11-03,guess,4,1160484607,Charades & Headbands: Guess Up,Cosmicode Lda,17286,2016-12-14
+2026-11-03,guess,5,1534712015,Guess Their Answer,TapNation,65503,2020-10-11
+2026-11-03,guess,6,1424246763,Headbands: Charades Party Game,DKraft Studio s.r.o.,39804,2018-09-01
+2026-11-03,guess,7,1467771859,Logo Quiz 2026: Guess the logo,Peter Skarheim,107535,2019-06-16
+2026-11-03,guess,8,515909521,Guess The Person?,Richard Buckingham,15129,2012-06-28
+2026-11-03,guess,9,1269130452,Guess the Word! Charades Game,"Float Tech, LLC",28123,2017-10-20
+2026-11-03,guess,10,1460267530,Hangman: Guess the word,Roghan Games,2,2019-05-17
 2026-11-03,novel,1,6446470442,Novelmates-Best Stories&Novels,HK IReader Technology Limited,4529,2023-03-30
 2026-11-03,novel,2,1627205148,NovelFlow-Unlimited Books,RNOVEL PTE. LTD.,11796,2022-06-06
 2026-11-03,novel,3,1437708163,NovelReader - World of Novels,Bui Vu,4179,2018-11-15
@@ -39,16 +49,6 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-03,novel,8,1421091911,Dreame - Read Best Romance,STARY PTE. LTD.,170526,2018-08-13
 2026-11-03,novel,9,1568149521,MyPassion: Read Novels & Books,HW FANTASY LIMITED,35920,2021-06-07
 2026-11-03,novel,10,6587560745,"Novelaria - Read Book, Booktok",窕翔 刘,9866,2024-09-27
-2026-11-03,party,1,1484143447,Sporcle Party: Social Trivia,"Sporcle, Inc",2973,2020-04-11
-2026-11-03,party,2,1662982304,Partiful: Party Invite Maker,Partiful,282818,2023-08-21
-2026-11-03,party,3,1556928106,Posh – Create & Find Events,Posh Group Inc.,58609,2021-03-31
-2026-11-03,party,4,1571242274,"Party Star -Live, Chat & Games",GUMDROP ENTERTAINMENT PTE. LTD.,1755,2021-07-18
-2026-11-03,party,5,6760628245,Scene App: Parties & Tickets,sahid Bangura,15,2026-03-25
-2026-11-03,party,6,6478331791,School Party Craft,Candy Room Games & RabbitCo Limited,9021,2024-03-28
-2026-11-03,party,7,6817557535,Pull Up: Parties & Friends,Danielle Douglas,13,2026-10-28
-2026-11-03,party,8,1467762267,Stickman Party: 4 Player Games,Maxim Krivokonev,41685,2019-08-01
-2026-11-03,party,9,6813545317,Mimic Party !,FoliesAPP,945,2026-10-12
-2026-11-03,party,10,1433495524,Batch: Let’s Party,The Bach LLC,21889,2018-12-10
 2026-11-03,drama,1,6445905219,DramaBox - Stream Drama Shorts,STORYMATRIX PTE. LTD.,890582,2023-04-18
 2026-11-03,drama,2,6670430706,DramaWave - Dramas & Reels,SKYWORK AI PTE LTD,199189,2024-09-23
 2026-11-03,drama,3,1636235979,ReelShort - Stream Drama & TV,NewLeaf Publishing,520378,2022-08-24
@@ -59,36 +59,36 @@ date,term,position,app_id,name,publisher,rating_count,released_at
 2026-11-03,drama,8,6754134922,PineDrama - Short Dramas,TikTok Ltd.,111688,2025-12-23
 2026-11-03,drama,9,6768593043,BlinkDrama - Short Dramas,Atlas Ventures Culture & Technology Limited,29110,2026-05-29
 2026-11-03,drama,10,6741501595,iDrama – Short Dramas & Reels,HK Good Drama Technology Limited,20070,2025-02-12
-2026-11-03,flight,1,382233851,Flightradar24 | Flight Tracker,Flightradar24 AB,677305,2010-07-21
-2026-11-03,flight,2,1358823008,Flighty – Live Flight Tracker,Flighty LLC,159988,2019-08-19
-2026-11-03,flight,3,316793974,FlightAware Flight Tracker,FlightAware,391794,2009-06-04
-2026-11-03,flight,4,415458524,Skyscanner Flights & Travel,Skyscanner,502582,2011-02-17
-2026-11-03,flight,5,904052407,"Hopper: Flights, Hotels & Cars",Hopper,1229795,2015-01-28
-2026-11-03,flight,6,427916203,"Expedia: Hotels, Flights, Cars","Expedia, Inc.",5997050,2011-04-07
-2026-11-03,flight,7,382698565,American Airlines,American Airlines,1743792,2010-07-26
-2026-11-03,flight,8,344542975,Southwest Airlines: Travel App,Southwest Airlines Co.,7264046,2009-12-18
-2026-11-03,flight,9,533365777,Flight Tracker +,Impala Studios,291016,2012-07-20
-2026-11-03,flight,10,449945214,United Airlines,United Airlines,8450554,2011-07-20
-2026-11-03,read,1,6796197302,Actually Read: Focus Reader,Prism32 LLC,55,2026-09-02
-2026-11-03,read,2,302584613,Amazon Kindle: Reading App,AMZN Mobile LLC,5883176,2009-03-04
-2026-11-03,read,3,364709193,Apple Books,Apple,130862,2010-04-02
-2026-11-03,read,4,306310789,Wattpad - Read & Write Stories,Wattpad Corp,706064,2009-03-08
-2026-11-03,read,5,355833469,Goodreads: Book Tracker & More,Goodreads,761152,2010-02-16
-2026-11-03,read,6,1209815023,Speechify – Text to Speech PDF,Speechify Inc.,527786,2017-03-02
-2026-11-03,read,7,894546091,"WEBTOON: Manga, Comics, Manhwa",NAVER WEBTOON Ltd.,516380,2014-07-13
-2026-11-03,read,8,1503128132,"GoodNovel - Booktok, Stories",SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,234593,2020-04-23
-2026-11-03,read,9,1076402606,"Libby, the library app","OverDrive, Inc.",4597216,2016-12-12
-2026-11-03,read,10,1421091911,Dreame - Read Best Romance,STARY PTE. LTD.,170522,2018-08-13
-2026-11-03,forecast,1,295646461,The Weather Channel - Radar,The Weather Channel Interactive,6108921,2008-11-09
-2026-11-03,forecast,2,6742382846,Bill Budget Calendar Forecast,Rainier Paige Dirawatun,20,2025-03-10
-2026-11-03,forecast,3,1069513131,Weather,Apple,1861314,2016-05-10
-2026-11-03,forecast,4,322439990,MyRadar Accurate Weather Radar,"Aviation Data Systems, Inc",1086382,2009-07-17
-2026-11-03,forecast,5,300048137,AccuWeather: Weather Forecast,"AccuWeather International, Inc.",1496282,2008-12-22
-2026-11-03,forecast,6,749133753,Clime: NOAA Weather Radar Live,Mosaic S.r.l.,1056324,2013-11-25
-2026-11-03,forecast,7,525994479,Foreca Weather & Radar,Foreca Oy,5025,2012-05-29
-2026-11-03,forecast,8,1031653653,What The Forecast?!!,Byzantine Apps,10003,2015-11-03
-2026-11-03,forecast,9,281940292,WeatherBug: Weather Forecast,WeatherBug,2187569,2019-02-07
-2026-11-03,forecast,10,749083919,Weather Live° - Local Forecast,Mosaic S.r.l.,400657,2013-11-26
+2026-11-03,flight,1,382233851,Flightradar24 | Flight Tracker,Flightradar24 AB,677689,2010-07-21
+2026-11-03,flight,2,1358823008,Flighty – Live Flight Tracker,Flighty LLC,160147,2019-08-19
+2026-11-03,flight,3,316793974,FlightAware Flight Tracker,FlightAware,391947,2009-06-04
+2026-11-03,flight,4,415458524,Skyscanner Flights & Travel,Skyscanner,502638,2011-02-17
+2026-11-03,flight,5,904052407,"Hopper: Flights, Hotels & Cars",Hopper,1229888,2015-01-28
+2026-11-03,flight,6,427916203,"Expedia: Hotels, Flights, Cars","Expedia, Inc.",5998590,2011-04-07
+2026-11-03,flight,7,382698565,American Airlines,American Airlines,1747090,2010-07-26
+2026-11-03,flight,8,344542975,Southwest Airlines: Travel App,Southwest Airlines Co.,7265460,2009-12-18
+2026-11-03,flight,9,449945214,United Airlines,United Airlines,8453157,2011-07-20
+2026-11-03,flight,10,533365777,Flight Tracker +,Impala Studios,291023,2012-07-20
+2026-11-03,gps,1,585027354,Google Maps,Google,7437908,2012-12-13
+2026-11-03,gps,2,323229106,Waze Navigation & Live Traffic,Waze Inc.,3199608,2009-08-01
+2026-11-03,gps,3,915056765,Apple Maps,Apple,64485,2016-06-01
+2026-11-03,gps,4,425589565,GPS Tracks,David Morneault,17787,2011-05-26
+2026-11-03,gps,5,585193266,"Sygic: GPS Navigation, 3D Maps",Sygic a. s.,56889,2013-04-24
+2026-11-03,gps,6,316126557,MapQuest GPS Navigation & Maps,MapQuest Holdings LLC,30326,2009-06-11
+2026-11-03,gps,7,384830320,Life360: Family Safety & GPS,Life360,3152346,2010-08-10
+2026-11-03,gps,8,494286614,Coordinates – GPS Converter,Mapnitude Company Limited,6782,2012-01-18
+2026-11-03,gps,9,1610276914,GPS Live Navigation & Live Map,Erasoft Technology,135,2022-02-17
+2026-11-03,gps,10,510623322,"MAPS.ME: Offline Maps, GPS Nav",Convexity Holdings AG,78740,2012-04-12
+2026-11-03,read,1,302584613,Amazon Kindle: Reading App,AMZN Mobile LLC,5883967,2009-03-04
+2026-11-03,read,2,6796197302,Actually Read: Focus Reader,Prism32 LLC,57,2026-09-02
+2026-11-03,read,3,306310789,Wattpad - Read & Write Stories,Wattpad Corp,706077,2009-03-08
+2026-11-03,read,4,364709193,Apple Books,Apple,132803,2010-04-02
+2026-11-03,read,5,355833469,Goodreads: Book Tracker & More,Goodreads,761386,2010-02-16
+2026-11-03,read,6,1209815023,Speechify – Text to Speech PDF,Speechify Inc.,527878,2017-03-02
+2026-11-03,read,7,894546091,"WEBTOON: Manga, Comics, Manhwa",NAVER WEBTOON Ltd.,516569,2014-07-13
+2026-11-03,read,8,1076402606,"Libby, the library app","OverDrive, Inc.",4599373,2016-12-12
+2026-11-03,read,9,1503128132,"GoodNovel - Booktok, Stories",SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,234807,2020-04-23
+2026-11-03,read,10,1421091911,Dreame - Read Best Romance,STARY PTE. LTD.,170526,2018-08-13
 2026-11-03,client,1,1466793305,SimplePractice Client Portal,"SimplePractice, LLC.",39269,2022-11-07
 2026-11-03,client,2,1129911695,Parallels Client,Parallels International GmbH,58,2016-11-02
 2026-11-03,client,3,1188807211,"Clients: Your Client Book, CRM",Dmitry Petrushin,413,2017-04-08

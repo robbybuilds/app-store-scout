@@ -1,0 +1,19 @@
+id,rating,version,date,title,body
+14395235483,1,26.8.1,2026-08-06,Can’t Use,I tried to connect to a MS SQL db but couldn’t. Apparently the TLS version of the app doesn’t match the minimum allowed by the server.
+12497314547,1,6.4.2,2025-04-03,Could be a great app,"I have tried this and two other MySQL clients (“mySQL” and “SQL Pro MySQL”) for my iPad and this would be the best, but you apparently have to upgrade to do anything useful. The upgrade is $3.99 / month. That’s a showstopper for me."
+10181429770,2,5.3.6,2023-07-25,Don’t Work,"With MongoDB Atlas url, error Invalid Input"
+8983357593,2,4.11.8,2022-08-16,Can’t import SQLite,Can’t import SQLite .db files
+6446212974,2,3.9.1,2020-09-19,Unable to create local SQLite connection,"As the title states, as it stands, I’m unable to create a connection to numerous local SQLite databases on the latest version of iPad OS. - A previously created connection that worked a month ago is no longer working. - A newly created SQLite database that i just tried to connect to is not working either."
+9917573291,3,5.3.4,2023-05-12,Good idea but not stable at all,"The first connection I made with PostgreSQL worked for less than a minute one query and crashed, tried multiple times different tables even small ones crashed"
+8340597055,4,4.8.2,2022-02-10,Great iOS client,Amazing SQL and Redis client. Only giving 4 stars because the Mongo connection doesn’t work. I understand it’s in beta but seems to not be ready.
+7662902040,4,4.1.1,2021-08-06,Vertica Support,Love the MacOS app but would appreciate Vertica support on iOS if possible!
+6154737421,4,3.6.2,2020-07-04,Almost there,The best autocomplete of all the iOS apps. The only thing missing is creating a new table with a CSV import.
+5733177922,4,3.3.0,2020-03-30,Needs ability to save queries with templates,"This is getting very close to convincing me to purchase. In fact, to take this to the next level, I'd love to see some feature to allow template values to be entered with favorites (aka snippets on other tools). Mobile usage is quite different for me than desktop. When I'm mobile there's often a need to do emergency checks where I may need to type certain values in to a query. To have the ability to select a query and then be asked for something like an Id number that gets passed into the query would make this a must have OnCall support tool for me and well worth the $39.99 p/y cost."
+11771858900,5,6.1.1,2024-09-27,Absolutely Solid,I pay out of personal pocket because of the quality of life improvements at work.
+10068783928,5,5.3.6,2023-06-24,x,pacmac-cpnsole
+8765039226,5,4.10.1,2022-06-12,Probably the best there is,"Super good. Amazing, responsive developer. Had used it on my Mac for years and the iOS version is just as awesome."
+8238039882,5,4.8.2,2022-01-14,The best database client,"I highly recommend anyone with a Mac to buy the desktop version (as you can use the license key to activate it on a mobile device) this tool honestly makes my life easier when parsing a database, 10/10"
+7764977290,5,4.3.1,2021-09-03,Great app very useful,Love the app. I find it quite useful.
+6745479799,5,3.12.0,2020-12-12,Works Great for MS SQL,Just what I was looking for. Works nicely with Microsoft SQL server.
+5427237259,5,2.1.0,2020-01-20,Super modern MySQL app!,"Modern mobile MySQL client is just what I needed! Has features not found in other apps in the store. Has support for multiple regions, workspaces etc. Outstanding developer support also. Soon to be the premier mobile client!"
+5393207649,5,2.0.0,2020-01-12,Needs Snowflake support,"Other than that its pretty good (oops, didn’t even realize you couldn’t leave a review w/o a rating, didn’t mean to rate 3 stars. TablePlus is a good app!)"
