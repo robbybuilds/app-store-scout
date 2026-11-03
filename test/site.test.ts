@@ -7,6 +7,7 @@ import { fileURLToPath } from "node:url";
 import type { AppDetails } from "../src/apple.ts";
 import type { Config } from "../src/config.ts";
 import { buildSite, longDate, slug, tear } from "../src/site.ts";
+import type { SearchIndex } from "../src/site-search.ts";
 import { Store } from "../src/store.ts";
 
 test("slug, longDate and tear are stable", () => {
@@ -71,6 +72,14 @@ test("buildSite writes the home, niche, app and country pages with a sitemap", (
     // Only the researched app gets its own page; the others link to the App Store.
     assert.match(niche, /href="\/scout\/apps\/1\/"/);
     assert.match(niche, /href="https:\/\/apps.apple.com\/us\/app\/id2"/);
+
+    // One search index per country: grossing apps first, categories listed once, page flag for researched apps.
+    const index = JSON.parse(readFileSync(join(out, "data/search-us.json"), "utf8")) as SearchIndex;
+    assert.equal(index.apps.length, 3);
+    assert.deepEqual(index.apps.map((a) => [a[0], a[6], a[9]]), [["1", 1, 1], ["2", 2, 0], ["3", 3, 0]]);
+    assert.deepEqual(index.categories, ["Health & Fitness"]);
+    assert.ok(existsSync(join(out, "data/search-gb.json")));
+    assert.match(readFileSync(join(out, "search/index.html"), "utf8"), /<option value="us">United States<\/option><option value="gb">/);
 
     const sitemap = readFileSync(join(out, "sitemap.xml"), "utf8");
     assert.equal((sitemap.match(/<loc>/g) ?? []).length, pages);

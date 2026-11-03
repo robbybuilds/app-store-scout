@@ -11,3 +11,18 @@
 .faq { display: grid; gap: var(--space-lg); margin: 0; }
 .faq dt { font-weight: 600; font-size: var(--text-lg); }
 .faq dd { margin: var(--space-2xs) 0 0; max-width: 65ch; color: var(--color-ink-2); }
+
+/* Search: the form and its live summary. */
+.search { display: grid; gap: var(--space-md); }
+.search-row { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 14rem); gap: var(--space-md); align-items: end; }
+.field { display: grid; gap: var(--space-2xs); font-size: var(--text-sm); color: var(--color-ink-2); }
+.field input, .field select { min-height: 52px; padding: 0 var(--space-md); border: 1px solid var(--color-muted); border-radius: var(--radius-input); background: var(--color-card); color: var(--color-ink); font-size: var(--text-lg); }
+.field input:focus-visible, .field select:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 0; }
+.field input:disabled, .field select:disabled { opacity: 0.55; cursor: not-allowed; }
+.checks { display: flex; flex-wrap: wrap; gap: var(--space-lg); margin: 0; padding: 0; border: 0; }
+.checks label { display: inline-flex; align-items: center; gap: var(--space-xs); min-height: 44px; cursor: pointer; }
+.checks input { width: 20px; height: 20px; accent-color: var(--color-ink); }
+.checks input:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 2px; }
+#status:empty, #summary:empty { display: none; }
+#summary { grid-template-columns: repeat(5, minmax(0, 1fr)); }
+@media (max-width: 60rem) { .search-row { grid-template-columns: minmax(0, 1fr); } #summary { grid-template-columns: repeat(2, minmax(0, 1fr)); } }

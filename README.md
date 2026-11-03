@@ -67,7 +67,7 @@ Add `-- --country gb` to scan or report another country.
 
 ## The website
 
-The site is plain HTML that `npm run site` builds from the CSV files: a home page with today's niches, a page for every niche Scout has researched (it keeps the day each was first spotted), a page for every researched app, a page per country, a sitemap and structured data for search engines. It has no dependencies and no tracking. The design follows [Hallmark](https://github.com/Nutlope/hallmark)'s Hum theme. The stylesheets in [`web/`](web/) start with the stamp that records each design decision.
+The site is plain HTML that `npm run site` builds from the CSV files: a home page with today's niches, a page for every niche Scout has researched (it keeps the day each was first spotted), a page for every researched app, a page per country, a sitemap and structured data for search engines. [Search](https://robbybuilds.github.io/app-store-scout/search/?q=language) looks through every app on today's charts in any of the 8 countries. Each country's index is a small JSON file built with the site, and the summary above the results (how many match, how many are earning, how many are small or new) turns any word into a quick niche check. It has no dependencies and no tracking. The design follows [Hallmark](https://github.com/Nutlope/hallmark)'s Hum theme. The stylesheets in [`web/`](web/) start with the stamp that records each design decision.
 
 ## Let an AI agent do the legwork
 

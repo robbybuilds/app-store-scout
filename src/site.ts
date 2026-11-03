@@ -23,6 +23,7 @@ import {
   smallAndPaying,
   soloAndPaying,
 } from "./signals.ts";
+import { SEARCH_SCRIPT, searchIndex } from "./site-search.ts";
 import type { NicheHistory, Snapshot, Store } from "./store.ts";
 
 export interface SiteOptions {
@@ -117,6 +118,7 @@ interface PageSpec {
 function layout(ctx: Ctx, p: PageSpec): string {
   const canonical = `${ctx.opts.url}${p.path}`;
   const nav = [
+    ["/search/", "Search", ""],
     ["/niches/", "Niches", ""],
     ["/countries/", "Countries", "hide-xs"],
     ["/about/", "How it works", "hide-s"],
@@ -404,7 +406,13 @@ ${common && common[1] > 1 ? `<p class="fact">In ${num(common[1])} of them, unhap
     date: d.date,
     body: hero + stack + soloSection + figures + countries + archive,
     jsonLd: [
-      { "@context": "https://schema.org", "@type": "WebSite", name: "App Store Scout", url: `${ctx.opts.url}/` },
+      {
+        "@context": "https://schema.org",
+        "@type": "WebSite",
+        name: "App Store Scout",
+        url: `${ctx.opts.url}/`,
+        potentialAction: { "@type": "SearchAction", target: `${ctx.opts.url}/search/?q={query}`, "query-input": "required name=query" },
+      },
       {
         "@context": "https://schema.org",
         "@type": "Dataset",
@@ -689,6 +697,52 @@ function countryPage(ctx: Ctx, d: CountryData): void {
   });
 }
 
+// Search: one index file per country, and a page that reads them in the browser.
+function searchPages(ctx: Ctx, all: CountryData[], main: CountryData): void {
+  mkdirSync(join(ctx.opts.out, "data"), { recursive: true });
+  for (const d of all) {
+    const index = searchIndex(d.country, d.date, d.signals, ctx.config, d.country === main.country ? ctx.appPages : new Set());
+    writeFileSync(join(ctx.opts.out, "data", `search-${d.country}.json`), JSON.stringify(index));
+  }
+  const { config } = ctx;
+  const trail = crumbs(ctx, [["/", "Home"], ["/search/", "Search"]]);
+  const options = [main, ...all.filter((d) => d !== main)].map((d) => `<option value="${d.country}">${esc(countryName(d.country))}</option>`).join("");
+  const examples = ["language", "fasting", ...main.niches.slice(0, 5).map((c) => c.term)]
+    .filter((t, i, list) => list.indexOf(t) === i)
+    .map((t) => `<li><a href="${href(ctx, `/search/?q=${encodeURIComponent(t)}`)}">${esc(t)}</a></li>`)
+    .join("");
+  const body = `<section class="doc-head"><div class="container">${trail.html}<h1>Search today’s charts</h1>
+<p class="lead">${esc(`Every app on ${main.country === "us" ? "the US" : countryName(main.country)} charts today, ${num(main.signals.length)} of them, by name, publisher or category. The summary turns any word into a quick niche check.`)}</p></div></section>
+<section class="block block--table"><div class="container"><div class="body">
+<form id="search" class="search" role="search" action="${href(ctx, "/search/")}" data-base="${ctx.base}" data-small="${config.report.smallAppMaxRatings}" data-new-days="${config.report.newAppMaxAgeDays}" data-today="${main.date}">
+<div class="search-row">
+<label class="field"><span>Search apps</span><input type="search" name="q" autocomplete="off" spellcheck="false" placeholder="language, fasting, budget"></label>
+<label class="field field--select"><span>Country</span><select name="c">${options}</select></label>
+</div>
+<fieldset class="checks"><legend class="visually-hidden">Only show</legend>
+<label><input type="checkbox" name="grossing"> On a top-grossing chart</label>
+<label><input type="checkbox" name="small"> Under ${num(config.report.smallAppMaxRatings)} ratings</label>
+<label><input type="checkbox" name="fresh"> Released in the last year</label>
+</fieldset>
+</form>
+<div id="hint"><p>Try one of these:</p><ul class="chips">${examples}</ul></div>
+<p id="status" role="status" aria-live="polite"></p>
+<dl id="summary" class="summary"></dl>
+<div id="results"></div>
+<noscript><p>Search runs in your browser and needs JavaScript. <a href="${href(ctx, "/niches/")}">Browse every niche</a> instead.</p></noscript>
+</div></div></section>
+<script>${SEARCH_SCRIPT}</script>`;
+  write(ctx, {
+    path: "/search/",
+    title: "Search the App Store charts: App Store Scout",
+    description: `Search every app on today’s App Store charts in ${all.length} countries by name, publisher or category, and see how many are earning.`,
+    date: main.date,
+    current: "/search/",
+    body,
+    jsonLd: [trail.ld],
+  });
+}
+
 function countriesHub(ctx: Ctx, all: CountryData[]): void {
   const trail = crumbs(ctx, [["/", "Home"], ["/countries/", "Countries"]]);
   const rows = all
@@ -773,6 +827,7 @@ export function buildSite(store: Store, config: Config, opts: SiteOptions): { pa
   for (const id of ctx.appPages) appPage(ctx, main, id, nichesOf.get(id) ?? []);
   for (const d of all) countryPage(ctx, d);
   countriesHub(ctx, all);
+  searchPages(ctx, all, main);
   aboutPage(ctx, main.date);
 
   writeFileSync(
