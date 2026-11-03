@@ -4,6 +4,7 @@ import type { AppDetails } from "../src/apple.ts";
 import type { Config } from "../src/config.ts";
 import {
   computeSignals,
+  genreWords,
   genreSummaries,
   grossingClimbers,
   nameTerms,
@@ -25,7 +26,7 @@ const config: Config = {
     { id: 6013, name: "Health & Fitness" },
   ],
   report: { smallAppMaxRatings: 5000, newAppMaxAgeDays: 365, listSize: 10 },
-  research: { niches: 10, reviewPages: 10, searchVolume: true, prices: true },
+  research: { countries: ["us"], niches: 10, reviewPages: 10, searchVolume: true, prices: true, newApps: true, trackNewAppsDays: 90 },
 };
 
 function app(appId: string, ratingCount: number, releasedAt: string): AppDetails {
@@ -169,4 +170,18 @@ test("topNiches takes at most two niches per genre, then backfills", () => {
   const clusters = [niche("a", "Food"), niche("b", "Food"), niche("c", "Food"), niche("d", "Finance")];
   assert.deepEqual(topNiches(clusters, 3).map((c) => c.term), ["a", "b", "d"]);
   assert.deepEqual(topNiches(clusters, 4).map((c) => c.term), ["a", "b", "d", "c"]);
+});
+
+test("genre names alone aren't niches, but phrases that contain them are", () => {
+  const games: Config = { ...config, genres: [...config.genres, { id: 6014, name: "Games" }, { id: 7012, name: "Games: Puzzle" }] };
+  const words = genreWords(games);
+  for (const w of ["game", "puzzle", "health", "fitness"]) assert.ok(words.has(w), w);
+
+  const pubs = ["1", "2", "3"];
+  const named = (id: string, name: string, publisherId: string): AppDetails => ({ ...app(id, 800, "2026-06-01"), name, publisherId });
+  const list = new Map(pubs.map((p) => [`g${p}`, named(`g${p}`, `Word Game ${p}`, p)]));
+  const charted = snap("2026-11-02", pubs.map((p, i) => ({ app_id: `g${p}`, rank: i + 1 })), {});
+  const terms = nicheClusters(computeSignals([charted], list), games).map((c) => c.term);
+  assert.ok(terms.includes("word game"), terms.join(", "));
+  assert.ok(!terms.includes("game"), terms.join(", "));
 });

@@ -1,7 +1,9 @@
 // Snapshots live in plain CSV files so anyone can open them in a spreadsheet:
 //   data/<country>/charts/YYYY-MM-DD.csv   one row per chart position
 //   data/<country>/ratings/YYYY-MM-DD.csv  ratings count and average per app that day
-//   data/<country>/apps.csv                latest details for every app ever seen (history is in git)
+//   data/<country>/apps.csv                latest details for every app ever seen (history is in git); ratings
+//                                          live in ratings/, so this file only changes when an app does
+//   data/<country>/new/YYYY-MM-DD.csv      apps in Apple's new-releases feeds that day (followed for 90 days)
 //   data/<country>/scans.csv               one line per scan: when it ran and how fresh Apple's feed was
 //   data/<country>/reviews/<app-id>.csv    every review seen for the apps we research, 1 to 3 stars first
 //   data/<country>/search.csv              one line per niche search per day: how crowded the search is
@@ -12,7 +14,7 @@
 
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
-import type { AppDetails } from "./apple.ts";
+import type { AppDetails, NewFeed } from "./apple.ts";
 import type { Chart } from "./config.ts";
 import { parseCsv, toCsv } from "./csv.ts";
 import type { PriceRow } from "./prices.ts";
@@ -25,6 +27,12 @@ export interface ChartRow {
   chart: Chart;
   genre_id: number;
   rank: number;
+  app_id: string;
+}
+
+export interface NewAppRow {
+  feed: NewFeed;
+  position: number;
   app_id: string;
 }
 
@@ -51,6 +59,7 @@ export interface Snapshot {
 }
 
 const CHART_COLUMNS: (keyof ChartRow)[] = ["chart", "genre_id", "rank", "app_id"];
+const NEW_APP_COLUMNS: (keyof NewAppRow)[] = ["feed", "position", "app_id"];
 const SCAN_COLUMNS: (keyof ScanRow)[] = ["date", "scanned_at", "source_updated_at", "charts_ok", "charts_failed", "apps"];
 const RATING_COLUMNS: (keyof RatingRow)[] = ["app_id", "rating_count", "average_rating"];
 const REVIEW_COLUMNS: (keyof Review)[] = ["id", "rating", "version", "date", "title", "body"];
@@ -59,9 +68,11 @@ const SEARCH_COLUMNS: (keyof SearchRow)[] = ["date", "term", "position", "app_id
 const VOLUME_COLUMNS: (keyof Volume)[] = ["term", "keyword", "volume", "cpc", "competition", "similar", "checked_at"];
 const PUBLISHER_COLUMNS: (keyof Publisher)[] = ["publisher_id", "publisher", "apps", "total_ratings", "checked_at"];
 const PRICE_COLUMNS: (keyof PriceRow)[] = ["app_id", "item", "price", "price_text", "period", "checked_at"];
+// No ratings here: they change daily for almost every app, which would rewrite the whole file
+// (and grow the repo) every day. They're in ratings/<date>.csv and joined back in by readApps.
 const APP_COLUMNS: (keyof AppDetails)[] = [
   "appId", "name", "publisher", "publisherId", "seller", "primaryGenre", "price",
-  "ratingCount", "averageRating", "releasedAt", "updatedAt", "version", "languages", "url",
+  "releasedAt", "updatedAt", "version", "languages", "url",
 ];
 
 export class Store {
@@ -98,9 +109,33 @@ export class Store {
     writeFileSync(scansPath, toCsv(SCAN_COLUMNS, [...scans, scan]));
   }
 
+  writeNewApps(country: string, date: string, rows: NewAppRow[]): void {
+    mkdirSync(this.dir(country, "new"), { recursive: true });
+    writeFileSync(join(this.dir(country, "new"), `${date}.csv`), toCsv(NEW_APP_COLUMNS, rows));
+  }
+
+  /** Apps seen in a new-releases feed on or after `since`, with the first day each was seen. */
+  newAppsSince(country: string, since: string): Map<string, string> {
+    const dir = this.dir(country, "new");
+    const firstSeen = new Map<string, string>();
+    if (!existsSync(dir)) return firstSeen;
+    const dates = readdirSync(dir)
+      .filter((f) => /^\d{4}-\d{2}-\d{2}\.csv$/.test(f) && f.slice(0, 10) >= since)
+      .sort();
+    for (const file of dates) {
+      for (const r of parseCsv(readFileSync(join(dir, file), "utf8"))) {
+        if (!firstSeen.has(r.app_id)) firstSeen.set(r.app_id, file.slice(0, 10));
+      }
+    }
+    return firstSeen;
+  }
+
+  /** Every app ever seen, with ratings from the latest snapshot that has them. */
   readApps(country: string): Map<string, AppDetails> {
     const path = join(this.root, country, "apps.csv");
     if (!existsSync(path)) return new Map();
+    const latest = this.dates(country).at(-1);
+    const ratings = latest ? this.readRatings(country, latest) : new Map<string, RatingRow>();
     return new Map(
       parseCsv(readFileSync(path, "utf8")).map((r) => [
         r.appId,
@@ -113,8 +148,9 @@ export class Store {
           seller: r.seller ?? "",
           primaryGenre: r.primaryGenre,
           price: Number(r.price),
-          ratingCount: Number(r.ratingCount),
-          averageRating: Number(r.averageRating),
+          // apps.csv files from before ratings moved out still carry them; use those as a fallback.
+          ratingCount: ratings.get(r.appId)?.rating_count ?? Number(r.ratingCount ?? 0),
+          averageRating: ratings.get(r.appId)?.average_rating ?? Number(r.averageRating ?? 0),
           releasedAt: r.releasedAt,
           updatedAt: r.updatedAt,
           version: r.version ?? "",
@@ -143,18 +179,21 @@ export class Store {
       app_id: r.app_id,
     }));
 
-    const ratingsPath = join(this.dir(country, "ratings"), `${date}.csv`);
+    return { date, charts, ratings: this.readRatings(country, date) };
+  }
+
+  readRatings(country: string, date: string): Map<string, RatingRow> {
+    const path = join(this.dir(country, "ratings"), `${date}.csv`);
     const ratings = new Map<string, RatingRow>();
-    if (existsSync(ratingsPath)) {
-      for (const r of parseCsv(readFileSync(ratingsPath, "utf8"))) {
-        ratings.set(r.app_id, {
-          app_id: r.app_id,
-          rating_count: Number(r.rating_count),
-          average_rating: Number(r.average_rating),
-        });
-      }
+    if (!existsSync(path)) return ratings;
+    for (const r of parseCsv(readFileSync(path, "utf8"))) {
+      ratings.set(r.app_id, {
+        app_id: r.app_id,
+        rating_count: Number(r.rating_count),
+        average_rating: Number(r.average_rating),
+      });
     }
-    return { date, charts, ratings };
+    return ratings;
   }
 
   readReviews(country: string, appId: string): Review[] {

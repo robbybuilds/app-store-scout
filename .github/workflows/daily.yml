@@ -15,7 +15,9 @@ concurrency:
 jobs:
   scan:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    # 8 countries took 71 minutes on the first run (most of it downloading every review once);
+    # later runs only fetch what's new. Standard runners on public repos are free, so leave room.
+    timeout-minutes: 150
     steps:
       - uses: actions/checkout@v4
 

@@ -22,9 +22,9 @@ It also read 512 critical reviews of meal planner apps. **63% of them mention pr
 2. In your fork, open the **Actions** tab and click **"I understand my workflows, go ahead and enable them"**.
 3. Open **Actions → Daily scan → Run workflow**.
 
-About six minutes later your fork has its first snapshot and a fresh report. After that it scans every day at 14:00 UTC and keeps a dated copy of the report every Monday. GitHub runs it for free on public repos.
+The first run takes a little over an hour, because it reads every app's recent reviews once. Then your fork has its first snapshots and fresh reports, one per country. After that it scans every day at 14:00 UTC and keeps a dated copy of the report every Monday. GitHub runs it for free on public repos.
 
-To track other countries or categories, edit [`scout.config.json`](scout.config.json).
+Out of the box it scans 41 categories (every app category, Games and 16 game subgenres) in 8 countries: the US, UK, Canada, Australia, Germany, France, Japan and South Korea. The deeper research (App Store searches, reviews, prices and new releases) runs for the US only, because it takes longer and the complaint themes only read English. To change either, edit [`scout.config.json`](scout.config.json): `countries` for charts, `research.countries` for research.
 
 To skip reading prices from App Store pages, set `"prices": false` in the config.
 
@@ -40,6 +40,7 @@ Optional: Google search volumes come from [seodata.dev](https://www.seodata.dev)
 | **Solo developers earning** | Apps on a grossing chart sold under a person's own name, with how many apps that developer has | Day 1 |
 | **Small and paying** | Apps on a grossing chart with fewer than 5,000 ratings | Day 1 |
 | **New and paying** | Apps released in the last year that are already on a grossing chart | Day 1 |
+| **Fresh launches gaining ratings** | Apps from Apple's new-releases feeds, followed for 90 days, ranked by ratings gained per day | 1 to 2 weeks (launches need time to collect ratings) |
 | **Climbing the grossing charts** | Places gained in a week | Day 8 |
 | **Ratings momentum** | Fastest ratings growth in a week, relative to size | Day 8 |
 | **Staying power** | New apps on a chart most days, rather than one-day spikes | Day 14 |
@@ -87,6 +88,7 @@ Four free Apple endpoints, none of which need a key: the chart feeds (ranks), th
 data/us/charts/2026-11-02.csv    chart, genre_id, rank, app_id
 data/us/ratings/2026-11-02.csv   app_id, rating_count, average_rating
 data/us/apps.csv                 name, publisher, seller, genre, price, ratings, release date, version, languages, link
+data/us/new/2026-11-02.csv       the ~220 apps in Apple's new-releases feeds that day (free and paid)
 data/us/scans.csv                when each scan ran and how fresh Apple's feed was
 data/us/reviews/6777471316.csv   every review seen for that app, 1 to 3 stars first
 data/us/search.csv               per niche per day: results, established apps, new apps
@@ -96,12 +98,13 @@ data/us/publishers.csv           how many apps each researched publisher has, re
 data/us/prices.csv               each researched app's in-app purchases and prices, refreshed weekly
 ```
 
-The default config covers 3 charts × 11 categories × 100 apps in the US: about 3,300 chart positions and 2,800 apps a day, roughly 150 KB. Reviews are read for about 80 apps: around 3 MB the first day, then only new reviews. Reviewer names are never saved.
+The default config covers 3 charts × 41 categories × 100 apps in 8 countries: about 12,000 chart positions and 9,000 apps per country per day. Each country adds about 540 KB a day (170 KB compressed), so roughly 1.3 MB a day across all eight once git compresses it. The US research reads reviews for about 200 apps: around 12 MB the first day, then only new reviews. Reviewer names are never saved.
 
 ## Limits
 
 - **Ratings lag downloads.** Most people never leave a rating.
-- **Charts stop at 100**, so the long tail is invisible.
+- **Charts stop at 100**, so the long tail is invisible. Following new releases from day one fills in some of it.
+- **The new-releases feeds hold about 110 free and 110 paid apps** at a time, newest first. Far more apps launch each day, so it's a daily sample, not every launch.
 - **The category and grossing charts use Apple's older RSS feed.** It works today, and Apple could retire it. If that happens, the scan logs the failure and saves nothing for that chart.
 - **Reviews are the latest 500 per app**, and unhappy customers write more of them. Read them for themes, not as a satisfaction score. The complaint themes are keyword matches, so open the reviews before you trust a percentage.
 - **Google volumes are estimates** from seodata.dev, for "<niche> app". They measure web searches, not App Store searches. Check the related phrases too: "video generator app" gets 30 searches a month, while "ai video generator" gets 165,000.

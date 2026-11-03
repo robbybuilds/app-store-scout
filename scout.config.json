@@ -1,18 +1,48 @@
 {
-  "countries": ["us"],
+  "countries": ["us", "gb", "ca", "au", "de", "fr", "jp", "kr"],
   "charts": ["top-grossing", "top-free", "top-paid"],
   "genres": [
     { "id": 0, "name": "All apps" },
     { "id": 6000, "name": "Business" },
+    { "id": 6001, "name": "Weather" },
     { "id": 6002, "name": "Utilities" },
+    { "id": 6003, "name": "Travel" },
+    { "id": 6004, "name": "Sports" },
+    { "id": 6005, "name": "Social Networking" },
+    { "id": 6006, "name": "Reference" },
     { "id": 6007, "name": "Productivity" },
     { "id": 6008, "name": "Photo & Video" },
+    { "id": 6009, "name": "News" },
+    { "id": 6010, "name": "Navigation" },
+    { "id": 6011, "name": "Music" },
     { "id": 6012, "name": "Lifestyle" },
     { "id": 6013, "name": "Health & Fitness" },
     { "id": 6015, "name": "Finance" },
+    { "id": 6016, "name": "Entertainment" },
     { "id": 6017, "name": "Education" },
+    { "id": 6018, "name": "Books" },
     { "id": 6020, "name": "Medical" },
-    { "id": 6023, "name": "Food & Drink" }
+    { "id": 6023, "name": "Food & Drink" },
+    { "id": 6024, "name": "Shopping" },
+    { "id": 6026, "name": "Developer Tools" },
+    { "id": 6027, "name": "Graphics & Design" },
+    { "id": 6014, "name": "Games" },
+    { "id": 7001, "name": "Games: Action" },
+    { "id": 7002, "name": "Games: Adventure" },
+    { "id": 7003, "name": "Games: Casual" },
+    { "id": 7004, "name": "Games: Board" },
+    { "id": 7005, "name": "Games: Card" },
+    { "id": 7006, "name": "Games: Casino" },
+    { "id": 7009, "name": "Games: Family" },
+    { "id": 7011, "name": "Games: Music" },
+    { "id": 7012, "name": "Games: Puzzle" },
+    { "id": 7013, "name": "Games: Racing" },
+    { "id": 7014, "name": "Games: Role Playing" },
+    { "id": 7015, "name": "Games: Simulation" },
+    { "id": 7016, "name": "Games: Sports" },
+    { "id": 7017, "name": "Games: Strategy" },
+    { "id": 7018, "name": "Games: Trivia" },
+    { "id": 7019, "name": "Games: Word" }
   ],
   "report": {
     "smallAppMaxRatings": 5000,
@@ -20,9 +50,12 @@
     "listSize": 15
   },
   "research": {
+    "countries": ["us"],
     "niches": 10,
     "reviewPages": 10,
     "searchVolume": true,
-    "prices": true
+    "prices": true,
+    "newApps": true,
+    "trackNewAppsDays": 90
   }
 }

@@ -2,6 +2,7 @@ import { type Config, genreName } from "./config.ts";
 import {
   type AppSignal,
   computeSignals,
+  freshLaunches,
   genreSummaries,
   grossingClimbers,
   newAndPaying,
@@ -204,7 +205,14 @@ export function buildReport(store: Store, config: Config, country: string): stri
     out.push("");
   }
 
-  out.push(...nicheDetails(store, config, country, clusters));
+  if (config.research.countries.includes(country)) {
+    out.push(...nicheDetails(store, config, country, clusters));
+  } else {
+    out.push(
+      `_Search, reviews and prices are researched for ${config.research.countries.map((c) => c.toUpperCase()).join(", ")} only. ` +
+        `Add "${country}" to \`research.countries\` in scout.config.json to research this country too._\n`,
+    );
+  }
 
   out.push("## Genres at a glance\n");
   out.push(
@@ -240,6 +248,22 @@ export function buildReport(store: Store, config: Config, country: string): stri
   out.push("## New and paying\n");
   out.push(`Released in the last ${newDays} days and already on a top-grossing chart. Most new apps never get here.\n`);
   out.push(table(config, newAndPaying(signals, config), { title: "Age (days)", value: (s) => num(s.ageDays) }));
+
+  if (config.research.countries.includes(country) && config.research.newApps) {
+    const since = new Date(Date.parse(latest.date) - config.research.trackNewAppsDays * 86_400_000).toISOString().slice(0, 10);
+    const followed = store.newAppsSince(country, since);
+    out.push("## Fresh launches gaining ratings\n");
+    out.push(
+      `Apps that appeared in Apple's new-releases feeds in the last ${config.research.trackNewAppsDays} days ` +
+        `(${num(followed.size)} so far), by ratings gained per day since release. A top-grossing rank means it has already reached a chart.\n`,
+    );
+    out.push(
+      table(config, freshLaunches(signals, followed, latest, store.readApps(country)), {
+        title: "Ratings a day",
+        value: (s) => (s.ratingCount! / Math.max(1, s.ageDays!)).toFixed(1),
+      }),
+    );
+  }
 
   out.push("## Climbing the grossing charts\n");
   if (snapshots.length < 8) {
