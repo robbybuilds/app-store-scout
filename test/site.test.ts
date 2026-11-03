@@ -59,6 +59,10 @@ test("buildSite writes the home, niche, app and country pages with a sitemap", (
       assert.ok(existsSync(join(out, path)), path);
     }
     const home = readFileSync(join(out, "index.html"), "utf8");
+    // The figures count what was scanned (2 genres in the snapshot), and the other country gets a panel.
+    assert.match(home, /<dt>categories<\/dt><dd>1<\/dd>/);
+    assert.match(home, /<dt>countries<\/dt><dd>2<\/dd>/);
+    assert.match(home, />One more App Store</);
     assert.match(home, /href="\/scout\/niches\/fasting-tracker\/"/);
     assert.match(home, /<link rel="canonical" href="https:\/\/example.github.io\/scout\/">/);
     const niche = readFileSync(join(out, "niches/fasting-tracker/index.html"), "utf8");
