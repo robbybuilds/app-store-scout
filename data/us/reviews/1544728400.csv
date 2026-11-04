@@ -1,0 +1,46 @@
+id,rating,version,date,title,body
+14675645917,1,4.0.1,2026-10-17,Adult ads while trying out the app,"The app works great. But, while testing it out, I was made to see adult ads. That’s just wrong! So, I won’t be buying this app."
+14544951019,1,4.0.1,2026-09-13,Purchase required.,"Worked just once, then required a $59 purchase. Probably a fair price if the app is good, but just say so upfront."
+14021204510,1,4.0.1,2026-05-02,Paywalled instantly,For a simple terminal is manages to paywall most of the good features
+13394602906,1,3.11,2025-11-13,Junk App,"Like some one else posted, this app allows for one connection and then you have to pay a yearly fee for any additional connections. Pointless to have it installed… Have no clue how it got such a high rating."
+13025621216,1,3.6,2025-08-17,Just make the app paid,Tired seeing apps that are free that are practically not usable without micro transactions
+12779492162,1,3.5,2025-06-16,Never downloaded,Phone was hacked. I was tormented.
+12701823447,1,3.5,2025-05-26,Greed ruined the app,Copy/paste is such a basic feature and used to be free. Now you want me to pay for it? You already steer people to misclick on purchasing a subscription for $60 every time they connect to an SSH server. Your app is predatory and gross. Deleting it and not looking back.
+12391375872,1,3.5,2025-03-07,Not ANSI,"xTerminal does not support basic ANSI sequences, making it have very limited value as a terminal. Specifically, it does not respond appropriately to \e[6n."
+12139039277,1,3.4,2025-01-03,Don’t know why I’d pay $30/year,It’s annoying that the cost wasn’t mentioned anywhere in the description. I don’t see the value the other reviews refer to.
+11047729535,1,2.9,2024-03-15,no import,It’s weird this app doesn’t let you import a key it wants you to type it in. the problem with typing in a key is it’s long and you cannot open a key file on ios even though it’s just a regular text file it doesn’t work.
+10635143529,1,2.9,2023-11-28,robbery,robbery
+9747715885,1,2.8,2023-03-24,Don’t trust these 5 star reviews,"All these vague 5 star reviews are trash, don’t listen to them. It only allows one connection before you have to pay 100 bucks a year. I tried multiple times to connect via ssh and nah won’t work. Deleted this waste of time and grabbed the next free app on the list and boom worked first time and was actually free."
+8849590693,1,2.5.2,2022-07-07,No Terminal,"Not sure if I assumed or read wrongly, but I expected to run terminal on my iPad with this app."
+8601739529,1,2.5.2,2022-04-24,"Great execution, greedy business model",Dude you want $100 a YEAR to copy/paste?
+8316281222,1,2.5.2,2022-02-04,Can’t copy and paste stuff into app without subscription,Other stuff is better
+7917039325,1,2.5.1,2021-10-15,Weak,Free mode only one connection?
+7865407385,1,2.5,2021-10-01,Confuse,How does it get such high rating? Where are the positive feedback comments out of those reviews? I can only see a blinking cursor!!!! Does it even work????
+7817542472,1,2.3,2021-09-18,Where is the terminal ???,Give me a terminal
+7114693560,1,1.5.1,2021-03-17,Not what it is listed as,wasted my time with this lie of an application. It’s just a port scanner and ssh. This app is a waste of time. Not to mention the provide feedback option literally looks like this “YEs” Maybe spend some time proofing your text before publishing the app.
+10442779607,2,2.9,2023-10-05,Huge security risks…,"I downloaded and had a chance to play with the app. The app seems to work if one fills in all the information required to make the connection. However, the way this app works exposes a huge security risk because it requires the user to fill in all the security credentials including username, password and personal private key (if key-based connection is required). This seems very unsafe! I could try to be careful not losing my phone or letting someone peep into my phone’s content, but how am I supposed to trust this app which collects all these extremely sensitive information! Other well known apps like Putty, allows the user name and credential to be manually entered in during connection time. Until this app offers such means to enter one’s credentials, I would shy away from using it. Also, the free version only allow one connection profile."
+10249967713,2,2.8,2023-08-12,UI needs update,First impression was not good. The gesture bar for iOS is covering the buttons at the bottom of the screen. Something this elementary should have been fixed years ago.
+9158384602,2,2.5.2,2022-10-06,Requires password in settings,Nowadays many sites use OTA and requiring password at the server setup is useless. Passwords can be prompted at the connection.
+10313975549,3,2.8,2023-08-30,HELP ABOUT HOST,I can’t get my host server and what is it?
+8034710327,4,2.5.2,2021-11-17,Honeypot,Shoutout this app I was able to create a honeypot scam
+14387931010,5,4.0.1,2026-08-04,Can actually use it for free,Enjoy this terminal unlike others where they monitor what commands I use an gatekeep it behind a paywall
+12898851414,5,3.5,2025-07-16,10/10,Great app. Easy to navigate. Fast connections. Usual bugs
+12622631896,5,3.5,2025-05-05,Exceptional App & Great Support Team,"The app is too useful , with very supportive team"
+12602654233,5,3.5,2025-04-30,Ms,Supppot
+11527708329,5,3.0,2024-07-24,喜欢嘛,当然，喜欢😘
+10916621872,5,2.9,2024-02-08,مقيم في اربيل,مزعج التيك
+10698141083,5,2.9,2023-12-15,Awesome app,Great job . This ssh client app works wonderfully!!!
+10470501530,5,2.9,2023-10-13,Great,I was worried that it would be full of ads or something but it wasn’t and was just what I was wanting. A simple terminal to ssh into my server.
+10304684208,5,2.8,2023-08-27,不孬,这个软件真不孬
+10285455462,5,2.8,2023-08-22,xTerminal ssh for iPad,"This is a great utility. I use it via a vpn into my home network. I force stop it when done. I noticed that if I left it running it would get into a state where upon connection it would just show a blank screen, a force quit fixes this issue. Overall a good utility. I would buy it again."
+10244390845,5,2.8,2023-08-11,Scam,Doesn’t work is a scam😂😂
+9788018604,5,2.8,2023-04-05,Great ssh/sftp app,"Practical, efficient and effective. Great app!"
+9672811174,5,2.8,2023-03-02,Works perfectly,"Does one thing, does it well!"
+9446297758,5,2.8,2022-12-29,Great App!,❤️
+8963440045,5,2.5.2,2022-08-10,G,F.šventė
+8962416397,5,2.5.2,2022-08-09,Budding developer,"Tried for 4 days so I could terminal into my vm and start to learn Debian. 4 days and barely scratched the surface of all the functionality offered by this app. 4 days was, however, enough time to discover the ease and value offered. Absolutely worth the nearly negligible cost considering what you receive for your money. If you need a terminal to access any server or ssh virtual machines, just try it out.. Then upgrade to premium, the developer deserves it."
+8292192990,5,2.5.2,2022-01-28,It is awesome!,"Only had to install on computer, remove ssh from firewall, and only the IP, username, and password made it work! 10/10 would recommend. Free plan user, I would recommend pro to support the devs!"
+7972678142,5,2.5.2,2021-10-31,Prob. Best IOS12 Terminal,"Saves password/username, runs in the background, good layout... I would strongly suggest it. No multiple connections in free mod, but worth it"
+7857314007,5,2.5,2021-09-29,How is work..I can't understand,How is work..pls tell me
+7472357556,5,1.5.1,2021-06-16,Maravillosa,"Super intuitiva, muy simple, expectacular 10/10"
+6801987219,5,1.1,2020-12-28,Awesome,I am able to manage my servers with this app. Simple and efficient

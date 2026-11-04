@@ -1,0 +1,86 @@
+id,rating,version,date,title,body
+13799268738,1,7.8.7,2026-02-28,Ok,This have a lot of potential but there are many issues with the interface for all platforms. For a v8 this looks sloppy unless the v1 was on the market about 7 days ago.
+12367340525,1,7.5.1,2025-03-01,"Interesting concept, lacking execution","The app offers a lot, includng mobile clients, which is great. But the actual terminal experience on macOS is atrocious compared to iTerm2 or even plain ol Terminal. Whaterver they're using for ther terminal experience feels like something out of a web browser. I should not be accidentally zooming in or out on my terminal, and why does the copy mode seem to render text better (but still poorly)? The terminal's incompatibility with retina displays is another issue. The text renders as if it were at native res, so incredibly tiny, and blurry."
+12182227894,1,7.4.5,2025-01-14,Garbage,"Not sure how this is so highly rated. Doesn’t seem to work at all Unable to delete default server, and unable to connect to my server. But I found another way. Don’t need to app anymore."
+11498391693,1,7.1.9,2024-07-16,没有ios16小组件,没有ios16小组件
+11170048523,1,5.8.2,2024-04-17,root 模式下的docker咋用啊哥们,找了半天也没到root模式
+13951580588,2,7.8.7,2026-04-12,OK when it works…,"The remote terminal and saved scripts features are great when they work… but getting and keeping this app connected to a server - especially unRaid - is a tragic mess. Maybe this is designed for something else, some specific server type I’m not familiar with. But it is unreasonably difficult to set up and even if you do get it connected, it’s slow and fragile. It takes forever to load data about dockers and VMs, presumably because it’s doing some query in the background that is general enough to work in most places but therefore not specific enough to be fast or native to anything. This is barely functional."
+13847166845,2,8.1.1,2026-03-14,Just iOS,If you’re planning to buy this for the full price just be aware that the Mac version is abandoned. iOS version is cool but very expensive considering what you pay for is just an iOS license.
+13315745598,3,7.9.7,2025-10-26,Does not work with Orbstack,"While some functions work with MacOS, it doesn't work with Orbstack, a common docker replacement on Mac."
+13310921875,3,7.9.7,2025-10-25,No prompt for password on iPad?,"Looks pretty slick and I wanted to like it, but there doesn't seem to be a ""prompt for password"" option on iPad. Providing a username for server profiles is mandatory. Users are given an option to choose between Password and Private Key auth, but leaving the password blank does not result in the password being prompted."
+12601680241,3,7.7.3,2025-04-30,"Great for mobile, but…","I really like this app, specially while using it on my iPad Pro and iPhone. My only issue is on the Mac, the font is too small and there’s no way to make it bigger, if they can improve on that I would give it 5 stars."
+12568380493,3,7.5.1,2025-04-21,节点多了,容易崩溃
+12488913373,3,7.5.1,2025-04-01,Underrated App,"I’m surprised there isn’t more hype behind this app. I use on my Mac Studio & iPhone. My only critique is I that I am unable to make the metric cards larger. Could be user error on my part, though."
+14279329262,4,8.3.2,2026-07-08,Functionality Issues With New Update,I recently had to update the app recently and it forces strict access into the server through a tmux session which restricts being able to open a an existing session. Is it possible to restore the previous behavior that allows you login to the root server?
+12974195384,4,7.8.6,2025-08-04,功能建议,希望对于多网卡服务器可以设置“指标”界面的“网络”展示哪个网卡的流量信息。
+12343314025,4,7.5.1,2025-02-22,useful app but missing important feature,"this app is great for monitoring my home lab but the fact that there is no way to hide a mounted drive is a little ridiculous, as it makes the entire disk usage calculation useless so i have to guess based on my other servers"
+11897803421,4,7.2.8,2024-11-01,"Great, with one caveat","This app is great so far. I love the interface and it’s very helpful. However, for some reason I can’t seem to get it to connect over my Tailscale VPN (WireGuard). If that was fixed and I could use it everywhere, it would be perfect, as for right now because I don’t want to port-forward I can only use on LAN. If this is able to be fixed, then I’ll gladly pay for a subscription."
+11746830543,4,7.2.4,2024-09-21,Awesome!,"This app works very well and does an awesome job of sorting and displaying my active docker containers on my server. However, I’m using an iPhone with Dynamic Island and it almost looks like there’s a blue button somewhere just above it that maybe says “NeoServer” but I can’t quite see it because just the top edge peeks out above the Dynamic Island. I don’t think I saw that on my iPhone 14 Pro, but on my iPhone 16 Pro that has a very slightly larger screen, I can’t just see it peaking out there. That’s my only gripe, and I wouldn’t even really call it a gripe. Thanks for the awesome app!"
+11502464918,4,7.1.9,2024-07-17,Good but…..,"Very well designed app and the free version served just well. But I always have security concerns when using root account to connect, it would be better if author can address more about data safety concerns since this app is not open source"
+11271669549,4,6.3.2,2024-05-16,终端,希望终端能加上长按选择操作
+11176195025,4,5.8.3,2024-04-19,太贵了,三刀我就买了。5刀咬咬牙。10刀只能转战隔壁serverbox了。抱歉。
+11052248458,4,5.2.1,2024-03-16,Works well with servers it supports.,"Worked great with my TrueNAS Scale server, but didn’t work at all with OPNsense. Would love to see the supported server expanded and features like only showing drive stats for selected drives."
+11037748368,4,5.1.2,2024-03-12,I like it,I like everything within this. I was hoping for an iPhone widget but I can’t seem to be able to find it. Otherwise it’s great
+10893015857,4,5.1.2,2024-02-02,Great but missing a few features to make it outstanding,"Love everything about it but wish it had a few additional features: 1. The container support is only for Docker. Would be great if it supported containerd which is the runtime most used in Kubernetes 2. Some basic Kubernetes support to view clusters, nodes, pods and workloads. #1 is most important. #2 is bonus"
+10342306418,4,4.5.2,2023-09-07,对第三方输入法兼容性不好,很棒的一个ssh 客户端软件，没广告也不收费，但是对第三方输入法支持得不好，我用的是微信输入法，使用英文状态下输入 terminal 命令，只能识别最后一个字母
+10092587232,4,4.3.1,2023-07-01,感觉目前挺优秀的，还有好几个需要努力,先提两点： 1 希望能够在终端页面，使添加的服务器不是一次性的，能够各设备同步存留下来； 2 服务器端的文件虽然可以上传，但似乎无法修改文本，或者下载下来修改，很难受
+10075814294,4,4.2.1,2023-06-26,"Missing Ctrl, Alt, Tab","Good app, just missing keys Ctrl, Alt, Tab. A screen zoom function or font size setting would also be nice."
+10049468541,4,3.9.0,2023-06-19,必须好评，要是支持Docker状态查看就更好了。,和那个server cat差不多的功能
+10010555999,4,3.7.5,2023-06-08,ssh私钥使用不方便需要摸索,其他功能不错。甚至也可以当ssh客户端。最好能导入sshkey，而不是复制黏贴。一旦格式出错，保存闪退。
+14528051120,5,8.4.3,2026-09-09,Underrated app of all time,"App is exactly what it says it is. Definitely made by a dev with ❤️ for devs to ❤️. Came from CatServer claiming the same “love“ but their paywall is wack, title claims ssh terminal, but guess what. Walled! Here, you get exactly all your server needs in nice little neat tabs that just simply work."
+14437315044,5,8.3.15,2026-08-17,One of the most secured SSH app,"Been using this daily as my SSH client for managing a handful of servers. What sold me is the ML-KEM post-quantum key exchange support — most SSH tools haven’t caught up on this yet, so it’s nice to see a mobile app taking future-proofing seriously. On top of that, the developer is genuinely responsive. Monitoring dashboard is clean and functional too. Easy 5 stars — rare to find both solid crypto and active development in one app."
+14395624364,5,8.3.11,2026-08-06,比那些排名靠前的 ssh 工具好用,推荐使用，大家快冲，以后会涨价！
+14308982808,5,8.3.3,2026-07-16,Great for vibe coding,"So useful for easy access to terminal on my server. Once it’s all set up, it’s so easy to just start a coding agent session and have it build on my machine remotely. I use tailscale plus this app and I can do so much from my phone. Really improved UI and so convenient. Highly recommend!"
+14112531106,5,8.2.1,2026-05-27,"I NEVER write reviews, but for this I had to!","I never write reviews of apps (good or bad.) But after using it on the trial for barely one day I cancelled the trial… and bought the full license without a second thought! It’s seriously THAT good! The monitoring features are second to none and even the UI is clean and professional! It’s a pleasure to work with! The ONLY complaint I have is that there’s not a Windows version. I love that the app functions flawlessly on an iPhone, iPad, and my Mac and everything syncs well. If you’re even the least bit curious just download NeoServer and go for the trial. You will NOT be disappointed!"
+14103847524,5,8.1.4,2026-05-25,Great,Great Tool!
+14020380764,5,8.1.7,2026-05-02,Excellent terminal. Would love metrics support for Mac devices,Let me say this is exactly what I’m been searching for. Excellent app with a deep feature set. I would be thrilled if you would add metric support for Mac via something like btop since lm-sensors is Linux only.
+13951892067,5,8.1.2,2026-04-13,The best in the space,I’ve tried all these terminal SSH apps and this is clearly the winner. It’s the most extensive one there is and the paid version for $30 lifetime is a steal of the century. I highly recommend
+13927241014,5,8.1.1,2026-04-06,Love this app,"This app is amazing! Not like other apps where you can’t do anything with the free version. There’s been no annoying adds, it works perfectly, and I use it every day. I love this app and I count on it. Thank you developers!"
+13861461587,5,8.1.1,2026-03-18,best ssh server app！,"feature rich, covering almost all my operations. It supports tmux in the terminal, and I like using it for AI coding. I bought the pro without hesitation, and it’s totally worth it!"
+13807815105,5,7.8.7,2026-03-03,This is the one you looking for!,"I’ve been using this app for 5–6 months now, and it’s truly exceptional. What I love most is the one-time payment for the premium version—something that’s becoming increasingly rare. Compared to Termius’s monthly subscription model, this is a significant saving. Plus, the majority of features are already available for free right out of the box, so there’s no need to upgrade unless you require additional functionality. It’s a fantastic balance of value and quality!"
+13655480664,5,8.0.3,2026-01-20,Best in class,Not many apps for server monitoring on ios manage to excel at both functionality and visual appeal. This app does both. The developer has done a great job to let you monitoring your servers at a glance and then interact with them when you need to this app is all you need and i’m excited to see where it goes from here
+13382894081,5,7.9.8,2025-11-11,Neoserver,Awesome!
+13234485223,5,7.9.3,2025-10-07,wow,this has it all and then some and it has a lifetime subscription option. sold!
+13174856648,5,7.9.1,2025-09-23,Absolutely Stunning,This app is well designed and it functions flawlessly. It really enables be to monitor everything in one place on the go. Well done dev team!
+13155442816,5,7.9.1,2025-09-19,So good I wish there was a windows version,It’s jam packed and works flawlessly
+12922188959,5,7.8.4,2025-07-22,"Pretty great, full featured terminal","Termix is a better value at 10$ lifetime comapred to 30$ here if you want to edit files over sftp. If that is what you want this app for look elsewhere, very overpriced for that, it's a great free app otherwise. You can sort now, its a 5 star, great widgets, terminal access works well, back to being my main app. I still keep this installed for widgets so it still has a purpose! Works the best out of any terminal I've tried, shows my terminal exactly as it looks on my pc (cachyos) Updated review to 5 stars since the issues I had are gone."
+12899455554,5,7.8.4,2025-07-16,一款不错的管理监控软件,一开始是看中的监控功能，功能很齐全，没想到文件管理和终端也很好用，开发者更新的勤，而且听取意见，祝越来越好
+12865169817,5,7.8.1,2025-07-08,Top Refresh,Great app and developer support
+12698475359,5,7.7.3,2025-05-26,Unbelievably Jam Packed App,"I am amazed at how much this app offers. I came on here to talk about this app. I have been using it for about 2 weeks, along side a few other apps, and this app is amazing. I have gotten into development as a hobby and have seen my own growth, and while this app is the best to to when I am on my devices away from my Mac, I think about how useful this would have been in the beginning. Totally worth buying the lifetime if available. It syncs across the apple ecosystem. Lovely!"
+12434484059,5,7.5.1,2025-03-18,Best APP,The best app for ssh VPS
+12322363967,5,7.5.1,2025-02-17,非常好,很好用很哇塞
+12177111511,5,7.4.5,2025-01-12,Very good monitoring!,Finally a monitor service that doesn’t hide behind a paywall! Woooo 🥳🥳
+12044310859,5,7.3.7,2024-12-09,目前比 ServerCat 功能全,目前比 ServerCat 功能全，且小 Bug 少很多。
+11813271879,5,7.2.7,2024-10-09,Fantastic,Best I’ve found - the widgets are huge differentiator! Just wish it supported qemu/LXC!
+11760890093,5,7.2.5,2024-09-24,Amazing and Clean UI!,Honestly this app should be a showcase on the App Store for local container and VM management! It’s so good and beats using Portainer in Safari 100%!
+11351836242,5,7.0.5,2024-06-07,太棒了,轻量完美，免费版本已经相当好用，可考虑付费使用
+11341323526,5,7.0.5,2024-06-04,The Masters of Monitoring!,This is a wonderful piece of progress. It is tricked out with the best interface for server monitoring in my 25 years of servitude. Daily I sit in front of dash after dash. Why? For work of course. Hoping for a useful monitoring app that is easy on the eyes. Perhaps I have been searching all along… hoping for the right UI/UX. Thank you for all the features. It’s almost ridiculous… The fine-tuned rendering makes me want to lick the screen! Imagine if Netdata was actually useful… Other than being eye-candy for infrastructure funding. Plus this includes a terminal. I may dump my longstanding Termius subscription for this. This is extremely intuitive and flows just right in my brain. Plus the iOS widgets are a fine touch!
+11315725405,5,7.0.3,2024-05-28,Mac版首页指标界面图标字体偏小,已经很好啦，作者更新也勤快。另外可以在指标详情页增加挂载的磁盘信息么？像servercat那样。
+11223202205,5,6.0.3,2024-05-02,非常好用，用了幾年了，最近收費了，直接付費購買了,非常好用，用了几年了，最近收费了，已经付费购买了 建议： 能不能多加幾個好看的圖標和【底部菜單欄順序】加入隱藏不需要的app，而不是只能排序 ！
+11160063354,5,5.7.3,2024-04-15,刚更新完 闪退,在文件上传的时候 希望可以多选 而不是 一个一个上传
+11154497304,5,5.7.2,2024-04-13,内存显示又不准了，你代码被回滚啦～,更新到最新版本bug又回来了
+11055779927,5,5.2.1,2024-03-17,freakin awesome,"I love this, tbh it’s a better UI than my computer lol No in-app purchases, feature rich, love it!!"
+11044838253,5,5.2.0,2024-03-14,无法获取CPU温度,手动执行cat /sys/class/thermal/thermal_zone0/temp输出53 硬路由小米，希望可以优化兼容
+10844792310,5,5.1.2,2024-01-20,Great App,"I was using another app called Servercat for a while until I found this one. Personally, this is much better, and much more customizable. A Windows app would be AMAZING if possible"
+10816970224,5,5.1.2,2024-01-13,good,很棒
+10790272069,5,5.1.2,2024-01-06,很棒的App,用下来不比ServerCat弱，功能全面还免费.必须给五星~
+10789421011,5,5.1.2,2024-01-06,非常好用,感谢作者，非常好用
+10729693128,5,5.1.2,2023-12-22,提点建议,Neo可能是iOS里同类最好用的，有2个问题希望优化下： 1，终端列表不能拖放排序。 2，微信输入法等3方输入法在终端的shell里面打字，总是奇奇怪怪地打错，比如 cat log，这样简单的都可能输错。如果不好解决，能不能限制终端里使用系统自带的输入法。 感谢作者
+10623798095,5,5.1.2,2023-11-25,非常好,免费还好看，servercat连上就cpu升温，删了好几个软件差点重做系统。转投了，希望可以显示指定某一个网卡速率。
+10621403655,5,5.1.2,2023-11-24,So far amazing!,Developer did an amazing job! It beats “Server Cat”. Love the UI and all the options that is included! Would LOVE an app for windows (PC)
+10613842709,5,5.1.2,2023-11-22,Amazing,is just so good everything i need
+10611591120,5,5.1.2,2023-11-22,界面很美观,提个建议：希望增加“服务器位置信息”、“服务器运行时间”
+10555520690,5,5.0.5,2023-11-06,确实好用,好用免费 良心软件
+10529135727,5,5.0.4,2023-10-29,好用爱用,真的好用，功能很全，还免费，ui也好看
+10512344113,5,5.0.4,2023-10-25,666,不得不说免费好用
+10506346368,5,5.0.3,2023-10-23,希望越来越好,第一次评论，app目前体验下来完全符合我的需求，感谢开发者无私奉献
+10498565644,5,5.0.2,2023-10-21,很好用！,谢谢作者
+10496513274,5,5.0.2,2023-10-20,挺好的，没有繁琐的安装小组件依赖步骤。希望点开是指标界面而不是一片空白，或者可以设置点开的主界面,希望点开是指标界面而不是一片空白，或者可以设置点开的主界面
+10487059816,5,4.7.7,2023-10-18,很棒的软件，功能也不错,很棒
+10484750654,5,4.7.7,2023-10-17,宝藏app,不仅免费还好看，棒！！！
+10467703839,5,4.7.5,2023-10-13,很不错还不收费,很棒的app
+10460596662,5,4.7.3,2023-10-10,好用好用啊,非常棒
+10436439551,5,4.7.3,2023-10-04,功能好棒,CPU温度好像不准，显示的是我的傲腾的温度。这个工具太好用了
+10342407883,5,4.5.2,2023-09-07,不支持ed25519私钥,请支持下以上，rsa私钥好久没用了
+10259471207,5,4.4.6,2023-08-15,免费的神品,感谢开发者的开发，这款软件真的很精致
+10243163598,5,4.4.6,2023-08-10,加油,很不错希望继续完善

@@ -17,8 +17,10 @@ note taker,note taker app,9900,4.62,0.22,note taking apps:12100; note-taking app
 novel,novel app,1900,2.76,0.07,all free novel:12100; novel reader app:2400; novels app:1900,2026-11-03
 party,party app,1300,0.15,0.13,partiful:110000; partiful app:2400; third party apps:2400,2026-11-03
 printer,printer app,3600,1.81,0.37,hp smart app:49500; hp printer app:12100; print app:3600,2026-11-02
+radar,radar app,2400,2,0.3,weather and radar app:9900; weather radar app:9900; myradar weather app:9900,2026-11-04
 read,read app,12100,2.18,0.35,book app:33100; book apps:33100; books app:33100,2026-11-03
 recipe,recipe app,6600,2.24,0.18,recipe apps:5400; recipes app:5400; apps for recipes:5400,2026-11-02
 recipe manager,recipe manager app,140,6.35,0.05,recipe app:6600; recipe apps:5400; recipes app:5400,2026-11-02
+ssh,ssh app,260,0,0.01,ssh client:1900; secure shell client windows:1900; ssh windows client:1900,2026-11-04
 stock,stock app,18100,10.8,0.67,app stocks:60500; stock apps:18100; stocks app:18100,2026-11-02
 video generator,video generator app,30,3.8,0.7,ai video generator:165000; ai video maker:18100; videos ai:18100,2026-11-02

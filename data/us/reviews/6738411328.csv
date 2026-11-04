@@ -1,0 +1,43 @@
+id,rating,version,date,title,body
+14668194544,1,3.3.1,2026-10-15,Uninstalled after 5 min,"Having to watch an ad before running my program makes this completely unusable, and pro is $40 Probably a decent program under all the greed, but I'll never know for sure"
+14503889985,1,3.1.3,2026-09-03,Bruh..,This wants a subscription for $20 a year wth??
+14306565811,1,3.1.3,2026-07-15,It doesn’t work for me,It doesn’t work for me.I downloaded it and when I entered the app it crashed
+14238088730,1,3.1.2,2026-06-28,Stupid App!,"Not to be mean, but Every time I try to draw a character it always says it has an error. Please change this app to regular C++. I am deleting this app until you guys fix it."
+13623003117,1,2.0.4,2026-01-11,Horrible!! 🤮🤮🤮,I tried it on 5:38 Sunday January 11 and it gave me this that said “t_end + 30” I did not have that on my code! Bleck!🤮🤮😾😾
+13600476191,1,2.0.4,2026-01-06,AI slopware,"Yet another AI generated thing that can’t be used, what a surprise"
+13365570258,1,1.8,2025-11-06,paywall,every single feature i downloaded this for requires pro mode
+13361005882,1,1.8,2025-11-05,Фу бесплатный огрызок,Бесплатная версия
+13168456991,1,1.4,2025-09-22,i can’t understand,i tried
+14531418175,2,3.1.3,2026-09-10,Unusable,"Seems like an alright app, but it kept popping up an add that couldn’t be closed. Unusable"
+13567521317,2,2.0.4,2025-12-29,Anger petition,The damn key board won’t pull up!
+13154314996,2,1.4,2025-09-18,do you know python already?,if you know it and are just needing touch up or refresh than it’s fine. otherwise it’s a rip off.
+14372365464,4,3.1.3,2026-07-31,If it is all free I would put a 5,I just want to use turtle but I need to pay
+14674914137,5,3.3.1,2026-10-16,the best,for script
+14674740201,5,3.3.1,2026-10-16,Best app ever,Best for learning for learning
+14654542701,5,3.3,2026-10-11,Very good!,"Even though this isn’t fully Pure Python, you can download alternatives like, if you want to make a discord bot, you can’t download discord.py but you can download “disnake” Very good app!"
+14614636044,5,3.1.3,2026-10-01,I eat bones,My stomach hurts.
+14471678608,5,3.1.3,2026-08-25,Newbie,I’m a 56 year old learning. This helps so much
+14336376253,5,3.1.3,2026-07-23,Amazing app,I like that you have the choice between looking at other people’s creations and being able to make your own
+14221153061,5,3.1.2,2026-06-24,Great and fast tutorials,"Love the learning section! Haven’t used it to write anything yet, but as a developer in the past getting back into the swing of things it’s great so far!"
+14164844981,5,3.1.2,2026-06-10,Cool,Cool
+14046137423,5,2.2.2,2026-05-09,Nice,But the adds suck
+13941794568,5,2.1,2026-04-10,I love Python Coding,I love you guys thank you so very much for teaching me python code
+13882089003,5,2.0.7,2026-03-24,Comfortable usage,Good app for training
+13866802824,5,2.0.7,2026-03-20,Easier than on laptop,It’s seamless and has a descent interphase.
+13742933826,5,2.0.4,2026-02-13,Good but one question,How do I download a file like custom Tkinter or make a gui for a game that I’m making I tried everything but don’t understand it
+13708915759,5,2.0.4,2026-02-03,Amazing!,"I think that learning python is a true true talent to learn and this app does just that, and that is a lot from a kid thats 14 years old so thank you python."
+13683138649,5,2.0.4,2026-01-27,My Opinion of Python Thus Far,👨🏾‍💻
+13521637676,5,2.0.4,2025-12-16,Good game for advanced coders.,I can only figure out how to print but I’m learning more.
+13510418539,5,2.0.4,2025-12-13,Making a game,"This coding app is so cool! I cant wait to try making a full game on it someday, i made a simple game using import random print(""🎉 Welcome to the Number Guessing Game! 🎉"") print(""I'm thinking of a number between 1 and 100."") secret_number = random.randint(1, 100) attempts = 0 while True: guess = input(""Enter your guess (or type 'quit' to stop): "") if guess.lower() == ""quit"": print(f""👋 Goodbye! The number was {secret_number}."") break if not guess.isdigit(): print(""⚠️ Please enter a valid number."") continue guess = int(guess) attempts += 1 if guess < secret_number: print(""📉 Too low! Try again."") elif guess > secret_number: print(""📈 Too high! Try again."") else: print(f""🎉 Correct! You guessed it in {attempts} tries!"") break"
+13422541823,5,2.0.1,2025-11-21,THE BEST,IT IS EZ TO USE
+13389549589,5,1.8,2025-11-12,The quest for power,One day when I have learned programing I’m going to own the world. So be good to me cause space is a lonely place to be banished too.
+13387280861,5,1.8,2025-11-12,Very convenient!,Just one word:Great!
+13365832837,5,1.8,2025-11-07,Good,Very good
+13288560552,5,1.7,2025-10-19,Great,"Every time I use python,it is not like the ones on the computer,because it has examples"
+13284858140,5,1.7,2025-10-19,great if you want it free,has a plus option but not needed unlike other apps :/
+13087422729,5,1.4,2025-09-01,Best for my iPad and great coding experience on small screen,This is the only python editing and coding idle I liked so far on iPad. It’s great resource to advance python skills while I even lied down I can used my iPad anytime I feel doing some coding in the middle of sleeping. Great resource just keep adding some more advanced python module and library. Great
+13061947088,5,1.4,2025-08-26,Everything I need,"Clean interface, runs code smoothly, even supports matplotlib. Love it."
+12976451983,5,1.3,2025-08-04,Excelente aplicación,"La aplicación es muy versátil, tiene una interfaz fácil de entender. La recomido para una persona que esté empezando en Python."
+12951828119,5,1.3,2025-07-29,Great IDE,"Great UI for mobile, and doesn’t force subscriptions or ads all the time like other mobile IDE’s"
+12934776767,5,1.3,2025-07-25,非常好用,让我没想到几个关键功能是免费的，而且turtle也能本地跑，很厉害了，支持开发者
+12182864504,5,1.0,2025-01-14,Good app,Thanks admin so much.
