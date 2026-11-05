@@ -243,6 +243,13 @@ app_id,item,price,price_text,period,checked_at
 1537890432,PREMIUM SUBSCRIPTION,2.99,$2.99,other,2026-11-03
 1537890432,PREMIUM PASS,19.99,$19.99,other,2026-11-03
 1537890432,PREMIUM SUBSCRIPTION,19.99,$19.99,other,2026-11-03
+1542516206,Drone Forecast - 1 month,3.99,$3.99,monthly,2026-11-05
+1542516206,Drone Weather for UAV: 1 year,24.99,$24.99,yearly,2026-11-05
+1542516206,Drone Weather for UAV: 1 week,1.49,$1.49,weekly,2026-11-05
+1542516206,Drone Forecast - 1 month,4.99,$4.99,monthly,2026-11-05
+1542516206,Drone Forecast: Lifetime,79.99,$79.99,lifetime,2026-11-05
+1542516206,Drone Forecast: Lifetime,59.99,$59.99,lifetime,2026-11-05
+1542516206,Drone Forecast for UAV: 1 year,24.99,$24.99,yearly,2026-11-05
 1544728400,xTerminal Pro,29.99,$29.99,other,2026-11-04
 1544728400,xTerminal Pro,59.99,$59.99,other,2026-11-04
 1544728400,xTerminal Pro Monthly,6.99,$6.99,monthly,2026-11-04
@@ -250,6 +257,11 @@ app_id,item,price,price_text,period,checked_at
 1544749600,Premium Monthly Subscription,12.99,$12.99,monthly,2026-11-03
 1544749600,Premium Lifetime,99,$99.00,lifetime,2026-11-03
 1544749600,Premium Yearly Subscription,79.99,$79.99,yearly,2026-11-03
+1551292695,Premium Monthly Subscription,8.99,$8.99,monthly,2026-11-05
+1551292695,Premium Annual Subscription,49.99,$49.99,yearly,2026-11-05
+1551292695,Lifetime Access,99.99,$99.99,lifetime,2026-11-05
+1551292695,PROJECT PASS Quarterly Subscription,19.99,$19.99,other,2026-11-05
+1551292695,Proxyman Lifetime with Black Friday,69.99,$69.99,lifetime,2026-11-05
 1556961805,Weekly Sub,19.99,$19.99,weekly,2026-11-03
 1556961805,Coins Package - Extra15%,9.99,$9.99,other,2026-11-03
 1556961805,one-time-purchase,19.99,$19.99,lifetime,2026-11-03
@@ -324,6 +336,16 @@ app_id,item,price,price_text,period,checked_at
 1628300409,2000 coins,19.99,$19.99,other,2026-11-03
 1628300409,Coins Package 15,14.99,$14.99,other,2026-11-03
 1628300409,100 coins,0.99,$0.99,other,2026-11-03
+1630170714,1000 Coins Bundle,9.99,$9.99,other,2026-11-05
+1630170714,500сoins,4.99,$4.99,other,2026-11-05
+1630170714,1000 Coins,9.99,$9.99,other,2026-11-05
+1630170714,500 Coins Bundle,4.99,$4.99,other,2026-11-05
+1630170714,750 Coins,4.99,$4.99,other,2026-11-05
+1630170714,1500 Coins Bundle,14.99,$14.99,other,2026-11-05
+1630170714,200 Coins,0.99,$0.99,other,2026-11-05
+1630170714,1000 coins Weekend Offer,4.99,$4.99,other,2026-11-05
+1630170714,FictionMe Plus+ Subscription,14.99,$14.99,other,2026-11-05
+1630170714,2000 Coins,19.99,$19.99,other,2026-11-05
 1661207294,All Access,89,$89.00,other,2026-11-03
 1661207294,All Access,129,$129.00,other,2026-11-03
 1666079570,Unlock all features,10.95,$10.95,other,2026-11-04
@@ -390,6 +412,12 @@ app_id,item,price,price_text,period,checked_at
 504677517,Maps of the World,26.99,$26.99,other,2026-11-03
 504677517,1 Year Car Navigation,13.99,$13.99,yearly,2026-11-03
 504677517,1 Year RV Navigation,27.49,$27.49,yearly,2026-11-03
+539875792,Alerts (Monthly),2.99,$2.99,monthly,2026-11-05
+539875792,Aurora Alerts(Yearly),12.99,$12.99,yearly,2026-11-05
+539875792,Aurora Ultimate Pro (Yearly),19.99,$19.99,yearly,2026-11-05
+539875792,Aurora Ultimate Pro (Monthly),4.99,$4.99,monthly,2026-11-05
+591635373,Recipe Cloud Plus (Monthly),4.95,$4.95,monthly,2026-11-05
+591635373,Recipe Cloud Plus (Yearly),38.95,$38.95,yearly,2026-11-05
 6443462029,Coin Package 3,9.99,$9.99,other,2026-11-03
 6443462029,Coins Package 4,19.99,$19.99,other,2026-11-03
 6443462029,Coins Package #2,4.99,$4.99,other,2026-11-03
@@ -424,6 +452,8 @@ app_id,item,price,price_text,period,checked_at
 6448362669,Lifetime Version,59.99,$59.99,lifetime,2026-11-04
 6448362669,Monthly Subscription,3.99,$3.99,monthly,2026-11-04
 6448362669,Weekly,1.99,$1.99,weekly,2026-11-04
+6450721636,Premium Service: Monthly,4.99,$4.99,monthly,2026-11-05
+6450721636,Premium Service (Yearly),34.99,$34.99,yearly,2026-11-05
 6450834358,Product Tier 9,9.99,$9.99,other,2026-11-03
 6450834358,Product Tier 5,4.99,$4.99,other,2026-11-03
 6450834358,Product Tier 2,1.99,$1.99,other,2026-11-03
@@ -636,6 +666,19 @@ app_id,item,price,price_text,period,checked_at
 6738940313,$2.99 Coin Pack,2.99,$2.99,other,2026-11-03
 6739154126,Advanced,9.99,$9.99,other,2026-11-04
 6739154126,Advanced-Annual,99.99,$99.99,yearly,2026-11-04
+6739616715,MI PKG 7,10.9,$10.90,other,2026-11-05
+6739616715,MI PKG 10,21.9,$21.90,other,2026-11-05
+6739616715,MI PKG 3,4.39,$4.39,other,2026-11-05
+6739616715,MI PKG 4,6.59,$6.59,other,2026-11-05
+6739616715,MI PKG 2,2.19,$2.19,other,2026-11-05
+6739616715,MI PKG 11,32.99,$32.99,other,2026-11-05
+6739616715,Maple Special Membership,2.19,$2.19,other,2026-11-05
+6739616715,Maple Premium Membership,8.69,$8.69,other,2026-11-05
+6739616715,MI PKG 1,1.09,$1.09,other,2026-11-05
+6739616715,MI PKG 19,109,$109.00,other,2026-11-05
+6739738501,Yearly,39.99,$39.99,yearly,2026-11-05
+6739738501,Monthly,6.99,$6.99,monthly,2026-11-05
+6739738501,Lifetime,99.99,$99.99,lifetime,2026-11-05
 6740337084,Handful of Gems,1.99,$1.99,other,2026-11-03
 6740337084,Mega Level Offer,4.99,$4.99,other,2026-11-03
 6740337084,Firefly Mini Bundle,0.99,$0.99,other,2026-11-03
@@ -1096,6 +1139,16 @@ app_id,item,price,price_text,period,checked_at
 6758762494,VIP(yearly),149.99,$149.99,yearly,2026-11-03
 6758762494,Coins Pack 30,29.99,$29.99,other,2026-11-03
 6758762494,Coins Pack 15,14.99,$14.99,other,2026-11-03
+6758984040,Starter Special Pack,0.99,$0.99,other,2026-11-05
+6758984040,Small Gem Pack,1.99,$1.99,other,2026-11-05
+6758984040,Season Pass (Standard I),3.99,$3.99,other,2026-11-05
+6758984040,Value Starter Pack I,1.99,$1.99,other,2026-11-05
+6758984040,Value Gem Pack,4.99,$4.99,other,2026-11-05
+6758984040,Value Starter Pack II,2.99,$2.99,other,2026-11-05
+6758984040,Large Gem Pack,9.99,$9.99,other,2026-11-05
+6758984040,Popular Value Pack I,4.99,$4.99,other,2026-11-05
+6758984040,Popular Value Pack IV,7.99,$7.99,other,2026-11-05
+6758984040,Ultimate Gift Pack I,39.99,$39.99,other,2026-11-05
 6759341434,Premium,19.99,$19.99,other,2026-11-03
 6759341434,Premium,199.99,$199.99,other,2026-11-03
 6759341434,Premium,12.99,$12.99,other,2026-11-03
@@ -1248,6 +1301,15 @@ app_id,item,price,price_text,period,checked_at
 6786178362,GoGirl - Yearly,29.99,$29.99,yearly,2026-11-03
 6786178362,GoGirl - Monthly,7.99,$7.99,monthly,2026-11-03
 6786178362,GoGirl - Weekly,4.99,$4.99,weekly,2026-11-03
+6787949200,Pro,43.99,$43.99,other,2026-11-05
+6787949200,Pro,39.99,$39.99,other,2026-11-05
+6787949200,Ultra,63.9,$63.90,other,2026-11-05
+6787949200,Pro,27.99,$27.99,other,2026-11-05
+6787949200,Spearo Pro · Lifetime,79.99,$79.99,lifetime,2026-11-05
+6787949200,Pro,5.99,$5.99,other,2026-11-05
+6787949200,Pro,47.9,$47.90,other,2026-11-05
+6787949200,Pro,16.99,$16.99,other,2026-11-05
+6787949200,Pro,14.99,$14.99,other,2026-11-05
 6788890577,ServicePerks Pro (Annual),59.99,$59.99,yearly,2026-11-03
 6788890577,ServicePerks Pro (Monthly),12.99,$12.99,monthly,2026-11-03
 6788890577,Monthly,9.99,$9.99,monthly,2026-11-03
@@ -1258,6 +1320,9 @@ app_id,item,price,price_text,period,checked_at
 6788890577,Annual,59.99,$59.99,yearly,2026-11-03
 6793438980,Access to all features,39.99,$39.99,other,2026-11-04
 6793438980,Access to all features,14.99,$14.99,other,2026-11-04
+6794501026,Pro,25.99,$25.99,other,2026-11-05
+6794501026,Pro+,77.99,$77.99,other,2026-11-05
+6794501026,Ultra,259.99,$259.99,other,2026-11-05
 6795233186,DraftParty Premium Weekly,2.99,$2.99,weekly,2026-11-03
 6795233186,DraftParty Premium Annually,29.99,$29.99,yearly,2026-11-03
 6795233186,DraftParty Premium Monthly,8.99,$8.99,monthly,2026-11-03
@@ -1314,6 +1379,8 @@ app_id,item,price,price_text,period,checked_at
 6808657554,Premium monthly,6.99,$6.99,monthly,2026-11-03
 6808657554,Premium,49.99,$49.99,other,2026-11-03
 6808657554,Premium yearly (gift),19.99,$19.99,yearly,2026-11-03
+6809173786,FlyBud Pro Weekly,5.99,$5.99,weekly,2026-11-05
+6809173786,FlyBud Pro - Annual,59.99,$59.99,yearly,2026-11-05
 6809563172,Mimic Talent Premium,2.99,$2.99,other,2026-11-04
 6809563172,Mimic Talent Lifetime,9.99,$9.99,lifetime,2026-11-04
 6809563172,Character Ajolote,5.99,$5.99,other,2026-11-04

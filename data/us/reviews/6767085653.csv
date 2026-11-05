@@ -1,4 +1,5 @@
 id,rating,version,date,title,body
+14750243947,1,1.16.0,2026-11-04,Can’t sign in with GitHub anymore,Just get a 500. Hasn’t been fixed for over a week.
 14726429398,1,1.16.0,2026-10-29,Don’t,"Upon first time application run, without warning, if you don’t specify a starting folder it defaults to your Home folder and scans everything. To delete the conversation requires an API key. Poor design and violation of privacy without warning then extremely difficult to remove."
 14724670090,1,1.16.0,2026-10-29,Horrible experience syncing X apps,I thought syncing the X suite of apps would happen in the background but instead I got put through an endless loop in which my account is frozen every so often because I tried “too many times”
 14723270060,1,1.16.0,2026-10-28,Muy costoso,"Te empujan a unificar la suscripción de cursor con grok y es una locura que los límites se reducen de forma espantosa, 4 veces más costoso que antes y pagando adicional. No unifiquen sus suscripciones."

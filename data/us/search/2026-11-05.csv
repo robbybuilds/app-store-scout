@@ -1,0 +1,101 @@
+date,term,position,app_id,name,publisher,rating_count,released_at
+2026-11-05,recipe,1,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,327606,2021-11-12
+2026-11-05,recipe,2,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432923,2017-07-27
+2026-11-05,recipe,3,974683711,Recipe Keeper,Tudorspan Limited,31205,2015-04-02
+2026-11-05,recipe,4,911422904,NYT Cooking: Quick Tasty Meals,The New York Times Company,549666,2014-09-17
+2026-11-05,recipe,5,1433840494,RecipeBox - Save Your Recipes!,"RecipeBox, LLC",14019,2018-11-13
+2026-11-05,recipe,6,312101965,Bon Appétit: Recipes & Cooking,Advance Magazine Publishers Inc.,99316,2009-04-24
+2026-11-05,recipe,7,1477747816,SuperCook Recipe By Ingredient,AMR Systems LLC,21859,2019-09-25
+2026-11-05,recipe,8,1610039604,Simply Recipes for iOS,Christian Stevenson,78,2022-03-08
+2026-11-05,recipe,9,771068291,Kitchen Stories Easy Recipes,AJNS New Media,22778,2014-02-11
+2026-11-05,recipe,10,1583947369,Pepper - Recipe Organizer,Pepper App Inc.,11098,2021-09-04
+2026-11-05,meal planner,1,6777471316,mise - meal planner,TEGS LABS LTD,4556,2026-06-10
+2026-11-05,meal planner,2,6769601354,TapCook: Budget Meal Plans,TestMaxx,6686,2026-07-17
+2026-11-05,meal planner,3,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,1668,2023-08-11
+2026-11-05,meal planner,4,1612213187,Daily Meal Planner,Futasaji LLC,1846,2022-03-26
+2026-11-05,meal planner,5,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,12206,2017-08-03
+2026-11-05,meal planner,6,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,327889,2021-11-12
+2026-11-05,meal planner,7,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",52794,2013-04-16
+2026-11-05,meal planner,8,981637806,Eat This Much - Meal Planner,Eat This Much Inc.,22187,2015-06-15
+2026-11-05,meal planner,9,1215348056,Plan to Eat,"Plan To Eat, LLC",6115,2017-07-19
+2026-11-05,meal planner,10,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432919,2017-07-27
+2026-11-05,merge,1,1643509748,Merge Cooking®,Happibits,51999,2022-09-19
+2026-11-05,merge,2,1484442152,Merge Mansion: Mystery Story,Metacore Games Oy,203648,2020-09-16
+2026-11-05,merge,3,1521236603,Travel Town - Merge Adventure,Moon Active,191782,2021-02-12
+2026-11-05,merge,4,1208952944,Merge Dragons!,Gram Games,422767,2017-06-28
+2026-11-05,merge,5,6471045672,Tasty Travels: Merge Game,Century Games Pte. Ltd.,60511,2024-04-11
+2026-11-05,merge,6,6618142292,Flambé®: Merge and Cook,Microfun Limited,15691,2025-05-08
+2026-11-05,merge,7,6503603603,Mystery Town: Merge Games,Cedar Games Studio,18654,2024-10-18
+2026-11-05,merge,8,1623318294,Gossip Harbor®: Merge & Story,Microfun Limited,212929,2022-07-07
+2026-11-05,merge,9,6443755785,Seaside Escape®: Merge & Story,Microfun Limited,31837,2022-11-24
+2026-11-05,merge,10,6760998152,Family Farm Merge,Century Games Innovation Pte. Ltd.,3724,2026-05-09
+2026-11-05,novel,1,6446470442,Novelmates-Best Stories&Novels,HK IReader Technology Limited,4532,2023-03-30
+2026-11-05,novel,2,1503128132,"GoodNovel - Booktok, Stories",SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,235192,2020-04-23
+2026-11-05,novel,3,1234939196,WebNovel - Read Novels & Manga,Cloudary Holdings Limited,48443,2017-05-16
+2026-11-05,novel,4,1627205148,NovelFlow-Unlimited Books,RNOVEL PTE. LTD.,11818,2022-06-06
+2026-11-05,novel,5,306310789,Wattpad - Read & Write Stories,Wattpad Corp,706083,2009-03-08
+2026-11-05,novel,6,1437708163,NovelReader - World of Novels,Bui Vu,4180,2018-11-15
+2026-11-05,novel,7,6801094167,NovelO - Read Books & Novels,Kynix Group Limited,94,2026-08-24
+2026-11-05,novel,8,1421091911,Dreame - Read Best Romance,STARY PTE. LTD.,170533,2018-08-13
+2026-11-05,novel,9,1568149521,MyPassion: Read Novels & Books,HW FANTASY LIMITED,35933,2021-06-07
+2026-11-05,novel,10,6587560745,"Novelaria - Read Book, Booktok",窕翔 刘,9884,2024-09-27
+2026-11-05,drama,1,6445905219,DramaBox - Stream Drama Shorts,STORYMATRIX PTE. LTD.,892034,2023-04-18
+2026-11-05,drama,2,6670430706,DramaWave - Dramas & Reels,SKYWORK AI PTE LTD,201092,2024-09-23
+2026-11-05,drama,3,1636235979,ReelShort - Stream Drama & TV,NewLeaf Publishing,522175,2022-08-24
+2026-11-05,drama,4,6768240254,FreeDrama: Watch Short Stories,Kuku Technologies Limited,25440,2026-06-14
+2026-11-05,drama,5,6504849169,NetShort - Popular Dramas & TV,NETSTORY PTE. LTD.,240392,2024-07-12
+2026-11-05,drama,6,6448176203,GoodShort - Short Dramas Hub,SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,537917,2023-06-12
+2026-11-05,drama,7,6498713494,My Drama - Stream Short Dramas,Holy Water Limited,54925,2024-05-09
+2026-11-05,drama,8,6754134922,PineDrama - Short Dramas,TikTok Ltd.,117496,2025-12-23
+2026-11-05,drama,9,6768593043,BlinkDrama - Short Dramas,Atlas Ventures Culture & Technology Limited,30190,2026-05-29
+2026-11-05,drama,10,6741501595,iDrama – Short Dramas & Reels,HK Good Drama Technology Limited,20168,2025-02-12
+2026-11-05,party,1,1484143447,Sporcle Party: Social Trivia,"Sporcle, Inc",2973,2020-04-11
+2026-11-05,party,2,1662982304,Partiful: Party Invite Maker,Partiful,283142,2023-08-21
+2026-11-05,party,3,1556928106,Posh – Create & Find Events,Posh Group Inc.,58683,2021-03-31
+2026-11-05,party,4,1571242274,"Party Star -Live, Chat & Games",GUMDROP ENTERTAINMENT PTE. LTD.,1756,2021-07-18
+2026-11-05,party,5,6760628245,Scene App: Parties & Tickets,sahid Bangura,15,2026-03-25
+2026-11-05,party,6,6478331791,School Party Craft,Candy Room Games & RabbitCo Limited,9022,2024-03-28
+2026-11-05,party,7,6817557535,Pull Up: Parties & Friends,Danielle Douglas,15,2026-10-28
+2026-11-05,party,8,1433495524,Batch: Let’s Party,The Bach LLC,21890,2018-12-10
+2026-11-05,party,9,6813545317,Mimic Party !,FoliesAPP,1002,2026-10-12
+2026-11-05,party,10,6744562776,Buzzy Party: Mimic Party,Mahmoud Hamed,77,2025-04-23
+2026-11-05,read,1,6796197302,Actually Read: Focus Reader,Prism32 LLC,60,2026-09-02
+2026-11-05,read,2,302584613,Amazon Kindle: Reading App,AMZN Mobile LLC,5885444,2009-03-04
+2026-11-05,read,3,364709193,Apple Books,Apple,136223,2010-04-02
+2026-11-05,read,4,306310789,Wattpad - Read & Write Stories,Wattpad Corp,706083,2009-03-08
+2026-11-05,read,5,355833469,Goodreads: Book Tracker & More,Goodreads,761747,2010-02-16
+2026-11-05,read,6,1209815023,Speechify – Text to Speech PDF,Speechify Inc.,528073,2017-03-02
+2026-11-05,read,7,1503128132,"GoodNovel - Booktok, Stories",SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,235192,2020-04-23
+2026-11-05,read,8,1076402606,"Libby, the library app","OverDrive, Inc.",4603917,2016-12-12
+2026-11-05,read,9,894546091,"WEBTOON: Manga, Comics, Manhwa",NAVER WEBTOON Ltd.,516859,2014-07-13
+2026-11-05,read,10,1421091911,Dreame - Read Best Romance,STARY PTE. LTD.,170533,2018-08-13
+2026-11-05,flight,1,382233851,Flightradar24 | Flight Tracker,Flightradar24 AB,678547,2010-07-21
+2026-11-05,flight,2,1358823008,Flighty – Live Flight Tracker,Flighty LLC,160521,2019-08-19
+2026-11-05,flight,3,316793974,FlightAware Flight Tracker,FlightAware,392286,2009-06-04
+2026-11-05,flight,4,415458524,Skyscanner Flights & Travel,Skyscanner,502814,2011-02-17
+2026-11-05,flight,5,904052407,"Hopper: Flights, Hotels & Cars",Hopper,1230120,2015-01-28
+2026-11-05,flight,6,382698565,American Airlines,American Airlines,1755263,2010-07-26
+2026-11-05,flight,7,344542975,Southwest Airlines: Travel App,Southwest Airlines Co.,7268571,2009-12-18
+2026-11-05,flight,8,427916203,"Expedia: Hotels, Flights, Cars","Expedia, Inc.",6002141,2011-04-07
+2026-11-05,flight,9,533365777,Flight Tracker +,Impala Studios,291050,2012-07-20
+2026-11-05,flight,10,449945214,United Airlines,United Airlines,8458926,2011-07-20
+2026-11-05,forecast,1,295646461,The Weather Channel - Radar,The Weather Channel Interactive,6115207,2008-11-09
+2026-11-05,forecast,2,6742382846,Bill Budget Calendar Forecast,Rainier Paige Dirawatun,20,2025-03-10
+2026-11-05,forecast,3,1069513131,Weather,Apple,1863934,2016-05-10
+2026-11-05,forecast,4,300048137,AccuWeather: Weather Forecast,"AccuWeather International, Inc.",1496301,2008-12-22
+2026-11-05,forecast,5,322439990,MyRadar Accurate Weather Radar,"Aviation Data Systems, Inc",1086681,2009-07-17
+2026-11-05,forecast,6,749133753,Clime: NOAA Weather Radar Live,Mosaic S.r.l.,1056616,2013-11-25
+2026-11-05,forecast,7,525994479,Foreca Weather & Radar,Foreca Oy,5033,2012-05-29
+2026-11-05,forecast,8,1031653653,What The Forecast?!!,Byzantine Apps,10044,2015-11-03
+2026-11-05,forecast,9,281940292,WeatherBug: Weather Forecast,WeatherBug,2185706,2019-02-07
+2026-11-05,forecast,10,749083919,Weather Live° - Local Forecast,Mosaic S.r.l.,400700,2013-11-26
+2026-11-05,ssh,1,549039908,Termius - Modern SSH Client,Termius Corporation,19624,2012-08-07
+2026-11-05,ssh,2,6742807404,Easy SSH,Argsment Limited,178,2025-03-10
+2026-11-05,ssh,3,1436902243,iSH Shell,Theodore Dubois,1251,2020-10-22
+2026-11-05,ssh,4,497714887,WebSSH - Sysadmin Toolbox,MENGUS ARNAUD,2566,2012-03-08
+2026-11-05,ssh,5,1544728400,xTerminal - SSH Terminal Shell,婉媚 邵,1968,2020-12-17
+2026-11-05,ssh,6,1336634154,SSH Client - Secure ShellFish,Anders Borum,1567,2019-06-28
+2026-11-05,ssh,7,1586449703,ServerBox,吐司工作室,94,2022-01-09
+2026-11-05,ssh,8,1501532023,ServerCat - SSH Terminal & VPS,"Early Moon, LLC",1006,2020-04-27
+2026-11-05,ssh,9,1473805438,a-Shell,Nicolas Holzschuch,570,2019-10-25
+2026-11-05,ssh,10,6780054869,"Conduit: SSH, Mosh & SFTP",Grzegorz Witkowski,2,2026-06-17
