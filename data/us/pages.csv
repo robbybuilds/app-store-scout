@@ -4,6 +4,7 @@ app_id,stars_5,stars_4,stars_3,stars_2,stars_1,editors_choice,age_rating,size_mb
 1057030968,2103,384,117,66,142,false,4+,307.1,not-linked,,2026-11-03
 1059177218,2094,133,63,52,144,false,18+,92.5,not-linked,,2026-11-03
 1073341917,2438,139,31,22,84,false,16+,243.2,not-linked,,2026-11-03
+1195541934,1074,95,20,6,12,false,16+,122.1,tracking,identifiers,2026-11-07
 1232603544,1034,113,52,20,105,false,4+,87.3,not-linked,,2026-11-03
 1280464759,1348,105,40,19,34,false,18+,133.3,not-linked,,2026-11-04
 1297896111,2724,305,177,107,344,false,4+,42.4,tracking,location,2026-11-03
@@ -49,9 +50,11 @@ app_id,stars_5,stars_4,stars_3,stars_2,stars_1,editors_choice,age_rating,size_mb
 1595938390,3290,224,73,45,150,false,16+,210.3,tracking,identifiers,2026-11-03
 1597523594,444,14,7,4,14,false,16+,158.2,linked,,2026-11-03
 1598423213,3363,155,35,12,40,false,4+,82.5,linked,,2026-11-03
+1617504709,26,8,4,2,6,false,13+,1740.8,tracking,identifiers,2026-11-07
 1619761040,98,15,38,60,220,false,13+,327.9,tracking,purchases;search_history;browsing_history;identifiers,2026-11-03
 1628300409,864,301,229,169,563,false,13+,137.9,tracking,identifiers,2026-11-03
 1630170714,1024,133,61,30,108,false,16+,198.9,tracking,purchases;search_history;browsing_history;identifiers;usage_data;sensitive_info;diagnostics,2026-11-05
+1640037895,278,11,5,4,32,false,16+,137.9,linked,,2026-11-07
 1661207294,2711,363,154,53,107,false,4+,27.4,tracking,usage_data,2026-11-03
 1666079570,2152,91,35,29,127,false,4+,316.3,tracking,identifiers,2026-11-04
 1666079904,448,36,12,10,102,false,4+,208.8,tracking,identifiers,2026-11-03
@@ -75,6 +78,7 @@ app_id,stars_5,stars_4,stars_3,stars_2,stars_1,editors_choice,age_rating,size_mb
 6450721636,908,90,3,3,3,false,4+,144.2,tracking,usage_data;diagnostics,2026-11-05
 6450834358,7083,535,272,165,352,false,18+,2048,tracking,purchases;identifiers;usage_data,2026-11-03
 6468674686,583,67,11,1,8,false,4+,136.3,tracking,identifiers,2026-11-04
+6469260108,326,19,20,16,131,false,16+,168.7,tracking,identifiers,2026-11-07
 6471097370,1703,121,50,24,60,false,4+,149.7,tracking,location;identifiers;usage_data;diagnostics,2026-11-03
 6471419531,1347,76,31,19,38,false,13+,131.2,tracking,usage_data,2026-11-03
 6471489809,1297,134,50,17,48,false,18+,203.4,tracking,identifiers;usage_data,2026-11-04
@@ -133,6 +137,7 @@ app_id,stars_5,stars_4,stars_3,stars_2,stars_1,editors_choice,age_rating,size_mb
 6748342498,8509,420,73,23,67,false,18+,594.1,tracking,identifiers;usage_data,2026-11-03
 6748571505,998,26,10,5,20,false,4+,102.7,not-linked,,2026-11-06
 6749302379,5420,1035,173,40,94,false,13+,2048,tracking,identifiers,2026-11-03
+6749452038,232,5,1,3,3,false,4+,124.8,tracking,purchases;identifiers,2026-11-07
 6749500813,560,50,11,5,11,false,4+,89.6,tracking,diagnostics,2026-11-03
 6749604640,796,90,42,14,19,false,16+,74.1,tracking,identifiers,2026-11-03
 6749690403,1823,83,11,3,5,false,9+,360.2,tracking,purchases;location;identifiers;usage_data,2026-11-03
@@ -149,6 +154,7 @@ app_id,stars_5,stars_4,stars_3,stars_2,stars_1,editors_choice,age_rating,size_mb
 6753862216,7651,535,105,61,146,false,4+,482.2,tracking,purchases;location;identifiers;usage_data;diagnostics;other,2026-11-03
 6753982990,17386,2157,1506,624,2050,false,18+,107.8,tracking,usage_data,2026-11-03
 6753987304,41,1,0,0,2,false,4+,722.4,none,,2026-11-06
+6754067458,1,0,0,0,3,false,4+,175.8,not-linked,,2026-11-07
 6754201652,254,44,12,7,18,false,4+,49,linked,,2026-11-03
 6754365181,102,9,5,3,22,false,16+,88.9,tracking,search_history;identifiers,2026-11-03
 6754413004,44,0,0,0,4,false,4+,90.7,linked,,2026-11-03
@@ -218,6 +224,7 @@ app_id,stars_5,stars_4,stars_3,stars_2,stars_1,editors_choice,age_rating,size_mb
 6787949200,3,0,1,1,4,false,4+,116.7,linked,,2026-11-05
 6788890577,1037,84,29,3,21,false,4+,45.1,linked,,2026-11-03
 6793438980,97,13,11,2,0,false,4+,92.9,tracking,identifiers;usage_data;diagnostics,2026-11-04
+6794131613,2,0,0,0,0,false,4+,105.4,tracking,usage_data,2026-11-07
 6794501026,19414,547,94,36,183,false,18+,117.4,tracking,purchases;usage_data,2026-11-05
 6795233186,205,17,12,4,21,false,13+,59.3,tracking,identifiers;usage_data,2026-11-03
 6795921981,3405,158,66,46,177,false,4+,76.6,tracking,location,2026-11-03
@@ -242,6 +249,7 @@ app_id,stars_5,stars_4,stars_3,stars_2,stars_1,editors_choice,age_rating,size_mb
 744920098,646,340,260,250,860,false,4+,161.5,tracking,identifiers;usage_data,2026-11-03
 863196620,1694,91,25,18,53,false,16+,48.4,linked,,2026-11-03
 877303791,61612,4387,1604,627,1255,false,13+,43.2,tracking,identifiers,2026-11-03
+884963367,1670,276,117,84,329,false,4+,257.3,tracking,identifiers;usage_data,2026-11-07
 896694807,3468,202,42,27,55,false,4+,98.9,not-linked,,2026-11-03
 899058990,1785,157,61,36,135,false,4+,105.2,linked,,2026-11-03
 973605105,1516,138,70,46,145,false,13+,190.4,not-linked,,2026-11-03

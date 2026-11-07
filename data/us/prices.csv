@@ -19,6 +19,11 @@ app_id,item,price,price_text,period,checked_at
 1059177218,Unlock Everything,19.99,$19.99,other,2026-11-03
 1073341917,Full Yearly Pro Access,39.99,$39.99,yearly,2026-11-03
 1073341917,Full Monthly Pro Access,6.99,$6.99,monthly,2026-11-03
+1195541934,Premium version - Monthly,2.99,$2.99,monthly,2026-11-07
+1195541934,Premium version - Annual,19.99,$19.99,yearly,2026-11-07
+1195541934,Premium version - Monthly,3.99,$3.99,monthly,2026-11-07
+1195541934,Premium version - Annual,24.99,$24.99,yearly,2026-11-07
+1195541934,Premium version - Lifetime,79.99,$79.99,lifetime,2026-11-07
 1232603544,HTTPBot Weekly Subscription,4.99,$4.99,weekly,2026-11-03
 1232603544,HTTPBot Yearly Subscription,19.99,$19.99,yearly,2026-11-03
 1232603544,Lifetime Unlock,29.99,$29.99,lifetime,2026-11-03
@@ -323,6 +328,16 @@ app_id,item,price,price_text,period,checked_at
 1597523594,Lifetime,59.99,$59.99,lifetime,2026-11-03
 1598423213,JustTheRecipe Premium,3.99,$3.99,other,2026-11-03
 1598423213,JustTheRecipe Premium,24.99,$24.99,other,2026-11-03
+1617504709,100 Diamonds,0.99,$0.99,other,2026-11-07
+1617504709,1000 Diamends,8.99,$8.99,other,2026-11-07
+1617504709,Group Buying,0.99,$0.99,other,2026-11-07
+1617504709,Value special offer,0.99,$0.99,other,2026-11-07
+1617504709,Reservation discount,0.99,$0.99,other,2026-11-07
+1617504709,Limited pack,4.99,$4.99,other,2026-11-07
+1617504709,500 Diamonds,4.99,$4.99,other,2026-11-07
+1617504709,2000 Diamonds,19.99,$19.99,other,2026-11-07
+1617504709,Dancing Gift,1.99,$1.99,other,2026-11-07
+1617504709,Special offer pack,9.99,$9.99,other,2026-11-07
 1619761040,Monthly Subscription,5.99,$5.99,monthly,2026-11-03
 1619761040,special package,2.99,$2.99,other,2026-11-03
 1619761040,Quarterly Subscription,17.49,$17.49,other,2026-11-03
@@ -352,6 +367,12 @@ app_id,item,price,price_text,period,checked_at
 1630170714,1000 coins Weekend Offer,4.99,$4.99,other,2026-11-05
 1630170714,FictionMe Plus+ Subscription,14.99,$14.99,other,2026-11-05
 1630170714,2000 Coins,19.99,$19.99,other,2026-11-05
+1640037895,PMcardio Pro Plan Monthly,30,$30.00,monthly,2026-11-07
+1640037895,PMcardio Plus (OMI) Monthly,30,$30.00,monthly,2026-11-07
+1640037895,PMcardio Pro Plan Annual,300,$300.00,yearly,2026-11-07
+1640037895,PMcardio Starter,15,$15.00,other,2026-11-07
+1640037895,PMcardio Plus (OMI) Annually,300,$300.00,yearly,2026-11-07
+1640037895,PMcardio Starter Annually,150,$150.00,yearly,2026-11-07
 1661207294,All Access,89,$89.00,other,2026-11-03
 1661207294,All Access,129,$129.00,other,2026-11-03
 1666079570,Unlock all features,10.95,$10.95,other,2026-11-04
@@ -485,6 +506,16 @@ app_id,item,price,price_text,period,checked_at
 6450834358,Product Tier 12,24.99,$24.99,other,2026-11-03
 6468674686,Monthly,3.99,$3.99,monthly,2026-11-04
 6468674686,Annual,38.99,$38.99,yearly,2026-11-04
+6469260108,Payment,0.99,$0.99,other,2026-11-07
+6469260108,Payment,4.99,$4.99,other,2026-11-07
+6469260108,Payment,1.99,$1.99,other,2026-11-07
+6469260108,Payment,19.99,$19.99,other,2026-11-07
+6469260108,Payment,9.99,$9.99,other,2026-11-07
+6469260108,Payment,29.99,$29.99,other,2026-11-07
+6469260108,Payment,49.99,$49.99,other,2026-11-07
+6469260108,Payment,69.99,$69.99,other,2026-11-07
+6469260108,Payment,39.99,$39.99,other,2026-11-07
+6469260108,Payment,169.99,$169.99,other,2026-11-07
 6471097370,Premium version,9.99,$9.99,other,2026-11-03
 6471097370,Premium version,6.99,$6.99,other,2026-11-03
 6471097370,Premium version,49.99,$49.99,other,2026-11-03
@@ -856,6 +887,7 @@ app_id,item,price,price_text,period,checked_at
 6749302379,15.99 item,15.99,$15.99,other,2026-11-03
 6749302379,6.99 item,6.99,$6.99,other,2026-11-03
 6749302379,A small pile of diamonds,1.99,$1.99,other,2026-11-03
+6749452038,Wavemaps Pro,7.99,$7.99,other,2026-11-07
 6749500813,Recipe Saver & Organizer Pro,59.99,$59.99,other,2026-11-03
 6749500813,RecipeSnap: Unlimited Import,12.99,$12.99,other,2026-11-03
 6749500813,RecipeSnap - Recipe Keeper,6.99,$6.99,other,2026-11-03
@@ -982,6 +1014,14 @@ app_id,item,price,price_text,period,checked_at
 6753987304,PythonIDE Pro Yearly,12.99,$12.99,yearly,2026-11-06
 6753987304,200次调用包,2.99,$2.99,other,2026-11-06
 6753987304,500 AI Calls Pack,7.99,$7.99,other,2026-11-06
+6754067458,Transcription All Summary Templates,29.99,$29.99,other,2026-11-07
+6754067458,Ultimat billed annually,239.99,$239.99,yearly,2026-11-07
+6754067458,Pro (billed annually),99.99,$99.99,yearly,2026-11-07
+6754067458,Pro (billed monthly),17.99,$17.99,monthly,2026-11-07
+6754067458,3000 minutes Transcription,48.9,$48.90,other,2026-11-07
+6754067458,120 minutes Transcription,2.9,$2.90,other,2026-11-07
+6754067458,600 minutes Transcription,9.9,$9.90,other,2026-11-07
+6754067458,6000 minutes Transcription,88.9,$88.90,other,2026-11-07
 6754201652,Halloween Sound Pack,0.99,$0.99,other,2026-11-03
 6754201652,2010 Deep Cuts,1.99,$1.99,other,2026-11-03
 6754201652,2000s Sound Pack,1.99,$1.99,other,2026-11-03
@@ -1412,6 +1452,9 @@ app_id,item,price,price_text,period,checked_at
 6788890577,Annual,59.99,$59.99,yearly,2026-11-03
 6793438980,Access to all features,39.99,$39.99,other,2026-11-04
 6793438980,Access to all features,14.99,$14.99,other,2026-11-04
+6794131613,Pro Yearly,39.99,$39.99,yearly,2026-11-07
+6794131613,Pro Yearly,19.99,$19.99,yearly,2026-11-07
+6794131613,Pro Weekly,5.99,$5.99,weekly,2026-11-07
 6794501026,Pro,25.99,$25.99,other,2026-11-05
 6794501026,Pro+,77.99,$77.99,other,2026-11-05
 6794501026,Ultra,259.99,$259.99,other,2026-11-05
@@ -1528,6 +1571,15 @@ app_id,item,price,price_text,period,checked_at
 877303791,Contraction Timer Full Version,2.99,$2.99,other,2026-11-03
 877303791,Contraction Timer Plus,2.99,$2.99,other,2026-11-03
 877303791,Contraction Timer Plus,5.99,$5.99,other,2026-11-03
+884963367,12-Month Subscription,29.99,$29.99,yearly,2026-11-07
+884963367,1-Month Subscription,6.99,$6.99,monthly,2026-11-07
+884963367,6-Month Subscription,19.99,$19.99,other,2026-11-07
+884963367,12-Month Truck Subscription,89.99,$89.99,yearly,2026-11-07
+884963367,12-Month Family Subscription,39.99,$39.99,yearly,2026-11-07
+884963367,1-Month Truck Subscription,19.99,$19.99,monthly,2026-11-07
+884963367,3-Month Subscription,7.99,$7.99,other,2026-11-07
+884963367,12-Month Subscription,24.99,$24.99,yearly,2026-11-07
+884963367,12-Month Truck Subscription 30,89.99,$89.99,yearly,2026-11-07
 896694807,Working Copy Pro Unlock,35.99,$35.99,other,2026-11-03
 896694807,Pro Unlock trial,0,$0.00,other,2026-11-03
 896694807,Pro Unlock trial (2025),0,$0.00,other,2026-11-03
