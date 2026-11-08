@@ -24,6 +24,16 @@ app_id,item,price,price_text,period,checked_at
 1195541934,Premium version - Monthly,3.99,$3.99,monthly,2026-11-07
 1195541934,Premium version - Annual,24.99,$24.99,yearly,2026-11-07
 1195541934,Premium version - Lifetime,79.99,$79.99,lifetime,2026-11-07
+1214765807,Special offer price 5,4.99,$4.99,other,2026-11-08
+1214765807,Special offer price 3,2.99,$2.99,other,2026-11-08
+1214765807,Add Coins 1,2.99,$2.99,other,2026-11-08
+1214765807,Small Box,3.99,$3.99,other,2026-11-08
+1214765807,Special offer price 20,19.99,$19.99,other,2026-11-08
+1214765807,Special offer price 10,9.99,$9.99,other,2026-11-08
+1214765807,Special offer price 1,0.99,$0.99,other,2026-11-08
+1214765807,Remove Ads,0.99,$0.99,other,2026-11-08
+1214765807,Special offer price 7,6.99,$6.99,other,2026-11-08
+1214765807,Add Coins 2,6.99,$6.99,other,2026-11-08
 1232603544,HTTPBot Weekly Subscription,4.99,$4.99,weekly,2026-11-03
 1232603544,HTTPBot Yearly Subscription,19.99,$19.99,yearly,2026-11-03
 1232603544,Lifetime Unlock,29.99,$29.99,lifetime,2026-11-03
@@ -82,6 +92,10 @@ app_id,item,price,price_text,period,checked_at
 1406266008,Pay-As-You-Go,1.99,$1.99,other,2026-11-03
 1406266008,Lifetime License,39.99,$39.99,lifetime,2026-11-03
 1406266008,Unlimited Annual,8.99,$8.99,yearly,2026-11-03
+1436650069,3-day Trial,0,$0.00,other,2026-11-08
+1436650069,Full Version,14.99,$14.99,other,2026-11-08
+1436650069,Lite Version,7.99,$7.99,other,2026-11-08
+1436650069,Upgrade to Full Version,6.99,$6.99,other,2026-11-08
 1437263404,Weekly Subscription,9.99,$9.99,weekly,2026-11-03
 1437263404,Would You Rather Couples Games,2.99,$2.99,other,2026-11-03
 1437263404,Would You Rather Couples Games,4.49,$4.49,other,2026-11-03
@@ -132,6 +146,7 @@ app_id,item,price,price_text,period,checked_at
 1461650987,Great Tip,1.99,$1.99,other,2026-11-03
 1461650987,Amazing Tip,3.99,$3.99,other,2026-11-03
 1461650987,Kind Tip,0.99,$0.99,other,2026-11-03
+1462586500,Juno Pro Unlock,39.99,$39.99,other,2026-11-08
 1465448609,Monthly Subscription,3.99,$3.99,monthly,2026-11-03
 1465448609,Annually Subscription,39.99,$39.99,yearly,2026-11-03
 1465448609,Lifetime Access,99.99,$99.99,lifetime,2026-11-03
@@ -348,6 +363,14 @@ app_id,item,price,price_text,period,checked_at
 1619761040,special package,5.99,$5.99,other,2026-11-03
 1619761040,special package,1.99,$1.99,other,2026-11-03
 1619761040,special package,34.99,$34.99,other,2026-11-03
+1621050235,Rainbow Weather - Premium,7.99,$7.99,other,2026-11-08
+1621050235,Rainbow Weather - Premium,29.99,$29.99,other,2026-11-08
+1621050235,Rainbow Weather - Premium,9.99,$9.99,other,2026-11-08
+1621050235,Rainbow Weather - Premium,4.99,$4.99,other,2026-11-08
+1621050235,Rainbow Weather - Premium,3.99,$3.99,other,2026-11-08
+1621050235,Rainbow Weather - Premium,39.99,$39.99,other,2026-11-08
+1621050235,Rainbow Weather - Premium,19.99,$19.99,other,2026-11-08
+1621050235,Rainbow Weather - Premium,14.99,$14.99,other,2026-11-08
 1628300409,SVIP (weekly),9.99,$9.99,weekly,2026-11-03
 1628300409,3000 coins,29.99,$29.99,other,2026-11-03
 1628300409,1000 coins,9.99,$9.99,other,2026-11-03
@@ -373,6 +396,12 @@ app_id,item,price,price_text,period,checked_at
 1640037895,PMcardio Starter,15,$15.00,other,2026-11-07
 1640037895,PMcardio Plus (OMI) Annually,300,$300.00,yearly,2026-11-07
 1640037895,PMcardio Starter Annually,150,$150.00,yearly,2026-11-07
+1644911162,Premium Features,0,$0.00,other,2026-11-08
+1644911162,Premium Features Yearly,39.99,$39.99,yearly,2026-11-08
+1644911162,Premium Features Monthly,9.99,$9.99,monthly,2026-11-08
+1644911162,Premium Features,34.99,$34.99,other,2026-11-08
+1644911162,Premium Features,29.99,$29.99,other,2026-11-08
+1644911162,Premium Features,7.99,$7.99,other,2026-11-08
 1661207294,All Access,89,$89.00,other,2026-11-03
 1661207294,All Access,129,$129.00,other,2026-11-03
 1666079570,Unlock all features,10.95,$10.95,other,2026-11-04
@@ -430,6 +459,9 @@ app_id,item,price,price_text,period,checked_at
 486438834,Remove Ads For 3 Months,2.99,$2.99,other,2026-11-03
 486438834,Remove Ads,0.99,$0.99,other,2026-11-03
 486438834,Widebody Tip,9.99,$9.99,other,2026-11-03
+497714887,WebSSH PRO,15,$15.00,other,2026-11-08
+497714887,WebSSH Developer Tip,9.99,$9.99,other,2026-11-08
+497714887,WebSSH Developer Tip,1.99,$1.99,other,2026-11-08
 504677517,1 Month Truck Navigation,9.99,$9.99,monthly,2026-11-03
 504677517,1 Year RV Navigation,29.99,$29.99,yearly,2026-11-03
 504677517,1 Year of ActiveTraffic™,9.99,$9.99,yearly,2026-11-03
@@ -469,6 +501,24 @@ app_id,item,price,price_text,period,checked_at
 6443646933,20 Game Tickets,1.99,$1.99,other,2026-11-06
 6443646933,Premium Yearly,14.99,$14.99,yearly,2026-11-06
 6443646933,Premium Lifetime,17.99,$17.99,lifetime,2026-11-06
+6444399635,Developer Upgrade,39.99,$39.99,other,2026-11-08
+6444399635,Developer Upgrade,11.99,$11.99,other,2026-11-08
+6444399635,Developer Lite Upgrade,49.99,$49.99,other,2026-11-08
+6444399635,Developer Offer Upgrade,24.99,$24.99,other,2026-11-08
+6444399635,Developer Upgrade,59.99,$59.99,other,2026-11-08
+6444399635,100 Tokens,4.99,$4.99,other,2026-11-08
+6444399635,Remove Ads,7.99,$7.99,other,2026-11-08
+6444399635,Developer upgrade,39.99,$39.99,other,2026-11-08
+6446075788,Novel Master member 3 Day,14.99,$14.99,other,2026-11-08
+6446075788,7 Days vip subscription,14.99,$14.99,weekly,2026-11-08
+6446075788,7 Days vip subscription,19.99,$19.99,weekly,2026-11-08
+6446075788,Novel Master member 7 Day,19.99,$19.99,weekly,2026-11-08
+6446075788,30 Days Vip,24.99,$24.99,other,2026-11-08
+6446075788,1499_USD_Sub_7,14.99,$14.99,other,2026-11-08
+6446075788,Buy 3000 Book Coins,29.99,$29.99,other,2026-11-08
+6446075788,Buy 500 Book Coins,4.99,$4.99,other,2026-11-08
+6446075788,7 Days vip subscription,12.99,$12.99,weekly,2026-11-08
+6446075788,Buy 300 Book Coins,2.99,$2.99,other,2026-11-08
 6446204098,Premium Service (Monthly),3.99,$3.99,monthly,2026-11-03
 6446204098,Premium Service (Yearly),24.99,$24.99,yearly,2026-11-03
 6446470442,Novelmates Weekly VIP,14.99,$14.99,weekly,2026-11-03
@@ -1279,6 +1329,9 @@ app_id,item,price,price_text,period,checked_at
 6759628645,FlightDeck Pro,49.99,$49.99,other,2026-11-03
 6759628645,FlightDeck Pro,6.99,$6.99,other,2026-11-03
 6759628645,FlightDeck Pro,19.99,$19.99,other,2026-11-03
+6759795486,Pro Monthly,14.99,$14.99,monthly,2026-11-08
+6759795486,Pro Weekly,9.99,$9.99,weekly,2026-11-08
+6759795486,Pro Yearly,69.99,$69.99,yearly,2026-11-08
 6760426161,Plus Monthly,12.99,$12.99,monthly,2026-11-03
 6760426161,Freezer Meals,2.99,$2.99,other,2026-11-03
 6760426161,Basic Monthly,7.99,$7.99,monthly,2026-11-03
@@ -1341,6 +1394,12 @@ app_id,item,price,price_text,period,checked_at
 6767085653,X Super,129.99,$129.99,other,2026-11-03
 6767085653,X Premium,300,$300.00,other,2026-11-03
 6767085653,X Ultra,259.99,$259.99,other,2026-11-03
+6767423666,Milq Premium,19.99,$19.99,other,2026-11-08
+6767423666,Sip Credits,99.99,$99.99,other,2026-11-08
+6767423666,Milq Pro,49.99,$49.99,other,2026-11-08
+6767423666,Milq Max,99.99,$99.99,other,2026-11-08
+6767423666,Milq Sip Credits,19.99,$19.99,other,2026-11-08
+6767423666,Sip Credits,49.99,$49.99,other,2026-11-08
 6768593043,Weekly Pass Pro,19.99,$19.99,weekly,2026-11-03
 6768593043,One-time Purchase,3.49,$3.49,lifetime,2026-11-03
 6768593043,One-time Purchase,19.99,$19.99,lifetime,2026-11-03
@@ -1433,6 +1492,7 @@ app_id,item,price,price_text,period,checked_at
 6786178362,GoGirl - Yearly,29.99,$29.99,yearly,2026-11-03
 6786178362,GoGirl - Monthly,7.99,$7.99,monthly,2026-11-03
 6786178362,GoGirl - Weekly,4.99,$4.99,weekly,2026-11-03
+6787906265,EasySSH Monthly,6.99,$6.99,monthly,2026-11-08
 6787949200,Pro,43.99,$43.99,other,2026-11-05
 6787949200,Pro,39.99,$39.99,other,2026-11-05
 6787949200,Ultra,63.9,$63.90,other,2026-11-05
@@ -1450,6 +1510,7 @@ app_id,item,price,price_text,period,checked_at
 6788890577,Monthly,12.99,$12.99,monthly,2026-11-03
 6788890577,Annual,79.99,$79.99,yearly,2026-11-03
 6788890577,Annual,59.99,$59.99,yearly,2026-11-03
+6789207798,Start Free Trial,9.99,$9.99,other,2026-11-08
 6793438980,Access to all features,39.99,$39.99,other,2026-11-04
 6793438980,Access to all features,14.99,$14.99,other,2026-11-04
 6794131613,Pro Yearly,39.99,$39.99,yearly,2026-11-07
