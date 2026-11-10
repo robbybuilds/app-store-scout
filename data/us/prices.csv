@@ -138,6 +138,11 @@ app_id,item,price,price_text,period,checked_at
 1458083055,Tapcoin_2500,24.99,$24.99,other,2026-11-03
 1458083055,Tapcoin_5000,49.99,$49.99,other,2026-11-03
 1458083055,Plan.Weekly_Coin_29.99,29.99,$29.99,other,2026-11-03
+1458505675,Silver Plan - Annual,34.99,$34.99,yearly,2026-11-09
+1458505675,Gold Plan - Annual,95,$95.00,yearly,2026-11-09
+1458505675,Silver Plan - Monthly,19.99,$19.99,monthly,2026-11-09
+1458505675,Gold Plan - Annual,55,$55.00,yearly,2026-11-09
+1458505675,Bronze Plan - Annual,25,$25.00,yearly,2026-11-09
 1461650987,Discover Yearly,14.99,$14.99,yearly,2026-11-03
 1461650987,Discover Monthly,1.99,$1.99,monthly,2026-11-03
 1461650987,Crouton Plus,24.99,$24.99,other,2026-11-03
@@ -404,6 +409,16 @@ app_id,item,price,price_text,period,checked_at
 1644911162,Premium Features,7.99,$7.99,other,2026-11-08
 1661207294,All Access,89,$89.00,other,2026-11-03
 1661207294,All Access,129,$129.00,other,2026-11-03
+1663675754,GDevelop Gold,12.99,$12.99,other,2026-11-09
+1663675754,GDevelop Silver,6.99,$6.99,other,2026-11-09
+1663675754,GDevelop Pro,39.99,$39.99,other,2026-11-09
+1663675754,1000 Credits,9.99,$9.99,other,2026-11-09
+1663675754,2000 Credits,18.99,$18.99,other,2026-11-09
+1663675754,500 Credits,5.99,$5.99,other,2026-11-09
+1663675754,GDevelop Gold - 1 year,95.99,$95.99,yearly,2026-11-09
+1663675754,GDevelop Pro - 1 year,399.99,$399.99,yearly,2026-11-09
+1663675754,From Zero to Creator,24.99,$24.99,other,2026-11-09
+1663675754,5000 Credits,44.99,$44.99,other,2026-11-09
 1666079570,Unlock all features,10.95,$10.95,other,2026-11-04
 1666079570,Unlock all features,9.99,$9.99,other,2026-11-04
 1666079570,Unlock all features,14.95,$14.95,other,2026-11-04
