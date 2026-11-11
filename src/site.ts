@@ -166,7 +166,7 @@ ${ld}
 </div></header>
 <main id="main">
 ${p.body}
-${communityBand(ctx)}</main>
+${newsletterBand(ctx)}${communityBand(ctx)}</main>
 <footer class="footer" style="--tear: ${tear(41, 9, 48, 0)}"><div class="container">
 <p class="mast" aria-hidden="true">Scout</p>
 <ul>
@@ -189,12 +189,60 @@ for (const f of document.querySelectorAll("[data-switch]")) {
   const show = (v) => panels.forEach((p) => p.classList.toggle("on", p.dataset.value === v));
   f.addEventListener("change", (e) => show(e.target.value));
   show(f.querySelector("input:checked")?.value);
-}
+}${ctx.config.site?.newsletter?.loopsFormId ? SIGNUP_SCRIPT : ""}
 </script>
 </body>
 </html>
 `;
 }
+
+/**
+ * The newsletter sign-up, from scout.config.json. It posts to Loops' public form endpoint, which
+ * takes an email with no key. Shown once a form id is set; a fork without one shows nothing.
+ */
+function newsletterBand(ctx: Ctx): string {
+  const n = ctx.config.site?.newsletter;
+  if (!n?.loopsFormId || !/^[a-z0-9]+$/i.test(n.loopsFormId)) return "";
+  return `<section class="section section--s signup-band" aria-labelledby="signup-title"><div class="container stack">
+<div class="pane"><h2 id="signup-title">${esc(n.heading ?? "New niches, by email.")}</h2>
+<p class="lead">${esc(n.pitch ?? "Get the niches Scout finds and the small apps climbing the charts. Free, and you can unsubscribe at any time.")}</p></div>
+<form class="signup" method="post" action="https://app.loops.so/api/newsletter-form/${esc(n.loopsFormId)}" data-signup>
+<label class="signup-field"><span>Email address</span><input type="email" name="email" required autocomplete="email" placeholder="you@example.com"></label>
+<input type="hidden" name="userGroup" value="${esc(n.userGroup ?? "App Store Scout")}">${n.mailingLists ? `\n<input type="hidden" name="mailingLists" value="${esc(n.mailingLists)}">` : ""}
+<button class="btn btn--primary" type="submit">${esc(n.cta ?? "Subscribe")}</button>
+<p class="signup-status" role="status" aria-live="polite"></p>
+</form>
+</div></section>
+`;
+}
+
+// Sends the sign-up in the background so the reader stays on the page. Without JavaScript the
+// form still posts straight to Loops.
+const SIGNUP_SCRIPT = `
+for (const form of document.querySelectorAll("[data-signup]")) {
+  form.addEventListener("submit", async (event) => {
+    event.preventDefault();
+    const status = form.querySelector(".signup-status");
+    const button = form.querySelector("button");
+    const say = (text, ok) => { status.textContent = text; status.dataset.state = ok ? "ok" : "error"; };
+    button.disabled = true;
+    say("Sending…", true);
+    try {
+      const res = await fetch(form.action, {
+        method: "POST",
+        headers: { "Content-Type": "application/x-www-form-urlencoded" },
+        body: new URLSearchParams(new FormData(form)).toString(),
+      });
+      const data = await res.json().catch(() => ({}));
+      if (res.ok && data.success) { say("You’re on the list. Check your inbox.", true); form.reset(); }
+      else if (res.status === 429) say("Too many sign-ups just now. Try again in a minute.", false);
+      else say(data.message || "That didn’t go through. Check the address and try again.", false);
+    } catch {
+      say("Couldn’t reach the sign-up service. Check your connection and try again.", false);
+    }
+    button.disabled = false;
+  });
+}`;
 
 /** The maker's community, from scout.config.json. A fork without one shows nothing. */
 function communityBand(ctx: Ctx): string {

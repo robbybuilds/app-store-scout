@@ -123,6 +123,14 @@ a.tile:active { --edge: 1px; translate: 0 4px; }
 .count { font-size: var(--text-sm); color: var(--color-muted); white-space: nowrap; }
 .apps-list { display: grid; margin: 0; padding: 0; list-style: none; }
 .apps-list li { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-md); align-items: baseline; padding-block: var(--space-sm); border-top: var(--rule-hair) solid var(--color-rule); }
+/* Newsletter sign-up: one field and the primary button, on every page above the footer. */
+.signup { display: grid; grid-template-columns: minmax(0, 1fr) auto; gap: var(--space-md); align-items: end; }
+.signup-field { display: grid; gap: var(--space-2xs); font-size: var(--text-sm); color: var(--color-ink-2); }
+.signup-field input { min-height: 52px; padding: 0 var(--space-md); border: 1px solid var(--color-muted); border-radius: var(--radius-input); background: var(--color-card); color: var(--color-ink); font-size: var(--text-lg); min-width: 0; }
+.signup-field input:focus-visible { outline: 2px solid var(--color-focus); outline-offset: 0; }
+.signup-status { grid-column: 1 / -1; margin: 0; min-height: 1.5em; font-size: var(--text-sm); color: var(--color-ink-2); }
+.signup-status[data-state="error"] { color: var(--color-ink); font-weight: 600; }
+@media (max-width: 40rem) { .signup { grid-template-columns: minmax(0, 1fr); } }
 /* A longer note per app (a move, not just a place) sits under the name instead of beside it. */
 .apps-list--stacked li { grid-template-columns: minmax(0, 1fr); gap: var(--space-3xs, 2px); }
 .apps-list--stacked .rank { white-space: normal; }

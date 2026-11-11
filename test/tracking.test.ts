@@ -20,7 +20,7 @@ const config: Config = {
   genres: [{ id: 0, name: "All apps" }, { id: 6013, name: "Health & Fitness" }, { id: 6023, name: "Food & Drink" }],
   report: { smallAppMaxRatings: 5000, newAppMaxAgeDays: 365, listSize: 10 },
   research: { countries: ["us"], niches: 10, reviewPages: 1, searchVolume: false, pages: true, newApps: false, trackNewAppsDays: 90 },
-  site: { community: { name: "Test Club", url: "https://example.com/club" } },
+  site: { community: { name: "Test Club", url: "https://example.com/club" }, newsletter: { loopsFormId: "abc123", mailingLists: "list1" } },
 };
 
 function app(appId: string, name: string, publisher = `Pub ${appId}`, extra: Partial<AppDetails> = {}): AppDetails {
@@ -153,6 +153,14 @@ test("the site gets movers, changes, removed, API and feed, and the MCP server a
     assert.match(home, /Moving on the money charts/);
     assert.match(home, /<a class="btn btn--primary" href="https:\/\/example.com\/club">Join Test Club<\/a>/);
     assert.match(home, /<link rel="alternate" type="application\/atom\+xml"/);
+    // The sign-up posts to Loops' public form endpoint, tagged so Scout's readers can be told apart.
+    assert.match(home, /<form class="signup" method="post" action="https:\/\/app\.loops\.so\/api\/newsletter-form\/abc123" data-signup>/);
+    assert.match(home, /<input type="hidden" name="userGroup" value="App Store Scout">\n<input type="hidden" name="mailingLists" value="list1">/);
+    assert.match(read("movers/index.html"), /data-signup/);
+    // No form id, no form and no script.
+    const bare = join(dir, "bare");
+    buildSite(store, { ...config, site: { newsletter: { loopsFormId: "" } } }, { url: "https://example.github.io/scout", repo: "example/scout", out: bare, assets: fileURLToPath(new URL("../web", import.meta.url)) });
+    assert.ok(!readFileSync(join(bare, "index.html"), "utf8").includes("signup"));
     assert.match(read("feed.xml"), /<title>New niche: fasting tracker<\/title>/);
 
     const api = JSON.parse(read("api/v1/us/movers.json"));

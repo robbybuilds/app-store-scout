@@ -107,6 +107,8 @@ curl https://robbybuilds.github.io/app-store-scout/api/v1/us/movers.json
 
 Your fork publishes its own site and API: turn on **Settings → Pages → Source: GitHub Actions**. The "Join" banner on every page comes from `site.community` in [`scout.config.json`](scout.config.json); change it to your own link or delete it.
 
+To collect emails, add a [Loops](https://loops.so) form: copy the form id from **Settings → Forms** in Loops and set `"newsletter": { "loopsFormId": "<id>" }` under `site` in the config. A sign-up form then appears on every page; subscribers are tagged with the user group "App Store Scout". No key goes in the repo, because Loops' form endpoint is public.
+
 ## Questions
 
 **Is a top-grossing rank the same as revenue?**
