@@ -35,6 +35,7 @@ id,rating,version,date,title,body
 11472129178,2,3.1.0,2024-07-09,No Tensorflow Support,"Does not have support for Tensorflow package, cannot be used for my use case."
 8649591961,2,1.5.2,2022-05-08,outdated python,The latest juno-1.5.2 is still based on an ancient python-3.6. Any plans to upgrade to python-3.10 ?
 4885107376,2,1.1.0,2019-10-04,Output,"I use a lot of print statements to debug my code, and with no command prompts I can’t debug my code easily"
+14765055580,3,4.4.1,2026-11-08,Unfitted for iPhones,Coding and debugging are sluggish on iPhones.
 13647232952,3,3.8.2,2026-01-18,Fail to unlock pro,It says: Fail to retrieve product details from app store
 12263056337,3,3.4.0,2025-02-02,It’s ok,This is not the best IDE for iOS out there. It has no pip support for installing packages which severally limits its functionality. Until pip is added this app won’t work for me. Also please add a free trial so people can see if it works for them especially since it costs $25 to unlock the full app.
 11562375845,3,3.2.0,2024-08-02,Issues with grid search,"Every time I run grid search, it’s infinitely loading, it won’t run the result below the code “import from sklearn.model_selection import GridSearchCV”. And the app will crash!"

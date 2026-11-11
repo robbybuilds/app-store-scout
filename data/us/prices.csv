@@ -41,16 +41,16 @@ app_id,item,price,price_text,period,checked_at
 1232603544,Pro Upgrade - Weekly,2.99,$2.99,weekly,2026-11-03
 1232603544,Lifetime Unlock,49.99,$49.99,lifetime,2026-11-03
 1232603544,HTTPBot Pro Upgrade - Yearly,29.99,$29.99,yearly,2026-11-03
-1280464759,Premium,1.99,$1.99,other,2026-11-04
-1280464759,Premium,14.99,$14.99,other,2026-11-04
-1280464759,Mixel Premium,49.99,$49.99,other,2026-11-04
-1280464759,User Creations Pack,0,$0.00,other,2026-11-04
-1280464759,Base Upgrade,3.99,$3.99,other,2026-11-04
-1280464759,Whiskey Pack,1.99,$1.99,other,2026-11-04
-1280464759,Gin Pack,0.99,$0.99,other,2026-11-04
-1280464759,Tiki Pack,1.99,$1.99,other,2026-11-04
-1280464759,Vodka Pack,0.99,$0.99,other,2026-11-04
-1280464759,Tequila & Mezcal Pack,0.99,$0.99,other,2026-11-04
+1280464759,Premium,1.99,$1.99,other,2026-11-11
+1280464759,Premium,14.99,$14.99,other,2026-11-11
+1280464759,Mixel Premium,49.99,$49.99,other,2026-11-11
+1280464759,User Creations Pack,0,$0.00,other,2026-11-11
+1280464759,Base Upgrade,3.99,$3.99,other,2026-11-11
+1280464759,Whiskey Pack,1.99,$1.99,other,2026-11-11
+1280464759,Gin Pack,0.99,$0.99,other,2026-11-11
+1280464759,Tiki Pack,1.99,$1.99,other,2026-11-11
+1280464759,Vodka Pack,0.99,$0.99,other,2026-11-11
+1280464759,Tequila & Mezcal Pack,0.99,$0.99,other,2026-11-11
 1297896111,Diamond Membership,9.99,$9.99,other,2026-11-03
 1297896111,Monthly Diamond Membership,19.99,$19.99,monthly,2026-11-03
 1297896111,500 gold coins,0.99,$0.99,other,2026-11-03
@@ -280,10 +280,10 @@ app_id,item,price,price_text,period,checked_at
 1544728400,xTerminal Pro,29.99,$29.99,other,2026-11-04
 1544728400,xTerminal Pro,59.99,$59.99,other,2026-11-04
 1544728400,xTerminal Pro Monthly,6.99,$6.99,monthly,2026-11-04
-1544749600,Premium Weekly Subscription,4.99,$4.99,weekly,2026-11-03
-1544749600,Premium Monthly Subscription,12.99,$12.99,monthly,2026-11-03
-1544749600,Premium Lifetime,99,$99.00,lifetime,2026-11-03
-1544749600,Premium Yearly Subscription,79.99,$79.99,yearly,2026-11-03
+1544749600,Premium Weekly Subscription,4.99,$4.99,weekly,2026-11-11
+1544749600,Premium Monthly Subscription,12.99,$12.99,monthly,2026-11-11
+1544749600,Premium Lifetime,99,$99.00,lifetime,2026-11-11
+1544749600,Premium Yearly Subscription,79.99,$79.99,yearly,2026-11-11
 1551292695,Premium Monthly Subscription,8.99,$8.99,monthly,2026-11-05
 1551292695,Premium Annual Subscription,49.99,$49.99,yearly,2026-11-05
 1551292695,Lifetime Access,99.99,$99.99,lifetime,2026-11-05
@@ -298,16 +298,16 @@ app_id,item,price,price_text,period,checked_at
 1556961805,one-time-purchase,29.99,$29.99,lifetime,2026-11-10
 1556961805,1800 เหรียญ,2.99,$2.99,other,2026-11-10
 1556961805,one-time-purchase,14.99,$14.99,lifetime,2026-11-10
-1563168194,Weekly Premium,9.99,$9.99,weekly,2026-11-04
-1563168194,Weekly Premium,3.99,$3.99,weekly,2026-11-04
-1563168194,Weekly Premium,2.99,$2.99,weekly,2026-11-04
-1563168194,Weekly Premium + 3-day trial,12.99,$12.99,weekly,2026-11-04
-1563168194,Premium monthly,12.99,$12.99,monthly,2026-11-04
-1563168194,Unlock all editions,7.99,$7.99,other,2026-11-04
-1563168194,Hot 18+,3.99,$3.99,other,2026-11-04
-1563168194,Premium monthly,8.99,$8.99,monthly,2026-11-04
-1563168194,Touch edition,1.99,$1.99,other,2026-11-04
-1563168194,Crazy edition,1.99,$1.99,other,2026-11-04
+1563168194,Weekly Premium,9.99,$9.99,weekly,2026-11-11
+1563168194,Weekly Premium,3.99,$3.99,weekly,2026-11-11
+1563168194,Weekly Premium,2.99,$2.99,weekly,2026-11-11
+1563168194,Weekly Premium + 3-day trial,12.99,$12.99,weekly,2026-11-11
+1563168194,Premium monthly,12.99,$12.99,monthly,2026-11-11
+1563168194,Unlock all editions,7.99,$7.99,other,2026-11-11
+1563168194,Hot 18+,3.99,$3.99,other,2026-11-11
+1563168194,Touch edition,1.99,$1.99,other,2026-11-11
+1563168194,Premium monthly,8.99,$8.99,monthly,2026-11-11
+1563168194,Crazy edition,1.99,$1.99,other,2026-11-11
 1565527320,Unlock Pro features,39.99,$39.99,other,2026-11-04
 1565527320,Unlock Pro AI Predictions,119.99,$119.99,other,2026-11-04
 1565527320,6 Months Pro Access,149.99,$149.99,other,2026-11-04
@@ -411,6 +411,9 @@ app_id,item,price,price_text,period,checked_at
 1644911162,Premium Features,34.99,$34.99,other,2026-11-08
 1644911162,Premium Features,29.99,$29.99,other,2026-11-08
 1644911162,Premium Features,7.99,$7.99,other,2026-11-08
+1661045349,1 Week Premium,3.99,$3.99,weekly,2026-11-11
+1661045349,1 Year Premium,59.99,$59.99,yearly,2026-11-11
+1661045349,1 Month Premium,9.99,$9.99,monthly,2026-11-11
 1661207294,All Access,89,$89.00,other,2026-11-10
 1661207294,All Access,129,$129.00,other,2026-11-10
 1663675754,GDevelop Gold,12.99,$12.99,other,2026-11-09
@@ -446,8 +449,8 @@ app_id,item,price,price_text,period,checked_at
 340368403,プレミアムサービス,0.49,$0.49,other,2026-11-10
 340368403,プレミアムサービス,1.99,$1.99,other,2026-11-10
 340368403,プレミアムサービス,2.99,$2.99,other,2026-11-10
-409157308,AK Monthly,5.99,$5.99,monthly,2026-11-03
-409157308,AK Annual,39.99,$39.99,yearly,2026-11-03
+409157308,AK Monthly,5.99,$5.99,monthly,2026-11-11
+409157308,AK Annual,39.99,$39.99,yearly,2026-11-11
 418032026,Premium Service (Monthly),5.99,$5.99,monthly,2026-11-03
 418032026,Premium Service (Yearly),24.49,$24.49,yearly,2026-11-03
 418032026,Premium Service (1 Month),5.99,$5.99,monthly,2026-11-03
@@ -557,6 +560,16 @@ app_id,item,price,price_text,period,checked_at
 6447497607,5000 Coins,49.99,$49.99,other,2026-11-10
 6447497607,Fatednovel VIP,9.99,$9.99,other,2026-11-10
 6447497607,Recharge USD 14.99,14.99,$14.99,other,2026-11-10
+6447612873,Handful of Gold,0.99,$0.99,other,2026-11-11
+6447612873,Sack of gold,4.99,$4.99,other,2026-11-11
+6447612873,Barrel of gold,9.99,$9.99,other,2026-11-11
+6447612873,Sack of gold,4.79,$4.79,other,2026-11-11
+6447612873,Pouch of gold,2.99,$2.99,other,2026-11-11
+6447612873,Pile of Gold,1.99,$1.99,other,2026-11-11
+6447612873,Chest of gold,19.99,$19.99,other,2026-11-11
+6447612873,Mountain of Gold,99.99,$99.99,other,2026-11-11
+6447612873,Cart of gold,49.99,$49.99,other,2026-11-11
+6447612873,Crate of Gold,8.99,$8.99,other,2026-11-11
 6448362669,Annual Subscription,24.99,$24.99,yearly,2026-11-04
 6448362669,Lifetime Version,59.99,$59.99,lifetime,2026-11-04
 6448362669,Monthly Subscription,3.99,$3.99,monthly,2026-11-04
@@ -573,8 +586,8 @@ app_id,item,price,price_text,period,checked_at
 6450834358,Product Tier 6,5.99,$5.99,other,2026-11-03
 6450834358,Product Tier 10,14.99,$14.99,other,2026-11-03
 6450834358,Product Tier 12,24.99,$24.99,other,2026-11-03
-6468674686,Monthly,3.99,$3.99,monthly,2026-11-04
-6468674686,Annual,38.99,$38.99,yearly,2026-11-04
+6468674686,Monthly,3.99,$3.99,monthly,2026-11-11
+6468674686,Annual,38.99,$38.99,yearly,2026-11-11
 6469260108,Payment,0.99,$0.99,other,2026-11-07
 6469260108,Payment,4.99,$4.99,other,2026-11-07
 6469260108,Payment,1.99,$1.99,other,2026-11-07
@@ -651,16 +664,16 @@ app_id,item,price,price_text,period,checked_at
 6502703406,Subscription,19.99,$19.99,other,2026-11-03
 6502703406,300 Coins,2.99,$2.99,other,2026-11-03
 6502703406,Subscription,0.99,$0.99,other,2026-11-03
-6502895473,Weekly VIP,29.99,$29.99,weekly,2026-11-03
-6502895473,1000 coins,9.99,$9.99,other,2026-11-03
-6502895473,500 coins,4.99,$4.99,other,2026-11-03
-6502895473,Weekly VIP,24.99,$24.99,weekly,2026-11-03
-6502895473,2000 coins,19.99,$19.99,other,2026-11-03
-6502895473,Weekly VIP,9.99,$9.99,weekly,2026-11-03
-6502895473,$9.99 for 1100,9.99,$9.99,other,2026-11-03
-6502895473,1500 coins,14.99,$14.99,other,2026-11-03
-6502895473,Weekly VIP,19.99,$19.99,weekly,2026-11-03
-6502895473,1300 coins,12.99,$12.99,other,2026-11-03
+6502895473,Weekly VIP,29.99,$29.99,weekly,2026-11-11
+6502895473,500 coins,4.99,$4.99,other,2026-11-11
+6502895473,1000 coins,9.99,$9.99,other,2026-11-11
+6502895473,Weekly VIP,9.99,$9.99,weekly,2026-11-11
+6502895473,2000 coins,19.99,$19.99,other,2026-11-11
+6502895473,Weekly VIP,24.99,$24.99,weekly,2026-11-11
+6502895473,$9.99 for 1100,9.99,$9.99,other,2026-11-11
+6502895473,1500 coins,14.99,$14.99,other,2026-11-11
+6502895473,Weekly VIP,19.99,$19.99,weekly,2026-11-11
+6502895473,1300 coins,12.99,$12.99,other,2026-11-11
 6503328539,Moreshort SVIP WeeklySubs,17.99,$17.99,other,2026-11-03
 6503328539,Weekly Subscription,14.99,$14.99,weekly,2026-11-03
 6503328539,Moreshort Weekly SubFree1,14.99,$14.99,weekly,2026-11-03
@@ -670,15 +683,15 @@ app_id,item,price,price_text,period,checked_at
 6503328539,Moreshort SVIP MonthlySubs,35.99,$35.99,other,2026-11-03
 6503328539,MoreShort Monthly Subscription,29.99,$29.99,monthly,2026-11-03
 6503328539,Coins 50,0.49,$0.49,other,2026-11-03
-6503421271,Weekly Membership,17.99,$17.99,weekly,2026-11-03
-6503421271,100 Coins+Bonus,0.99,$0.99,other,2026-11-03
-6503421271,500 Coins+Bonus,4.99,$4.99,other,2026-11-03
-6503421271,Coin 1000+Bonus,9.99,$9.99,other,2026-11-03
-6503421271,Monthly Membership,35.99,$35.99,monthly,2026-11-03
-6503421271,2000 Coins+Bonus,19.99,$19.99,other,2026-11-03
-6503421271,Coin 3000+Bonus,29.99,$29.99,other,2026-11-03
-6503421271,Yearly Membership,149.99,$149.99,yearly,2026-11-03
-6503421271,Weekly Membership,19.99,$19.99,weekly,2026-11-03
+6503421271,Weekly Membership,17.99,$17.99,weekly,2026-11-11
+6503421271,100 Coins+Bonus,0.99,$0.99,other,2026-11-11
+6503421271,500 Coins+Bonus,4.99,$4.99,other,2026-11-11
+6503421271,Coin 1000+Bonus,9.99,$9.99,other,2026-11-11
+6503421271,Monthly Membership,35.99,$35.99,monthly,2026-11-11
+6503421271,2000 Coins+Bonus,19.99,$19.99,other,2026-11-11
+6503421271,Weekly Membership,19.99,$19.99,weekly,2026-11-11
+6503421271,Coin 3000+Bonus,29.99,$29.99,other,2026-11-11
+6503421271,Yearly Membership,149.99,$149.99,yearly,2026-11-11
 6503937276,Weekly,3.99,$3.99,weekly,2026-11-03
 6503937276,Weekly Premium,3.99,$3.99,weekly,2026-11-03
 6503937276,Weekly Premium,4.99,$4.99,weekly,2026-11-03
@@ -742,16 +755,16 @@ app_id,item,price,price_text,period,checked_at
 6736347122,Inspo Premium,49.99,$49.99,other,2026-11-10
 6736347122,Inspo Premium,29.99,$29.99,other,2026-11-10
 6736347122,Inspo Premium,14.99,$14.99,other,2026-11-10
-6736395270,Sparkle Gem Set,1.99,$1.99,other,2026-11-03
-6736395270,Energy Station,3.99,$3.99,other,2026-11-03
-6736395270,Weekly Pass,3.99,$3.99,weekly,2026-11-03
-6736395270,Glitter Gem Pack,4.99,$4.99,other,2026-11-03
-6736395270,Bundle 1,1.99,$1.99,other,2026-11-03
-6736395270,Out of Energy,10.99,$10.99,other,2026-11-03
-6736395270,Super Premium Pass,9.99,$9.99,other,2026-11-03
-6736395270,Premium Pass,4.99,$4.99,other,2026-11-03
-6736395270,1+1 Decoration Island Offer,4.99,$4.99,other,2026-11-03
-6736395270,Career Dash Boost,4.99,$4.99,other,2026-11-03
+6736395270,Sparkle Gem Set,1.99,$1.99,other,2026-11-11
+6736395270,Energy Station,3.99,$3.99,other,2026-11-11
+6736395270,Weekly Pass,3.99,$3.99,weekly,2026-11-11
+6736395270,Glitter Gem Pack,4.99,$4.99,other,2026-11-11
+6736395270,Bundle 1,1.99,$1.99,other,2026-11-11
+6736395270,Out of Energy,10.99,$10.99,other,2026-11-11
+6736395270,Super Premium Pass,9.99,$9.99,other,2026-11-11
+6736395270,Premium Pass,4.99,$4.99,other,2026-11-11
+6736395270,Career Dash Boost,4.99,$4.99,other,2026-11-11
+6736395270,1+1 Decoration Island Offer,4.99,$4.99,other,2026-11-11
 6736602732,Premium (Monthly),9.99,$9.99,monthly,2026-11-04
 6736602732,Premium (Yearly),59.99,$59.99,yearly,2026-11-04
 6736602732,Pro (Monthly),16.99,$16.99,monthly,2026-11-04
@@ -779,15 +792,15 @@ app_id,item,price,price_text,period,checked_at
 6738411328,Python Coding Pro,29.99,$29.99,other,2026-11-04
 6738411328,Python Coding Pro,7.99,$7.99,other,2026-11-04
 6738411328,Python Coding Pro,59.99,$59.99,other,2026-11-04
-6738833494,Coins Pack 10,9.99,$9.99,other,2026-11-03
-6738833494,Coins Pack 20,19.99,$19.99,other,2026-11-03
-6738833494,SVIP(weekly),29.99,$29.99,weekly,2026-11-03
-6738833494,Weekly Rewards Pack,19.99,$19.99,weekly,2026-11-03
-6738833494,SVIP(weekly),14.99,$14.99,weekly,2026-11-03
-6738833494,Weekly Rewards Pack,28.99,$28.99,weekly,2026-11-03
-6738833494,Coins Pack 50,49.99,$49.99,other,2026-11-03
-6738833494,SVIP(yearly),149.99,$149.99,yearly,2026-11-03
-6738833494,SVIP(weekly),4.99,$4.99,weekly,2026-11-03
+6738833494,Coins Pack 10,9.99,$9.99,other,2026-11-11
+6738833494,Coins Pack 20,19.99,$19.99,other,2026-11-11
+6738833494,SVIP(weekly),29.99,$29.99,weekly,2026-11-11
+6738833494,Weekly Rewards Pack,19.99,$19.99,weekly,2026-11-11
+6738833494,Weekly Rewards Pack,28.99,$28.99,weekly,2026-11-11
+6738833494,SVIP(weekly),14.99,$14.99,weekly,2026-11-11
+6738833494,Coins Pack 50,49.99,$49.99,other,2026-11-11
+6738833494,SVIP(weekly),4.99,$4.99,weekly,2026-11-11
+6738833494,SVIP(yearly),149.99,$149.99,yearly,2026-11-11
 6738940313,$9.99 Coin Pack,9.99,$9.99,other,2026-11-10
 6738940313,$19.99 Coin Pack,19.99,$19.99,other,2026-11-10
 6738940313,$6.99 Coin Pack,6.99,$6.99,other,2026-11-10
@@ -884,19 +897,19 @@ app_id,item,price,price_text,period,checked_at
 6744812012,Giftbag3,2.99,$2.99,other,2026-11-03
 6744909694,JetBack Pro Membership,99.99,$99.99,other,2026-11-10
 6744909694,JetBack Pro Membership,49.99,$49.99,other,2026-11-10
-6745089763,Weekly VIP,29.99,$29.99,weekly,2026-11-04
-6745089763,Weekly VIP,19.99,$19.99,weekly,2026-11-04
-6745089763,Check-in Rewards Pack,14.99,$14.99,other,2026-11-04
-6745089763,7000 Coins,19.99,$19.99,other,2026-11-04
-6745089763,3500 Coins,9.99,$9.99,other,2026-11-04
-6745089763,Yearly VIP,149.99,$149.99,yearly,2026-11-04
-6745089763,Coin Package-B,28.99,$28.99,other,2026-11-04
-6745089763,Coin Package-A,19.99,$19.99,other,2026-11-04
-6745089763,10000 Coins,29.99,$29.99,other,2026-11-04
-6745089763,Monthly VIP,39.99,$39.99,monthly,2026-11-04
-6745097949,5 Credits,6.99,$6.99,other,2026-11-03
-6745097949,25 Credits,34.99,$34.99,other,2026-11-03
-6745097949,100 Credits,139.99,$139.99,other,2026-11-03
+6745089763,Weekly VIP,29.99,$29.99,weekly,2026-11-11
+6745089763,Check-in Rewards Pack,14.99,$14.99,other,2026-11-11
+6745089763,Weekly VIP,19.99,$19.99,weekly,2026-11-11
+6745089763,7000 Coins,19.99,$19.99,other,2026-11-11
+6745089763,Yearly VIP,149.99,$149.99,yearly,2026-11-11
+6745089763,3500 Coins,9.99,$9.99,other,2026-11-11
+6745089763,Coin Package-B,28.99,$28.99,other,2026-11-11
+6745089763,Coin Package-A,19.99,$19.99,other,2026-11-11
+6745089763,10000 Coins,29.99,$29.99,other,2026-11-11
+6745089763,Monthly VIP,39.99,$39.99,monthly,2026-11-11
+6745097949,5 Credits,6.99,$6.99,other,2026-11-11
+6745097949,25 Credits,34.99,$34.99,other,2026-11-11
+6745097949,100 Credits,139.99,$139.99,other,2026-11-11
 6745152251,Free Trial,11.99,$11.99,other,2026-11-03
 6745152251,Monthly,12.99,$12.99,monthly,2026-11-03
 6745152251,Yearly,34.99,$34.99,yearly,2026-11-03
@@ -1137,16 +1150,16 @@ app_id,item,price,price_text,period,checked_at
 6754626612,Weekly Subscription,5.99,$5.99,weekly,2026-11-10
 6754626612,Monthly Coin Pack 2,49.99,$49.99,monthly,2026-11-10
 6754626612,5000 Coins,49.99,$49.99,other,2026-11-10
-6754861642,Imposter Pro — Monthly,4.99,$4.99,monthly,2026-11-03
-6754861642,Imposter Pro — Annual,29.99,$29.99,yearly,2026-11-03
-6754861642,Imposter Pro — Annual,39.99,$39.99,yearly,2026-11-03
-6754861642,Imposter Pro — Weekly,9.99,$9.99,weekly,2026-11-03
-6754861642,Imposter Pro — Annual,59.99,$59.99,yearly,2026-11-03
-6754861642,Imposter Pro — Annual,19.99,$19.99,yearly,2026-11-03
-6754861642,3-Month Pass,9.99,$9.99,other,2026-11-03
-6754861642,Imposter Pro — Weekly,4.99,$4.99,weekly,2026-11-03
-6754861642,Pro Annual — Special Offer,19.99,$19.99,yearly,2026-11-03
-6754861642,Imposter Pro — Weekly,7.99,$7.99,weekly,2026-11-03
+6754861642,Imposter Pro — Monthly,4.99,$4.99,monthly,2026-11-11
+6754861642,Imposter Pro — Annual,29.99,$29.99,yearly,2026-11-11
+6754861642,Imposter Pro — Annual,39.99,$39.99,yearly,2026-11-11
+6754861642,Imposter Pro — Weekly,9.99,$9.99,weekly,2026-11-11
+6754861642,Imposter Pro — Annual,59.99,$59.99,yearly,2026-11-11
+6754861642,Imposter Pro — Annual,19.99,$19.99,yearly,2026-11-11
+6754861642,3-Month Pass,9.99,$9.99,other,2026-11-11
+6754861642,Imposter Pro — Weekly,4.99,$4.99,weekly,2026-11-11
+6754861642,Pro Annual — Special Offer,19.99,$19.99,yearly,2026-11-11
+6754861642,Imposter Pro — Weekly,7.99,$7.99,weekly,2026-11-11
 6754896485,Premium,29.99,$29.99,other,2026-11-10
 6754896485,Premium,39.99,$39.99,other,2026-11-10
 6754896485,Premium,19.99,$19.99,other,2026-11-10
@@ -1206,13 +1219,13 @@ app_id,item,price,price_text,period,checked_at
 6755636826,Mongon Pro,6.99,$6.99,other,2026-11-04
 6755636826,One Time Payment,99.99,$99.99,lifetime,2026-11-04
 6755636826,Annual Subscription,49.99,$49.99,yearly,2026-11-04
-6755754589,Membership,12.99,$12.99,other,2026-11-03
-6755754589,Special offer,9.99,$9.99,other,2026-11-03
-6755754589,Special offer,6.99,$6.99,other,2026-11-03
-6755754589,Special offer,4.99,$4.99,other,2026-11-03
-6755754589,Special offer,3.99,$3.99,other,2026-11-03
-6755754589,Membership,3.99,$3.99,other,2026-11-03
-6755754589,Membership,39.99,$39.99,other,2026-11-03
+6755754589,Membership,12.99,$12.99,other,2026-11-11
+6755754589,Special offer,9.99,$9.99,other,2026-11-11
+6755754589,Special offer,6.99,$6.99,other,2026-11-11
+6755754589,Special offer,4.99,$4.99,other,2026-11-11
+6755754589,Special offer,3.99,$3.99,other,2026-11-11
+6755754589,Membership,3.99,$3.99,other,2026-11-11
+6755754589,Membership,39.99,$39.99,other,2026-11-11
 6756160382,Mini Offer,0.99,$0.99,other,2026-11-10
 6756160382,Small Offer,5.99,$5.99,other,2026-11-10
 6756160382,Small Offer,7.99,$7.99,other,2026-11-10
@@ -1297,25 +1310,24 @@ app_id,item,price,price_text,period,checked_at
 6757859949,Moshi Pro Yearly,89.99,$89.99,yearly,2026-11-10
 6757859949,Moshi Pro Yearly,69.99,$69.99,yearly,2026-11-10
 6757859949,Moshi Pioneer Yearly,29.99,$29.99,yearly,2026-11-10
-6758563145,Weekly VIP Membership,29.99,$29.99,weekly,2026-11-03
-6758563145,Purchase Coins,9.99,$9.99,other,2026-11-03
-6758563145,Weekly VIP Membership,9.99,$9.99,weekly,2026-11-03
-6758563145,Purchase Coins,19.99,$19.99,other,2026-11-03
-6758563145,Weekly VIP Membership,11.99,$11.99,weekly,2026-11-03
-6758563145,Purchase Coins,4.99,$4.99,other,2026-11-03
-6758563145,Purchase Coins,29.99,$29.99,other,2026-11-03
-6758563145,Purchase Coins,11.99,$11.99,other,2026-11-03
+6758563145,Weekly VIP Membership,29.99,$29.99,weekly,2026-11-11
+6758563145,Purchase Coins,9.99,$9.99,other,2026-11-11
+6758563145,Weekly VIP Membership,9.99,$9.99,weekly,2026-11-11
+6758563145,Purchase Coins,19.99,$19.99,other,2026-11-11
+6758563145,Purchase Coins,4.99,$4.99,other,2026-11-11
+6758563145,Weekly VIP Membership,11.99,$11.99,weekly,2026-11-11
+6758563145,Purchase Coins,29.99,$29.99,other,2026-11-11
 6758586511,Yearly Premium,34.99,$34.99,yearly,2026-11-10
 6758586511,Monthly Premium,14.99,$14.99,monthly,2026-11-10
 6758586511,Yearly Tripdeals Pro Offer,19.99,$19.99,yearly,2026-11-10
 6758586511,Yearly Tripdeals Offer New,29.99,$29.99,yearly,2026-11-10
 6758586511,Weekly TripDeals Pro Subscription,19.99,$19.99,weekly,2026-11-10
 6758586511,Weekly TripDeals Pro Sub,4.99,$4.99,weekly,2026-11-10
-6758667154,Weekly Pass Pro,19.99,$19.99,weekly,2026-11-03
-6758667154,One-time Purchase,3.49,$3.49,lifetime,2026-11-03
-6758667154,Weekly Pass Pro,9.99,$9.99,weekly,2026-11-03
-6758667154,Weekly Pass Pro,4.99,$4.99,weekly,2026-11-03
-6758667154,One-time Purchase,19.99,$19.99,lifetime,2026-11-03
+6758667154,One-time Purchase,3.49,$3.49,lifetime,2026-11-11
+6758667154,Weekly Pass Pro,19.99,$19.99,weekly,2026-11-11
+6758667154,Weekly Pass Pro,9.99,$9.99,weekly,2026-11-11
+6758667154,One-time Purchase,19.99,$19.99,lifetime,2026-11-11
+6758667154,Weekly Pass Pro,4.99,$4.99,weekly,2026-11-11
 6758670572,Lightning Tracker Premium,44.99,$44.99,other,2026-11-04
 6758670572,Lightning Tracker Premium,29.99,$29.99,other,2026-11-04
 6758670572,Lightning Tracker Premium,5.99,$5.99,other,2026-11-04
@@ -1323,16 +1335,16 @@ app_id,item,price,price_text,period,checked_at
 6758670572,Lightning Tracker Premium,26.99,$26.99,other,2026-11-04
 6758670572,Lightning Tracker Premium,7.99,$7.99,other,2026-11-04
 6758670572,Lightning Tracker Premium,19.99,$19.99,other,2026-11-04
-6758762494,Coin Pack 10,9.99,$9.99,other,2026-11-03
-6758762494,Coin Pack 20,19.99,$19.99,other,2026-11-03
-6758762494,VIP(weekly),29.99,$29.99,weekly,2026-11-03
-6758762494,Weekly Rewards Pack,19.99,$19.99,weekly,2026-11-03
-6758762494,Coins Pack 50,49.99,$49.99,other,2026-11-03
-6758762494,VIP(weekly),19.99,$19.99,weekly,2026-11-03
-6758762494,Weekly Rewards Pack,28.99,$28.99,weekly,2026-11-03
-6758762494,VIP(yearly),149.99,$149.99,yearly,2026-11-03
-6758762494,Coins Pack 30,29.99,$29.99,other,2026-11-03
-6758762494,Coins Pack 15,14.99,$14.99,other,2026-11-03
+6758762494,Coin Pack 10,9.99,$9.99,other,2026-11-11
+6758762494,Coin Pack 20,19.99,$19.99,other,2026-11-11
+6758762494,VIP(weekly),29.99,$29.99,weekly,2026-11-11
+6758762494,Weekly Rewards Pack,19.99,$19.99,weekly,2026-11-11
+6758762494,VIP(weekly),19.99,$19.99,weekly,2026-11-11
+6758762494,Weekly Rewards Pack,28.99,$28.99,weekly,2026-11-11
+6758762494,Coins Pack 50,49.99,$49.99,other,2026-11-11
+6758762494,VIP(yearly),149.99,$149.99,yearly,2026-11-11
+6758762494,Coins Pack 15,14.99,$14.99,other,2026-11-11
+6758762494,VIP(weekly),1.99,$1.99,weekly,2026-11-11
 6758783243,RecipeVault Premium,49.99,$49.99,other,2026-11-06
 6758783243,RecipeVault Premium,9.99,$9.99,other,2026-11-06
 6758783243,Lifetime Plan,59.99,$59.99,lifetime,2026-11-06
@@ -1392,6 +1404,8 @@ app_id,item,price,price_text,period,checked_at
 6761100688,Annual Premium,49.99,$49.99,yearly,2026-11-10
 6761100688,Premium Annual,49.99,$49.99,yearly,2026-11-10
 6761100688,Premium Weekly,14.99,$14.99,weekly,2026-11-10
+6761128531,Codex Premium Monthly,19.99,$19.99,monthly,2026-11-11
+6761128531,Codex Premium Yearly,179.99,$179.99,yearly,2026-11-11
 6761196011,Pro Annual,12.99,$12.99,yearly,2026-11-04
 6761196011,Pro Monthly,1.99,$1.99,monthly,2026-11-04
 6761531281,Special Offer 02,1.99,$1.99,other,2026-11-10
@@ -1436,23 +1450,23 @@ app_id,item,price,price_text,period,checked_at
 6767423666,Milq Max,99.99,$99.99,other,2026-11-08
 6767423666,Milq Sip Credits,19.99,$19.99,other,2026-11-08
 6767423666,Sip Credits,49.99,$49.99,other,2026-11-08
-6768593043,Weekly Pass Pro,19.99,$19.99,weekly,2026-11-03
-6768593043,One-time Purchase,3.49,$3.49,lifetime,2026-11-03
-6768593043,One-time Purchase,19.99,$19.99,lifetime,2026-11-03
-6768593043,Weekly Pass Pro,7.99,$7.99,weekly,2026-11-03
+6768593043,Weekly Pass Pro,19.99,$19.99,weekly,2026-11-11
+6768593043,One-time Purchase,3.49,$3.49,lifetime,2026-11-11
+6768593043,One-time Purchase,19.99,$19.99,lifetime,2026-11-11
+6768593043,Weekly Pass Pro,7.99,$7.99,weekly,2026-11-11
 6769601354,TapCook Yearly,29.99,$29.99,yearly,2026-11-10
 6769601354,TapCook Monthly,9.99,$9.99,monthly,2026-11-10
 6770581039,Pro Annual,19.99,$19.99,yearly,2026-11-06
 6770581039,Pro Monthly,2.99,$2.99,monthly,2026-11-06
 6770581039,Pro Annual,7.99,$7.99,yearly,2026-11-06
 6770581039,Pro lifetime,14.99,$14.99,lifetime,2026-11-06
-6771766380,coins_9.99,9.99,$9.99,other,2026-11-03
-6771766380,Membership,99.99,$99.99,other,2026-11-03
-6771766380,coins_19.99,19.99,$19.99,other,2026-11-03
-6771766380,Coins,59.99,$59.99,other,2026-11-03
-6771766380,Weekly Coin Pack,99.99,$99.99,weekly,2026-11-03
-6771766380,coins_29.99,29.99,$29.99,other,2026-11-03
-6771766380,Weekly Coin Pack,29.99,$29.99,weekly,2026-11-03
+6771766380,coins_9.99,9.99,$9.99,other,2026-11-11
+6771766380,Membership,99.99,$99.99,other,2026-11-11
+6771766380,Weekly Coin Pack,99.99,$99.99,weekly,2026-11-11
+6771766380,Coins,59.99,$59.99,other,2026-11-11
+6771766380,coins_29.99,29.99,$29.99,other,2026-11-11
+6771766380,coins_19.99,19.99,$19.99,other,2026-11-11
+6771766380,Weekly Coin Pack,29.99,$29.99,weekly,2026-11-11
 6772132185,GLab Pro — 3 months,6.99,$6.99,other,2026-11-03
 6772132185,GLab Pro — 1 year,19.99,$19.99,yearly,2026-11-03
 6772132185,GLab Pro — 6 months,12.99,$12.99,other,2026-11-03
@@ -1478,13 +1492,13 @@ app_id,item,price,price_text,period,checked_at
 6775024014,50 AI Credits,1.99,$1.99,other,2026-11-06
 6775775553,TermRover Pro,24.99,$24.99,other,2026-11-04
 6775775553,TermRover,79.99,$79.99,other,2026-11-04
-6777230233,Herbi Pro Yearly,39.99,$39.99,yearly,2026-11-04
-6777230233,Herbi Pro Yearly,29.99,$29.99,yearly,2026-11-04
-6777230233,Herbi Pro Monthly,6.99,$6.99,monthly,2026-11-04
-6777230233,Herbi Pro,12.99,$12.99,other,2026-11-04
-6777230233,Herbi Pro Yearly Discount,29.99,$29.99,yearly,2026-11-04
-6777230233,Herbi Pro Monthly Discount,9.99,$9.99,monthly,2026-11-04
-6777230233,Herbi Pro Yearly,19.99,$19.99,yearly,2026-11-04
+6777230233,Herbi Pro Yearly,29.99,$29.99,yearly,2026-11-11
+6777230233,Herbi Pro Yearly,39.99,$39.99,yearly,2026-11-11
+6777230233,Herbi Pro Monthly,6.99,$6.99,monthly,2026-11-11
+6777230233,Herbi Pro,12.99,$12.99,other,2026-11-11
+6777230233,Herbi Pro Yearly Discount,29.99,$29.99,yearly,2026-11-11
+6777230233,Herbi Pro Monthly Discount,9.99,$9.99,monthly,2026-11-11
+6777230233,Herbi Pro Yearly,19.99,$19.99,yearly,2026-11-11
 6777471316,Yearly Subscription,39.99,$39.99,yearly,2026-11-10
 6777471316,Yearly Membership,49.99,$49.99,yearly,2026-11-10
 6777471316,Yearly Subscription,29.99,$29.99,yearly,2026-11-10
@@ -1597,9 +1611,9 @@ app_id,item,price,price_text,period,checked_at
 6802304499,10000 COINS,99.99,$99.99,other,2026-11-03
 6802304499,300 Coins,2.99,$2.99,other,2026-11-03
 6802304499,Reading Pass,9.99,$9.99,other,2026-11-03
-6804464432,Unlimited Access,29.99,$29.99,other,2026-11-03
-6804464432,Unlimited Access,9.99,$9.99,other,2026-11-03
-6804464432,Unlimited Access,14.99,$14.99,other,2026-11-03
+6804464432,Unlimited Access,9.99,$9.99,other,2026-11-11
+6804464432,Unlimited Access,14.99,$14.99,other,2026-11-11
+6804464432,Unlimited Access,29.99,$29.99,other,2026-11-11
 6805897875,Pro Yearly,19.99,$19.99,yearly,2026-11-03
 6805897875,Pro Yearly,39.99,$39.99,yearly,2026-11-03
 6805897875,Pro Weekly,5.99,$5.99,weekly,2026-11-03
@@ -1611,6 +1625,14 @@ app_id,item,price,price_text,period,checked_at
 6807514592,Chow Pro Yearly Pantry Plan,49.99,$49.99,yearly,2026-11-10
 6807514592,Chow Pro Weekly Pantry Plan,9.99,$9.99,weekly,2026-11-10
 6807514592,Chow Pro Yearly Pantry Plan,59.99,$59.99,yearly,2026-11-10
+6807729703,ruli_coins_600,19.99,$19.99,other,2026-11-11
+6807729703,ruli_coins_1280,39.99,$39.99,other,2026-11-11
+6807729703,ruli_coins_420,14.99,$14.99,other,2026-11-11
+6807729703,ruli_vip_month,29.99,$29.99,other,2026-11-11
+6807729703,ruli_coins_760,24.99,$24.99,other,2026-11-11
+6807729703,ruli_coins_2380,69.99,$69.99,other,2026-11-11
+6807729703,ruli_vip_3month,59.99,$59.99,other,2026-11-11
+6807729703,ruli_coins_3600,99.99,$99.99,other,2026-11-11
 6808657554,Premium yearly,29.99,$29.99,yearly,2026-11-03
 6808657554,Premium monthly,6.99,$6.99,monthly,2026-11-03
 6808657554,Premium,49.99,$49.99,other,2026-11-03
@@ -1632,6 +1654,12 @@ app_id,item,price,price_text,period,checked_at
 6811219601,Loop Monthly,9.99,$9.99,monthly,2026-11-04
 6811219601,Loop Yearly,99,$99.00,yearly,2026-11-04
 6819295797,Krillion Unlimited (yearly),24.99,$24.99,yearly,2026-11-10
+6821960062,Python IDE Pro Lifetime,29.99,$29.99,lifetime,2026-11-11
+6821960062,100 AI Credits,6.99,$6.99,other,2026-11-11
+6821960062,50 AI Credits,3.99,$3.99,other,2026-11-11
+6821960062,Python IDE Pro Weekly,3.99,$3.99,weekly,2026-11-11
+6821960062,Python IDE Pro Yearly,39.99,$39.99,yearly,2026-11-11
+6821960062,Python IDE Pro Monthly,11.99,$11.99,monthly,2026-11-11
 686664992,Buoyweather Premium,14.99,$14.99,other,2026-11-03
 686664992,Buoyweather Premium,95.99,$95.99,other,2026-11-03
 686664992,1 Year Subscription,79.99,$79.99,yearly,2026-11-03
