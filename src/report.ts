@@ -1,3 +1,6 @@
+import { describeChange, recentChanges } from "./changes.ts";
+import { chartMovers } from "./movers.ts";
+import { confirmedRemovals } from "./removed.ts";
 import { type Config, genreName } from "./config.ts";
 import {
   type AppSignal,
@@ -349,6 +352,48 @@ export function buildReport(store: Store, config: Config, country: string): stri
         value: (s) => (s.ratingCount! / Math.max(1, s.ageDays!)).toFixed(1),
       }),
     );
+  }
+
+  const bySignal = new Map(signals.map((s) => [s.appId, s]));
+  const movers = chartMovers(snapshots, "top-grossing");
+  out.push("## New on the grossing charts\n");
+  if (!movers.previousDate) {
+    out.push("_Needs 2 days of snapshots._\n");
+  } else {
+    out.push(`On a top-grossing chart today and on none on ${movers.previousDate}. "First time" means Scout has never seen the app on one before.\n`);
+    const arrivals = movers.arrivals.map((m) => bySignal.get(m.appId)).filter((s): s is AppSignal => !!s);
+    const debut = new Set(movers.arrivals.filter((m) => m.debut).map((m) => m.appId));
+    out.push(table(config, arrivals, { title: "First time", value: (s) => (debut.has(s.appId) ? "yes" : "") }));
+  }
+
+  const weekAgo = new Date(Date.parse(latest.date) - 7 * 86_400_000).toISOString().slice(0, 10);
+  const changes = recentChanges(store.readChanges(country), weekAgo)
+    .filter((c) => bySignal.get(c.app_id)?.grossing)
+    .sort((a, b) => bySignal.get(a.app_id)!.grossing!.rank - bySignal.get(b.app_id)!.grossing!.rank);
+  out.push("## Listing changes this week\n");
+  if (!changes.length) {
+    out.push("_None seen on a grossing app in the last 7 days._\n");
+  } else {
+    out.push("Apps on a top-grossing chart that changed their name, price, in-app purchases, seller or category. A rename is usually a play for App Store search.\n");
+    out.push("| App | Top grossing | Seen | What changed |");
+    out.push("|---|---|---|---|");
+    for (const c of changes.slice(0, config.report.listSize * 2)) {
+      const s = bySignal.get(c.app_id)!;
+      out.push(`| ${appLink(s)} | ${position(config, s.grossing)} | ${c.date} | ${cell(describeChange(c))} |`);
+    }
+    out.push("");
+  }
+
+  const removed = confirmedRemovals(store.readRemoved(country)).filter((r) => !r.returned_on);
+  if (removed.length) {
+    out.push("## Vanished from the App Store\n");
+    out.push("Apps that were on a chart and that Apple no longer lists in this country, two scans running. The date is when Scout noticed.\n");
+    out.push("| App | Publisher | Best place seen | Found missing |");
+    out.push("|---|---|---|---|");
+    for (const r of removed.slice(0, config.report.listSize * 2)) {
+      out.push(`| ${cell(r.name || r.app_id)} | ${cell(r.publisher)} | #${r.best_rank} ${r.best_chart.replace("top-", "")}, ${genreName(config, r.best_genre_id)} | ${r.missing_since} |`);
+    }
+    out.push("");
   }
 
   out.push("## Climbing the grossing charts\n");

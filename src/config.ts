@@ -41,6 +41,16 @@ export interface Config {
     /** How long to keep following an app after it shows up in a new-releases feed. */
     trackNewAppsDays: number;
   };
+  /** Optional extras for the website. */
+  site?: {
+    /** The maker's community, shown as a call to action on every page. Leave it out in a fork. */
+    community?: { name: string; url: string; heading?: string; pitch?: string; cta?: string };
+    /**
+     * An email sign-up form on every page, posting to a Loops form endpoint. `loopsFormId` is the
+     * id in the form URL under Settings → Forms in Loops; without it no form is shown.
+     */
+    newsletter?: { loopsFormId: string; userGroup?: string; mailingLists?: string; heading?: string; pitch?: string; cta?: string };
+  };
 }
 
 export const CHARTS: Chart[] = ["top-free", "top-paid", "top-grossing"];

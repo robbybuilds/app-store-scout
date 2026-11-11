@@ -57,5 +57,14 @@
     "pages": true,
     "newApps": true,
     "trackNewAppsDays": 90
+  },
+  "site": {
+    "community": {
+      "name": "Solo Software Studio",
+      "url": "https://www.skool.com/solo-software-studio",
+      "heading": "Found a niche? Build it.",
+      "pitch": "Scout is made by Robby, who teaches people to build and launch apps that make money in Solo Software Studio.",
+      "cta": "Join Solo Software Studio"
+    }
   }
 }
