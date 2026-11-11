@@ -15,15 +15,19 @@
 //   data/<country>/pages.csv               star breakdown, privacy label and badges from those pages, weekly
 //   data/<country>/versions.csv            every release seen on those pages (each check adds the latest 25)
 //   data/<country>/similar.csv             the apps Apple suggests under "You Might Also Like", weekly
+//   data/<country>/changes.csv             every listing change seen: names, prices, sellers, categories, purchases
+//   data/<country>/removed.csv             charting apps that vanished from the App Store, and any that came back
 
 import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 import type { AppDetails, NewFeed } from "./apple.ts";
+import { type ChangeField, type ChangeRow, detailChanges } from "./changes.ts";
 import type { Chart } from "./config.ts";
 import { parseCsv, toCsv } from "./csv.ts";
 import type { PageRow, SimilarRow, VersionRow } from "./pages.ts";
 import type { PriceRow } from "./prices.ts";
 import type { Publisher } from "./publishers.ts";
+import type { RemovedRow } from "./removed.ts";
 import { type Review, sortCriticalFirst } from "./reviews.ts";
 import type { SearchRow, SearchSummary } from "./search.ts";
 import type { Volume } from "./volume.ts";
@@ -95,6 +99,11 @@ const PAGE_COLUMNS: (keyof PageRow)[] = [
 ];
 const VERSION_COLUMNS: (keyof VersionRow)[] = ["app_id", "version", "date"];
 const SIMILAR_COLUMNS: (keyof SimilarRow)[] = ["app_id", "position", "similar_id", "name", "developer", "checked_at"];
+const CHANGE_COLUMNS: (keyof ChangeRow)[] = ["date", "app_id", "field", "from", "to"];
+const REMOVED_COLUMNS: (keyof RemovedRow)[] = [
+  "app_id", "name", "publisher", "genre", "best_chart", "best_genre_id", "best_rank",
+  "last_charted", "missing_since", "confirmed_on", "returned_on",
+];
 // No ratings here: they change daily for almost every app, which would rewrite the whole file
 // (and grow the repo) every day. They're in ratings/<date>.csv and joined back in by readApps.
 const APP_COLUMNS: (keyof AppDetails)[] = [
@@ -125,6 +134,8 @@ export class Store {
     writeFileSync(join(this.dir(country, "ratings"), `${date}.csv`), toCsv(RATING_COLUMNS, ratings));
 
     const all = this.readApps(country);
+    // Compare with what was saved before overwriting it: that's the only moment the old listing is known.
+    this.addChanges(country, apps.flatMap((app) => detailChanges(date, all.get(app.appId), app)));
     for (const app of apps) all.set(app.appId, app);
     const sorted = [...all.values()].sort((a, b) => a.appId.localeCompare(b.appId));
     writeFileSync(join(this.root, country, "apps.csv"), toCsv(APP_COLUMNS, sorted));
@@ -449,6 +460,43 @@ export class Store {
   writeSimilar(country: string, similar: Map<string, SimilarRow[]>): void {
     const sorted = [...similar.keys()].sort().flatMap((id) => similar.get(id)!);
     writeFileSync(join(this.root, country, "similar.csv"), toCsv(SIMILAR_COLUMNS, sorted));
+  }
+
+  /** Every listing change seen, oldest first. */
+  readChanges(country: string): ChangeRow[] {
+    const path = join(this.root, country, "changes.csv");
+    if (!existsSync(path)) return [];
+    return parseCsv(readFileSync(path, "utf8")).map((r) => ({
+      date: r.date, app_id: r.app_id, field: r.field as ChangeField, from: r.from, to: r.to,
+    }));
+  }
+
+  /** Adds changes to the log, skipping any it already has (a scan can run twice in a day). */
+  addChanges(country: string, rows: ChangeRow[]): void {
+    if (!rows.length) return;
+    const all = this.readChanges(country);
+    const id = (r: ChangeRow) => [r.date, r.app_id, r.field, r.from, r.to].join("\u0000");
+    const have = new Set(all.map(id));
+    const fresh = rows.filter((r) => !have.has(id(r)));
+    if (!fresh.length) return;
+    mkdirSync(join(this.root, country), { recursive: true });
+    const sorted = [...all, ...fresh].sort((a, b) => a.date.localeCompare(b.date) || a.app_id.localeCompare(b.app_id) || a.field.localeCompare(b.field));
+    writeFileSync(join(this.root, country, "changes.csv"), toCsv(CHANGE_COLUMNS, sorted));
+  }
+
+  readRemoved(country: string): RemovedRow[] {
+    const path = join(this.root, country, "removed.csv");
+    if (!existsSync(path)) return [];
+    return parseCsv(readFileSync(path, "utf8")).map((r) => ({
+      app_id: r.app_id, name: r.name, publisher: r.publisher, genre: r.genre,
+      best_chart: r.best_chart as RemovedRow["best_chart"], best_genre_id: Number(r.best_genre_id), best_rank: Number(r.best_rank),
+      last_charted: r.last_charted, missing_since: r.missing_since, confirmed_on: r.confirmed_on, returned_on: r.returned_on,
+    }));
+  }
+
+  writeRemoved(country: string, rows: RemovedRow[]): void {
+    mkdirSync(join(this.root, country), { recursive: true });
+    writeFileSync(join(this.root, country, "removed.csv"), toCsv(REMOVED_COLUMNS, rows));
   }
 
   /** The most recent `days` snapshots, oldest first. */

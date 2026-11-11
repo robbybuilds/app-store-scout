@@ -44,6 +44,9 @@ Optional: Google search volumes come from [seodata.dev](https://www.seodata.dev)
 | **New and paying** | Apps released in the last year that are already on a grossing chart | Day 1 |
 | **Earning without updates** | Apps on a grossing chart whose developer hasn't shipped an update in over a year | Day 1 |
 | **Fresh launches gaining ratings** | Apps from Apple's new-releases feeds, followed for 90 days, ranked by ratings gained per day | 1 to 2 weeks (launches need time to collect ratings) |
+| **New on the grossing charts** | Apps that reached a top-grossing chart since yesterday, and which are there for the first time | Day 2 |
+| **Listing changes this week** | Earning apps that changed their name, price, in-app purchases, seller or category | Day 2 |
+| **Vanished from the App Store** | Charting apps Apple no longer lists, two scans running | Day 3 |
 | **Climbing the grossing charts** | Places gained in a week | Day 8 |
 | **Ratings momentum** | Fastest ratings growth in a week, relative to size | Day 8 |
 | **Staying power** | New apps on a chart most days, rather than one-day spikes | Day 14 |
@@ -72,6 +75,37 @@ The site is plain HTML that `npm run site` builds from the CSV files: a home pag
 ## Let an AI agent do the legwork
 
 [docs/agent-prompt.md](docs/agent-prompt.md) has copy-paste prompts for Claude Code, Codex or any agent that can run commands. The agent runs the scan, reads the report and the saved reviews for the most promising apps, and fills in the shortlist for you.
+
+## Connect it to Claude, Cursor or any agent
+
+Scout ships an MCP server. It runs on your computer and reads the data in your clone, so there's no account, no key and no call limit.
+
+```bash
+git clone https://github.com/robbybuilds/app-store-scout
+cd app-store-scout
+claude mcp add app-store-scout -- npm --prefix "$PWD" run --silent mcp
+```
+
+For Cursor, VS Code or Claude Desktop, add `npm --prefix /path/to/app-store-scout run --silent mcp` as a stdio server. Run `git pull` for the latest scan. Then ask things like:
+
+- Which niches have new apps earning this week, and what do their reviews complain about?
+- Which small apps climbed the most on a top-grossing chart today?
+- Which earning apps were renamed or repriced this month?
+- Which charting apps disappeared from the App Store?
+
+It has nine tools: `list_niches`, `get_niche`, `get_movers`, `get_lists`, `search_apps`, `get_app`, `get_listing_changes`, `get_removed_apps` and `get_chart`.
+
+## The website and the JSON API
+
+Every scan rebuilds [the website](https://robbybuilds.github.io/app-store-scout/) on GitHub Pages: today's niches, [top-grossing movers](https://robbybuilds.github.io/app-store-scout/movers/), [listing changes](https://robbybuilds.github.io/app-store-scout/changes/), [removed apps](https://robbybuilds.github.io/app-store-scout/removed/), a page per niche and per researched app, and an [Atom feed](https://robbybuilds.github.io/app-store-scout/feed.xml) of new niches.
+
+The same data is plain JSON with no key, listed at [/api/](https://robbybuilds.github.io/app-store-scout/api/):
+
+```bash
+curl https://robbybuilds.github.io/app-store-scout/api/v1/us/movers.json
+```
+
+Your fork publishes its own site and API: turn on **Settings → Pages → Source: GitHub Actions**. The "Join" banner on every page comes from `site.community` in [`scout.config.json`](scout.config.json); change it to your own link or delete it.
 
 ## Questions
 
@@ -102,6 +136,8 @@ data/us/reviews/6777471316.csv   every review seen for that app, 1 to 3 stars fi
 data/us/search.csv               per niche per day: results, established apps, new apps
 data/us/search/2026-11-02.csv    the top 10 search results for each niche that day
 data/us/volume.csv               monthly Google searches per niche, refreshed every 30 days
+data/us/changes.csv              every listing change seen: names, prices, sellers, categories, purchases
+data/us/removed.csv              charting apps that vanished from the App Store, and any that came back
 data/us/publishers.csv           how many apps each researched publisher has, refreshed every 30 days
 data/us/niches/2026-11-02.csv    the niches researched that day and the apps in each
 data/us/prices.csv               each researched app's in-app purchases and prices, refreshed weekly
@@ -124,6 +160,9 @@ The default config covers 3 charts × 41 categories × 100 apps in 8 countries: 
 - **Prices, star breakdowns, versions and similar apps come from App Store web pages**, which have no official API. If Apple changes the page, the scan logs it and saves nothing from it. Apple lists at most 10 purchases per app, and the plan length (weekly, yearly) is guessed from each purchase's name.
 - **"Solo developer" is a guess from the seller's name.** Apple shows an individual's legal name as the seller, but a company can have a name that looks like a person's, and the reverse.
 - **Name-based niches are a starting point.** "Recipe" groups recipe managers with recipe magazines. Open the apps before you draw conclusions.
+
+- **Removed means "Apple's Lookup API stopped returning it in that country"**, on two scans. The date is when Scout noticed, and it can't tell whether Apple or the developer pulled the app.
+- **Listing changes carry the date of the scan that saw them.** Names and prices are compared daily; in-app purchases weekly, and only for researched apps. Subtitles and screenshots aren't tracked yet.
 
 ## Contributing
 

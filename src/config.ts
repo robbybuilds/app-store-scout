@@ -41,6 +41,11 @@ export interface Config {
     /** How long to keep following an app after it shows up in a new-releases feed. */
     trackNewAppsDays: number;
   };
+  /** Optional extras for the website. */
+  site?: {
+    /** The maker's community, shown as a call to action on every page. Leave it out in a fork. */
+    community?: { name: string; url: string; heading?: string; pitch?: string; cta?: string };
+  };
 }
 
 export const CHARTS: Chart[] = ["top-free", "top-paid", "top-grossing"];

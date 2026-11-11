@@ -3,9 +3,12 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
 import { parseArgs } from "node:util";
 import { fetchChart, fetchNewApps, lookupApps, NEW_FEEDS, sleep } from "./apple.ts";
+import { type ChangeRow, purchaseChanges } from "./changes.ts";
 import { genreName, loadConfig } from "./config.ts";
+import { serve } from "./mcp.ts";
 import { fetchPage, mergeVersions } from "./pages.ts";
 import { isStale as pricesStale } from "./prices.ts";
+import { droppedApps, recheckIds, updateRemoved } from "./removed.ts";
 import { fetchPublisher, looksLikeIndividual, isStale as publisherStale } from "./publishers.ts";
 import { buildReport } from "./report.ts";
 import { buildSite } from "./site.ts";
@@ -24,6 +27,7 @@ Usage:
   app-store-scout report [--country us] [--archive]   Write reports/<country>/latest.md
   app-store-scout app <app-id> [--country us]         Show one app's chart and ratings history
   app-store-scout site [--url <url>] [--out public]   Build the website from the saved data
+  app-store-scout mcp                                 Run the MCP server for AI agents (stdio)
 
 Options:
   --config <path>   Config file (default: scout.config.json)
@@ -110,7 +114,28 @@ async function scan(country: string): Promise<void> {
     apps,
   );
   console.log(`  saved ${rows.length} chart rows and ${apps.length} apps for ${today}` + (failures ? ` (${failures} charts failed)` : ""));
+  await checkRemoved(country);
   if (researched(country)) await research(country);
+}
+
+// Looks up the apps that dropped off the charts in the last two weeks. One Apple no longer
+// knows has left this country's App Store; removed.ts decides when that counts.
+async function checkRemoved(country: string): Promise<void> {
+  try {
+    const dropped = droppedApps(store.recent(country, 15));
+    const rows = store.readRemoved(country);
+    const ids = [...new Set([...dropped.keys(), ...recheckIds(rows, today)])];
+    if (!ids.length) return;
+    const found = new Set((await lookupApps(country, ids)).map((a) => a.appId));
+    const next = updateRemoved(rows, today, dropped, new Set(ids), found, store.readApps(country));
+    store.writeRemoved(country, next);
+    const confirmed = next.filter((r) => r.confirmed_on === today).length;
+    const back = next.filter((r) => r.returned_on === today).length;
+    console.log(`  checked ${ids.length} apps that left the charts: ${ids.length - found.size} missing, ${confirmed} confirmed removed, ${back} back`);
+  } catch (error) {
+    // Keep yesterday's list rather than guess from half a lookup.
+    console.error(`  removed apps: failed (${(error as Error).message})`);
+  }
 }
 
 // Searches the App Store for each top niche and reads the reviews of the apps worth a closer look.
@@ -187,9 +212,11 @@ async function research(country: string): Promise<void> {
     const pages = store.readPages(country);
     const versions = store.readVersions(country);
     const similar = store.readSimilar(country);
+    const changed: ChangeRow[] = [];
     for (const appId of appIds.filter((id) => pricesStale(prices.get(id), today) || !pages.has(id))) {
       try {
         const page = await fetchPage(country, appId, today);
+        changed.push(...purchaseChanges(today, appId, prices.get(appId), page.prices));
         prices.set(appId, page.prices);
         pages.set(appId, page.page);
         mergeVersions(versions, page.versions);
@@ -207,6 +234,7 @@ async function research(country: string): Promise<void> {
     store.writePages(country, pages);
     store.writeVersions(country, versions);
     store.writeSimilar(country, similar);
+    store.addChanges(country, changed);
   }
 
   console.log(`  researched ${summaries.length} niches and ${appIds.length} apps (${added} new reviews)`);
@@ -272,6 +300,7 @@ function site(): void {
 async function main(): Promise<void> {
   if (values.help || !command) return void console.log(HELP);
   if (command === "site") return site();
+  if (command === "mcp") return serve(store, config);
   // Research only makes sense where it's configured, unless a country is asked for by name.
   const targets = command === "research" && !values.country ? config.research.countries : countries;
   for (const country of targets) {

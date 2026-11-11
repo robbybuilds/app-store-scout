@@ -5,26 +5,31 @@
 
 import { copyFileSync, mkdirSync, readdirSync, rmSync, writeFileSync } from "node:fs";
 import { dirname, join } from "node:path";
+import { writeApi } from "./api.ts";
 import type { AppDetails } from "./apple.ts";
+import { type ChangeRow, describeChange, recentChanges } from "./changes.ts";
 import { type Config, genreName } from "./config.ts";
+import { buildFeed } from "./feed.ts";
+import type { Mover } from "./movers.ts";
 import { alsoSuggested, lowStarShare, type PageRow, releasesWithin, totalStars } from "./pages.ts";
 import { formatPrice, type PriceRow, pricingSummary } from "./prices.ts";
 import { looksLikeIndividual } from "./publishers.ts";
+import { confirmedRemovals, type RemovedRow } from "./removed.ts";
 import { complaintThemes, isCritical } from "./reviews.ts";
 import {
   type AppSignal,
   type Cluster,
-  computeSignals,
-  daysBetween,
   genreSummaries,
+  isNew,
+  isSmall,
   neglectedEarners,
   newAndPaying,
-  researchTargets,
   smallAndPaying,
   soloAndPaying,
 } from "./signals.ts";
 import { SEARCH_SCRIPT, searchIndex } from "./site-search.ts";
-import type { NicheHistory, Snapshot, Store } from "./store.ts";
+import type { NicheHistory, Store } from "./store.ts";
+import { type CountryData, countryData, signalOf } from "./views.ts";
 
 export interface SiteOptions {
   /** Where the site is served, e.g. https://robbybuilds.github.io/app-store-scout */
@@ -120,6 +125,7 @@ function layout(ctx: Ctx, p: PageSpec): string {
   const nav = [
     ["/search/", "Search", ""],
     ["/niches/", "Niches", ""],
+    ["/movers/", "Movers", ""],
     ["/countries/", "Countries", "hide-xs"],
     ["/about/", "How it works", "hide-s"],
   ]
@@ -143,6 +149,7 @@ ${p.noindex ? '<meta name="robots" content="noindex">\n' : ""}<meta property="og
 <meta property="og:url" content="${esc(canonical)}">
 <meta property="og:site_name" content="App Store Scout">
 <meta name="twitter:card" content="summary">
+<link rel="alternate" type="application/atom+xml" title="App Store Scout: new niches" href="${href(ctx, "/feed.xml")}">
 <link rel="icon" href="${href(ctx, "/assets/favicon.svg")}" type="image/svg+xml">
 <link rel="preconnect" href="https://api.fontshare.com">
 <link rel="stylesheet" href="https://api.fontshare.com/v2/css?f[]=chillax@500,600&amp;display=swap">
@@ -159,13 +166,18 @@ ${ld}
 </div></header>
 <main id="main">
 ${p.body}
-</main>
+${communityBand(ctx)}</main>
 <footer class="footer" style="--tear: ${tear(41, 9, 48, 0)}"><div class="container">
 <p class="mast" aria-hidden="true">Scout</p>
 <ul>
 <li><a href="${href(ctx, "/niches/")}">Every niche</a></li>
+<li><a href="${href(ctx, "/movers/")}">Movers</a></li>
+<li><a href="${href(ctx, "/changes/")}">Listing changes</a></li>
+<li><a href="${href(ctx, "/removed/")}">Removed apps</a></li>
 <li><a href="${href(ctx, "/countries/")}">Countries</a></li>
 <li><a href="${href(ctx, "/about/")}">How it works</a></li>
+<li><a href="${href(ctx, "/api/")}">API and MCP</a></li>
+<li><a href="${href(ctx, "/feed.xml")}">Feed</a></li>
 <li><a href="https://github.com/${esc(ctx.opts.repo)}">The code</a></li>
 <li><a href="https://github.com/${esc(ctx.opts.repo)}/tree/main/data">The data, as CSV</a></li>
 </ul>
@@ -181,6 +193,18 @@ for (const f of document.querySelectorAll("[data-switch]")) {
 </script>
 </body>
 </html>
+`;
+}
+
+/** The maker's community, from scout.config.json. A fork without one shows nothing. */
+function communityBand(ctx: Ctx): string {
+  const c = ctx.config.site?.community;
+  if (!c?.url || !c.name) return "";
+  return `<section class="section section--s section--paper2 join" aria-labelledby="join-title"><div class="container stack">
+<div class="pane"><h2 id="join-title">${esc(c.heading ?? "Found a niche? Build it.")}</h2>
+<p class="lead">${esc(c.pitch ?? `Scout is made by the people behind ${c.name}.`)}</p></div>
+<div class="actions"><a class="btn btn--primary" href="${esc(c.url)}">${esc(c.cta ?? `Join ${c.name}`)}</a></div>
+</div></section>
 `;
 }
 
@@ -216,46 +240,6 @@ function summary(items: [string, string][]): string {
 function yearlyPrice(prices: PriceRow[][]): string {
   const yearly = pricingSummary(prices).periods.find((p) => p.period === "yearly");
   return yearly ? formatPrice(yearly.sample, yearly.median) : "";
-}
-
-interface CountryData {
-  country: string;
-  snapshots: Snapshot[];
-  date: string;
-  signals: AppSignal[];
-  bySignal: Map<string, AppSignal>;
-  apps: Map<string, AppDetails>;
-  niches: Cluster[];
-}
-
-function countryData(store: Store, config: Config, country: string): CountryData | null {
-  const snapshots = store.recent(country, 30);
-  const latest = snapshots.at(-1);
-  if (!latest) return null;
-  const apps = store.readApps(country);
-  const signals = computeSignals(snapshots, apps);
-  return {
-    country,
-    snapshots,
-    date: latest.date,
-    signals,
-    bySignal: new Map(signals.map((s) => [s.appId, s])),
-    apps,
-    niches: researchTargets(signals, config).niches,
-  };
-}
-
-/** A signal for an app that may have left the charts since, so older niches still have rows. */
-function signalOf(d: CountryData, id: string): AppSignal | null {
-  const charted = d.bySignal.get(id);
-  if (charted) return charted;
-  const details = d.apps.get(id);
-  if (!details) return null;
-  return {
-    appId: id, details, grossing: null, best: null, grossingRankChange7: null, daysOnChart: 0, windowDays: 0,
-    ratingCount: details.ratingCount ?? null, ratingDelta7: null,
-    ageDays: details.releasedAt ? daysBetween(details.releasedAt.slice(0, 10), d.date) : null,
-  };
 }
 
 function appRows(ctx: Ctx, d: CountryData, rows: AppSignal[], extra?: { title: string; value: (s: AppSignal) => string }): string {
@@ -334,6 +318,29 @@ ${common && common[1] > 1 ? `<p class="fact">In ${num(common[1])} of them, unhap
 <ul class="cards cards--two">${cards}</ul>
 </div></section>`;
 
+  // Small and new apps only: a giant moving ten places is noise, a newcomer doing it is a lead.
+  const underdog = (m: Mover) => { const sig = d.bySignal.get(m.appId); return !!sig && (isSmall(sig, config) || isNew(sig, config)); };
+  const moverItem = (m: Mover, text: string) =>
+    `<li><a href="${appHref(ctx, d.country, m.appId)}">${esc(title(d.bySignal.get(m.appId), m.appId))}</a><span class="rank">${esc(text)}</span></li>`;
+  // Two per category at most: a thin chart (Developer Tools) shuffles more than a deep one.
+  const spread = (rows: Mover[]) => {
+    const perGenre = new Map<number, number>();
+    return rows.filter((m) => { const n = perGenre.get(m.genreId) ?? 0; perGenre.set(m.genreId, n + 1); return n < 2; }).slice(0, 5);
+  };
+  const climbs = spread(d.movers.climbers.filter(underdog));
+  const arrived = spread(d.movers.arrivals.filter(underdog));
+  const moversSection = climbs.length || arrived.length
+    ? `<section class="section section--paper2" aria-labelledby="movers-title"><div class="container stack stack--flip">
+<div class="pane"><h2 id="movers-title">Moving on the money charts</h2>
+<p class="lead">New and small apps that climbed or arrived on a top-grossing chart since ${longDate(d.movers.previousDate!)}.</p>
+<p><a class="link" href="${href(ctx, "/movers/")}">Every move today</a></p></div>
+<ul class="cards cards--two">
+${climbs.length ? `<li class="card"><div class="card-top"><h3>Biggest climbs</h3></div><ul class="apps-list apps-list--stacked">${climbs.map((m) => moverItem(m, `up ${m.change} to #${m.rank} ${genreName(config, m.genreId)}`)).join("")}</ul></li>` : ""}
+${arrived.length ? `<li class="card"><div class="card-top"><h3>Just arrived</h3></div><ul class="apps-list apps-list--stacked">${arrived.map((m) => moverItem(m, `#${m.rank} ${genreName(config, m.genreId)}${m.debut ? ", first time" : ""}`)).join("")}</ul></li>` : ""}
+</ul>
+</div></section>`
+    : "";
+
   const solo = soloAndPaying(d.signals).slice(0, 6);
   const soloCards = solo
     .map(
@@ -343,7 +350,7 @@ ${common && common[1] > 1 ? `<p class="fact">In ${num(common[1])} of them, unhap
     )
     .join("");
   const soloSection = solo.length
-    ? `<section class="section section--paper2" aria-labelledby="solo-title"><div class="container stack stack--flip">
+    ? `<section class="section" aria-labelledby="solo-title"><div class="container stack">
 <div class="pane"><h2 id="solo-title">Built by one person</h2>
 <p class="lead">Sold under a developer’s own name, and on a top-grossing chart today.</p>
 <p><a class="link" href="${href(ctx, `/countries/${d.country}/`)}">The full ${shortName(d.country)} list</a></p></div>
@@ -404,7 +411,7 @@ ${common && common[1] > 1 ? `<p class="fact">In ${num(common[1])} of them, unhap
     title: "App Store Scout: where small apps earn today",
     description: `A free, open-source daily scan of Apple’s App Store charts in ${config.countries.length} countries: the niches where new and small apps earn, with prices, ratings and complaints.`,
     date: d.date,
-    body: hero + stack + soloSection + figures + countries + archive,
+    body: hero + stack + moversSection + soloSection + figures + countries + archive,
     jsonLd: [
       {
         "@context": "https://schema.org",
@@ -598,6 +605,16 @@ ${summary([
     .map((h) => `<tr><td>${longDate(h.date)}</td><td>${h.best ? `#${h.best.rank} ${esc(genreName(ctx.config, h.best.genre_id))}` : "not charting"}</td><td class="n">${h.ratings === undefined ? "" : num(h.ratings)}</td></tr>`)
     .join("")}</tbody></table></div>`;
 
+  // Listing changes and releases on one timeline, so a rank move can be read against what shipped.
+  const since = new Date(Date.parse(d.date) - 90 * 86_400_000).toISOString().slice(0, 10);
+  const events = [
+    ...store.readChanges(d.country).filter((c) => c.app_id === id).map((c) => ({ date: c.date, text: describeChange(c) })),
+    ...versions.filter((v) => v.date >= since).map((v) => ({ date: v.date, text: `Released version ${v.version}.` })),
+  ].sort((a, b) => b.date.localeCompare(a.date)).slice(0, 20);
+  const changeBody = events.length
+    ? `<div class="table-wrap"><table class="data"><thead><tr><th>Day</th><th>What changed</th></tr></thead><tbody>${events.map((e) => `<tr><td class="nowrap">${longDate(e.date)}</td><td>${esc(e.text)}</td></tr>`).join("")}</tbody></table></div><p class="small">Releases are Apple’s dates. Other changes carry the date of the scan that first saw them.</p>`
+    : "";
+
   let starsBody = "";
   if (page && totalStars(page) > 0) {
     const total = totalStars(page);
@@ -639,6 +656,7 @@ ${summary([
   const body =
     head +
     block("Chart history", chartBody, true) +
+    (changeBody ? block("What changed", changeBody, true) : "") +
     (starsBody ? block("Ratings by star", starsBody) : "") +
     (priceBody ? block("What it charges", priceBody) : "") +
     (factsBody ? block("From its App Store page", factsBody) : "") +
@@ -652,6 +670,161 @@ ${summary([
     description: `${details.name} by ${details.publisher}: ${s.grossing ? `#${s.grossing.rank} top grossing in ${genreName(ctx.config, s.grossing.genreId)}` : "chart history"}, in-app prices, ratings by star and what unhappy users say.`,
     date: d.date,
     body,
+    jsonLd: [trail.ld],
+  });
+}
+
+// ---------------------------------------------------------------------------------------------
+// Movers, listing changes and removed apps
+
+function moverTable(ctx: Ctx, d: CountryData, rows: Mover[], kind: "change" | "arrival" | "exit" | "first"): string {
+  if (!rows.length) return `<p class="muted">Nothing today.</p>`;
+  // The place and its chart share a cell, as in every other table, so a phone keeps the change in view.
+  const place = kind === "exit" ? "Was at" : "Top grossing";
+  const last = { change: "Change", arrival: "", exit: "", first: "Before" }[kind];
+  const body = rows
+    .map((m) => {
+      const s = signalOf(d, m.appId);
+      const tail =
+        kind === "change" ? `<td class="n">${m.change! > 0 ? `+${m.change}` : `−${Math.abs(m.change!)}`}</td>`
+        : kind === "first" ? `<td class="n">${m.previous === null ? "not on it" : `#${m.previous}`}</td>`
+        : "";
+      const note = kind === "arrival" && m.debut ? ` <span class="muted">first time</span>` : "";
+      return `<tr><td><a href="${appHref(ctx, d.country, m.appId)}">${esc(title(s ?? undefined, m.appId))}</a>${note}</td>` +
+        `<td class="hide-xs">${esc(s?.details?.publisher ?? "")}</td><td>#${m.rank} ${esc(genreName(ctx.config, m.genreId))}</td>` +
+        `${tail}<td class="n hide-xs">${s?.ratingCount == null ? "" : num(s.ratingCount)}</td></tr>`;
+    })
+    .join("");
+  return `<div class="table-wrap"><table class="data"><thead><tr><th>App</th><th class="hide-xs">Publisher</th><th>${place}</th>${last ? `<th class="n">${last}</th>` : ""}<th class="n hide-xs">Ratings</th></tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function moversPage(ctx: Ctx, d: CountryData): void {
+  const m = d.movers;
+  const trail = crumbs(ctx, [["/", "Home"], ["/movers/", "Movers"]]);
+  const top = 25;
+  const lead = m.previousDate
+    ? `What changed on ${shortName(d.country)} top-grossing charts between ${longDate(m.previousDate)} and ${longDate(m.date)}. A move means an app out-earned different neighbours than the day before, not a revenue figure.`
+    : "Scout needs two days of charts to compare. Come back after the next scan.";
+  const head = `<section class="doc-head"><div class="container">${trail.html}
+<h1>Top-grossing movers today</h1>
+<p class="lead">${esc(lead)}</p>
+${m.previousDate ? summary([
+  [num(m.climbers.length), "apps climbed"],
+  [num(m.arrivals.length), "arrived on a chart"],
+  [num(m.arrivals.filter((a) => a.debut).length), "there for the first time"],
+  [num(m.exits.length), "left the charts"],
+]) : ""}
+</div></section>`;
+  const body = !m.previousDate ? head : head +
+    block("Biggest climbs", `<p>The most places gained on one chart. An app on several charts is listed once, for its biggest move.</p>` + moverTable(ctx, d, m.climbers.slice(0, top), "change"), true) +
+    block("New on the charts", `<p>On a top-grossing chart today and on none yesterday, highest placed first. “First time” means Scout has never seen it on one before.</p>` + moverTable(ctx, d, m.arrivals.slice(0, top), "arrival"), true) +
+    (m.firstNumberOnes.length ? block("First time at #1", `<p>Top of a category’s grossing chart today, and never before in Scout’s records.</p>` + moverTable(ctx, d, m.firstNumberOnes, "first"), true) : "") +
+    block("Biggest drops", moverTable(ctx, d, m.fallers.slice(0, top), "change"), true) +
+    block("Left the charts", `<p>On a top-grossing chart yesterday and on none today, by the place they held.</p>` + moverTable(ctx, d, m.exits.slice(0, top), "exit"), true);
+  write(ctx, {
+    path: "/movers/",
+    title: `App Store top-grossing movers today (${shortName(d.country)})`,
+    description: `The apps that climbed, arrived, hit #1 for the first time or dropped off ${shortName(d.country)} top-grossing charts today, across ${ctx.config.genres.length} categories.`,
+    date: d.date,
+    current: "/movers/",
+    body,
+    jsonLd: [trail.ld],
+  });
+}
+
+function changeTable(ctx: Ctx, d: CountryData, rows: ChangeRow[]): string {
+  if (!rows.length) return `<p class="muted">None seen yet.</p>`;
+  const body = rows
+    .map((c) => {
+      const s = signalOf(d, c.app_id);
+      return `<tr><td class="nowrap">${longDate(c.date)}</td><td><a href="${appHref(ctx, d.country, c.app_id)}">${esc(title(s ?? undefined, c.app_id))}</a></td>` +
+        `<td>${esc(describeChange(c))}</td><td class="hide-xs">${esc(s?.grossing ? rankText(ctx, s) : "")}</td></tr>`;
+    })
+    .join("");
+  return `<div class="table-wrap"><table class="data"><thead><tr><th>Seen</th><th>App</th><th>What changed</th><th class="hide-xs">Top grossing today</th></tr></thead><tbody>${body}</tbody></table></div>`;
+}
+
+function changesPage(ctx: Ctx, d: CountryData): void {
+  const trail = crumbs(ctx, [["/", "Home"], ["/changes/", "Listing changes"]]);
+  const days = 30;
+  const since = new Date(Date.parse(d.date) - days * 86_400_000).toISOString().slice(0, 10);
+  // Apps earning today first: a rename on a grossing app is a move worth copying or avoiding.
+  const rank = (c: ChangeRow) => d.bySignal.get(c.app_id)?.grossing?.rank ?? 999;
+  const all = recentChanges(ctx.store.readChanges(d.country), since).sort((a, b) => b.date.localeCompare(a.date) || rank(a) - rank(b));
+  const of = (...fields: string[]) => all.filter((c) => fields.includes(c.field));
+  const renamed = of("name");
+  const repriced = of("price", "purchase added", "purchase removed", "purchase price");
+  const moved = of("seller", "publisher", "category");
+  const top = 100;
+  const body =
+    `<section class="doc-head"><div class="container">${trail.html}
+<h1>What apps changed on their listings</h1>
+<p class="lead">${esc(`New names, prices, in-app purchases, sellers and categories for apps on ${shortName(d.country)} charts, from the last ${days} days. Scout compares each day’s listing with the day before.`)}</p>
+${summary([[num(renamed.length), "renamed"], [num(repriced.length), "price or purchase changes"], [num(moved.length), "seller or category changes"]])}
+</div></section>` +
+    block("Renamed", `<p>A new name is usually a play for App Store search: watch which words get added.</p>` + changeTable(ctx, d, renamed.slice(0, top)), true) +
+    block("Prices and purchases", `<p>App prices are checked daily. In-app purchases are read weekly, for the apps Scout researches.</p>` + changeTable(ctx, d, repriced.slice(0, top)), true) +
+    block("Sellers and categories", `<p>A new seller can mean the app was sold. A new category is often a move to an easier chart.</p>` + changeTable(ctx, d, moved.slice(0, top)), true);
+  write(ctx, {
+    path: "/changes/",
+    title: `App Store listing changes: renames and price changes (${shortName(d.country)})`,
+    description: `Which charting apps changed their name, price, in-app purchases, seller or category in the last ${days} days on the ${shortName(d.country)} App Store.`,
+    date: d.date,
+    body,
+    jsonLd: [trail.ld],
+  });
+}
+
+function removedPage(ctx: Ctx, all: CountryData[]): void {
+  const trail = crumbs(ctx, [["/", "Home"], ["/removed/", "Removed apps"]]);
+  const rows = all
+    .flatMap((d) => confirmedRemovals(ctx.store.readRemoved(d.country)).map((r) => ({ r, country: d.country })))
+    .sort((a, b) => b.r.confirmed_on.localeCompare(a.r.confirmed_on) || a.r.best_rank - b.r.best_rank);
+  const place = (r: RemovedRow) => (r.best_chart ? `#${r.best_rank} ${r.best_chart.replace("top-", "")}, ${genreName(ctx.config, r.best_genre_id)}` : "");
+  const table = rows.length
+    ? `<div class="table-wrap"><table class="data"><thead><tr><th>App</th><th class="hide-xs">Publisher</th><th>Country</th><th>Best place seen</th><th>Found missing</th><th class="hide-xs">Came back</th></tr></thead><tbody>${rows
+        .slice(0, 300)
+        .map(({ r, country }) => `<tr><td>${esc(r.name || r.app_id)}</td><td class="hide-xs">${esc(r.publisher)}</td><td>${esc(shortName(country))}</td><td>${esc(place(r))}</td><td class="nowrap">${longDate(r.missing_since)}</td><td class="hide-xs nowrap">${r.returned_on ? longDate(r.returned_on) : ""}</td></tr>`)
+        .join("")}</tbody></table></div>`
+    : `<p class="muted">None confirmed yet. Scout counts an app as removed once two scans on different days can’t find it, so the first ones show up two days after it starts looking.</p>`;
+  const gone = rows.filter((x) => !x.r.returned_on).length;
+  write(ctx, {
+    path: "/removed/",
+    title: "Apps removed from the App Store after charting",
+    description: `Apps that were on an App Store chart and then disappeared, in ${all.length} countries, with their best chart place and whether they came back.`,
+    date: all[0].date,
+    body:
+      `<section class="doc-head"><div class="container">${trail.html}
+<h1>Apps that charted, then vanished</h1>
+<p class="lead">Every day Scout looks up the apps that dropped off the charts. One that Apple no longer lists in a country, two scans running, lands here.</p>
+${rows.length ? summary([[num(gone), "still gone"], [num(rows.length - gone), "came back"], [num(new Set(rows.map((x) => x.r.publisher)).size), "publishers"]]) : ""}
+</div></section>` +
+      block("The list", table, true) +
+      block("How to read it", `<ul class="quotes"><li>The date is the day Scout noticed, not the day it happened.</li><li>It is per country: an app can leave one App Store and stay in another.</li><li>Scout can’t tell who removed it, Apple or the developer.</li><li>A removed app that was earning leaves its customers looking for a replacement.</li></ul>`),
+    jsonLd: [trail.ld],
+  });
+}
+
+function apiPage(ctx: Ctx, endpoints: { path: string; description: string }[], date: string): void {
+  const trail = crumbs(ctx, [["/", "Home"], ["/api/", "API and MCP"]]);
+  const rows = endpoints
+    .map((e) => `<tr><td><a href="${href(ctx, e.path)}"><code>${esc(e.path)}</code></a></td><td>${esc(e.description)}</td></tr>`)
+    .join("");
+  const repo = esc(ctx.opts.repo);
+  write(ctx, {
+    path: "/api/",
+    title: "App Store Scout API and MCP server: free, no key, no limit",
+    description: "Read Scout’s daily App Store data as JSON, or connect the MCP server so Claude, Cursor or any agent can ask about niches, movers, removed apps and listing changes.",
+    date,
+    body:
+      `<section class="doc-head"><div class="container">${trail.html}
+<h1>The data, for scripts and AI agents</h1>
+<p class="lead">Everything on this site is also plain JSON, rebuilt after each daily scan. No key, no sign-in and no call limit.</p></div></section>` +
+      block("JSON files", `<p>Replace <code>us</code> with any scanned country. Fetch them from anywhere:</p><pre class="code">curl ${esc(ctx.opts.url)}/api/v1/us/niches.json</pre><div class="table-wrap"><table class="data"><thead><tr><th>File</th><th>What it holds</th></tr></thead><tbody>${rows}</tbody></table></div>`, true) +
+      block("MCP server", `<div class="prose"><p>The MCP server runs on your computer and reads the data in your copy of the repository, so there is nothing to sign up for and nothing to meter. It needs Node 22.18 or newer.</p></div><pre class="code">git clone https://github.com/${repo}
+cd ${esc(ctx.opts.repo.split("/")[1] ?? "app-store-scout")}
+claude mcp add app-store-scout -- npm --prefix "$PWD" run --silent mcp</pre><p>For Cursor, VS Code or Claude Desktop, add the same command to the MCP settings: <code>npm --prefix /path/to/the/repo run --silent mcp</code>. Run <code>git pull</code> for the latest scan.</p>`) +
+      block("What to ask", `<ul class="quotes"><li>Which niches have new apps earning this week, and what do their reviews complain about?</li><li>Which small apps climbed the most on a top-grossing chart today?</li><li>Which earning apps were renamed or repriced this month?</li><li>Which charting apps disappeared from the App Store?</li><li>What does every meal planner app charge for a yearly plan?</li></ul>`),
     jsonLd: [trail.ld],
   });
 }
@@ -681,6 +854,7 @@ function countryPage(ctx: Ctx, d: CountryData): void {
     `<section class="doc-head"><div class="container">${trail.html}<h1>${esc(countryName(d.country))} App Store, ${longDate(d.date)}</h1>
 <p class="lead">${esc(`${plural(d.signals.length, "app")} on the tracked charts today, across ${config.genres.length} categories.`)}</p></div></section>` +
     block("Niches where newcomers earn", niches, true) +
+    (d.movers.climbers.length ? block("Climbing since the last scan", `<p>The biggest gains on a top-grossing chart since ${longDate(d.movers.previousDate!)}.</p>` + moverTable(ctx, d, d.movers.climbers.slice(0, list), "change"), true) : "") +
     block("Small and paying", `<p>On a top-grossing chart with fewer than ${num(config.report.smallAppMaxRatings)} ratings.</p>` + appRows(ctx, d, smallAndPaying(d.signals, config).slice(0, list)), true) +
     block("New and paying", `<p>Released in the last ${num(config.report.newAppMaxAgeDays)} days and already on a top-grossing chart.</p>` + appRows(ctx, d, newAndPaying(d.signals, config).slice(0, list), { title: "Days old", value: (s) => (s.ageDays === null ? "" : num(s.ageDays)) }), true) +
     block("Built by one person", `<p>Sold under a person’s own name. A guess from the seller’s name, usually right.</p>` + appRows(ctx, d, soloAndPaying(d.signals).slice(0, list)), true) +
@@ -774,6 +948,7 @@ function aboutPage(ctx: Ctx, date: string): void {
   const body =
     `<section class="doc-head"><div class="container">${trail.html}<h1>How Scout works</h1><p class="lead">A script, a free GitHub runner and Apple’s public feeds. Here is what it reads and what it can’t tell you.</p></div></section>` +
     block("What it reads", `<div class="prose"><p>Every day Scout saves Apple’s top free, top paid and top grossing charts for ${config.genres.length} categories in ${config.countries.length} countries, 100 apps each, then looks up every app’s ratings, release date and seller.</p><p>In the ${esc(config.research.countries.map(shortName).join(", "))} it goes further for the most promising niches: what an App Store search shows, the latest reviews, in-app purchase prices, star breakdowns, privacy labels and the apps Apple suggests alongside.</p></div>`) +
+    block("What it tracks over time", `<ul class="quotes"><li><a href="${href(ctx, "/movers/")}">Movers</a>: who climbed, arrived or left a top-grossing chart since the day before.</li><li><a href="${href(ctx, "/changes/")}">Listing changes</a>: new names, prices, in-app purchases, sellers and categories, compared with the day before.</li><li><a href="${href(ctx, "/removed/")}">Removed apps</a>: charting apps Apple stops listing, confirmed on a second scan.</li><li><a href="${href(ctx, "/api/")}">JSON and an MCP server</a>, so a script or an AI agent can read all of it.</li></ul>`) +
     block("What it can’t tell you", `<ul class="quotes"><li>Ranks are not downloads or money. Grossing ranks compare neighbours on one chart.</li><li>Charts stop at 100, so the long tail is invisible.</li><li>Ratings lag installs; most people never rate.</li><li>“Solo developer” is a guess from the seller’s name.</li></ul>`) +
     block("Run your own", `<p>Fork the repository, enable Actions, and your copy scans every day and publishes its own site. Or run it on your computer with Node 22.18 or newer:</p><pre class="code">git clone https://github.com/${esc(ctx.opts.repo)}
 cd app-store-scout
@@ -827,6 +1002,11 @@ export function buildSite(store: Store, config: Config, opts: SiteOptions): { pa
   for (const h of history) for (const id of h.appIds) nichesOf.set(id, [...(nichesOf.get(id) ?? []), h.term]);
   for (const id of ctx.appPages) appPage(ctx, main, id, nichesOf.get(id) ?? []);
   for (const d of all) countryPage(ctx, d);
+  moversPage(ctx, main);
+  changesPage(ctx, main);
+  removedPage(ctx, all);
+  apiPage(ctx, writeApi(opts.out, { url, repo: opts.repo }, store, config, all, main, ctx.appPages), main.date);
+  writeFileSync(join(opts.out, "feed.xml"), buildFeed({ url, date: main.date, country: shortName(main.country), history, movers: main.movers, name: (id) => main.apps.get(id)?.name ?? "" }));
   countriesHub(ctx, all);
   searchPages(ctx, all, main);
   aboutPage(ctx, main.date);

@@ -19,6 +19,7 @@
     "report": "node src/cli.ts report",
     "site": "node src/cli.ts site",
     "app": "node src/cli.ts app",
+    "mcp": "node src/cli.ts mcp",
     "test": "node --test test/*.test.ts",
     "typecheck": "tsc --noEmit"
   },
