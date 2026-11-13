@@ -1,6 +1,12 @@
 app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,missing_since,confirmed_on,returned_on
-1043555602,IQ Test PRO - Measure your intelligence quotient!,Timur Bolychevtsev,Education,top-paid,6017,80,2026-11-08,2026-11-12,,
-6808517688,Haick: Short Video & Chat,SAMAVSARAN TRADE PRIVATE LIMITED,Sports,top-grossing,6004,97,2026-11-09,2026-11-12,,
+6749524394,Movia AI: Photo to Video Maker,DEEP LINK META LIMITED,Photo & Video,top-grossing,6008,31,2026-11-12,2026-11-13,,
+528940068,FlashAir Instant WIFI,Trek2000,Utilities,top-paid,6002,37,2026-11-06,2026-11-13,,
+1568546440,culur: Custom Colour by Number,CULUR INC.,Graphics & Design,top-paid,6027,45,2026-11-12,2026-11-13,,
+6800558343,EtherNova-ETH Cloud Mining,YL Innovation,Finance,top-grossing,6015,48,2026-11-06,2026-11-13,,
+6823120660,Passburst,TONAS LEPP,Graphics & Design,top-free,6027,74,2026-11-06,2026-11-13,,
+6756714377,TDZ Pro - Bus Truck Simulator,LEKE YAZILIM VE OYUN ANONIM SIRKETI,Games,top-free,7014,94,2026-11-12,2026-11-13,,
+1043555602,IQ Test PRO - Measure your intelligence quotient!,Timur Bolychevtsev,Education,top-paid,6017,80,2026-11-08,2026-11-12,2026-11-13,
+6808517688,Haick: Short Video & Chat,SAMAVSARAN TRADE PRIVATE LIMITED,Sports,top-grossing,6004,97,2026-11-09,2026-11-12,2026-11-13,
 363360636,Ship Finder,pinkfroot limited,Navigation,top-paid,6010,7,2026-11-09,2026-11-11,2026-11-12,
 6504787012,Voice Recorder Pro & Editor,LiveBird Tech Inc,Business,top-paid,6000,8,2026-11-09,2026-11-11,2026-11-12,
 6802169685,Sorax: Create AI Video,Saban Nas,Graphics & Design,top-grossing,6027,10,2026-11-05,2026-11-11,2026-11-12,
@@ -8,10 +14,10 @@ app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,miss
 984225820,BruxApp,Chiara Bonanni,Health & Fitness,top-paid,6013,13,2026-11-05,2026-11-11,2026-11-12,
 6739737107,Peptide Tracker Calculator,"Wild Monkey Labs, LLC",Health & Fitness,top-paid,6013,14,2026-11-07,2026-11-11,2026-11-12,
 865028094,FireMapper,Fire Front Solutions Pty Ltd,Navigation,top-paid,6010,15,2026-11-08,2026-11-11,2026-11-12,
-472208016,酷狗音乐 - 就是歌多,"Guangzhou KuGou Technology CO. , LTD",Music,top-grossing,6011,19,2026-11-10,2026-11-11,2026-11-12,
+472208016,酷狗音乐 - 就是歌多,"Guangzhou KuGou Technology CO. , LTD",Music,top-grossing,6011,19,2026-11-10,2026-11-11,2026-11-12,2026-11-13
 6766646675,Blackjack: Win Real Cash Live!,Pulse Gaming Realm Inc.,Games,top-free,7005,21,2026-11-03,2026-11-11,2026-11-12,
 1473047769,Body Editor.,Best Cool Apps LLC,Graphics & Design,top-grossing,6027,25,2026-11-04,2026-11-11,2026-11-12,
-6444320997,SvgTrace Classic,SvgTrace,Graphics & Design,top-paid,6027,25,2026-11-08,2026-11-11,2026-11-12,
+6444320997,SvgTrace Classic,SvgTrace,Graphics & Design,top-paid,6027,25,2026-11-08,2026-11-11,2026-11-12,2026-11-13
 6780737118,LiiDramaShort,"Van Arsdale Air Service, L.L.C.",Entertainment,top-free,6016,26,2026-11-03,2026-11-11,2026-11-12,
 1434626758,IA X-rays,Imaging Associates,Medical,top-free,6020,27,2026-11-09,2026-11-11,2026-11-12,
 6822935249,Tokyo Brew Tycoon: Coffee Shop,Giuseppe Lupo,Games,top-free,7014,28,2026-11-04,2026-11-11,2026-11-12,
