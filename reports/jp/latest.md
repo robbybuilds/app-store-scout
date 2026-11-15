@@ -1,6 +1,6 @@
-# App Store Scout: JP, 2026-11-14
+# App Store Scout: JP, 2026-11-15
 
-12 daily snapshots (2026-11-03 to 2026-11-14), 9077 apps on the tracked charts.
+13 daily snapshots (2026-11-03 to 2026-11-15), 9068 apps on the tracked charts.
 
 > Ranks, ratings and release dates are observed from Apple's public feeds. They are **not** downloads, revenue or profit. A top-grossing rank says an app earns more than its neighbours in that chart, nothing more. See [the guide](../../docs/guide.md) for how to turn this into research.
 
@@ -10,16 +10,16 @@ Phrases shared by new or small apps from **different publishers** that are all o
 
 | Niche | Publishers | Examples (top-grossing rank) |
 |---|--:|---|
-| **car** | 10 | [Car Parking Multiplayer 2](https://apps.apple.com/jp/app/car-parking-multiplayer-2/id6514315118) (#9 Games: Racing), [Pixel Car Racer](https://apps.apple.com/jp/app/pixel-car-racer/id1068808996) (#58 Games: Racing), [DriveCSX Car Crash Simulator](https://apps.apple.com/jp/app/drivecsx-car-crash-simulator/id6736580540) (#65 Games: Racing) +7 more |
-| **slot** | 10 | [DoubleU Casino™ - Vegas Slots](https://apps.apple.com/jp/app/doubleu-casino-vegas-slots/id642727743) (#36 Games: Casino), [Jackpot Friends™-Slots Casino](https://apps.apple.com/jp/app/jackpot-friends-slots-casino/id1668656321) (#39 Games: Casino), [Jackpotland: Casino Slots Game](https://apps.apple.com/jp/app/jackpotland-casino-slots-game/id6443581187) (#43 Games: Casino) +11 more |
-| **client** (also ssh client) | 9 | [Termius - Modern SSH Client](https://apps.apple.com/jp/app/termius-modern-ssh-client/id549039908) (#7 Developer Tools), [NeoServer SSH Client Terminal](https://apps.apple.com/jp/app/neoserver-ssh-client-terminal/id6448362669) (#10 Developer Tools), [HTTPBot: API & HTTP Client](https://apps.apple.com/jp/app/httpbot-api-http-client/id1232603544) (#22 Developer Tools) +7 more |
-| **ビデオ通話** | 8 | [ビデオ通話 ソラ - ビデオチャットで甘い時間](https://apps.apple.com/jp/app/%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1-%E3%82%BD%E3%83%A9-%E3%83%93%E3%83%87%E3%82%AA%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%81%A7%E7%94%98%E3%81%84%E6%99%82%E9%96%93/id6747656096) (#20 Social Networking), [MIYABI+ (ミヤビプラス) ビデオ通話 ビデオチャット](https://apps.apple.com/jp/app/miyabi-%E3%83%9F%E3%83%A4%E3%83%93%E3%83%97%E3%83%A9%E3%82%B9-%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1-%E3%83%93%E3%83%87%E3%82%AA%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id6760150501) (#33 Social Networking), [ビデオ通話 Carina 見せあいアプリ](https://apps.apple.com/jp/app/%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1-carina-%E8%A6%8B%E3%81%9B%E3%81%82%E3%81%84%E3%82%A2%E3%83%97%E3%83%AA/id6761754160) (#37 Social Networking) +5 more |
-| **translate** | 7 | [翻訳アプリ・AI通訳・翻訳機: Translate One](https://apps.apple.com/jp/app/%E7%BF%BB%E8%A8%B3%E3%82%A2%E3%83%97%E3%83%AA-ai%E9%80%9A%E8%A8%B3-%E7%BF%BB%E8%A8%B3%E6%A9%9F-translate-one/id6736970537) (#3 Reference), [AR Translator: Translate Photo](https://apps.apple.com/jp/app/ar-translator-translate-photo/id1465903782) (#6 Reference), [Live AI Translate - 音声翻訳・カメラ翻訳](https://apps.apple.com/jp/app/live-ai-translate-%E9%9F%B3%E5%A3%B0%E7%BF%BB%E8%A8%B3-%E3%82%AB%E3%83%A1%E3%83%A9%E7%BF%BB%E8%A8%B3/id6761163853) (#17 Reference) +4 more |
-| **code** | 7 | [Blink Shell, Build & Code](https://apps.apple.com/jp/app/blink-shell-build-code/id1594898306) (#9 Developer Tools), [Visual Code Editor - vCode](https://apps.apple.com/jp/app/visual-code-editor-vcode/id6789877680) (#19 Developer Tools), [Code App](https://apps.apple.com/jp/app/code-app/id1512938504) (#32 Developer Tools) +4 more |
-| **world news** | 7 | [NYTimes: US and World News](https://apps.apple.com/jp/app/nytimes-us-and-world-news/id284862083) (#11 News), [Reuters - Breaking World News](https://apps.apple.com/jp/app/reuters-breaking-world-news/id602660809) (#21 News), [Espresso: World news in a shot](https://apps.apple.com/jp/app/espresso-world-news-in-a-shot/id896628003) (#25 News) +4 more |
-| **荷物追跡** | 6 | [荷物追跡 ・ 宅配便 配送状況 ・ 宅配便追跡](https://apps.apple.com/jp/app/%E8%8D%B7%E7%89%A9%E8%BF%BD%E8%B7%A1-%E5%AE%85%E9%85%8D%E4%BE%BF-%E9%85%8D%E9%80%81%E7%8A%B6%E6%B3%81-%E5%AE%85%E9%85%8D%E4%BE%BF%E8%BF%BD%E8%B7%A1/id6746402409) (#7 Shopping), [荷物追跡: 配達トラッカー](https://apps.apple.com/jp/app/%E8%8D%B7%E7%89%A9%E8%BF%BD%E8%B7%A1-%E9%85%8D%E9%81%94%E3%83%88%E3%83%A9%E3%83%83%E3%82%AB%E3%83%BC/id6759458866) (#23 Shopping), [荷物追跡: Packager](https://apps.apple.com/jp/app/%E8%8D%B7%E7%89%A9%E8%BF%BD%E8%B7%A1-packager/id6761072535) (#46 Shopping) +3 more |
-| **qrコードリーダー** | 6 | [QRコードリーダー・バーコード読み取り・QRコード作成](https://apps.apple.com/jp/app/qr%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC-%E3%83%90%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E8%AA%AD%E3%81%BF%E5%8F%96%E3%82%8A-qr%E3%82%B3%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90/id6501954960) (#12 Utilities), [QRコードリーダー・バーコードスキャナ：QR ACE](https://apps.apple.com/jp/app/qr%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC-%E3%83%90%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%82%B9%E3%82%AD%E3%83%A3%E3%83%8A-qr-ace/id6751625696) (#25 Utilities), [QRコードリーダー・バーコード読み取り](https://apps.apple.com/jp/app/qr%E3%82%B3%E3%83%BC%E3%83%89%E3%83%AA%E3%83%BC%E3%83%80%E3%83%BC-%E3%83%90%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E8%AA%AD%E3%81%BF%E5%8F%96%E3%82%8A/id1524733339) (#44 Utilities) +3 more |
-| **recipe** | 6 | [Gronda: Recipes for Chefs](https://apps.apple.com/jp/app/gronda-recipes-for-chefs/id1164423781) (#26 Food & Drink), [Osta: Save & Share Recipes](https://apps.apple.com/jp/app/osta-save-share-recipes/id6739286231) (#52 Food & Drink), [Recipe Keeper](https://apps.apple.com/jp/app/recipe-keeper/id974683711) (#53 Food & Drink) +3 more |
+| **car** | 9 | [Car Parking Multiplayer 2](https://apps.apple.com/jp/app/car-parking-multiplayer-2/id6514315118) (#9 Games: Racing), [Highway Overtake - Car Racing](https://apps.apple.com/jp/app/highway-overtake-car-racing/id6463229324) (#51 Games: Racing), [DriveCSX Car Crash Simulator](https://apps.apple.com/jp/app/drivecsx-car-crash-simulator/id6736580540) (#55 Games: Racing) +6 more |
+| **recipe** | 9 | [PLATO: Recipes & Pantry AI](https://apps.apple.com/jp/app/plato-recipes-pantry-ai/id6759174582) (#25 Food & Drink), [Gronda: Recipes for Chefs](https://apps.apple.com/jp/app/gronda-recipes-for-chefs/id1164423781) (#26 Food & Drink), [MealPrepPro Planner & Recipes](https://apps.apple.com/jp/app/mealpreppro-planner-recipes/id1249805978) (#34 Food & Drink) +6 more |
+| **slot** (also casino slot) | 9 | [Jackpotland: Casino Slots Game](https://apps.apple.com/jp/app/jackpotland-casino-slots-game/id6443581187) (#39 Games: Casino), [Jackpot Friends™-Slots Casino](https://apps.apple.com/jp/app/jackpot-friends-slots-casino/id1668656321) (#41 Games: Casino), [DoubleU Casino™ - Vegas Slots](https://apps.apple.com/jp/app/doubleu-casino-vegas-slots/id642727743) (#42 Games: Casino) +11 more |
+| **client** (also ssh client) | 7 | [Termius - Modern SSH Client](https://apps.apple.com/jp/app/termius-modern-ssh-client/id549039908) (#2 Developer Tools), [NeoServer SSH Client Terminal](https://apps.apple.com/jp/app/neoserver-ssh-client-terminal/id6448362669) (#18 Developer Tools), [HTTPBot: API & HTTP Client](https://apps.apple.com/jp/app/httpbot-api-http-client/id1232603544) (#33 Developer Tools) +5 more |
+| **translate** | 7 | [翻訳アプリ・AI通訳・翻訳機: Translate One](https://apps.apple.com/jp/app/%E7%BF%BB%E8%A8%B3%E3%82%A2%E3%83%97%E3%83%AA-ai%E9%80%9A%E8%A8%B3-%E7%BF%BB%E8%A8%B3%E6%A9%9F-translate-one/id6736970537) (#5 Reference), [AR Translator: Translate Photo](https://apps.apple.com/jp/app/ar-translator-translate-photo/id1465903782) (#7 Reference), [Live AI Translate - 音声翻訳・カメラ翻訳](https://apps.apple.com/jp/app/live-ai-translate-%E9%9F%B3%E5%A3%B0%E7%BF%BB%E8%A8%B3-%E3%82%AB%E3%83%A1%E3%83%A9%E7%BF%BB%E8%A8%B3/id6761163853) (#16 Reference) +4 more |
+| **ビデオ通話** | 7 | [ビデオ通話 ソラ - ビデオチャットで甘い時間](https://apps.apple.com/jp/app/%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1-%E3%82%BD%E3%83%A9-%E3%83%93%E3%83%87%E3%82%AA%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%81%A7%E7%94%98%E3%81%84%E6%99%82%E9%96%93/id6747656096) (#25 Social Networking), [ビデオ通話 Carina 見せあいアプリ](https://apps.apple.com/jp/app/%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1-carina-%E8%A6%8B%E3%81%9B%E3%81%82%E3%81%84%E3%82%A2%E3%83%97%E3%83%AA/id6761754160) (#35 Social Networking), [MIYABI+ (ミヤビプラス) ビデオ通話 ビデオチャット](https://apps.apple.com/jp/app/miyabi-%E3%83%9F%E3%83%A4%E3%83%93%E3%83%97%E3%83%A9%E3%82%B9-%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1-%E3%83%93%E3%83%87%E3%82%AA%E3%83%81%E3%83%A3%E3%83%83%E3%83%88/id6760150501) (#36 Social Networking) +4 more |
+| **ssh** | 6 | [Termius - Modern SSH Client](https://apps.apple.com/jp/app/termius-modern-ssh-client/id549039908) (#2 Developer Tools), [Moshi: SSH・MOSH で herdr・tmux](https://apps.apple.com/jp/app/moshi-ssh-mosh-%E3%81%A7-herdr-tmux/id6757859949) (#8 Developer Tools), [NeoServer SSH Client Terminal](https://apps.apple.com/jp/app/neoserver-ssh-client-terminal/id6448362669) (#18 Developer Tools) +3 more |
+| **pdf** | 6 | [SmartPrinter：写真そして PDF 書類印刷アプリ](https://apps.apple.com/jp/app/smartprinter-%E5%86%99%E7%9C%9F%E3%81%9D%E3%81%97%E3%81%A6-pdf-%E6%9B%B8%E9%A1%9E%E5%8D%B0%E5%88%B7%E3%82%A2%E3%83%97%E3%83%AA/id6739935546) (#8 Business), [PDF 編集](https://apps.apple.com/jp/app/pdf-%E7%B7%A8%E9%9B%86/id1532638515) (#48 Business), [PDF expert - PDF viewer](https://apps.apple.com/jp/app/pdf-expert-pdf-viewer/id6739529347) (#57 Business) +4 more |
+| **荷物追跡** | 6 | [荷物追跡 ・ 宅配便 配送状況 ・ 宅配便追跡](https://apps.apple.com/jp/app/%E8%8D%B7%E7%89%A9%E8%BF%BD%E8%B7%A1-%E5%AE%85%E9%85%8D%E4%BE%BF-%E9%85%8D%E9%80%81%E7%8A%B6%E6%B3%81-%E5%AE%85%E9%85%8D%E4%BE%BF%E8%BF%BD%E8%B7%A1/id6746402409) (#8 Shopping), [荷物追跡: 配達トラッカー](https://apps.apple.com/jp/app/%E8%8D%B7%E7%89%A9%E8%BF%BD%E8%B7%A1-%E9%85%8D%E9%81%94%E3%83%88%E3%83%A9%E3%83%83%E3%82%AB%E3%83%BC/id6759458866) (#30 Shopping), [荷物追跡 - 配送状況をマップ表示](https://apps.apple.com/jp/app/%E8%8D%B7%E7%89%A9%E8%BF%BD%E8%B7%A1-%E9%85%8D%E9%80%81%E7%8A%B6%E6%B3%81%E3%82%92%E3%83%9E%E3%83%83%E3%83%97%E8%A1%A8%E7%A4%BA/id6775228911) (#31 Shopping) +3 more |
+| **cleaner** | 6 | [True Cleaner - ストレージ整理](https://apps.apple.com/jp/app/true-cleaner-%E3%82%B9%E3%83%88%E3%83%AC%E3%83%BC%E3%82%B8%E6%95%B4%E7%90%86/id6747470149) (#36 Utilities), [Safe Cleaner: スマホ整理](https://apps.apple.com/jp/app/safe-cleaner-%E3%82%B9%E3%83%9E%E3%83%9B%E6%95%B4%E7%90%86/id6769984260) (#59 Utilities), [iSwipe - Phone Cleaner](https://apps.apple.com/jp/app/iswipe-phone-cleaner/id6747802267) (#64 Utilities) +3 more |
 
 _Search, reviews and prices are researched for US only. Add "jp" to `research.countries` in scout.config.json to research this country too._
 
@@ -29,47 +29,47 @@ How crowded each genre's top-grossing chart looks. More new apps (released in th
 
 | Genre | Apps on chart | New apps | Small apps | Median ratings |
 |---|--:|--:|--:|--:|
-| All apps | 100 | 11 | 1 | 201,180 |
-| Business | 100 | 6 | 73 | 872 |
-| Weather | 100 | 19 | 83 | 214 |
-| Utilities | 100 | 16 | 65 | 851 |
-| Travel | 100 | 27 | 84 | 146 |
-| Sports | 100 | 12 | 85 | 279 |
-| Social Networking | 100 | 8 | 42 | 7,773 |
-| Reference | 100 | 13 | 89 | 177 |
-| Productivity | 100 | 9 | 45 | 6,514 |
-| Photo & Video | 100 | 9 | 40 | 11,363 |
-| News | 100 | 1 | 83 | 90 |
-| Navigation | 100 | 9 | 75 | 651 |
-| Music | 100 | 6 | 70 | 1,446 |
-| Lifestyle | 100 | 13 | 74 | 1,513 |
-| Health & Fitness | 100 | 11 | 54 | 3,456 |
-| Finance | 100 | 17 | 70 | 817 |
-| Entertainment | 100 | 13 | 50 | 4,899 |
-| Education | 99 | 8 | 49 | 5,378 |
-| Books | 100 | 14 | 60 | 1,275 |
-| Medical | 99 | 10 | 86 | 88 |
-| Food & Drink | 100 | 31 | 86 | 21 |
-| Shopping | 100 | 26 | 92 | 22 |
-| Developer Tools | 100 | 38 | 99 | 9 |
-| Graphics & Design | 100 | 13 | 76 | 952 |
-| Games | 100 | 18 | 1 | 100,570 |
-| Games: Action | 100 | 23 | 20 | 27,861 |
-| Games: Adventure | 100 | 17 | 18 | 24,140 |
-| Games: Casual | 100 | 31 | 29 | 15,035 |
-| Games: Board | 100 | 12 | 49 | 5,403 |
-| Games: Card | 100 | 12 | 37 | 8,004 |
-| Games: Casino | 100 | 15 | 67 | 2,458 |
-| Games: Family | 100 | 11 | 52 | 4,224 |
-| Games: Music | 100 | 11 | 55 | 2,868 |
-| Games: Puzzle | 100 | 23 | 22 | 20,130 |
-| Games: Racing | 100 | 18 | 68 | 1,475 |
-| Games: Role Playing | 100 | 20 | 11 | 44,076 |
-| Games: Simulation | 100 | 26 | 25 | 16,594 |
-| Games: Sports | 100 | 20 | 48 | 6,289 |
-| Games: Strategy | 100 | 23 | 31 | 14,482 |
-| Games: Trivia | 100 | 23 | 79 | 571 |
-| Games: Word | 100 | 23 | 82 | 361 |
+| All apps | 100 | 10 | 1 | 197,564 |
+| Business | 100 | 7 | 74 | 725 |
+| Weather | 100 | 17 | 83 | 283 |
+| Utilities | 100 | 16 | 64 | 852 |
+| Travel | 100 | 26 | 85 | 183 |
+| Sports | 100 | 9 | 87 | 211 |
+| Social Networking | 100 | 7 | 42 | 7,774 |
+| Reference | 100 | 12 | 86 | 195 |
+| Productivity | 100 | 9 | 42 | 7,707 |
+| Photo & Video | 100 | 10 | 38 | 12,918 |
+| News | 100 | 3 | 83 | 62 |
+| Navigation | 100 | 12 | 77 | 535 |
+| Music | 100 | 6 | 72 | 1,339 |
+| Lifestyle | 100 | 13 | 75 | 1,389 |
+| Health & Fitness | 100 | 11 | 51 | 4,447 |
+| Finance | 100 | 15 | 72 | 595 |
+| Entertainment | 100 | 13 | 50 | 4,908 |
+| Education | 100 | 8 | 50 | 4,873 |
+| Books | 100 | 12 | 61 | 1,275 |
+| Medical | 99 | 12 | 85 | 91 |
+| Food & Drink | 100 | 31 | 86 | 17 |
+| Shopping | 100 | 24 | 92 | 19 |
+| Developer Tools | 100 | 37 | 99 | 9 |
+| Graphics & Design | 100 | 12 | 76 | 1,043 |
+| Games | 100 | 18 | 1 | 103,579 |
+| Games: Action | 100 | 25 | 19 | 26,728 |
+| Games: Adventure | 100 | 16 | 18 | 24,797 |
+| Games: Casual | 100 | 31 | 26 | 16,439 |
+| Games: Board | 100 | 13 | 52 | 3,818 |
+| Games: Card | 100 | 13 | 41 | 7,065 |
+| Games: Casino | 100 | 15 | 66 | 2,459 |
+| Games: Family | 100 | 13 | 54 | 3,670 |
+| Games: Music | 100 | 15 | 56 | 2,441 |
+| Games: Puzzle | 100 | 22 | 19 | 20,997 |
+| Games: Racing | 100 | 21 | 69 | 1,331 |
+| Games: Role Playing | 100 | 22 | 11 | 39,608 |
+| Games: Simulation | 100 | 26 | 23 | 17,063 |
+| Games: Sports | 100 | 20 | 50 | 4,910 |
+| Games: Strategy | 100 | 24 | 28 | 17,243 |
+| Games: Trivia | 100 | 21 | 79 | 464 |
+| Games: Word | 100 | 24 | 77 | 665 |
 
 ## Solo developers earning
 
@@ -77,21 +77,21 @@ On a top-grossing chart and sold under a person's own name rather than a company
 
 | | App | Publisher | Top grossing | Their apps | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [XMLビューアー: XML変換](https://apps.apple.com/jp/app/xml%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%BC-xml%E5%A4%89%E6%8F%9B/id6737447574) | Utsav Mangla | #3 Developer Tools | ? | 73 | 2024-10-30 |
-| 2 | [うちわ文字作成 アプリ  ファンサください！](https://apps.apple.com/jp/app/%E3%81%86%E3%81%A1%E3%82%8F%E6%96%87%E5%AD%97%E4%BD%9C%E6%88%90-%E3%82%A2%E3%83%97%E3%83%AA-%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B5%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84/id6443780213) | Shiho Sadamizu | #3 Graphics & Design | ? | 39,031 | 2022-11-01 |
-| 3 | [みんなde心電図](https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AAde%E5%BF%83%E9%9B%BB%E5%9B%B3/id6504893737) | Ryoma Kamei | #7 Medical | ? | 3,857 | 2024-07-10 |
-| 4 | [FOD ドラマやアニメなどテレビの動画が見放題！見逃し配信も](https://apps.apple.com/jp/app/fod-%E3%83%89%E3%83%A9%E3%83%9E%E3%82%84%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%83%86%E3%83%AC%E3%83%93%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C-%E8%A6%8B%E9%80%83%E3%81%97%E9%85%8D%E4%BF%A1%E3%82%82/id945241274) | FujiTV | #8 Entertainment | ? | 165,848 | 2015-01-08 |
-| 5 | [Car Parking Multiplayer 2](https://apps.apple.com/jp/app/car-parking-multiplayer-2/id6514315118) | Aidana Kengbeiil | #9 Games: Racing | ? | 1,089 | 2024-08-20 |
-| 6 | [MIYABI(ミヤビ)ひとりでも！友達さがし/合コンアプリ](https://apps.apple.com/jp/app/miyabi-%E3%83%9F%E3%83%A4%E3%83%93-%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%A7%E3%82%82-%E5%8F%8B%E9%81%94%E3%81%95%E3%81%8C%E3%81%97-%E5%90%88%E3%82%B3%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id1628617204) | Shouta Tanaka | #10 Social Networking | ? | 8,148 | 2022-08-05 |
-| 7 | [Gala-Gifts](https://apps.apple.com/jp/app/gala-gifts/id1594993690) | Viktoria Schaposchnikow | #10 Shopping | ? | 1 | 2021-11-17 |
-| 8 | [Antigravity AI モバイルIDE](https://apps.apple.com/jp/app/antigravity-ai-%E3%83%A2%E3%83%90%E3%82%A4%E3%83%ABide/id6759795486) | Uladzsislau Luchkouski | #11 Developer Tools | ? | 10 | 2026-03-10 |
-| 9 | [Car Parking Multiplayer](https://apps.apple.com/jp/app/car-parking-multiplayer/id1374868881) | Aidana Kengbeiil | #11 Games: Racing | ? | 9,513 | 2018-04-23 |
-| 10 | [レシピ記録・献立作成・買い物リスト管理 - レピッタ](https://apps.apple.com/jp/app/%E3%83%AC%E3%82%B7%E3%83%94%E8%A8%98%E9%8C%B2-%E7%8C%AE%E7%AB%8B%E4%BD%9C%E6%88%90-%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%AA%E3%82%B9%E3%83%88%E7%AE%A1%E7%90%86-%E3%83%AC%E3%83%94%E3%83%83%E3%82%BF/id1494651925) | Seiya Mogami | #12 Food & Drink | ? | 4,816 | 2020-01-21 |
-| 11 | [フリマアプリの売上管理-セラーブック](https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%9E%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AE%E5%A3%B2%E4%B8%8A%E7%AE%A1%E7%90%86-%E3%82%BB%E3%83%A9%E3%83%BC%E3%83%96%E3%83%83%E3%82%AF/id1155107559) | Daisuke Yamashita | #12 Shopping | ? | 8,463 | 2016-09-22 |
-| 12 | [Chapple ‐ ビデオ通話で洗濯の待ち時間を有効活用 ‐](https://apps.apple.com/jp/app/chapple-%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1%E3%81%A7%E6%B4%97%E6%BF%AF%E3%81%AE%E5%BE%85%E3%81%A1%E6%99%82%E9%96%93%E3%82%92%E6%9C%89%E5%8A%B9%E6%B4%BB%E7%94%A8/id6444427641) | Ryosuke Kobayashi | #13 Weather | ? | 30 | 2022-11-16 |
-| 13 | [レシピ記録・レシピ管理アプリ クックスルー](https://apps.apple.com/jp/app/%E3%83%AC%E3%82%B7%E3%83%94%E8%A8%98%E9%8C%B2-%E3%83%AC%E3%82%B7%E3%83%94%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AF%E3%83%83%E3%82%AF%E3%82%B9%E3%83%AB%E3%83%BC/id1422992607) | Tatsuya Kakimoto | #13 Food & Drink | ? | 8,618 | 2018-11-19 |
-| 14 | [フリマハンター - フリマ通知&価格モニター](https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%9E%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC-%E3%83%95%E3%83%AA%E3%83%9E%E9%80%9A%E7%9F%A5-%E4%BE%A1%E6%A0%BC%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC/id6762106127) | 亮 张 | #13 Shopping | ? | 10 | 2026-04-19 |
-| 15 | [メル友-運命の出会い大人の友達作りは地図でサードプレイス共有](https://apps.apple.com/jp/app/%E3%83%A1%E3%83%AB%E5%8F%8B-%E9%81%8B%E5%91%BD%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84%E5%A4%A7%E4%BA%BA%E3%81%AE%E5%8F%8B%E9%81%94%E4%BD%9C%E3%82%8A%E3%81%AF%E5%9C%B0%E5%9B%B3%E3%81%A7%E3%82%B5%E3%83%BC%E3%83%89%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%E5%85%B1%E6%9C%89/id6473626850) | Naoki Watanabe | #14 Navigation | ? | 2,682 | 2023-12-06 |
+| 1 | [XMLビューアー: XML変換](https://apps.apple.com/jp/app/xml%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%BC-xml%E5%A4%89%E6%8F%9B/id6737447574) | Utsav Mangla | #4 Developer Tools | ? | 74 | 2024-10-30 |
+| 2 | [うちわ文字作成 アプリ  ファンサください！](https://apps.apple.com/jp/app/%E3%81%86%E3%81%A1%E3%82%8F%E6%96%87%E5%AD%97%E4%BD%9C%E6%88%90-%E3%82%A2%E3%83%97%E3%83%AA-%E3%83%95%E3%82%A1%E3%83%B3%E3%82%B5%E3%81%8F%E3%81%A0%E3%81%95%E3%81%84/id6443780213) | Shiho Sadamizu | #4 Graphics & Design | ? | 39,051 | 2022-11-01 |
+| 3 | [エルパト アシスト](https://apps.apple.com/jp/app/%E3%82%A8%E3%83%AB%E3%83%91%E3%83%88-%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%88/id6782067884) | CAT'S PAW | #6 Shopping | ? | 1 | 2026-07-06 |
+| 4 | [Textastic Code Editor](https://apps.apple.com/jp/app/textastic-code-editor/id1049254261) | Alexander Blach | #6 Developer Tools | ? | 928 | 2016-03-12 |
+| 5 | [みんなde心電図](https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AAde%E5%BF%83%E9%9B%BB%E5%9B%B3/id6504893737) | Ryoma Kamei | #7 Medical | ? | 3,866 | 2024-07-10 |
+| 6 | [GDevelop - Create & Play Games](https://apps.apple.com/jp/app/gdevelop-create-play-games/id1663675754) | GDEVELOP FRANCE | #7 Developer Tools | ? | 82 | 2023-04-10 |
+| 7 | [FOD ドラマやアニメなどテレビの動画が見放題！見逃し配信も](https://apps.apple.com/jp/app/fod-%E3%83%89%E3%83%A9%E3%83%9E%E3%82%84%E3%82%A2%E3%83%8B%E3%83%A1%E3%81%AA%E3%81%A9%E3%83%86%E3%83%AC%E3%83%93%E3%81%AE%E5%8B%95%E7%94%BB%E3%81%8C%E8%A6%8B%E6%94%BE%E9%A1%8C-%E8%A6%8B%E9%80%83%E3%81%97%E9%85%8D%E4%BF%A1%E3%82%82/id945241274) | FujiTV | #8 Entertainment | ? | 165,896 | 2015-01-08 |
+| 8 | [Car Parking Multiplayer 2](https://apps.apple.com/jp/app/car-parking-multiplayer-2/id6514315118) | Aidana Kengbeiil | #9 Games: Racing | ? | 1,101 | 2024-08-20 |
+| 9 | [Chapple ‐ ビデオ通話で洗濯の待ち時間を有効活用 ‐](https://apps.apple.com/jp/app/chapple-%E3%83%93%E3%83%87%E3%82%AA%E9%80%9A%E8%A9%B1%E3%81%A7%E6%B4%97%E6%BF%AF%E3%81%AE%E5%BE%85%E3%81%A1%E6%99%82%E9%96%93%E3%82%92%E6%9C%89%E5%8A%B9%E6%B4%BB%E7%94%A8/id6444427641) | Ryosuke Kobayashi | #10 Weather | ? | 37 | 2022-11-16 |
+| 10 | [レシピ記録・レシピ管理アプリ クックスルー](https://apps.apple.com/jp/app/%E3%83%AC%E3%82%B7%E3%83%94%E8%A8%98%E9%8C%B2-%E3%83%AC%E3%82%B7%E3%83%94%E7%AE%A1%E7%90%86%E3%82%A2%E3%83%97%E3%83%AA-%E3%82%AF%E3%83%83%E3%82%AF%E3%82%B9%E3%83%AB%E3%83%BC/id1422992607) | Tatsuya Kakimoto | #11 Food & Drink | ? | 8,619 | 2018-11-19 |
+| 11 | [Car Parking Multiplayer](https://apps.apple.com/jp/app/car-parking-multiplayer/id1374868881) | Aidana Kengbeiil | #11 Games: Racing | ? | 9,521 | 2018-04-23 |
+| 12 | [MIYABI(ミヤビ)ひとりでも！友達さがし/合コンアプリ](https://apps.apple.com/jp/app/miyabi-%E3%83%9F%E3%83%A4%E3%83%93-%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%A7%E3%82%82-%E5%8F%8B%E9%81%94%E3%81%95%E3%81%8C%E3%81%97-%E5%90%88%E3%82%B3%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id1628617204) | Shouta Tanaka | #12 Social Networking | ? | 8,151 | 2022-08-05 |
+| 13 | [レシピ記録・献立作成・買い物リスト管理 - レピッタ](https://apps.apple.com/jp/app/%E3%83%AC%E3%82%B7%E3%83%94%E8%A8%98%E9%8C%B2-%E7%8C%AE%E7%AB%8B%E4%BD%9C%E6%88%90-%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%AA%E3%82%B9%E3%83%88%E7%AE%A1%E7%90%86-%E3%83%AC%E3%83%94%E3%83%83%E3%82%BF/id1494651925) | Seiya Mogami | #12 Food & Drink | ? | 4,831 | 2020-01-21 |
+| 14 | [フリマハンター - フリマ通知&価格モニター](https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%9E%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC-%E3%83%95%E3%83%AA%E3%83%9E%E9%80%9A%E7%9F%A5-%E4%BE%A1%E6%A0%BC%E3%83%A2%E3%83%8B%E3%82%BF%E3%83%BC/id6762106127) | 亮 张 | #12 Shopping | ? | 11 | 2026-04-19 |
+| 15 | [Gala-Gifts](https://apps.apple.com/jp/app/gala-gifts/id1594993690) | Viktoria Schaposchnikow | #13 Shopping | ? | 1 | 2021-11-17 |
 
 ## Small and paying
 
@@ -100,20 +100,20 @@ On a top-grossing chart with fewer than 5,000 ratings: earning without a huge au
 | | App | Publisher | Top grossing | Avg rating | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
 | 1 | [Tabby Bobby](https://apps.apple.com/jp/app/tabby-bobby/id1474916136) | kensho kusano | #1 Travel | 4.34 | 295 | 2019-09-03 |
-| 2 | [Replit: Idea to software, fast](https://apps.apple.com/jp/app/replit-idea-to-software-fast/id1614022293) | Replit | #1 Developer Tools | 4.69 | 347 | 2022-10-18 |
-| 3 | [VS BOAT－3D競艇オンライン対戦ゲーム](https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753) | soma anraku | #1 Games: Racing | 4.52 | 1,656 | 2026-10-07 |
-| 4 | [リアルタイム翻訳 - AI音声写真翻訳](https://apps.apple.com/jp/app/%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E7%BF%BB%E8%A8%B3-ai%E9%9F%B3%E5%A3%B0%E5%86%99%E7%9C%9F%E7%BF%BB%E8%A8%B3/id6740606431) | DigitalSail (HK) Limited | #2 Reference | 4.15 | 1,742 | 2025-02-16 |
-| 5 | [Cursor](https://apps.apple.com/jp/app/cursor/id6767085653) | X Corp. | #2 Developer Tools | 4.33 | 107 | 2026-06-28 |
-| 6 | [ウズ - マーダーミステリーアプリ](https://apps.apple.com/jp/app/%E3%82%A6%E3%82%BA-%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id1529068001) | Sally, inc. | #2 Games: Word | 4.7 | 3,232 | 2020-09-28 |
-| 7 | [翻訳アプリ・AI通訳・翻訳機: Translate One](https://apps.apple.com/jp/app/%E7%BF%BB%E8%A8%B3%E3%82%A2%E3%83%97%E3%83%AA-ai%E9%80%9A%E8%A8%B3-%E7%BF%BB%E8%A8%B3%E6%A9%9F-translate-one/id6736970537) | Tung To Dinh | #3 Reference | 3.41 | 17 | 2024-11-10 |
-| 8 | [XMLビューアー: XML変換](https://apps.apple.com/jp/app/xml%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%BC-xml%E5%A4%89%E6%8F%9B/id6737447574) | Utsav Mangla | #3 Developer Tools | 3.86 | 73 | 2024-10-30 |
-| 9 | [クイズマジックアカデミー コナステ](https://apps.apple.com/jp/app/%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%9E%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC-%E3%82%B3%E3%83%8A%E3%82%B9%E3%83%86/id1581933454) | KONAMI | #3 Games: Trivia | 4.52 | 632 | 2021-11-23 |
-| 10 | [Flighty – Live Flight Tracker](https://apps.apple.com/jp/app/flighty-live-flight-tracker/id1358823008) | Flighty LLC | #4 Travel | 4.75 | 1,638 | 2019-08-19 |
-| 11 | [CoeFont通訳 - 音声 翻訳 ・ AI 同時 通訳](https://apps.apple.com/jp/app/coefont%E9%80%9A%E8%A8%B3-%E9%9F%B3%E5%A3%B0-%E7%BF%BB%E8%A8%B3-ai-%E5%90%8C%E6%99%82-%E9%80%9A%E8%A8%B3/id6749563379) | CoeFont Co., Ltd | #4 Reference | 4.56 | 1,828 | 2025-09-11 |
+| 2 | [Replit: Idea to software, fast](https://apps.apple.com/jp/app/replit-idea-to-software-fast/id1614022293) | Replit | #1 Developer Tools | 4.69 | 350 | 2022-10-18 |
+| 3 | [VS BOAT－3D競艇オンライン対戦ゲーム](https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753) | soma anraku | #1 Games: Racing | 4.53 | 1,691 | 2026-10-07 |
+| 4 | [リアルタイム翻訳 - AI音声写真翻訳](https://apps.apple.com/jp/app/%E3%83%AA%E3%82%A2%E3%83%AB%E3%82%BF%E3%82%A4%E3%83%A0%E7%BF%BB%E8%A8%B3-ai%E9%9F%B3%E5%A3%B0%E5%86%99%E7%9C%9F%E7%BF%BB%E8%A8%B3/id6740606431) | DigitalSail (HK) Limited | #2 Reference | 4.15 | 1,745 | 2025-02-16 |
+| 5 | [Termius - Modern SSH Client](https://apps.apple.com/jp/app/termius-modern-ssh-client/id549039908) | Termius Corporation | #2 Developer Tools | 4.67 | 3,546 | 2012-08-07 |
+| 6 | [ウズ - マーダーミステリーアプリ](https://apps.apple.com/jp/app/%E3%82%A6%E3%82%BA-%E3%83%9E%E3%83%BC%E3%83%80%E3%83%BC%E3%83%9F%E3%82%B9%E3%83%86%E3%83%AA%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id1529068001) | Sally, inc. | #2 Games: Word | 4.7 | 3,236 | 2020-09-28 |
+| 7 | [辞書 by 物書堂](https://apps.apple.com/jp/app/%E8%BE%9E%E6%9B%B8-by-%E7%89%A9%E6%9B%B8%E5%A0%82/id1380563956) | 物書堂 | #3 Reference | 3.37 | 1,666 | 2019-03-04 |
+| 8 | [Cursor](https://apps.apple.com/jp/app/cursor/id6767085653) | X Corp. | #3 Developer Tools | 4.36 | 106 | 2026-06-28 |
+| 9 | [Dreamina AI: Image&Video Maker](https://apps.apple.com/jp/app/dreamina-ai-image-video-maker/id6749606485) | Bytedance Pte. Ltd | #3 Graphics & Design | 2.73 | 22 | 2025-09-01 |
+| 10 | [クイズマジックアカデミー コナステ](https://apps.apple.com/jp/app/%E3%82%AF%E3%82%A4%E3%82%BA%E3%83%9E%E3%82%B8%E3%83%83%E3%82%AF%E3%82%A2%E3%82%AB%E3%83%87%E3%83%9F%E3%83%BC-%E3%82%B3%E3%83%8A%E3%82%B9%E3%83%86/id1581933454) | KONAMI | #3 Games: Trivia | 4.52 | 632 | 2021-11-23 |
+| 11 | [CoeFont通訳 - 音声 翻訳 ・ AI 同時 通訳](https://apps.apple.com/jp/app/coefont%E9%80%9A%E8%A8%B3-%E9%9F%B3%E5%A3%B0-%E7%BF%BB%E8%A8%B3-ai-%E5%90%8C%E6%99%82-%E9%80%9A%E8%A8%B3/id6749563379) | CoeFont Co., Ltd | #4 Reference | 4.56 | 1,843 | 2025-09-11 |
 | 12 | [CHAPACITY｜オンラインオリパ・トレカ](https://apps.apple.com/jp/app/chapacity-%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%AA%E3%83%AA%E3%83%91-%E3%83%88%E3%83%AC%E3%82%AB/id1418898008) | As-Moy | #4 Shopping | 2.02 | 426 | 2019-04-29 |
-| 13 | [Dreamina AI: Image&Video Maker](https://apps.apple.com/jp/app/dreamina-ai-image-video-maker/id6749606485) | Bytedance Pte. Ltd | #4 Graphics & Design | 2.73 | 22 | 2025-09-01 |
-| 14 | [SUPERSTAR EBiDAN](https://apps.apple.com/jp/app/superstar-ebidan/id6450412255) | DalcomSoft Japan, Inc. | #4 Games: Music | 4.32 | 2,477 | 2023-10-11 |
-| 15 | [ココダヨ - 地震などの災害時に役立つ位置情報共有防災アプリ](https://apps.apple.com/jp/app/%E3%82%B3%E3%82%B3%E3%83%80%E3%83%A8-%E5%9C%B0%E9%9C%87%E3%81%AA%E3%81%A9%E3%81%AE%E7%81%BD%E5%AE%B3%E6%99%82%E3%81%AB%E5%BD%B9%E7%AB%8B%E3%81%A4%E4%BD%8D%E7%BD%AE%E6%83%85%E5%A0%B1%E5%85%B1%E6%9C%89%E9%98%B2%E7%81%BD%E3%82%A2%E3%83%97%E3%83%AA/id1156813708) | GENETEC CORPORATION | #5 Weather | 3.97 | 1,087 | 2016-12-24 |
+| 13 | [XMLビューアー: XML変換](https://apps.apple.com/jp/app/xml%E3%83%93%E3%83%A5%E3%83%BC%E3%82%A2%E3%83%BC-xml%E5%A4%89%E6%8F%9B/id6737447574) | Utsav Mangla | #4 Developer Tools | 3.88 | 74 | 2024-10-30 |
+| 14 | [tenki.jp 登山天気 日本気象協会公式 山の天気予報](https://apps.apple.com/jp/app/tenki-jp-%E7%99%BB%E5%B1%B1%E5%A4%A9%E6%B0%97-%E6%97%A5%E6%9C%AC%E6%B0%97%E8%B1%A1%E5%8D%94%E4%BC%9A%E5%85%AC%E5%BC%8F-%E5%B1%B1%E3%81%AE%E5%A4%A9%E6%B0%97%E4%BA%88%E5%A0%B1/id1144845642) | 一般財団法人 日本気象協会 | #5 Weather | 3.88 | 2,197 | 2017-04-24 |
+| 15 | [Flighty – Live Flight Tracker](https://apps.apple.com/jp/app/flighty-live-flight-tracker/id1358823008) | Flighty LLC | #5 Travel | 4.76 | 1,638 | 2019-08-19 |
 
 ## New and paying
 
@@ -121,21 +121,21 @@ Released in the last 365 days and already on a top-grossing chart. Most new apps
 
 | | App | Publisher | Top grossing | Age (days) | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [パチスロ L 東京喰種](https://apps.apple.com/jp/app/%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-l-%E6%9D%B1%E4%BA%AC%E5%96%B0%E7%A8%AE/id6785720250) | CommSeed Corporation | #1 Games: Casino | 17 | 5,960 | 2026-10-28 |
-| 2 | [ハートピアスローライフ](https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928) | XD (HK) Limited | #1 Games: Family | 311 | 44,019 | 2026-01-07 |
-| 3 | [VS BOAT－3D競艇オンライン対戦ゲーム](https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753) | soma anraku | #1 Games: Racing | 38 | 1,656 | 2026-10-07 |
-| 4 | [Cursor](https://apps.apple.com/jp/app/cursor/id6767085653) | X Corp. | #2 Developer Tools | 139 | 107 | 2026-06-28 |
-| 5 | [バンドリ！アワーノーツ](https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739) | Bushiroad Inc. | #2 Games: Music | 53 | 5,313 | 2026-09-22 |
-| 6 | [ホロライブドリームス](https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9/id6756641135) | QualiArts, Inc. | #3 Games | 115 | 101,397 | 2026-07-22 |
-| 7 | [モンスターハンターアウトランダーズ](https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814) | Level Infinite | #3 Games: Action | 17 | 71,403 | 2026-10-28 |
-| 8 | [信長の野望 真戦](https://apps.apple.com/jp/app/%E4%BF%A1%E9%95%B7%E3%81%AE%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%A6/id6739554561) | Qookka Entertainment Limited | #3 Games: Simulation | 331 | 19,971 | 2025-12-18 |
-| 9 | [トリミン2！-トリッキーミーン2 いじわる脳トレパズルゲーム](https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B32-%E3%83%88%E3%83%AA%E3%83%83%E3%82%AD%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%B32-%E3%81%84%E3%81%98%E3%82%8F%E3%82%8B%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6758080238) | FTY LLC. | #4 Games: Trivia | 257 | 18,394 | 2026-03-02 |
-| 10 | [ディズニー スパークリンク・スターズ](https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760274605) | coly, Inc. | #5 Games: Adventure | 10 | 13,105 | 2026-11-04 |
-| 11 | [Cross Clues](https://apps.apple.com/jp/app/cross-clues/id6789084785) | LE TECH CO.,LIMITED | #5 Games: Word | 110 | 617 | 2026-07-27 |
-| 12 | [パラノイズ - あの日から何かがちがう](https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%BA-%E3%81%82%E3%81%AE%E6%97%A5%E3%81%8B%E3%82%89%E4%BD%95%E3%81%8B%E3%81%8C%E3%81%A1%E3%81%8C%E3%81%86/id6639605332) | ZigZaGame Inc. | #6 Games: Simulation | 233 | 25,939 | 2026-03-26 |
-| 13 | [Moshi: SSH・MOSH で herdr・tmux](https://apps.apple.com/jp/app/moshi-ssh-mosh-%E3%81%A7-herdr-tmux/id6757859949) | Moshi Tech Ltd. | #6 Developer Tools | 297 | 237 | 2026-01-21 |
-| 14 | [Word Screw: ワードスクリュー パズルピンゲーム](https://apps.apple.com/jp/app/word-screw-%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%A5%E3%83%BC-%E3%83%91%E3%82%BA%E3%83%AB%E3%83%94%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6755815731) | Astrasen Global | #6 Games: Word | 332 | 1,837 | 2025-12-17 |
-| 15 | [トップロード](https://apps.apple.com/jp/app/%E3%83%88%E3%83%83%E3%83%97%E3%83%AD%E3%83%BC%E3%83%89/id6767834940) | GAME SPARK PTE. LTD. | #7 Games: Casual | 100 | 12,125 | 2026-08-06 |
+| 1 | [パチスロ L 東京喰種](https://apps.apple.com/jp/app/%E3%83%91%E3%83%81%E3%82%B9%E3%83%AD-l-%E6%9D%B1%E4%BA%AC%E5%96%B0%E7%A8%AE/id6785720250) | CommSeed Corporation | #1 Games: Casino | 18 | 6,078 | 2026-10-28 |
+| 2 | [VS BOAT－3D競艇オンライン対戦ゲーム](https://apps.apple.com/jp/app/vs-boat-3d%E7%AB%B6%E8%89%87%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E5%AF%BE%E6%88%A6%E3%82%B2%E3%83%BC%E3%83%A0/id6817994753) | soma anraku | #1 Games: Racing | 39 | 1,691 | 2026-10-07 |
+| 3 | [ハートピアスローライフ](https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928) | XD (HK) Limited | #2 Games: Family | 312 | 44,061 | 2026-01-07 |
+| 4 | [モンスターハンターアウトランダーズ](https://apps.apple.com/jp/app/%E3%83%A2%E3%83%B3%E3%82%B9%E3%82%BF%E3%83%BC%E3%83%8F%E3%83%B3%E3%82%BF%E3%83%BC%E3%82%A2%E3%82%A6%E3%83%88%E3%83%A9%E3%83%B3%E3%83%80%E3%83%BC%E3%82%BA/id6444520814) | Level Infinite | #3 Games: Action | 18 | 74,566 | 2026-10-28 |
+| 5 | [Cursor](https://apps.apple.com/jp/app/cursor/id6767085653) | X Corp. | #3 Developer Tools | 140 | 106 | 2026-06-28 |
+| 6 | [バンドリ！アワーノーツ](https://apps.apple.com/jp/app/%E3%83%90%E3%83%B3%E3%83%89%E3%83%AA-%E3%82%A2%E3%83%AF%E3%83%BC%E3%83%8E%E3%83%BC%E3%83%84/id6771716739) | Bushiroad Inc. | #3 Games: Music | 54 | 5,337 | 2026-09-22 |
+| 7 | [トリミン2！-トリッキーミーン2 いじわる脳トレパズルゲーム](https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B32-%E3%83%88%E3%83%AA%E3%83%83%E3%82%AD%E3%83%BC%E3%83%9F%E3%83%BC%E3%83%B32-%E3%81%84%E3%81%98%E3%82%8F%E3%82%8B%E8%84%B3%E3%83%88%E3%83%AC%E3%83%91%E3%82%BA%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6758080238) | FTY LLC. | #4 Games: Trivia | 258 | 18,429 | 2026-03-02 |
+| 8 | [信長の野望 真戦](https://apps.apple.com/jp/app/%E4%BF%A1%E9%95%B7%E3%81%AE%E9%87%8E%E6%9C%9B-%E7%9C%9F%E6%88%A6/id6739554561) | Qookka Entertainment Limited | #5 Games: Simulation | 332 | 20,001 | 2025-12-18 |
+| 9 | [Word Screw: ワードスクリュー パズルピンゲーム](https://apps.apple.com/jp/app/word-screw-%E3%83%AF%E3%83%BC%E3%83%89%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%A5%E3%83%BC-%E3%83%91%E3%82%BA%E3%83%AB%E3%83%94%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6755815731) | Astrasen Global | #5 Games: Word | 333 | 1,838 | 2025-12-17 |
+| 10 | [ディズニー スパークリンク・スターズ](https://apps.apple.com/jp/app/%E3%83%87%E3%82%A3%E3%82%BA%E3%83%8B%E3%83%BC-%E3%82%B9%E3%83%91%E3%83%BC%E3%82%AF%E3%83%AA%E3%83%B3%E3%82%AF-%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6760274605) | coly, Inc. | #6 Games: Adventure | 11 | 13,394 | 2026-11-04 |
+| 11 | [パラノイズ - あの日から何かがちがう](https://apps.apple.com/jp/app/%E3%83%91%E3%83%A9%E3%83%8E%E3%82%A4%E3%82%BA-%E3%81%82%E3%81%AE%E6%97%A5%E3%81%8B%E3%82%89%E4%BD%95%E3%81%8B%E3%81%8C%E3%81%A1%E3%81%8C%E3%81%86/id6639605332) | ZigZaGame Inc. | #6 Games: Simulation | 234 | 26,009 | 2026-03-26 |
+| 12 | [エルパト アシスト](https://apps.apple.com/jp/app/%E3%82%A8%E3%83%AB%E3%83%91%E3%83%88-%E3%82%A2%E3%82%B7%E3%82%B9%E3%83%88/id6782067884) | CAT'S PAW | #6 Shopping | 132 | 1 | 2026-07-06 |
+| 13 | [トリミン3！-暇つぶしに最適な脱出ゲーム](https://apps.apple.com/jp/app/%E3%83%88%E3%83%AA%E3%83%9F%E3%83%B33-%E6%9A%87%E3%81%A4%E3%81%B6%E3%81%97%E3%81%AB%E6%9C%80%E9%81%A9%E3%81%AA%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0/id6775674610) | ONIGIRI GAMES | #6 Games: Trivia | 105 | 1,239 | 2026-08-02 |
+| 14 | [Cross Clues](https://apps.apple.com/jp/app/cross-clues/id6789084785) | LE TECH CO.,LIMITED | #6 Games: Word | 111 | 633 | 2026-07-27 |
+| 15 | [ホロライブドリームス](https://apps.apple.com/jp/app/%E3%83%9B%E3%83%AD%E3%83%A9%E3%82%A4%E3%83%96%E3%83%89%E3%83%AA%E3%83%BC%E3%83%A0%E3%82%B9/id6756641135) | QualiArts, Inc. | #7 Games | 116 | 101,450 | 2026-07-22 |
 
 ## Earning without updates
 
@@ -144,42 +144,42 @@ On a top-grossing chart but not updated in over a year. People still pay for the
 | | App | Publisher | Top grossing | Last update | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
 | 1 | [Tabby Bobby](https://apps.apple.com/jp/app/tabby-bobby/id1474916136) | kensho kusano | #1 Travel | 2025-04-27 | 295 | 2019-09-03 |
-| 2 | [天城流アプリ](https://apps.apple.com/jp/app/%E5%A4%A9%E5%9F%8E%E6%B5%81%E3%82%A2%E3%83%97%E3%83%AA/id6458729162) | AMAGIRYU TOJIHO KYOKAI, GENERAL INC. ASSOCIATION | #5 Medical | 2024-10-16 | 31 | 2024-01-14 |
+| 2 | [天城流アプリ](https://apps.apple.com/jp/app/%E5%A4%A9%E5%9F%8E%E6%B5%81%E3%82%A2%E3%83%97%E3%83%AA/id6458729162) | AMAGIRYU TOJIHO KYOKAI, GENERAL INC. ASSOCIATION | #6 Medical | 2024-10-16 | 31 | 2024-01-14 |
 | 3 | [Route! by ツーリングマップル](https://apps.apple.com/jp/app/route-by-%E3%83%84%E3%83%BC%E3%83%AA%E3%83%B3%E3%82%B0%E3%83%9E%E3%83%83%E3%83%97%E3%83%AB/id1555641862) | Shobunsha Publications, Inc. | #8 Travel | 2024-12-23 | 202 | 2021-03-08 |
-| 4 | [MIYABI(ミヤビ)ひとりでも！友達さがし/合コンアプリ](https://apps.apple.com/jp/app/miyabi-%E3%83%9F%E3%83%A4%E3%83%93-%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%A7%E3%82%82-%E5%8F%8B%E9%81%94%E3%81%95%E3%81%8C%E3%81%97-%E5%90%88%E3%82%B3%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id1628617204) | Shouta Tanaka | #10 Social Networking | 2025-05-18 | 8,148 | 2022-08-05 |
-| 5 | [Gala-Gifts](https://apps.apple.com/jp/app/gala-gifts/id1594993690) | Viktoria Schaposchnikow | #10 Shopping | 2025-03-24 | 1 | 2021-11-17 |
-| 6 | [GI-Classic コナステ](https://apps.apple.com/jp/app/gi-classic-%E3%82%B3%E3%83%8A%E3%82%B9%E3%83%86/id1606819731) | KONAMI | #11 Games: Casino | 2025-06-16 | 4,756 | 2022-02-20 |
-| 7 | [産経新聞HD](https://apps.apple.com/jp/app/%E7%94%A3%E7%B5%8C%E6%96%B0%E8%81%9Ehd/id372332300) | 産経新聞社 | #12 News | 2024-12-23 | 165 | 2010-05-26 |
-| 8 | [あたまおしりゲーム](https://apps.apple.com/jp/app/%E3%81%82%E3%81%9F%E3%81%BE%E3%81%8A%E3%81%97%E3%82%8A%E3%82%B2%E3%83%BC%E3%83%A0/id6738670095) | G-MODE Corporation | #12 Games: Word | 2025-02-19 | 112 | 2024-12-31 |
-| 9 | [メル友-運命の出会い大人の友達作りは地図でサードプレイス共有](https://apps.apple.com/jp/app/%E3%83%A1%E3%83%AB%E5%8F%8B-%E9%81%8B%E5%91%BD%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84%E5%A4%A7%E4%BA%BA%E3%81%AE%E5%8F%8B%E9%81%94%E4%BD%9C%E3%82%8A%E3%81%AF%E5%9C%B0%E5%9B%B3%E3%81%A7%E3%82%B5%E3%83%BC%E3%83%89%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%E5%85%B1%E6%9C%89/id6473626850) | Naoki Watanabe | #14 Navigation | 2025-09-18 | 2,682 | 2023-12-06 |
-| 10 | [Pyto IDE](https://apps.apple.com/jp/app/pyto-ide/id1436650069) | Develobile S.p.A. | #14 Developer Tools | 2024-06-09 | 99 | 2018-09-24 |
-| 11 | [QuizKnock STADIUM コナステ](https://apps.apple.com/jp/app/quizknock-stadium-%E3%82%B3%E3%83%8A%E3%82%B9%E3%83%86/id1634312055) | KONAMI | #14 Games: Trivia | 2025-06-16 | 199 | 2022-11-08 |
-| 12 | [U-FRET-ギターコードの楽譜、ギター練習のギターアプリ](https://apps.apple.com/jp/app/u-fret-%E3%82%AE%E3%82%BF%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E6%A5%BD%E8%AD%9C-%E3%82%AE%E3%82%BF%E3%83%BC%E7%B7%B4%E7%BF%92%E3%81%AE%E3%82%AE%E3%82%BF%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id1483940246) | GLNET Co.,Ltd. | #15 Music | 2025-08-23 | 2,130 | 2019-10-21 |
-| 13 | [筋肉とキネシオロジー](https://apps.apple.com/jp/app/%E7%AD%8B%E8%82%89%E3%81%A8%E3%82%AD%E3%83%8D%E3%82%B7%E3%82%AA%E3%83%AD%E3%82%B8%E3%83%BC/id504001448) | Visible Body Apps | #16 Medical | 2022-09-22 | 5,995 | 2012-02-28 |
-| 14 | [リュウジのバズレシピ](https://apps.apple.com/jp/app/%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%B8%E3%81%AE%E3%83%90%E3%82%BA%E3%83%AC%E3%82%B7%E3%83%94/id6450391858) | Bazurecipe, Inc. | #16 Food & Drink | 2025-07-13 | 521 | 2023-08-02 |
-| 15 | [Yenta - Business SNS for Real](https://apps.apple.com/jp/app/yenta-business-sns-for-real/id1062187493) | Atrae, Inc. | #17 Business | 2024-06-20 | 1,225 | 2015-12-08 |
+| 4 | [MIYABI(ミヤビ)ひとりでも！友達さがし/合コンアプリ](https://apps.apple.com/jp/app/miyabi-%E3%83%9F%E3%83%A4%E3%83%93-%E3%81%B2%E3%81%A8%E3%82%8A%E3%81%A7%E3%82%82-%E5%8F%8B%E9%81%94%E3%81%95%E3%81%8C%E3%81%97-%E5%90%88%E3%82%B3%E3%83%B3%E3%82%A2%E3%83%97%E3%83%AA/id1628617204) | Shouta Tanaka | #12 Social Networking | 2025-05-18 | 8,151 | 2022-08-05 |
+| 5 | [産経新聞HD](https://apps.apple.com/jp/app/%E7%94%A3%E7%B5%8C%E6%96%B0%E8%81%9Ehd/id372332300) | 産経新聞社 | #12 News | 2024-12-23 | 165 | 2010-05-26 |
+| 6 | [Pyto IDE](https://apps.apple.com/jp/app/pyto-ide/id1436650069) | Develobile S.p.A. | #12 Developer Tools | 2024-06-09 | 99 | 2018-09-24 |
+| 7 | [GI-Classic コナステ](https://apps.apple.com/jp/app/gi-classic-%E3%82%B3%E3%83%8A%E3%82%B9%E3%83%86/id1606819731) | KONAMI | #12 Games: Casino | 2025-06-16 | 4,758 | 2022-02-20 |
+| 8 | [Gala-Gifts](https://apps.apple.com/jp/app/gala-gifts/id1594993690) | Viktoria Schaposchnikow | #13 Shopping | 2025-03-24 | 1 | 2021-11-17 |
+| 9 | [あたまおしりゲーム](https://apps.apple.com/jp/app/%E3%81%82%E3%81%9F%E3%81%BE%E3%81%8A%E3%81%97%E3%82%8A%E3%82%B2%E3%83%BC%E3%83%A0/id6738670095) | G-MODE Corporation | #13 Games: Word | 2025-02-19 | 112 | 2024-12-31 |
+| 10 | [リュウジのバズレシピ](https://apps.apple.com/jp/app/%E3%83%AA%E3%83%A5%E3%82%A6%E3%82%B8%E3%81%AE%E3%83%90%E3%82%BA%E3%83%AC%E3%82%B7%E3%83%94/id6450391858) | Bazurecipe, Inc. | #15 Food & Drink | 2025-07-13 | 521 | 2023-08-02 |
+| 11 | [U-FRET-ギターコードの楽譜、ギター練習のギターアプリ](https://apps.apple.com/jp/app/u-fret-%E3%82%AE%E3%82%BF%E3%83%BC%E3%82%B3%E3%83%BC%E3%83%89%E3%81%AE%E6%A5%BD%E8%AD%9C-%E3%82%AE%E3%82%BF%E3%83%BC%E7%B7%B4%E7%BF%92%E3%81%AE%E3%82%AE%E3%82%BF%E3%83%BC%E3%82%A2%E3%83%97%E3%83%AA/id1483940246) | GLNET Co.,Ltd. | #16 Music | 2025-08-23 | 2,130 | 2019-10-21 |
+| 12 | [ゆれくるコール](https://apps.apple.com/jp/app/%E3%82%86%E3%82%8C%E3%81%8F%E3%82%8B%E3%82%B3%E3%83%BC%E3%83%AB/id1560592402) | RC Solution Co. | #17 Weather | 2025-03-17 | 662 | 2021-05-24 |
+| 13 | [広辞苑第七版【岩波書店】(ONESWING)](https://apps.apple.com/jp/app/%E5%BA%83%E8%BE%9E%E8%8B%91%E7%AC%AC%E4%B8%83%E7%89%88-%E5%B2%A9%E6%B3%A2%E6%9B%B8%E5%BA%97-oneswing/id1296160654) | CodeDynamix | #17 Reference | 2021-01-25 | 27 | 2017-10-25 |
+| 14 | [メル友-運命の出会い大人の友達作りは地図でサードプレイス共有](https://apps.apple.com/jp/app/%E3%83%A1%E3%83%AB%E5%8F%8B-%E9%81%8B%E5%91%BD%E3%81%AE%E5%87%BA%E4%BC%9A%E3%81%84%E5%A4%A7%E4%BA%BA%E3%81%AE%E5%8F%8B%E9%81%94%E4%BD%9C%E3%82%8A%E3%81%AF%E5%9C%B0%E5%9B%B3%E3%81%A7%E3%82%B5%E3%83%BC%E3%83%89%E3%83%97%E3%83%AC%E3%82%A4%E3%82%B9%E5%85%B1%E6%9C%89/id6473626850) | Naoki Watanabe | #17 Navigation | 2025-09-18 | 2,682 | 2023-12-06 |
+| 15 | [BalanceMe-健康AIと自己管理](https://apps.apple.com/jp/app/balanceme-%E5%81%A5%E5%BA%B7ai%E3%81%A8%E8%87%AA%E5%B7%B1%E7%AE%A1%E7%90%86/id6469513178) | Fenlake Global | #18 Lifestyle | 2025-01-03 | 535 | 2023-10-18 |
 
 ## New on the grossing charts
 
-On a top-grossing chart today and on none on 2026-11-13. "First time" means Scout has never seen the app on one before.
+On a top-grossing chart today and on none on 2026-11-14. "First time" means Scout has never seen the app on one before.
 
 | | App | Publisher | Top grossing | First time | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [NeoServer SSH Client Terminal](https://apps.apple.com/jp/app/neoserver-ssh-client-terminal/id6448362669) | Space-Time Transformation Technology Co., Ltd. | #10 Developer Tools | yes | 27 | 2023-05-08 |
-| 2 | [Conscious - Spend Ethically.](https://apps.apple.com/jp/app/conscious-spend-ethically/id6762069204) | Farran Ventures LLC | #14 Shopping | yes | 6 | 2026-04-30 |
-| 3 | [Huckleberry: Baby Tracker](https://apps.apple.com/jp/app/huckleberry-baby-tracker/id1169136078) | Huckleberry Labs Inc. | #15 Medical |  | 74 | 2017-07-04 |
-| 4 | [NextVPN: Fast & Secure Proxy](https://apps.apple.com/jp/app/nextvpn-fast-secure-proxy/id1610773520) | Surf Safe Network Ltd | #15 Developer Tools | yes | 149 | 2022-03-11 |
-| 5 | [UpToDate Expert AI](https://apps.apple.com/jp/app/uptodate-expert-ai/id6756627759) | UpToDate, Inc. | #18 Medical |  | 95 | 2026-06-24 |
-| 6 | [パティレコ - 洋菓子レシピ・栄養成分表示ラベル作成](https://apps.apple.com/jp/app/%E3%83%91%E3%83%86%E3%82%A3%E3%83%AC%E3%82%B3-%E6%B4%8B%E8%8F%93%E5%AD%90%E3%83%AC%E3%82%B7%E3%83%94-%E6%A0%84%E9%A4%8A%E6%88%90%E5%88%86%E8%A1%A8%E7%A4%BA%E3%83%A9%E3%83%99%E3%83%AB%E4%BD%9C%E6%88%90/id6792622647) | Miiro Igarashi | #19 Food & Drink |  | 15 | 2026-07-26 |
-| 7 | [Visual Code Editor - vCode](https://apps.apple.com/jp/app/visual-code-editor-vcode/id6789877680) | Devang Samirbhai Shah | #19 Developer Tools | yes | 0 | 2026-07-13 |
-| 8 | [Bubble Word Jam](https://apps.apple.com/jp/app/bubble-word-jam/id6754839783) | Lion Studios Plus | #21 Games: Word |  | 194 | 2026-04-15 |
-| 9 | [用药助手 - 丁香园出品](https://apps.apple.com/jp/app/%E7%94%A8%E8%8D%AF%E5%8A%A9%E6%89%8B-%E4%B8%81%E9%A6%99%E5%9B%AD%E5%87%BA%E5%93%81/id540999305) | Guanlan Networks (Hangzhou) Co. Ltd. | #23 Medical | yes | 8 | 2012-11-16 |
-| 10 | [みんなで推理](https://apps.apple.com/jp/app/%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E6%8E%A8%E7%90%86/id6740307857) | PushForward | #23 Games: Trivia |  | 461 | 2025-02-10 |
-| 11 | [Firelog for Firebase コンソール](https://apps.apple.com/jp/app/firelog-for-firebase-%E3%82%B3%E3%83%B3%E3%82%BD%E3%83%BC%E3%83%AB/id6744783540) | Valet Hero LLC | #24 Developer Tools | yes | 2 | 2025-04-28 |
-| 12 | [日本酒メモ｜記録・利き酒・おすすめ発見](https://apps.apple.com/jp/app/%E6%97%A5%E6%9C%AC%E9%85%92%E3%83%A1%E3%83%A2-%E8%A8%98%E9%8C%B2-%E5%88%A9%E3%81%8D%E9%85%92-%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E7%99%BA%E8%A6%8B/id6757388787) | Koki Yoshida | #25 Food & Drink |  | 18 | 2026-01-14 |
-| 13 | [フェアリービレッジ](https://apps.apple.com/jp/app/%E3%83%95%E3%82%A7%E3%82%A2%E3%83%AA%E3%83%BC%E3%83%93%E3%83%AC%E3%83%83%E3%82%B8/id6472733074) | HyperBeard Inc. | #25 Games: Trivia | yes | 56 | 2024-09-26 |
-| 14 | [Stream](https://apps.apple.com/jp/app/stream/id1312141691) | Stream Lab Inc. | #27 Developer Tools | yes | 49 | 2018-01-04 |
-| 15 | [Weathershot - Instaweather](https://apps.apple.com/jp/app/weathershot-instaweather/id564147490) | byss mobile | #28 Weather |  | 355 | 2012-10-04 |
+| 1 | [T FAMILY](https://apps.apple.com/jp/app/t-family/id1531624357) | CRAYON INC. | #14 Music | yes | 15 | 2020-10-11 |
+| 2 | [Nextpad++](https://apps.apple.com/jp/app/nextpad/id6787238415) | Andrey Letov | #16 Developer Tools | yes | 0 | 2026-11-11 |
+| 3 | [古着せどりのAI買取査定カメラ RKFY](https://apps.apple.com/jp/app/%E5%8F%A4%E7%9D%80%E3%81%9B%E3%81%A9%E3%82%8A%E3%81%AEai%E8%B2%B7%E5%8F%96%E6%9F%BB%E5%AE%9A%E3%82%AB%E3%83%A1%E3%83%A9-rkfy/id6754532378) | Blue Mantiq LLC | #18 Shopping | yes | 1 | 2025-10-27 |
+| 4 | [The Washington Manual](https://apps.apple.com/jp/app/the-washington-manual/id533185430) | Unbound Medicine, Inc. | #19 Medical | yes | 7 | 2012-06-23 |
+| 5 | [ツキのオデッセイ](https://apps.apple.com/jp/app/%E3%83%84%E3%82%AD%E3%81%AE%E3%82%AA%E3%83%87%E3%83%83%E3%82%BB%E3%82%A4/id1564146071) | HyperBeard Inc. | #19 Games: Trivia |  | 405 | 2021-09-02 |
+| 6 | [Mercury Weather](https://apps.apple.com/jp/app/mercury-weather/id1621800675) | Triple Glazed Studios LLC | #20 Weather |  | 6 | 2022-09-12 |
+| 7 | [フリマ出品AI - 背景透過・白背景写真とAI説明文](https://apps.apple.com/jp/app/%E3%83%95%E3%83%AA%E3%83%9E%E5%87%BA%E5%93%81ai-%E8%83%8C%E6%99%AF%E9%80%8F%E9%81%8E-%E7%99%BD%E8%83%8C%E6%99%AF%E5%86%99%E7%9C%9F%E3%81%A8ai%E8%AA%AC%E6%98%8E%E6%96%87/id6762081829) | KEN KUDO | #20 Shopping | yes | 1 | 2026-04-30 |
+| 8 | [iWindsurf: Weather and Waves](https://apps.apple.com/jp/app/iwindsurf-weather-and-waves/id564865754) | WeatherFlow | #21 Weather | yes | 5 | 2012-10-10 |
+| 9 | [Oxford Advanced Learner's Dict](https://apps.apple.com/jp/app/oxford-advanced-learners-dict/id1469549281) | Oxford University Press | #23 Reference |  | 63 | 2020-01-20 |
+| 10 | [VinoLens: AI Wine Scanner](https://apps.apple.com/jp/app/vinolens-ai-wine-scanner/id6758434418) | Fires Intelligence LLC | #23 Food & Drink | yes | 2 | 2026-03-04 |
+| 11 | [Simple Server: HTTP Server](https://apps.apple.com/jp/app/simple-server-http-server/id6443893597) | Bitsbaker LLC. | #23 Developer Tools | yes | 1 | 2022-10-18 |
+| 12 | [Mapstr, save & share places](https://apps.apple.com/jp/app/mapstr-save-share-places/id917288465) | Hulab | #24 Travel |  | 75 | 2014-10-19 |
+| 13 | [レシピン - 撮るだけレシピメモ](https://apps.apple.com/jp/app/%E3%83%AC%E3%82%B7%E3%83%94%E3%83%B3-%E6%92%AE%E3%82%8B%E3%81%A0%E3%81%91%E3%83%AC%E3%82%B7%E3%83%94%E3%83%A1%E3%83%A2/id6794522635) | Siaopei Lin | #24 Food & Drink | yes | 3 | 2026-07-29 |
+| 14 | [PLATO: Recipes & Pantry AI](https://apps.apple.com/jp/app/plato-recipes-pantry-ai/id6759174582) | Taha Mehmood | #25 Food & Drink | yes | 0 | 2026-03-26 |
+| 15 | [ViewChanger – スマホでPCサイト表示](https://apps.apple.com/jp/app/viewchanger-%E3%82%B9%E3%83%9E%E3%83%9B%E3%81%A7pc%E3%82%B5%E3%82%A4%E3%83%88%E8%A1%A8%E7%A4%BA/id6749019257) | Seiya.k | #26 Developer Tools | yes | 2 | 2025-07-24 |
 
 ## Listing changes this week
 
@@ -187,36 +187,36 @@ Apps on a top-grossing chart that changed their name, price, in-app purchases, s
 
 | App | Top grossing | Seen | What changed |
 |---|---|---|---|
-| [ハートピアスローライフ](https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928) | #1 Games: Family | 2026-11-13 | Publisher name changed from XD Entertainment Co., Ltd. to XD (HK) Limited. |
-| [ハートピアスローライフ](https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928) | #1 Games: Family | 2026-11-13 | Seller changed from XD Entertainment Co., Ltd. to XD (HK) Limited. |
+| [ハートピアスローライフ](https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928) | #2 Games: Family | 2026-11-13 | Publisher name changed from XD Entertainment Co., Ltd. to XD (HK) Limited. |
+| [ハートピアスローライフ](https://apps.apple.com/jp/app/%E3%83%8F%E3%83%BC%E3%83%88%E3%83%94%E3%82%A2%E3%82%B9%E3%83%AD%E3%83%BC%E3%83%A9%E3%82%A4%E3%83%95/id6746151928) | #2 Games: Family | 2026-11-13 | Seller changed from XD Entertainment Co., Ltd. to XD (HK) Limited. |
 | [カーナビタイム](https://apps.apple.com/jp/app/%E3%82%AB%E3%83%BC%E3%83%8A%E3%83%93%E3%82%BF%E3%82%A4%E3%83%A0/id555847992) | #3 Navigation | 2026-11-11 | Renamed from “カーナビタイム - CarPlay対応カーナビ” to “カーナビタイム”. |
-| [城とドラゴン - 『転生したらスライムだった件』コラボ開催中](https://apps.apple.com/jp/app/%E5%9F%8E%E3%81%A8%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3-%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6-%E3%82%B3%E3%83%A9%E3%83%9C%E9%96%8B%E5%82%AC%E4%B8%AD/id953790507) | #7 Games: Simulation | 2026-11-13 | Renamed from “城とドラゴン” to “城とドラゴン - 『転生したらスライムだった件』コラボ開催中”. |
-| [翻訳 AI：テキスト・写真・カメラ・音声](https://apps.apple.com/jp/app/%E7%BF%BB%E8%A8%B3-ai-%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88-%E5%86%99%E7%9C%9F-%E3%82%AB%E3%83%A1%E3%83%A9-%E9%9F%B3%E5%A3%B0/id6738304985) | #7 Reference | 2026-11-11 | Renamed from “翻訳 AI：音声・カメラ・写真・テキスト” to “翻訳 AI：テキスト・写真・カメラ・音声”. |
-| [出会い - ハッピー - マッチングアプリ - 出会い系](https://apps.apple.com/jp/app/%E5%87%BA%E4%BC%9A%E3%81%84-%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC-%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA-%E5%87%BA%E4%BC%9A%E3%81%84%E7%B3%BB/id521055533) | #9 Social Networking | 2026-11-12 | Renamed from “出会い・出会い系はハッピー｜マッチングアプリ｜マッチング” to “出会い - ハッピー - マッチングアプリ - 出会い系”. |
+| [翻訳 AI：テキスト・写真・カメラ・音声](https://apps.apple.com/jp/app/%E7%BF%BB%E8%A8%B3-ai-%E3%83%86%E3%82%AD%E3%82%B9%E3%83%88-%E5%86%99%E7%9C%9F-%E3%82%AB%E3%83%A1%E3%83%A9-%E9%9F%B3%E5%A3%B0/id6738304985) | #6 Reference | 2026-11-11 | Renamed from “翻訳 AI：音声・カメラ・写真・テキスト” to “翻訳 AI：テキスト・写真・カメラ・音声”. |
+| [城とドラゴン - 『転生したらスライムだった件』コラボ開催中](https://apps.apple.com/jp/app/%E5%9F%8E%E3%81%A8%E3%83%89%E3%83%A9%E3%82%B4%E3%83%B3-%E8%BB%A2%E7%94%9F%E3%81%97%E3%81%9F%E3%82%89%E3%82%B9%E3%83%A9%E3%82%A4%E3%83%A0%E3%81%A0%E3%81%A3%E3%81%9F%E4%BB%B6-%E3%82%B3%E3%83%A9%E3%83%9C%E9%96%8B%E5%82%AC%E4%B8%AD/id953790507) | #8 Games: Simulation | 2026-11-13 | Renamed from “城とドラゴン” to “城とドラゴン - 『転生したらスライムだった件』コラボ開催中”. |
+| [BeautyCam-新世代のナチュ盛れカメラ](https://apps.apple.com/jp/app/beautycam-%E6%96%B0%E4%B8%96%E4%BB%A3%E3%81%AE%E3%83%8A%E3%83%81%E3%83%A5%E7%9B%9B%E3%82%8C%E3%82%AB%E3%83%A1%E3%83%A9/id592331499) | #9 Photo & Video | 2026-11-15 | Renamed from “BeautyCam-新世代カメラ＆ナチュラルAI” to “BeautyCam-新世代のナチュ盛れカメラ”. |
 | [オルル — AI 即訳](https://apps.apple.com/jp/app/%E3%82%AA%E3%83%AB%E3%83%AB-ai-%E5%8D%B3%E8%A8%B3/id6742527823) | #9 Reference | 2026-11-12 | Moved from Business to Reference. |
-| [WiseMeal: AIカロリー計算・体重管理とダイエット](https://apps.apple.com/jp/app/wisemeal-ai%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%BC%E8%A8%88%E7%AE%97-%E4%BD%93%E9%87%8D%E7%AE%A1%E7%90%86%E3%81%A8%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/id6739987348) | #11 Health & Fitness | 2026-11-11 | Renamed from “WiseMeal：AIカロリー計算・食事管理” to “WiseMeal: AIカロリー計算・体重管理とダイエット”. |
-| [あたまおしりゲーム](https://apps.apple.com/jp/app/%E3%81%82%E3%81%9F%E3%81%BE%E3%81%8A%E3%81%97%E3%82%8A%E3%82%B2%E3%83%BC%E3%83%A0/id6738670095) | #12 Games: Word | 2026-11-10 | Price changed from 200.00 to 300.00. |
-| [コールレコーダー:レコード音声通話](https://apps.apple.com/jp/app/%E3%82%B3%E3%83%BC%E3%83%AB%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%80%E3%83%BC-%E3%83%AC%E3%82%B3%E3%83%BC%E3%83%89%E9%9F%B3%E5%A3%B0%E9%80%9A%E8%A9%B1/id1503665233) | #14 Business | 2026-11-07 | Renamed from “Phone Call Recording App” to “コールレコーダー:レコード音声通話”. |
-| [TERIYAKI 食通のグルメ店探し](https://apps.apple.com/jp/app/teriyaki-%E9%A3%9F%E9%80%9A%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1%E5%BA%97%E6%8E%A2%E3%81%97/id882395571) | #15 Food & Drink | 2026-11-09 | Renamed from “TERIYAKI” to “TERIYAKI 食通のグルメ店探し”. |
-| [AI画像生成&AI動画生成&高画質化-PixDream](https://apps.apple.com/jp/app/ai%E7%94%BB%E5%83%8F%E7%94%9F%E6%88%90-ai%E5%8B%95%E7%94%BB%E7%94%9F%E6%88%90-%E9%AB%98%E7%94%BB%E8%B3%AA%E5%8C%96-pixdream/id6740220736) | #15 Graphics & Design | 2026-11-08 | Renamed from “AI画像&AI動画&画像生成AI&写真加工-PixDream” to “AI画像生成&AI動画生成&高画質化-PixDream”. |
-| [Snow-Forecast.com](https://apps.apple.com/jp/app/snow-forecast-com/id418032026) | #16 Weather | 2026-11-11 | Renamed from “Snow-Forecast: Weather Maps” to “Snow-Forecast.com”. |
-| [GGNote - AI耳コピ ギター・ベースTAB譜](https://apps.apple.com/jp/app/ggnote-ai%E8%80%B3%E3%82%B3%E3%83%94-%E3%82%AE%E3%82%BF%E3%83%BC-%E3%83%99%E3%83%BC%E3%82%B9tab%E8%AD%9C/id6816181010) | #22 Music | 2026-11-09 | Renamed from “GGNote - AI耳コピ・TAB譜” to “GGNote - AI耳コピ ギター・ベースTAB譜”. |
-| [ELSA Speak：AI英会話・発音・英語学習](https://apps.apple.com/jp/app/elsa-speak-ai%E8%8B%B1%E4%BC%9A%E8%A9%B1-%E7%99%BA%E9%9F%B3-%E8%8B%B1%E8%AA%9E%E5%AD%A6%E7%BF%92/id1083804886) | #27 Education | 2026-11-09 | Renamed from “ELSA Speak：パーソナライズされた英会話アプリ” to “ELSA Speak：AI英会話・発音・英語学習”. |
-| [Seeking Alpha: 米国株・株価ニュースと分析](https://apps.apple.com/jp/app/seeking-alpha-%E7%B1%B3%E5%9B%BD%E6%A0%AA-%E6%A0%AA%E4%BE%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%A8%E5%88%86%E6%9E%90/id552799694) | #29 Finance | 2026-11-12 | Renamed from “Seeking Alpha: News & Analysis” to “Seeking Alpha: 米国株・株価ニュースと分析”. |
-| [Bible Path: Widgets & Stories](https://apps.apple.com/jp/app/bible-path-widgets-stories/id6504798650) | #29 Reference | 2026-11-09 | Renamed from “Bible Path: Prayers & Widgets” to “Bible Path: Widgets & Stories”. |
-| [Adobe Firefly: AI Generator](https://apps.apple.com/jp/app/adobe-firefly-ai-generator/id6742595426) | #31 Graphics & Design | 2026-11-09 | Renamed from “Adobe Firefly：AI動画生成・画像生成” to “Adobe Firefly: AI Generator”. |
-| [Fitty: AIバーチャル試着・着せ替え](https://apps.apple.com/jp/app/fitty-ai%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E8%A9%A6%E7%9D%80-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88/id6779754399) | #32 Shopping | 2026-11-14 | Renamed from “Fitty: AI Virtual Try-On” to “Fitty: AIバーチャル試着・着せ替え”. |
-| [Pass2U Wallet：会員カード・ポイントカード作成](https://apps.apple.com/jp/app/pass2u-wallet-%E4%BC%9A%E5%93%A1%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90/id1142473931) | #33 Shopping | 2026-11-12 | Renamed from “Pass2U Wallet - 会員カード、クーポンを追加” to “Pass2U Wallet：会員カード・ポイントカード作成”. |
-| [PeakFinder](https://apps.apple.com/jp/app/peakfinder/id357421934) | #34 Travel | 2026-11-12 | Price changed from 800.00 to 1000.00. |
-| [マッチングアプリはYYC(ワイワイシー) -気軽な出会い探し](https://apps.apple.com/jp/app/%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AFyyc-%E3%83%AF%E3%82%A4%E3%83%AF%E3%82%A4%E3%82%B7%E3%83%BC-%E6%B0%97%E8%BB%BD%E3%81%AA%E5%87%BA%E4%BC%9A%E3%81%84%E6%8E%A2%E3%81%97/id1226392156) | #44 Social Networking | 2026-11-12 | Renamed from “マッチングアプリはYYC(ワイワイシー) -出会い＆デート” to “マッチングアプリはYYC(ワイワイシー) -気軽な出会い探し”. |
-| [Macky: Macリモートデスクトップ&ターミナル](https://apps.apple.com/jp/app/macky-mac%E3%83%AA%E3%83%A2%E3%83%BC%E3%83%88%E3%83%87%E3%82%B9%E3%82%AF%E3%83%88%E3%83%83%E3%83%97-%E3%82%BF%E3%83%BC%E3%83%9F%E3%83%8A%E3%83%AB/id6758050739) | #47 Developer Tools | 2026-11-13 | Renamed from “Macky: Macリモート&ターミナル” to “Macky: Macリモートデスクトップ&ターミナル”. |
-| [AI作曲・音楽作成 - Soniva Music](https://apps.apple.com/jp/app/ai%E4%BD%9C%E6%9B%B2-%E9%9F%B3%E6%A5%BD%E4%BD%9C%E6%88%90-soniva-music/id6502906463) | #47 Music | 2026-11-10 | Renamed from “AI Music: 曲&ミュージックメーカー” to “AI作曲・音楽作成 - Soniva Music”. |
-| [カロミー：ダイエット・AIカロリー計算＆食事記録・体重管理](https://apps.apple.com/jp/app/%E3%82%AB%E3%83%AD%E3%83%9F%E3%83%BC-%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88-ai%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%BC%E8%A8%88%E7%AE%97-%E9%A3%9F%E4%BA%8B%E8%A8%98%E9%8C%B2-%E4%BD%93%E9%87%8D%E7%AE%A1%E7%90%86/id6751512744) | #52 Health & Fitness | 2026-11-13 | Renamed from “カロミー：ダイエット・AIカロリー計算＆食事記録” to “カロミー：ダイエット・AIカロリー計算＆食事記録・体重管理”. |
-| [Tiny Ride](https://apps.apple.com/jp/app/tiny-ride/id6775941016) | #52 Games: Racing | 2026-11-09 | Publisher name changed from TabTale LTD to Crazy Labs. |
-| [Tiny Ride](https://apps.apple.com/jp/app/tiny-ride/id6775941016) | #52 Games: Racing | 2026-11-09 | Seller changed from TabTale LTD to CRAZY LABS BY TABTALE , G.P.. |
-| [Piano Pop](https://apps.apple.com/jp/app/piano-pop/id6479046092) | #53 Games: Music | 2026-11-12 | Publisher name changed from MWM to App Rover. |
-| [Piano Pop](https://apps.apple.com/jp/app/piano-pop/id6479046092) | #53 Games: Music | 2026-11-12 | Seller changed from MWM to AppRover. |
-| [Delta Force](https://apps.apple.com/jp/app/delta-force/id6451399876) | #53 Games: Action | 2026-11-10 | Renamed from “Delta Force: 2nd Anniversary” to “Delta Force”. |
+| [Seeking Alpha: 米国株・株価ニュースと分析](https://apps.apple.com/jp/app/seeking-alpha-%E7%B1%B3%E5%9B%BD%E6%A0%AA-%E6%A0%AA%E4%BE%A1%E3%83%8B%E3%83%A5%E3%83%BC%E3%82%B9%E3%81%A8%E5%88%86%E6%9E%90/id552799694) | #10 Finance | 2026-11-12 | Renamed from “Seeking Alpha: News & Analysis” to “Seeking Alpha: 米国株・株価ニュースと分析”. |
+| [WiseMeal: AIカロリー計算・体重管理とダイエット](https://apps.apple.com/jp/app/wisemeal-ai%E3%82%AB%E3%83%AD%E3%83%AA%E3%83%BC%E8%A8%88%E7%AE%97-%E4%BD%93%E9%87%8D%E7%AE%A1%E7%90%86%E3%81%A8%E3%83%80%E3%82%A4%E3%82%A8%E3%83%83%E3%83%88/id6739987348) | #10 Health & Fitness | 2026-11-11 | Renamed from “WiseMeal：AIカロリー計算・食事管理” to “WiseMeal: AIカロリー計算・体重管理とダイエット”. |
+| [出会い - ハッピー - マッチングアプリ - 出会い系](https://apps.apple.com/jp/app/%E5%87%BA%E4%BC%9A%E3%81%84-%E3%83%8F%E3%83%83%E3%83%94%E3%83%BC-%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA-%E5%87%BA%E4%BC%9A%E3%81%84%E7%B3%BB/id521055533) | #11 Social Networking | 2026-11-12 | Renamed from “出会い・出会い系はハッピー｜マッチングアプリ｜マッチング” to “出会い - ハッピー - マッチングアプリ - 出会い系”. |
+| [-tabiori- 共有できる旅のしおり・旅行計画アプリ](https://apps.apple.com/jp/app/tabiori-%E5%85%B1%E6%9C%89%E3%81%A7%E3%81%8D%E3%82%8B%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A-%E6%97%85%E8%A1%8C%E8%A8%88%E7%94%BB%E3%82%A2%E3%83%97%E3%83%AA/id1193502519) | #13 Travel | 2026-11-15 | Renamed from “-tabiori- 共有できる旅のしおり” to “-tabiori- 共有できる旅のしおり・旅行計画アプリ”. |
+| [あたまおしりゲーム](https://apps.apple.com/jp/app/%E3%81%82%E3%81%9F%E3%81%BE%E3%81%8A%E3%81%97%E3%82%8A%E3%82%B2%E3%83%BC%E3%83%A0/id6738670095) | #13 Games: Word | 2026-11-10 | Price changed from 200.00 to 300.00. |
+| [AI画像生成&AI動画生成&高画質化-PixDream](https://apps.apple.com/jp/app/ai%E7%94%BB%E5%83%8F%E7%94%9F%E6%88%90-ai%E5%8B%95%E7%94%BB%E7%94%9F%E6%88%90-%E9%AB%98%E7%94%BB%E8%B3%AA%E5%8C%96-pixdream/id6740220736) | #13 Graphics & Design | 2026-11-08 | Renamed from “AI画像&AI動画&画像生成AI&写真加工-PixDream” to “AI画像生成&AI動画生成&高画質化-PixDream”. |
+| [Snow-Forecast.com](https://apps.apple.com/jp/app/snow-forecast-com/id418032026) | #14 Weather | 2026-11-11 | Renamed from “Snow-Forecast: Weather Maps” to “Snow-Forecast.com”. |
+| [ELSA Speak：AI英会話・発音・英語学習](https://apps.apple.com/jp/app/elsa-speak-ai%E8%8B%B1%E4%BC%9A%E8%A9%B1-%E7%99%BA%E9%9F%B3-%E8%8B%B1%E8%AA%9E%E5%AD%A6%E7%BF%92/id1083804886) | #16 Education | 2026-11-09 | Renamed from “ELSA Speak：パーソナライズされた英会話アプリ” to “ELSA Speak：AI英会話・発音・英語学習”. |
+| [TERIYAKI 食通のグルメ店探し](https://apps.apple.com/jp/app/teriyaki-%E9%A3%9F%E9%80%9A%E3%81%AE%E3%82%B0%E3%83%AB%E3%83%A1%E5%BA%97%E6%8E%A2%E3%81%97/id882395571) | #17 Food & Drink | 2026-11-09 | Renamed from “TERIYAKI” to “TERIYAKI 食通のグルメ店探し”. |
+| [GGNote - AI耳コピ ギター・ベースTAB譜](https://apps.apple.com/jp/app/ggnote-ai%E8%80%B3%E3%82%B3%E3%83%94-%E3%82%AE%E3%82%BF%E3%83%BC-%E3%83%99%E3%83%BC%E3%82%B9tab%E8%AD%9C/id6816181010) | #21 Music | 2026-11-09 | Renamed from “GGNote - AI耳コピ・TAB譜” to “GGNote - AI耳コピ ギター・ベースTAB譜”. |
+| [Adobe Firefly: AI Generator](https://apps.apple.com/jp/app/adobe-firefly-ai-generator/id6742595426) | #24 Graphics & Design | 2026-11-09 | Renamed from “Adobe Firefly：AI動画生成・画像生成” to “Adobe Firefly: AI Generator”. |
+| [Bible Path: Widgets & Stories](https://apps.apple.com/jp/app/bible-path-widgets-stories/id6504798650) | #26 Reference | 2026-11-09 | Renamed from “Bible Path: Prayers & Widgets” to “Bible Path: Widgets & Stories”. |
+| [Pass2U Wallet：会員カード・ポイントカード作成](https://apps.apple.com/jp/app/pass2u-wallet-%E4%BC%9A%E5%93%A1%E3%82%AB%E3%83%BC%E3%83%89-%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%82%AB%E3%83%BC%E3%83%89%E4%BD%9C%E6%88%90/id1142473931) | #27 Shopping | 2026-11-12 | Renamed from “Pass2U Wallet - 会員カード、クーポンを追加” to “Pass2U Wallet：会員カード・ポイントカード作成”. |
+| [Fitty: AIバーチャル試着・着せ替え](https://apps.apple.com/jp/app/fitty-ai%E3%83%90%E3%83%BC%E3%83%81%E3%83%A3%E3%83%AB%E8%A9%A6%E7%9D%80-%E7%9D%80%E3%81%9B%E6%9B%BF%E3%81%88/id6779754399) | #40 Shopping | 2026-11-14 | Renamed from “Fitty: AI Virtual Try-On” to “Fitty: AIバーチャル試着・着せ替え”. |
+| [マッチングアプリはYYC(ワイワイシー) -気軽な出会い探し](https://apps.apple.com/jp/app/%E3%83%9E%E3%83%83%E3%83%81%E3%83%B3%E3%82%B0%E3%82%A2%E3%83%97%E3%83%AA%E3%81%AFyyc-%E3%83%AF%E3%82%A4%E3%83%AF%E3%82%A4%E3%82%B7%E3%83%BC-%E6%B0%97%E8%BB%BD%E3%81%AA%E5%87%BA%E4%BC%9A%E3%81%84%E6%8E%A2%E3%81%97/id1226392156) | #41 Social Networking | 2026-11-12 | Renamed from “マッチングアプリはYYC(ワイワイシー) -出会い＆デート” to “マッチングアプリはYYC(ワイワイシー) -気軽な出会い探し”. |
+| [AI作曲・音楽作成 - Soniva Music](https://apps.apple.com/jp/app/ai%E4%BD%9C%E6%9B%B2-%E9%9F%B3%E6%A5%BD%E4%BD%9C%E6%88%90-soniva-music/id6502906463) | #41 Music | 2026-11-10 | Renamed from “AI Music: 曲&ミュージックメーカー” to “AI作曲・音楽作成 - Soniva Music”. |
+| [Tiny Ride](https://apps.apple.com/jp/app/tiny-ride/id6775941016) | #42 Games: Racing | 2026-11-09 | Publisher name changed from TabTale LTD to Crazy Labs. |
+| [Tiny Ride](https://apps.apple.com/jp/app/tiny-ride/id6775941016) | #42 Games: Racing | 2026-11-09 | Seller changed from TabTale LTD to CRAZY LABS BY TABTALE , G.P.. |
+| [英単語アプリTANZAM（タンザム）-TOEIC/IELTS](https://apps.apple.com/jp/app/%E8%8B%B1%E5%8D%98%E8%AA%9E%E3%82%A2%E3%83%97%E3%83%AAtanzam-%E3%82%BF%E3%83%B3%E3%82%B6%E3%83%A0-toeic-ielts/id1554699067) | #51 Education | 2026-11-08 | Renamed from “英単語アプリTANZAM（タンザム）-TOEIC/英検/英語” to “英単語アプリTANZAM（タンザム）-TOEIC/IELTS”. |
+| [Lyrica 陽春白雪・酔月 ~Drunken Moon~](https://apps.apple.com/jp/app/lyrica-%E9%99%BD%E6%98%A5%E7%99%BD%E9%9B%AA-%E9%85%94%E6%9C%88-drunken-moon/id1286609624) | #52 Games: Music | 2026-11-15 | Price changed from 300.00 to free. |
+| [Delta Force](https://apps.apple.com/jp/app/delta-force/id6451399876) | #56 Games: Action | 2026-11-10 | Renamed from “Delta Force: 2nd Anniversary” to “Delta Force”. |
+| [Reverse Audio: Sing Challenge](https://apps.apple.com/jp/app/reverse-audio-sing-challenge/id6754755473) | #57 Music | 2026-11-13 | Renamed from “Reverse Audio: 歌チャレンジ” to “Reverse Audio: Sing Challenge”. |
+| [Luvlinx - AIキャラチャットで彼氏や恋人と会話](https://apps.apple.com/jp/app/luvlinx-ai%E3%82%AD%E3%83%A3%E3%83%A9%E3%83%81%E3%83%A3%E3%83%83%E3%83%88%E3%81%A7%E5%BD%BC%E6%B0%8F%E3%82%84%E6%81%8B%E4%BA%BA%E3%81%A8%E4%BC%9A%E8%A9%B1/id6748287969) | #57 Entertainment | 2026-11-11 | Renamed from “Luvlinx - AIチャットで彼氏や恋人と会話” to “Luvlinx - AIキャラチャットで彼氏や恋人と会話”. |
 
 ## Vanished from the App Store
 
@@ -224,7 +224,10 @@ Apps that were on a chart and that Apple no longer lists in this country, two sc
 
 | App | Publisher | Best place seen | Found missing |
 |---|---|---|---|
-| FlashAir Instant WIFI | Trek2000 | #29 paid, Utilities | 2026-11-13 |
+| Word Office：ドキュメント編集 | BEGAMOB GLOBAL LIMITED | #43 grossing, Productivity | 2026-11-14 |
+| iCardiac: 心拍数モニター | BEGAMOB GLOBAL LIMITED | #59 grossing, Health & Fitness | 2026-11-14 |
+| みまもりブラウザ | Hachiware, LLC. | #72 paid, Utilities | 2026-11-14 |
+| Frame 13 - レトロフィルムカメラ | Juyeon Kim | #90 paid, Photo & Video | 2026-11-14 |
 | Viva - Sing | FOSTER LANGLEY | #47 grossing, Lifestyle | 2026-11-13 |
 | Bistre, | SANDOR VINCZE | #70 free, Graphics & Design | 2026-11-13 |
 | TDZ Pro - バスシミュレーター | LEKE YAZILIM VE OYUN ANONIM SIRKETI | #74 free, Games: Role Playing | 2026-11-13 |
@@ -251,9 +254,6 @@ Apps that were on a chart and that Apple no longer lists in this country, two sc
 | Lento: DIY Bracelet Studio | HELIX INNOVATIONS TECHNOLOGY LTD | #57 grossing, Lifestyle | 2026-11-11 |
 | ビジネス著作権検定 試験対策｜問題集 | RYOHEI HORIUCHI | #60 paid, Education | 2026-11-11 |
 | Miner CloudOS - Bitcoin Mining | Nimuben Kotadiya | #63 grossing, Finance | 2026-11-11 |
-| ReelBox | Guangxi Xianban Network Technology Co., LTD | #66 free, Entertainment | 2026-11-11 |
-| Water Challenge - Spell & Pour | Pradnya Rane | #67 free, Games: Puzzle | 2026-11-11 |
-| Renna-Live Stream&Connect | CELESTIA TECHNOLOGY LTD | #67 grossing, Lifestyle | 2026-11-11 |
 
 ## Climbing the grossing charts
 
@@ -261,21 +261,21 @@ Places gained on the same top-grossing chart over the last 7 days.
 
 | | App | Publisher | Top grossing | Places gained | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [TripIt: Travel Planner](https://apps.apple.com/jp/app/tripit-travel-planner/id311035142) | TripIt | #26 Travel | +71 | 2,714 | 2009-04-10 |
-| 2 | [魔法使いの約束](https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E7%B4%84%E6%9D%9F/id1481949790) | coly, Inc. | #10 Games: Simulation | +68 | 18,719 | 2019-11-25 |
-| 3 | [Runestone Text Editor](https://apps.apple.com/jp/app/runestone-text-editor/id1548193893) | Simon B. Støvring | #26 Developer Tools | +67 | 209 | 2022-05-05 |
-| 4 | [日本酒メモ｜記録・利き酒・おすすめ発見](https://apps.apple.com/jp/app/%E6%97%A5%E6%9C%AC%E9%85%92%E3%83%A1%E3%83%A2-%E8%A8%98%E9%8C%B2-%E5%88%A9%E3%81%8D%E9%85%92-%E3%81%8A%E3%81%99%E3%81%99%E3%82%81%E7%99%BA%E8%A6%8B/id6757388787) | Koki Yoshida | #25 Food & Drink | +65 | 18 | 2026-01-14 |
-| 5 | [いびき録音・睡眠記録: Snorly](https://apps.apple.com/jp/app/%E3%81%84%E3%81%B3%E3%81%8D%E9%8C%B2%E9%9F%B3-%E7%9D%A1%E7%9C%A0%E8%A8%98%E9%8C%B2-snorly/id6743162754) | Mikhail Manev | #31 Medical | +63 | 0 | 2025-04-22 |
-| 6 | [デートの計画も、旅のしおりも、ふたりで \| Pairto](https://apps.apple.com/jp/app/%E3%83%87%E3%83%BC%E3%83%88%E3%81%AE%E8%A8%88%E7%94%BB%E3%82%82-%E6%97%85%E3%81%AE%E3%81%97%E3%81%8A%E3%82%8A%E3%82%82-%E3%81%B5%E3%81%9F%E3%82%8A%E3%81%A7-pairto/id6755092832) | Kota Suzuki | #16 Travel | +62 | 61 | 2026-01-13 |
-| 7 | [龍が如く ONLINE-抗争RPG、極道達の喧嘩バトル](https://apps.apple.com/jp/app/%E9%BE%8D%E3%81%8C%E5%A6%82%E3%81%8F-online-%E6%8A%97%E4%BA%89rpg-%E6%A5%B5%E9%81%93%E9%81%94%E3%81%AE%E5%96%A7%E5%98%A9%E3%83%90%E3%83%88%E3%83%AB/id1316356431) | SEGA CORPORATION | #32 Games: Adventure | +61 | 70,907 | 2018-11-21 |
-| 8 | [Cloud Nine](https://apps.apple.com/jp/app/cloud-nine/id6479585960) | CRAYON INC. | #35 Music | +60 | 26 | 2024-04-25 |
-| 9 | [Erudite - 楽しい雑学クイズゲーム](https://apps.apple.com/jp/app/erudite-%E6%A5%BD%E3%81%97%E3%81%84%E9%9B%91%E5%AD%A6%E3%82%AF%E3%82%A4%E3%82%BA%E3%82%B2%E3%83%BC%E3%83%A0/id1506496657) | Mioris LTD | #37 Games: Trivia | +59 | 171 | 2021-01-11 |
-| 10 | [E.YAZAWA -CLUB- 矢沢永吉オフィシャルアプリ](https://apps.apple.com/jp/app/e-yazawa-club-%E7%9F%A2%E6%B2%A2%E6%B0%B8%E5%90%89%E3%82%AA%E3%83%95%E3%82%A3%E3%82%B7%E3%83%A3%E3%83%AB%E3%82%A2%E3%83%97%E3%83%AA/id540944344) | ON CO.,LTD. | #31 Music | +58 | 291 | 2012-08-21 |
-| 11 | [Love Marble: カップルゲーム](https://apps.apple.com/jp/app/love-marble-%E3%82%AB%E3%83%83%E3%83%97%E3%83%AB%E3%82%B2%E3%83%BC%E3%83%A0/id6758433860) | Terrion | #13 Games: Trivia | +58 | 19 | 2026-02-18 |
-| 12 | [MiMi - ラジオドラマ](https://apps.apple.com/jp/app/mimi-%E3%83%A9%E3%82%B8%E3%82%AA%E3%83%89%E3%83%A9%E3%83%9E/id1494074422) | Mimi Incorporated | #20 Music | +57 | 221 | 2020-01-19 |
-| 13 | [Nowdex](https://apps.apple.com/jp/app/nowdex/id6791450777) | 涛南 卢 | #17 Developer Tools | +57 | 1 | 2026-07-20 |
-| 14 | [Filmit AI: AI Cinematic Video](https://apps.apple.com/jp/app/filmit-ai-ai-cinematic-video/id6755591057) | XIANG GANG RADIANCE LIMITED | #35 Graphics & Design | +57 | 9 | 2026-01-23 |
-| 15 | [音楽オフライン用オーディオ オフライン 音楽 ダウンロード](https://apps.apple.com/jp/app/%E9%9F%B3%E6%A5%BD%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3%E7%94%A8%E3%82%AA%E3%83%BC%E3%83%87%E3%82%A3%E3%82%AA-%E3%82%AA%E3%83%95%E3%83%A9%E3%82%A4%E3%83%B3-%E9%9F%B3%E6%A5%BD-%E3%83%80%E3%82%A6%E3%83%B3%E3%83%AD%E3%83%BC%E3%83%89/id1062525401) | Peter Lapid | #34 Shopping | +56 | 29 | 2015-12-19 |
+| 1 | [ほぼ日手帳アプリ - LIFEのBOOK](https://apps.apple.com/jp/app/%E3%81%BB%E3%81%BC%E6%97%A5%E6%89%8B%E5%B8%B3%E3%82%A2%E3%83%97%E3%83%AA-life%E3%81%AEbook/id6476838032) | Hobonichi Co., Ltd. | #8 Lifestyle | +86 | 1,773 | 2025-10-15 |
+| 2 | [Runestone Text Editor](https://apps.apple.com/jp/app/runestone-text-editor/id1548193893) | Simon B. Støvring | #15 Developer Tools | +84 | 210 | 2022-05-05 |
+| 3 | [侠客の天下](https://apps.apple.com/jp/app/%E4%BE%A0%E5%AE%A2%E3%81%AE%E5%A4%A9%E4%B8%8B/id1321357169) | Dust Gaming | #20 Games: Word | +78 | 34 | 2017-12-21 |
+| 4 | [Oxford Advanced Learner's Dict](https://apps.apple.com/jp/app/oxford-advanced-learners-dict/id1469549281) | Oxford University Press | #23 Reference | +63 | 63 | 2020-01-20 |
+| 5 | [ダイスの神：みんなでワイワイすごろくゲーム！大富豪を目指せ！](https://apps.apple.com/jp/app/%E3%83%80%E3%82%A4%E3%82%B9%E3%81%AE%E7%A5%9E-%E3%81%BF%E3%82%93%E3%81%AA%E3%81%A7%E3%83%AF%E3%82%A4%E3%83%AF%E3%82%A4%E3%81%99%E3%81%94%E3%82%8D%E3%81%8F%E3%82%B2%E3%83%BC%E3%83%A0-%E5%A4%A7%E5%AF%8C%E8%B1%AA%E3%82%92%E7%9B%AE%E6%8C%87%E3%81%9B/id946811576) | JOYCITY Corp | #33 Games: Board | +63 | 5,480 | 2015-10-15 |
+| 6 | [魔法使いの約束](https://apps.apple.com/jp/app/%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%81%AE%E7%B4%84%E6%9D%9F/id1481949790) | coly, Inc. | #15 Games: Simulation | +61 | 18,721 | 2019-11-25 |
+| 7 | [＋KIRARI](https://apps.apple.com/jp/app/kirari/id1570748418) | 株式会社SDR | #3 Entertainment | +59 | 22,833 | 2021-06-14 |
+| 8 | [Shell Keyboard](https://apps.apple.com/jp/app/shell-keyboard/id6811290737) | Nguyen Nguyen | #30 Developer Tools | +59 | 0 | 2026-09-16 |
+| 9 | [Paprika レシピ・マネージャー４](https://apps.apple.com/jp/app/paprika-%E3%83%AC%E3%82%B7%E3%83%94-%E3%83%9E%E3%83%8D%E3%83%BC%E3%82%B8%E3%83%A3%E3%83%BC%EF%BC%94/id1303222868) | Hindsight Labs LLC | #35 Food & Drink | +58 | 62 | 2017-11-15 |
+| 10 | [Pyto IDE](https://apps.apple.com/jp/app/pyto-ide/id1436650069) | Develobile S.p.A. | #12 Developer Tools | +58 | 99 | 2018-09-24 |
+| 11 | [Bubble Word Jam](https://apps.apple.com/jp/app/bubble-word-jam/id6754839783) | Lion Studios Plus | #23 Games: Word | +55 | 194 | 2026-04-15 |
+| 12 | [Progate](https://apps.apple.com/jp/app/progate/id1335868128) | Progate | #41 Education | +54 | 1,182 | 2018-01-22 |
+| 13 | [買い物チェック - シンプルでかわいいお買い物リスト -](https://apps.apple.com/jp/app/%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%81%E3%82%A7%E3%83%83%E3%82%AF-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%81%A7%E3%81%8B%E3%82%8F%E3%81%84%E3%81%84%E3%81%8A%E8%B2%B7%E3%81%84%E7%89%A9%E3%83%AA%E3%82%B9%E3%83%88/id1591792446) | sky-nexus Inc. | #29 Shopping | +54 | 3,588 | 2021-12-24 |
+| 14 | [Nowdex](https://apps.apple.com/jp/app/nowdex/id6791450777) | 涛南 卢 | #27 Developer Tools | +54 | 1 | 2026-07-20 |
+| 15 | [龍が如く ONLINE-抗争RPG、極道達の喧嘩バトル](https://apps.apple.com/jp/app/%E9%BE%8D%E3%81%8C%E5%A6%82%E3%81%8F-online-%E6%8A%97%E4%BA%89rpg-%E6%A5%B5%E9%81%93%E9%81%94%E3%81%AE%E5%96%A7%E5%98%A9%E3%83%90%E3%83%88%E3%83%AB/id1316356431) | SEGA CORPORATION | #45 Games: Adventure | +52 | 70,911 | 2018-11-21 |
 
 ## Ratings momentum
 
@@ -283,21 +283,21 @@ Fastest ratings growth over 7 days relative to size. Ratings are a rough proxy f
 
 | | App | Publisher | Top grossing | New ratings (7d) | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [Kigumi 木組](https://apps.apple.com/jp/app/kigumi-%E6%9C%A8%E7%B5%84/id6818071964) | Ivo Iturrieta | #77 Games: Family | +58 | 58 | 2026-10-29 |
-| 2 | [ソフトテニス3D](https://apps.apple.com/jp/app/%E3%82%BD%E3%83%95%E3%83%88%E3%83%86%E3%83%8B%E3%82%B93d/id6826721746) | Yusuke Sarashina | #92 Games: Sports | +51 | 51 | 2026-11-03 |
-| 3 | [JockeyBox - 競馬ジョッキーキャリアゲーム](https://apps.apple.com/jp/app/jockeybox-%E7%AB%B6%E9%A6%AC%E3%82%B8%E3%83%A7%E3%83%83%E3%82%AD%E3%83%BC%E3%82%AD%E3%83%A3%E3%83%AA%E3%82%A2%E3%82%B2%E3%83%BC%E3%83%A0/id6821326318) | BOX LLC (Japan) | #29 Games: Racing | +28 | 28 | 2026-11-07 |
-| 4 | [Supermarket chaos to order](https://apps.apple.com/jp/app/supermarket-chaos-to-order/id6790139777) | Warlock Arts |  | +339 | 363 | 2026-07-23 |
-| 5 | [脱出ゲーム Past Floor](https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049) | Jammsworks Inc. |  | +1,426 | 1,531 | 2026-11-04 |
-| 6 | [Wiggle Together（ウィグルトゥギャザー）](https://apps.apple.com/jp/app/wiggle-together-%E3%82%A6%E3%82%A3%E3%82%B0%E3%83%AB%E3%83%88%E3%82%A5%E3%82%AE%E3%83%A3%E3%82%B6%E3%83%BC/id6815521125) | Xiangyu Ren |  | +56 | 62 | 2026-10-08 |
-| 7 | [誰ガ為のアルケミスト ポートマスターズ](https://apps.apple.com/jp/app/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88-%E3%83%9D%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6781944992) | KMS.Inc | #29 Games: Adventure | +260 | 298 | 2026-11-04 |
-| 8 | [Walka - 愛犬と散歩](https://apps.apple.com/jp/app/walka-%E6%84%9B%E7%8A%AC%E3%81%A8%E6%95%A3%E6%AD%A9/id6799952118) | Hiroki Minaga | #64 Health & Fitness | +481 | 586 | 2026-08-17 |
-| 9 | [脱出ゲーム 最後の宝探し](https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9C%80%E5%BE%8C%E3%81%AE%E5%AE%9D%E6%8E%A2%E3%81%97/id6828623647) | Masayuki Takagi |  | +246 | 303 | 2026-11-03 |
-| 10 | [CoinDrama](https://apps.apple.com/jp/app/coindrama/id6801006288) | YS Culture Limited |  | +231 | 308 | 2026-09-02 |
-| 11 | [ピコクラフト: 採掘・作業ゲーム](https://apps.apple.com/jp/app/%E3%83%94%E3%82%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id6820612711) | Hachiware, LLC. |  | +148 | 200 | 2026-11-01 |
-| 12 | [マイキャリ｜野球シミュレーションゲーム](https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%AA-%E9%87%8E%E7%90%83%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6809578554) | Yudai Yodogawa | #58 Games: Sports | +514 | 705 | 2026-11-04 |
-| 13 | [熱血大作戦！- 三国志キングダムRPG](https://apps.apple.com/jp/app/%E7%86%B1%E8%A1%80%E5%A4%A7%E4%BD%9C%E6%88%A6-%E4%B8%89%E5%9B%BD%E5%BF%97%E3%82%AD%E3%83%B3%E3%82%B0%E3%83%80%E3%83%A0rpg/id6779548466) | FW GAME | #96 Games: Adventure | +162 | 278 | 2026-11-04 |
-| 14 | [setlog](https://apps.apple.com/jp/app/setlog/id6587576438) | new chat |  | +26,285 | 45,401 | 2025-12-24 |
-| 15 | [武器の王者：鍛造放置RPG](https://apps.apple.com/jp/app/%E6%AD%A6%E5%99%A8%E3%81%AE%E7%8E%8B%E8%80%85-%E9%8D%9B%E9%80%A0%E6%94%BE%E7%BD%AErpg/id6791394610) | MOBIBRAIN TECHNOLOGY PTE. LTD. | #73 Games: Simulation | +265 | 458 | 2026-10-01 |
+| 1 | [キン肉マン マッスルタッグマッチ令和復活編](https://apps.apple.com/jp/app/%E3%82%AD%E3%83%B3%E8%82%89%E3%83%9E%E3%83%B3-%E3%83%9E%E3%83%83%E3%82%B9%E3%83%AB%E3%82%BF%E3%83%83%E3%82%B0%E3%83%9E%E3%83%83%E3%83%81%E4%BB%A4%E5%92%8C%E5%BE%A9%E6%B4%BB%E7%B7%A8/id6775757720) | Bandai Namco Entertainment Inc. | #25 Games: Sports | +60 | 60 | 2026-11-08 |
+| 2 | [スタディラボ（スタラボ） 写真から単語帳が作れるアプリ](https://apps.apple.com/jp/app/%E3%82%B9%E3%82%BF%E3%83%87%E3%82%A3%E3%83%A9%E3%83%9C-%E3%82%B9%E3%82%BF%E3%83%A9%E3%83%9C-%E5%86%99%E7%9C%9F%E3%81%8B%E3%82%89%E5%8D%98%E8%AA%9E%E5%B8%B3%E3%81%8C%E4%BD%9C%E3%82%8C%E3%82%8B%E3%82%A2%E3%83%97%E3%83%AA/id6826627970) | TETOMO CO., LTD. |  | +47 | 47 | 2026-11-02 |
+| 3 | [お片付け！なんでも](https://apps.apple.com/jp/app/%E3%81%8A%E7%89%87%E4%BB%98%E3%81%91-%E3%81%AA%E3%82%93%E3%81%A7%E3%82%82/id6824655215) | SayGames LTD | #16 Games: Family | +28 | 28 | 2026-11-05 |
+| 4 | [Kigumi 木組](https://apps.apple.com/jp/app/kigumi-%E6%9C%A8%E7%B5%84/id6818071964) | Ivo Iturrieta | #85 Games: Family | +57 | 60 | 2026-10-29 |
+| 5 | [ソフトテニス3D](https://apps.apple.com/jp/app/%E3%82%BD%E3%83%95%E3%83%88%E3%83%86%E3%83%8B%E3%82%B93d/id6826721746) | Yusuke Sarashina | #86 Games: Sports | +49 | 56 | 2026-11-03 |
+| 6 | [Supermarket chaos to order](https://apps.apple.com/jp/app/supermarket-chaos-to-order/id6790139777) | Warlock Arts |  | +327 | 376 | 2026-07-23 |
+| 7 | [Walka - 愛犬と散歩](https://apps.apple.com/jp/app/walka-%E6%84%9B%E7%8A%AC%E3%81%A8%E6%95%A3%E6%AD%A9/id6799952118) | Hiroki Minaga | #60 Health & Fitness | +545 | 658 | 2026-08-17 |
+| 8 | [誰ガ為のアルケミスト ポートマスターズ](https://apps.apple.com/jp/app/%E8%AA%B0%E3%82%AC%E7%82%BA%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B1%E3%83%9F%E3%82%B9%E3%83%88-%E3%83%9D%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E3%82%BF%E3%83%BC%E3%82%BA/id6781944992) | KMS.Inc | #22 Games: Adventure | +382 | 463 | 2026-11-04 |
+| 9 | [Wiggle Together（ウィグルトゥギャザー）](https://apps.apple.com/jp/app/wiggle-together-%E3%82%A6%E3%82%A3%E3%82%B0%E3%83%AB%E3%83%88%E3%82%A5%E3%82%AE%E3%83%A3%E3%82%B6%E3%83%BC/id6815521125) | Xiangyu Ren |  | +54 | 67 | 2026-10-08 |
+| 10 | [脱出ゲーム Past Floor](https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-past-floor/id6804630049) | Jammsworks Inc. |  | +1,305 | 1,652 | 2026-11-04 |
+| 11 | [CoinDrama](https://apps.apple.com/jp/app/coindrama/id6801006288) | YS Culture Limited |  | +321 | 411 | 2026-09-02 |
+| 12 | [脱出ゲーム 最後の宝探し](https://apps.apple.com/jp/app/%E8%84%B1%E5%87%BA%E3%82%B2%E3%83%BC%E3%83%A0-%E6%9C%80%E5%BE%8C%E3%81%AE%E5%AE%9D%E6%8E%A2%E3%81%97/id6828623647) | Masayuki Takagi |  | +226 | 325 | 2026-11-03 |
+| 13 | [ピコクラフト: 採掘・作業ゲーム](https://apps.apple.com/jp/app/%E3%83%94%E3%82%B3%E3%82%AF%E3%83%A9%E3%83%95%E3%83%88-%E6%8E%A1%E6%8E%98-%E4%BD%9C%E6%A5%AD%E3%82%B2%E3%83%BC%E3%83%A0/id6820612711) | Hachiware, LLC. |  | +140 | 215 | 2026-11-01 |
+| 14 | [マイキャリ｜野球シミュレーションゲーム](https://apps.apple.com/jp/app/%E3%83%9E%E3%82%A4%E3%82%AD%E3%83%A3%E3%83%AA-%E9%87%8E%E7%90%83%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3%E3%82%B2%E3%83%BC%E3%83%A0/id6809578554) | Yudai Yodogawa | #69 Games: Sports | +471 | 725 | 2026-11-04 |
+| 15 | [setlog](https://apps.apple.com/jp/app/setlog/id6587576438) | new chat |  | +28,890 | 49,499 | 2025-12-24 |
 
 ## Staying power
 
