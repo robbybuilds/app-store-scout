@@ -1,6 +1,6 @@
-# App Store Scout: DE, 2026-11-16
+# App Store Scout: DE, 2026-11-17
 
-14 daily snapshots (2026-11-03 to 2026-11-16), 8820 apps on the tracked charts.
+15 daily snapshots (2026-11-03 to 2026-11-17), 8829 apps on the tracked charts.
 
 > Ranks, ratings and release dates are observed from Apple's public feeds. They are **not** downloads, revenue or profit. A top-grossing rank says an app earns more than its neighbours in that chart, nothing more. See [the guide](../../docs/guide.md) for how to turn this into research.
 
@@ -10,16 +10,16 @@ Phrases shared by new or small apps from **different publishers** that are all o
 
 | Niche | Publishers | Examples (top-grossing rank) |
 |---|--:|---|
-| **spiele** (also casino spiele) | 28 | [TopTop: Spiele & Chat](https://apps.apple.com/de/app/toptop-spiele-chat/id6748342498) (#11 Games: Family), [Flex City RP: Online Spiele](https://apps.apple.com/de/app/flex-city-rp-online-spiele/id1548335968) (#13 Games: Racing), [Billionaire Casino 777 Spiele](https://apps.apple.com/de/app/billionaire-casino-777-spiele/id1098617974) (#14 Games: Casino) +27 more |
-| **rezepte** (also rezepte speichern, rezepte für) | 23 | [Choosy: Essensplaner & Rezepte](https://apps.apple.com/de/app/choosy-essensplaner-rezepte/id1577201493) (#7 Food & Drink), [Gronda: Rezepte für Köche](https://apps.apple.com/de/app/gronda-rezepte-f%C3%BCr-k%C3%B6che/id1164423781) (#9 Food & Drink), [Whipp: Essensplaner & Rezepte](https://apps.apple.com/de/app/whipp-essensplaner-rezepte/id6778126199) (#19 Food & Drink) +20 more |
-| **slot** (also casino slot, slot casino, vega slot, vega casino) | 23 | [Diamond Cash Slots 777 Casino](https://apps.apple.com/de/app/diamond-cash-slots-777-casino/id1485537949) (#17 Games: Casino), [Cash Tornado™ Slots - Casino](https://apps.apple.com/de/app/cash-tornado-slots-casino/id1480805172) (#19 Games: Casino), [DoubleU Casino™ - Vegas Slots](https://apps.apple.com/de/app/doubleu-casino-vegas-slots/id642727743) (#23 Games: Casino) +35 more |
-| **wetter** | 16 | [CARROT Wetter: Warnung & Radar](https://apps.apple.com/de/app/carrot-wetter-warnung-radar/id961390574) (#19 Weather), [Wetter: The Weather Channel](https://apps.apple.com/de/app/wetter-the-weather-channel/id295646461) (#27 Weather), [Foreca Wetter & Regenradar](https://apps.apple.com/de/app/foreca-wetter-regenradar/id525994479) (#37 Weather) +13 more |
-| **pdf** (also pdf bearbeiten) | 15 | [Drucker App für HP, Canon PDF](https://apps.apple.com/de/app/drucker-app-f%C3%BCr-hp-canon-pdf/id1585148293) (#19 Business), [PDF Bearbeiten und Erstellen](https://apps.apple.com/de/app/pdf-bearbeiten-und-erstellen/id6443583054) (#21 Business), [PDF Bearbeiten](https://apps.apple.com/de/app/pdf-bearbeiten/id1532638515) (#24 Business) +12 more |
-| **lernen** (also sprachen lernen, englisch lernen) | 14 | [Sprachen lernen - Ling](https://apps.apple.com/de/app/sprachen-lernen-ling/id1403783779) (#26 Education), [Sprachen lernen: Pingo AI](https://apps.apple.com/de/app/sprachen-lernen-pingo-ai/id6738882620) (#31 Education), [HelloTalk - Sprachen lernen](https://apps.apple.com/de/app/hellotalk-sprachen-lernen/id557130558) (#36 Education) +11 more |
-| **gps** | 14 | [Orca: Boot-GPS, Karten, Routen](https://apps.apple.com/de/app/orca-boot-gps-karten-routen/id1514423198) (#28 Navigation), [Eurowag Navigation - Truck GPS](https://apps.apple.com/de/app/eurowag-navigation-truck-gps/id6476389720) (#31 Navigation), [Gaia GPS: Wander App](https://apps.apple.com/de/app/gaia-gps-wander-app/id1201979492) (#35 Navigation) +11 more |
-| **drama** (also short drama) | 14 | [ReelyGo - Stream Short Dramas](https://apps.apple.com/de/app/reelygo-stream-short-dramas/id6749936320) (#28 Entertainment), [JoyReels - Enjoy Short Dramas](https://apps.apple.com/de/app/joyreels-enjoy-short-dramas/id6465895541) (#30 Entertainment), [FlickReels - AI Story & Drama](https://apps.apple.com/de/app/flickreels-ai-story-drama/id6514312894) (#32 Entertainment) +11 more |
-| **musik** (also musik generator) | 13 | [AI Song: KI Musik Generator](https://apps.apple.com/de/app/ai-song-ki-musik-generator/id6489035718) (#27 Music), [IDAGIO - Klassische Musik](https://apps.apple.com/de/app/idagio-klassische-musik/id1014917700) (#29 Music), [MyTunes: KI-Musik-Generator](https://apps.apple.com/de/app/mytunes-ki-musik-generator/id6447001239) (#30 Music) +10 more |
-| **tcg** (also tcg collector, karten scanner) | 12 | [FoilSnap: TCG Karten Scanner](https://apps.apple.com/de/app/foilsnap-tcg-karten-scanner/id6752642525) (#2 Reference), [Collectr - TCG Collector App](https://apps.apple.com/de/app/collectr-tcg-collector-app/id1603892248) (#12 Reference), [HoloDex - TCG Scan & Collect](https://apps.apple.com/de/app/holodex-tcg-scan-collect/id6747442689) (#19 Reference) +9 more |
+| **spiele** (also casino spiele) | 25 | [TopTop: Spiele & Chat](https://apps.apple.com/de/app/toptop-spiele-chat/id6748342498) (#5 Games: Family), [Billionaire Casino 777 Spiele](https://apps.apple.com/de/app/billionaire-casino-777-spiele/id1098617974) (#16 Games: Casino), [Flex City RP: Online Spiele](https://apps.apple.com/de/app/flex-city-rp-online-spiele/id1548335968) (#17 Games: Racing) +26 more |
+| **party** (also party game, mimic party) | 23 | [Mimic Party Game - Meme Party](https://apps.apple.com/de/app/mimic-party-game-meme-party/id6810750447) (#6 Games: Music), [Pantomime Party: Scharade](https://apps.apple.com/de/app/pantomime-party-scharade/id1565728161) (#21 Games: Trivia), [Imposter Spiel - Spy Party](https://apps.apple.com/de/app/imposter-spiel-spy-party/id6748455155) (#23 Games: Trivia) +21 more |
+| **rezepte** (also rezepte speichern) | 21 | [Whipp: Essensplaner & Rezepte](https://apps.apple.com/de/app/whipp-essensplaner-rezepte/id6778126199) (#3 Food & Drink), [Choosy: Essensplaner & Rezepte](https://apps.apple.com/de/app/choosy-essensplaner-rezepte/id1577201493) (#10 Food & Drink), [Gronda: Rezepte für Köche](https://apps.apple.com/de/app/gronda-rezepte-f%C3%BCr-k%C3%B6che/id1164423781) (#11 Food & Drink) +18 more |
+| **pdf** (also pdf scanner) | 15 | [PDF Bearbeiten und Erstellen](https://apps.apple.com/de/app/pdf-bearbeiten-und-erstellen/id6443583054) (#20 Business), [Drucker App für HP, Canon PDF](https://apps.apple.com/de/app/drucker-app-f%C3%BCr-hp-canon-pdf/id1585148293) (#22 Business), [Scannen von Dokumenten als PDF](https://apps.apple.com/de/app/scannen-von-dokumenten-als-pdf/id1425891150) (#31 Business) +12 more |
+| **drama** (also short drama) | 15 | [ReelyGo - Stream Short Dramas](https://apps.apple.com/de/app/reelygo-stream-short-dramas/id6749936320) (#30 Entertainment), [FlickReels - AI Story & Drama](https://apps.apple.com/de/app/flickreels-ai-story-drama/id6514312894) (#31 Entertainment), [JoyReels - Enjoy Short Dramas](https://apps.apple.com/de/app/joyreels-enjoy-short-dramas/id6465895541) (#32 Entertainment) +12 more |
+| **wetter** | 14 | [CARROT Wetter: Warnung & Radar](https://apps.apple.com/de/app/carrot-wetter-warnung-radar/id961390574) (#17 Weather), [Wetter Radar - Rainbow Weather](https://apps.apple.com/de/app/wetter-radar-rainbow-weather/id1621050235) (#30 Weather), [Wetter: The Weather Channel](https://apps.apple.com/de/app/wetter-the-weather-channel/id295646461) (#31 Weather) +11 more |
+| **lernen** (also sprachen lernen) | 14 | [Sprachen lernen - Ling](https://apps.apple.com/de/app/sprachen-lernen-ling/id1403783779) (#21 Education), [Sprachen lernen: Pingo AI](https://apps.apple.com/de/app/sprachen-lernen-pingo-ai/id6738882620) (#34 Education), [HelloTalk - Sprachen lernen](https://apps.apple.com/de/app/hellotalk-sprachen-lernen/id557130558) (#41 Education) +11 more |
+| **tcg** (also tcg collector, karten scanner) | 11 | [FoilSnap: TCG Karten Scanner](https://apps.apple.com/de/app/foilsnap-tcg-karten-scanner/id6752642525) (#2 Reference), [Collectr - TCG Collector App](https://apps.apple.com/de/app/collectr-tcg-collector-app/id1603892248) (#11 Reference), [Dex - for TCG Collectors](https://apps.apple.com/de/app/dex-for-tcg-collectors/id1555489854) (#24 Reference) +8 more |
+| **client** (also ssh, ssh client) | 11 | [Git client - Working Copy](https://apps.apple.com/de/app/git-client-working-copy/id896694807) (#7 Developer Tools), [SSH Client - Secure ShellFish](https://apps.apple.com/de/app/ssh-client-secure-shellfish/id1336634154) (#8 Developer Tools), [Termix Pro: SSH & SFTP Client](https://apps.apple.com/de/app/termix-pro-ssh-sftp-client/id6743685377) (#23 Developer Tools) +9 more |
+| **recipe** (also meal planner) | 10 | [Miso - Recipe Keeper](https://apps.apple.com/de/app/miso-recipe-keeper/id6756516262) (#12 Food & Drink), [Mob: Meal Planner and Recipes](https://apps.apple.com/de/app/mob-meal-planner-and-recipes/id6670216494) (#23 Food & Drink), [Recipe Keeper](https://apps.apple.com/de/app/recipe-keeper/id974683711) (#38 Food & Drink) +7 more |
 
 _Search, reviews and prices are researched for US only. Add "de" to `research.countries` in scout.config.json to research this country too._
 
@@ -29,47 +29,47 @@ How crowded each genre's top-grossing chart looks. More new apps (released in th
 
 | Genre | Apps on chart | New apps | Small apps | Median ratings |
 |---|--:|--:|--:|--:|
-| All apps | 100 | 6 | 5 | 96,674 |
-| Business | 100 | 5 | 71 | 1,479 |
-| Weather | 100 | 13 | 75 | 546 |
-| Utilities | 100 | 7 | 64 | 2,196 |
-| Travel | 100 | 14 | 79 | 503 |
-| Sports | 100 | 13 | 81 | 339 |
-| Social Networking | 100 | 5 | 62 | 2,246 |
-| Reference | 100 | 24 | 83 | 684 |
-| Productivity | 100 | 5 | 37 | 11,646 |
-| Photo & Video | 100 | 7 | 49 | 5,547 |
-| News | 100 | 0 | 62 | 2,458 |
-| Navigation | 100 | 10 | 77 | 862 |
-| Music | 100 | 5 | 63 | 1,870 |
-| Lifestyle | 100 | 9 | 62 | 2,680 |
-| Health & Fitness | 100 | 4 | 42 | 7,806 |
-| Finance | 100 | 18 | 82 | 379 |
-| Entertainment | 100 | 25 | 63 | 1,152 |
-| Education | 100 | 2 | 51 | 4,561 |
-| Books | 100 | 14 | 93 | 235 |
-| Medical | 99 | 9 | 87 | 307 |
-| Food & Drink | 100 | 21 | 89 | 131 |
-| Shopping | 100 | 33 | 93 | 17 |
-| Developer Tools | 100 | 44 | 98 | 9 |
-| Graphics & Design | 99 | 13 | 83 | 435 |
-| Games | 100 | 20 | 25 | 23,183 |
-| Games: Action | 100 | 27 | 49 | 5,155 |
-| Games: Adventure | 100 | 14 | 53 | 4,548 |
-| Games: Casual | 100 | 27 | 44 | 6,706 |
-| Games: Board | 100 | 10 | 61 | 3,501 |
-| Games: Card | 100 | 2 | 56 | 3,501 |
+| All apps | 100 | 4 | 3 | 97,774 |
+| Business | 100 | 4 | 71 | 1,507 |
+| Weather | 100 | 13 | 74 | 603 |
+| Utilities | 100 | 5 | 66 | 2,201 |
+| Travel | 100 | 12 | 78 | 637 |
+| Sports | 100 | 10 | 80 | 374 |
+| Social Networking | 100 | 5 | 64 | 2,167 |
+| Reference | 100 | 23 | 85 | 707 |
+| Productivity | 100 | 5 | 39 | 10,233 |
+| Photo & Video | 100 | 8 | 52 | 4,707 |
+| News | 99 | 1 | 61 | 2,179 |
+| Navigation | 100 | 13 | 76 | 916 |
+| Music | 100 | 9 | 63 | 1,723 |
+| Lifestyle | 100 | 7 | 62 | 2,645 |
+| Health & Fitness | 100 | 3 | 42 | 7,423 |
+| Finance | 100 | 15 | 81 | 379 |
+| Entertainment | 100 | 24 | 64 | 1,128 |
+| Education | 100 | 2 | 51 | 4,779 |
+| Books | 99 | 13 | 92 | 254 |
+| Medical | 100 | 8 | 88 | 366 |
+| Food & Drink | 100 | 19 | 88 | 113 |
+| Shopping | 100 | 32 | 94 | 15 |
+| Developer Tools | 100 | 42 | 98 | 9 |
+| Graphics & Design | 100 | 12 | 83 | 471 |
+| Games | 100 | 22 | 25 | 23,188 |
+| Games: Action | 100 | 24 | 48 | 5,385 |
+| Games: Adventure | 100 | 14 | 54 | 4,051 |
+| Games: Casual | 100 | 26 | 44 | 6,766 |
+| Games: Board | 100 | 10 | 60 | 3,620 |
+| Games: Card | 100 | 2 | 56 | 3,183 |
 | Games: Casino | 100 | 0 | 78 | 1,395 |
-| Games: Family | 100 | 9 | 68 | 2,435 |
-| Games: Music | 100 | 27 | 90 | 45 |
-| Games: Puzzle | 100 | 30 | 46 | 6,011 |
-| Games: Racing | 100 | 15 | 70 | 1,045 |
-| Games: Role Playing | 100 | 20 | 58 | 3,702 |
-| Games: Simulation | 100 | 19 | 51 | 4,810 |
-| Games: Sports | 100 | 14 | 60 | 2,626 |
-| Games: Strategy | 100 | 17 | 46 | 5,892 |
-| Games: Trivia | 99 | 18 | 77 | 380 |
-| Games: Word | 100 | 13 | 73 | 960 |
+| Games: Family | 100 | 11 | 68 | 2,092 |
+| Games: Music | 100 | 24 | 89 | 98 |
+| Games: Puzzle | 100 | 30 | 47 | 6,028 |
+| Games: Racing | 100 | 13 | 67 | 1,261 |
+| Games: Role Playing | 100 | 22 | 60 | 3,076 |
+| Games: Simulation | 100 | 20 | 50 | 5,137 |
+| Games: Sports | 100 | 17 | 60 | 2,457 |
+| Games: Strategy | 100 | 18 | 44 | 6,149 |
+| Games: Trivia | 100 | 20 | 76 | 466 |
+| Games: Word | 99 | 18 | 77 | 861 |
 
 ## Solo developers earning
 
@@ -77,21 +77,21 @@ On a top-grossing chart and sold under a person's own name rather than a company
 
 | | App | Publisher | Top grossing | Their apps | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [DBB.Scores](https://apps.apple.com/de/app/dbb-scores/id1592686052) | NOTHINGBUTNET SOCIEDAD LIMITADA | #3 Sports | ? | 1,011 | 2021-12-14 |
-| 2 | [Car Parking Multiplayer 2](https://apps.apple.com/de/app/car-parking-multiplayer-2/id6514315118) | Aidana Kengbeiil | #6 Games: Racing | ? | 1,029 | 2024-08-20 |
-| 3 | [Haushaltsbuch: Kassenbon Scan](https://apps.apple.com/de/app/haushaltsbuch-kassenbon-scan/id6753721422) | Nemanja Pecanin | #7 Shopping | ? | 8 | 2025-10-14 |
-| 4 | [Ich Hab Noch Nie 18 Trinkspiel](https://apps.apple.com/de/app/ich-hab-noch-nie-18-trinkspiel/id1210440961) | Boris Mikic | #7 Games: Word | ? | 1,046 | 2017-03-02 |
-| 5 | [MarkenDetektive: Clever sparen](https://apps.apple.com/de/app/markendetektive-clever-sparen/id6471081082) | StuByte FlexCo | #8 Shopping | ? | 1,272 | 2023-12-11 |
-| 6 | [SSH Client - Secure ShellFish](https://apps.apple.com/de/app/ssh-client-secure-shellfish/id1336634154) | Anders Borum | #8 Developer Tools | ? | 718 | 2019-06-28 |
-| 7 | [Car Parking Multiplayer](https://apps.apple.com/de/app/car-parking-multiplayer/id1374868881) | Aidana Kengbeiil | #8 Games: Racing | ? | 10,643 | 2018-04-23 |
-| 8 | [Stirnraten - Spielewelt](https://apps.apple.com/de/app/stirnraten-spielewelt/id959394136) | Michael Rothkegel | #8 Games: Trivia | ? | 35,324 | 2015-04-11 |
-| 9 | [WBuilds for Building Guide](https://apps.apple.com/de/app/wbuilds-for-building-guide/id6755657280) | Sagar Khurana | #9 Reference | ? | 875 | 2025-12-11 |
-| 10 | [pon - smarte Einkaufsliste](https://apps.apple.com/de/app/pon-smarte-einkaufsliste/id962325912) | Adrian Kuehlewind | #9 Shopping | ? | 29,897 | 2015-12-02 |
-| 11 | [Git client - Working Copy](https://apps.apple.com/de/app/git-client-working-copy/id896694807) | Anders Borum | #9 Developer Tools | ? | 1,101 | 2014-11-08 |
-| 12 | [Vintly: Kleidung verkaufen](https://apps.apple.com/de/app/vintly-kleidung-verkaufen/id6803984030) | Fahd Barro | #10 Shopping | ? | 14 | 2026-09-17 |
-| 13 | [Ubox](https://apps.apple.com/de/app/ubox/id1436112326) | HONGBO WANG | #11 Utilities | ? | 4,281 | 2019-05-23 |
-| 14 | [Stocks to Buy Now AI Signals](https://apps.apple.com/de/app/stocks-to-buy-now-ai-signals/id1565527320) | Hello Stocker | #11 Finance | ? | 255 | 2022-02-03 |
-| 15 | [Medizingo: Medizin Lernapp](https://apps.apple.com/de/app/medizingo-medizin-lernapp/id6769168753) | Emin Karayel | #11 Medical | ? | 46 | 2026-08-12 |
+| 1 | [DBB.Scores](https://apps.apple.com/de/app/dbb-scores/id1592686052) | NOTHINGBUTNET SOCIEDAD LIMITADA | #3 Sports | ? | 1,031 | 2021-12-14 |
+| 2 | [Ich Hab Noch Nie 18 Trinkspiel](https://apps.apple.com/de/app/ich-hab-noch-nie-18-trinkspiel/id1210440961) | Boris Mikic | #3 Games: Word | ? | 1,046 | 2017-03-02 |
+| 3 | [Car Parking Multiplayer 2](https://apps.apple.com/de/app/car-parking-multiplayer-2/id6514315118) | Aidana Kengbeiil | #6 Games: Racing | ? | 1,034 | 2024-08-20 |
+| 4 | [MarkenDetektive: Clever sparen](https://apps.apple.com/de/app/markendetektive-clever-sparen/id6471081082) | StuByte FlexCo | #7 Shopping | ? | 1,277 | 2023-12-11 |
+| 5 | [Git client - Working Copy](https://apps.apple.com/de/app/git-client-working-copy/id896694807) | Anders Borum | #7 Developer Tools | ? | 1,104 | 2014-11-08 |
+| 6 | [Medizingo: Medizin Lernapp](https://apps.apple.com/de/app/medizingo-medizin-lernapp/id6769168753) | Emin Karayel | #8 Medical | ? | 46 | 2026-08-12 |
+| 7 | [Hermes DHL DPD GLS UPS Paket](https://apps.apple.com/de/app/hermes-dhl-dpd-gls-ups-paket/id6695750351) | Elard Tissot | #8 Shopping | ? | 15 | 2024-09-30 |
+| 8 | [SSH Client - Secure ShellFish](https://apps.apple.com/de/app/ssh-client-secure-shellfish/id1336634154) | Anders Borum | #8 Developer Tools | ? | 720 | 2019-06-28 |
+| 9 | [Wo liegt das? Geographie Quiz](https://apps.apple.com/de/app/wo-liegt-das-geographie-quiz/id492240967) | Till Henrik Jonathan Hillebrand | #8 Games: Trivia | ? | 7,286 | 2012-02-02 |
+| 10 | [Car Parking Multiplayer](https://apps.apple.com/de/app/car-parking-multiplayer/id1374868881) | Aidana Kengbeiil | #8 Games: Racing | ? | 10,656 | 2018-04-23 |
+| 11 | [WBuilds for Building Guide](https://apps.apple.com/de/app/wbuilds-for-building-guide/id6755657280) | Sagar Khurana | #9 Reference | ? | 882 | 2025-12-11 |
+| 12 | [My Movies 6 - Movie & TV List](https://apps.apple.com/de/app/my-movies-6-movie-tv-list/id1565797040) | Binnerup Consult | #9 Shopping | ? | 1,229 | 2021-12-15 |
+| 13 | [pon - smarte Einkaufsliste](https://apps.apple.com/de/app/pon-smarte-einkaufsliste/id962325912) | Adrian Kuehlewind | #10 Shopping | ? | 29,900 | 2015-12-02 |
+| 14 | [Würdest du eher?!](https://apps.apple.com/de/app/w%C3%BCrdest-du-eher/id1437263404) | Boris Mikic | #10 Games: Trivia | ? | 2,356 | 2018-10-12 |
+| 15 | [DWD WarnWetter](https://apps.apple.com/de/app/dwd-warnwetter/id986420993) | Deutscher Wetterdienst | #11 Weather | ? | 35,670 | 2015-06-02 |
 
 ## Small and paying
 
@@ -99,21 +99,21 @@ On a top-grossing chart with fewer than 5,000 ratings: earning without a huge au
 
 | | App | Publisher | Top grossing | Avg rating | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [Live Übersetzer: KI Übersetzen](https://apps.apple.com/de/app/live-%C3%BCbersetzer-ki-%C3%BCbersetzen/id6740606431) | DigitalSail (HK) Limited | #1 Reference | 4.33 | 2,986 | 2025-02-07 |
+| 1 | [Live Übersetzer: KI Übersetzen](https://apps.apple.com/de/app/live-%C3%BCbersetzer-ki-%C3%BCbersetzen/id6740606431) | DigitalSail (HK) Limited | #1 Reference | 4.33 | 2,993 | 2025-02-07 |
 | 2 | [Paket - Paketverfolgung App](https://apps.apple.com/de/app/paket-paketverfolgung-app/id6447516226) | MultiApp Dynamics OU | #1 Shopping | 4.09 | 663 | 2023-09-14 |
-| 3 | [Kling AI: AI Image&Video Maker](https://apps.apple.com/de/app/kling-ai-ai-image-video-maker/id6738049229) | KLING AI PTE. LTD. | #1 Graphics & Design | 4.56 | 3,434 | 2025-01-06 |
-| 4 | [FoilSnap: TCG Karten Scanner](https://apps.apple.com/de/app/foilsnap-tcg-karten-scanner/id6752642525) | Next Vision Limited | #2 Reference | 4.55 | 1,163 | 2025-09-30 |
-| 5 | [Hilo Blutdruck-Begleiter](https://apps.apple.com/de/app/hilo-blutdruck-begleiter/id1503559263) | Aktiia SA | #2 Medical | 4.55 | 4,791 | 2021-03-17 |
-| 6 | [mise – Essensplaner](https://apps.apple.com/de/app/mise-essensplaner/id6777471316) | TEGS LABS LTD | #2 Food & Drink | 4.51 | 2,052 | 2026-06-10 |
-| 7 | [Sendungsverfolgung – TrackPack](https://apps.apple.com/de/app/sendungsverfolgung-trackpack/id6762376278) | EpicScale Inc | #2 Shopping | 3.34 | 29 | 2026-06-17 |
-| 8 | [Replit: Vibe Code with AI Fast](https://apps.apple.com/de/app/replit-vibe-code-with-ai-fast/id1614022293) | Replit | #2 Developer Tools | 4.61 | 677 | 2022-10-18 |
-| 9 | [Songless.fm ~ Guess the Song!](https://apps.apple.com/de/app/songless-fm-guess-the-song/id6804464432) | Calico Studio Inc. | #2 Games: Music | 4.12 | 95 | 2026-09-11 |
-| 10 | [NYT Games: Wordle & Crossword](https://apps.apple.com/de/app/nyt-games-wordle-crossword/id307569751) | The New York Times Company | #2 Games: Word | 4.62 | 707 | 2009-03-27 |
-| 11 | [DBB.Scores](https://apps.apple.com/de/app/dbb-scores/id1592686052) | NOTHINGBUTNET SOCIEDAD LIMITADA | #3 Sports | 3.18 | 1,011 | 2021-12-14 |
-| 12 | [Accountable für Selbstständige](https://apps.apple.com/de/app/accountable-f%C3%BCr-selbstst%C3%A4ndige/id1384729810) | Accountable | #3 Finance | 4.67 | 3,943 | 2018-09-28 |
-| 13 | [Cursor](https://apps.apple.com/de/app/cursor/id6767085653) | X Corp. | #3 Developer Tools | 4.49 | 125 | 2026-06-29 |
-| 14 | [Tiles Survive!](https://apps.apple.com/de/app/tiles-survive/id6738109752) | FunPlus International AG | #3 Games: Role Playing | 4.49 | 4,800 | 2025-07-03 |
-| 15 | [Bingo Voyage: Live Bingospiele](https://apps.apple.com/de/app/bingo-voyage-live-bingospiele/id6615077767) | VERTEX GAMES PTE. LTD. | #3 Games: Casino | 4.78 | 3,275 | 2024-10-23 |
+| 3 | [Replit: Vibe Code with AI Fast](https://apps.apple.com/de/app/replit-vibe-code-with-ai-fast/id1614022293) | Replit | #1 Developer Tools | 4.61 | 677 | 2022-10-18 |
+| 4 | [Kling AI: AI Image&Video Maker](https://apps.apple.com/de/app/kling-ai-ai-image-video-maker/id6738049229) | KLING AI PTE. LTD. | #1 Graphics & Design | 4.56 | 3,451 | 2025-01-06 |
+| 5 | [FoilSnap: TCG Karten Scanner](https://apps.apple.com/de/app/foilsnap-tcg-karten-scanner/id6752642525) | Next Vision Limited | #2 Reference | 4.55 | 1,169 | 2025-09-30 |
+| 6 | [Hilo Blutdruck-Begleiter](https://apps.apple.com/de/app/hilo-blutdruck-begleiter/id1503559263) | Aktiia SA | #2 Medical | 4.55 | 4,797 | 2021-03-17 |
+| 7 | [mise – Essensplaner](https://apps.apple.com/de/app/mise-essensplaner/id6777471316) | TEGS LABS LTD | #2 Food & Drink | 4.51 | 2,063 | 2026-06-10 |
+| 8 | [Songless.fm ~ Guess the Song!](https://apps.apple.com/de/app/songless-fm-guess-the-song/id6804464432) | Calico Studio Inc. | #2 Games: Music | 4.13 | 96 | 2026-09-11 |
+| 9 | [NYT Games: Wordle & Crossword](https://apps.apple.com/de/app/nyt-games-wordle-crossword/id307569751) | The New York Times Company | #2 Games: Word | 4.62 | 707 | 2009-03-27 |
+| 10 | [DBB.Scores](https://apps.apple.com/de/app/dbb-scores/id1592686052) | NOTHINGBUTNET SOCIEDAD LIMITADA | #3 Sports | 3.19 | 1,031 | 2021-12-14 |
+| 11 | [Accountable für Selbstständige](https://apps.apple.com/de/app/accountable-f%C3%BCr-selbstst%C3%A4ndige/id1384729810) | Accountable | #3 Finance | 4.67 | 3,943 | 2018-09-28 |
+| 12 | [Whipp: Essensplaner & Rezepte](https://apps.apple.com/de/app/whipp-essensplaner-rezepte/id6778126199) | EVOY LTD | #3 Food & Drink | 4.51 | 39 | 2026-11-05 |
+| 13 | [Bingo Voyage: Live Bingospiele](https://apps.apple.com/de/app/bingo-voyage-live-bingospiele/id6615077767) | VERTEX GAMES PTE. LTD. | #3 Games: Casino | 4.78 | 3,276 | 2024-10-23 |
+| 14 | [Yari KonKan](https://apps.apple.com/de/app/yari-konkan/id6751218764) | Top Information Technology HK Limited | #3 Games: Family | 4.15 | 219 | 2026-05-13 |
+| 15 | [Ich Hab Noch Nie 18 Trinkspiel](https://apps.apple.com/de/app/ich-hab-noch-nie-18-trinkspiel/id1210440961) | Boris Mikic | #3 Games: Word | 4.38 | 1,046 | 2017-03-02 |
 
 ## New and paying
 
@@ -121,21 +121,21 @@ Released in the last 365 days and already on a top-grossing chart. Most new apps
 
 | | App | Publisher | Top grossing | Age (days) | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [mise – Essensplaner](https://apps.apple.com/de/app/mise-essensplaner/id6777471316) | TEGS LABS LTD | #2 Food & Drink | 159 | 2,052 | 2026-06-10 |
-| 2 | [Sendungsverfolgung – TrackPack](https://apps.apple.com/de/app/sendungsverfolgung-trackpack/id6762376278) | EpicScale Inc | #2 Shopping | 152 | 29 | 2026-06-17 |
-| 3 | [Songless.fm ~ Guess the Song!](https://apps.apple.com/de/app/songless-fm-guess-the-song/id6804464432) | Calico Studio Inc. | #2 Games: Music | 66 | 95 | 2026-09-11 |
-| 4 | [Coin Master - Board Adventure](https://apps.apple.com/de/app/coin-master-board-adventure/id6745761596) | Moon Active | #3 Games: Board | 249 | 9,665 | 2026-03-12 |
-| 5 | [Last Asylum: Plague](https://apps.apple.com/de/app/last-asylum-plague/id6756989323) | WISENESS GAME ONLINE INTERNATIONAL LTD | #3 Games: Simulation | 278 | 6,119 | 2026-02-11 |
-| 6 | [Cursor](https://apps.apple.com/de/app/cursor/id6767085653) | X Corp. | #3 Developer Tools | 140 | 125 | 2026-06-29 |
-| 7 | [Yari KonKan](https://apps.apple.com/de/app/yari-konkan/id6751218764) | Top Information Technology HK Limited | #3 Games: Family | 187 | 218 | 2026-05-13 |
-| 8 | [Word Tiles: Worträtsel](https://apps.apple.com/de/app/word-tiles-wortr%C3%A4tsel/id6783815362) | Agave Games | #3 Games: Word | 111 | 2,397 | 2026-07-28 |
-| 9 | [Butcher Hero: Idle-Action-RPG](https://apps.apple.com/de/app/butcher-hero-idle-action-rpg/id6757722046) | MULTICAST GAMES LIMITED | #4 Games: Role Playing | 304 | 1,834 | 2026-01-16 |
-| 10 | [Fortnite](https://apps.apple.com/de/app/fortnite/id6483539426) | Epic Games Inc. | #5 Games: Adventure | 181 | 14,538 | 2026-05-19 |
-| 11 | [Kurokos Basketball: SR](https://apps.apple.com/de/app/kurokos-basketball-sr/id6803425108) | Quick Magic | #5 Games: Sports | 5 | 112 | 2026-11-11 |
-| 12 | [Foodstars: Kombiniere & Koche](https://apps.apple.com/de/app/foodstars-kombiniere-koche/id6753862216) | Happibits | #6 Games: Simulation | 360 | 1,093 | 2025-11-21 |
-| 13 | [Emergent AI: Vibe Code Apps](https://apps.apple.com/de/app/emergent-ai-vibe-code-apps/id6748029391) | Emergent Labs Inc | #7 Developer Tools | 333 | 13 | 2025-12-18 |
-| 14 | [Google Flow](https://apps.apple.com/de/app/google-flow/id6751294549) | Google | #7 Graphics & Design | 68 | 18 | 2026-09-09 |
-| 15 | [WBuilds for Building Guide](https://apps.apple.com/de/app/wbuilds-for-building-guide/id6755657280) | Sagar Khurana | #9 Reference | 340 | 875 | 2025-12-11 |
+| 1 | [Coin Master - Board Adventure](https://apps.apple.com/de/app/coin-master-board-adventure/id6745761596) | Moon Active | #2 Games: Board | 250 | 9,723 | 2026-03-12 |
+| 2 | [mise – Essensplaner](https://apps.apple.com/de/app/mise-essensplaner/id6777471316) | TEGS LABS LTD | #2 Food & Drink | 160 | 2,063 | 2026-06-10 |
+| 3 | [Songless.fm ~ Guess the Song!](https://apps.apple.com/de/app/songless-fm-guess-the-song/id6804464432) | Calico Studio Inc. | #2 Games: Music | 67 | 96 | 2026-09-11 |
+| 4 | [Last Asylum: Plague](https://apps.apple.com/de/app/last-asylum-plague/id6756989323) | WISENESS GAME ONLINE INTERNATIONAL LTD | #3 Games: Simulation | 279 | 6,129 | 2026-02-11 |
+| 5 | [Whipp: Essensplaner & Rezepte](https://apps.apple.com/de/app/whipp-essensplaner-rezepte/id6778126199) | EVOY LTD | #3 Food & Drink | 12 | 39 | 2026-11-05 |
+| 6 | [Fortnite](https://apps.apple.com/de/app/fortnite/id6483539426) | Epic Games Inc. | #3 Games: Adventure | 182 | 14,952 | 2026-05-19 |
+| 7 | [Yari KonKan](https://apps.apple.com/de/app/yari-konkan/id6751218764) | Top Information Technology HK Limited | #3 Games: Family | 188 | 219 | 2026-05-13 |
+| 8 | [Moshi: herdr/tmux via SSH/MOSH](https://apps.apple.com/de/app/moshi-herdr-tmux-via-ssh-mosh/id6757859949) | Moshi Tech Ltd. | #4 Developer Tools | 300 | 61 | 2026-01-21 |
+| 9 | [Butcher Hero: Idle-Action-RPG](https://apps.apple.com/de/app/butcher-hero-idle-action-rpg/id6757722046) | MULTICAST GAMES LIMITED | #4 Games: Role Playing | 305 | 1,854 | 2026-01-16 |
+| 10 | [Cursor](https://apps.apple.com/de/app/cursor/id6767085653) | X Corp. | #5 Developer Tools | 141 | 125 | 2026-06-29 |
+| 11 | [Tiles Survive!](https://apps.apple.com/de/app/tiles-survive/id6738109752) | FunPlus International AG | #5 Games: Role Playing | 0 | 4,803 | 2026-11-17 |
+| 12 | [Word Tiles: Worträtsel](https://apps.apple.com/de/app/word-tiles-wortr%C3%A4tsel/id6783815362) | Agave Games | #5 Games: Word | 112 | 2,442 | 2026-07-28 |
+| 13 | [Sendungsverfolgung – TrackPack](https://apps.apple.com/de/app/sendungsverfolgung-trackpack/id6762376278) | EpicScale Inc | #6 Shopping | 153 | 29 | 2026-06-17 |
+| 14 | [Mimic Party Game - Meme Party](https://apps.apple.com/de/app/mimic-party-game-meme-party/id6810750447) | Prosperize | #6 Games: Music | 64 | 117 | 2026-09-14 |
+| 15 | [Foodstars: Kombiniere & Koche](https://apps.apple.com/de/app/foodstars-kombiniere-koche/id6753862216) | Happibits | #7 Games: Simulation | 361 | 1,099 | 2025-11-21 |
 
 ## Earning without updates
 
@@ -143,43 +143,43 @@ On a top-grossing chart but not updated in over a year. People still pay for the
 
 | | App | Publisher | Top grossing | Last update | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [Wahrheit oder Pflicht 18 Wwop](https://apps.apple.com/de/app/wahrheit-oder-pflicht-18-wwop/id1563168194) | Snash UG (haftungsbeschraenkt) | #5 Games: Word | 2025-10-28 | 861 | 2021-05-06 |
-| 2 | [Ich Hab Noch Nie 18 Trinkspiel](https://apps.apple.com/de/app/ich-hab-noch-nie-18-trinkspiel/id1210440961) | Boris Mikic | #7 Games: Word | 2025-09-18 | 1,046 | 2017-03-02 |
-| 3 | [Bomb Party: Das Partyspiel](https://apps.apple.com/de/app/bomb-party-das-partyspiel/id1441253622) | Dynamite Studios GmbH | #10 Games: Trivia | 2024-09-24 | 8,424 | 2018-11-08 |
-| 4 | [Bumble for Friends: Neue Leute](https://apps.apple.com/de/app/bumble-for-friends-neue-leute/id6444040977) | Bumble Holding Limited | #12 Lifestyle | 2025-09-22 | 2,760 | 2023-10-06 |
-| 5 | [Würdest du eher?!](https://apps.apple.com/de/app/w%C3%BCrdest-du-eher/id1437263404) | Boris Mikic | #14 Games: Trivia | 2025-04-24 | 2,356 | 2018-10-12 |
-| 6 | [Avira Mobile Security](https://apps.apple.com/de/app/avira-mobile-security/id692893556) | Avira Holding | #15 Utilities | 2025-10-06 | 9,184 | 2013-09-30 |
-| 7 | [Ich Habe Noch Nie・Partyspiel](https://apps.apple.com/de/app/ich-habe-noch-nie-partyspiel/id1623343903) | Snash UG (haftungsbeschraenkt) | #17 Games: Word | 2025-02-10 | 145 | 2022-07-11 |
-| 8 | [Pixel Car Racer](https://apps.apple.com/de/app/pixel-car-racer/id1068808996) | STUDIO FURUKAWA, LLC | #19 Games: Racing | 2019-08-01 | 1,061 | 2016-07-23 |
-| 9 | [Charm King™](https://apps.apple.com/de/app/charm-king/id768769263) | PlayQ Inc | #29 Games: Family | 2023-10-25 | 3,692 | 2014-04-18 |
-| 10 | [Ich Hab Noch Nie Party Bomb](https://apps.apple.com/de/app/ich-hab-noch-nie-party-bomb/id1390646086) | Kristian Markovic | #30 Games: Word | 2025-09-21 | 888 | 2018-06-30 |
-| 11 | [MealPrapp](https://apps.apple.com/de/app/mealprapp/id6471120057) | Harmonize Coaching | #32 Food & Drink | 2025-11-12 | 20 | 2023-12-27 |
-| 12 | [Wer würde eher...? Trinkspiel](https://apps.apple.com/de/app/wer-w%C3%BCrde-eher-trinkspiel/id1225246161) | Boris Mikic | #34 Games: Word | 2025-09-24 | 1,523 | 2017-04-19 |
-| 13 | [Wlan Signalstärke - Wifiman](https://apps.apple.com/de/app/wlan-signalst%C3%A4rke-wifiman/id6450625811) | App Nursery | #35 Developer Tools | 2025-03-06 | 495 | 2023-07-14 |
-| 14 | [TechApp für BMW](https://apps.apple.com/de/app/techapp-f%C3%BCr-bmw/id988681696) | Vladimir Susoykin | #36 Shopping | 2021-03-23 | 15 | 2015-05-12 |
-| 15 | [Santoor](https://apps.apple.com/de/app/santoor/id573562256) | Amir Kamali | #39 Games: Music | 2025-03-08 | 16 | 2012-11-29 |
+| 1 | [Ich Hab Noch Nie 18 Trinkspiel](https://apps.apple.com/de/app/ich-hab-noch-nie-18-trinkspiel/id1210440961) | Boris Mikic | #3 Games: Word | 2025-09-18 | 1,046 | 2017-03-02 |
+| 2 | [Wahrheit oder Pflicht 18 Wwop](https://apps.apple.com/de/app/wahrheit-oder-pflicht-18-wwop/id1563168194) | Snash UG (haftungsbeschraenkt) | #4 Games: Word | 2025-10-28 | 861 | 2021-05-06 |
+| 3 | [Würdest du eher?!](https://apps.apple.com/de/app/w%C3%BCrdest-du-eher/id1437263404) | Boris Mikic | #10 Games: Trivia | 2025-04-24 | 2,356 | 2018-10-12 |
+| 4 | [Bumble for Friends: Neue Leute](https://apps.apple.com/de/app/bumble-for-friends-neue-leute/id6444040977) | Bumble Holding Limited | #12 Lifestyle | 2025-09-22 | 2,762 | 2023-10-06 |
+| 5 | [Ich Habe Noch Nie・Partyspiel](https://apps.apple.com/de/app/ich-habe-noch-nie-partyspiel/id1623343903) | Snash UG (haftungsbeschraenkt) | #12 Games: Word | 2025-02-10 | 145 | 2022-07-11 |
+| 6 | [Bomb Party: Das Partyspiel](https://apps.apple.com/de/app/bomb-party-das-partyspiel/id1441253622) | Dynamite Studios GmbH | #14 Games: Trivia | 2024-09-24 | 8,424 | 2018-11-08 |
+| 7 | [Packages - Sendungsverfolgung](https://apps.apple.com/de/app/packages-sendungsverfolgung/id1229071393) | ParcelsApp.com | #16 Shopping | 2025-10-06 | 3,562 | 2017-04-23 |
+| 8 | [Avira Mobile Security](https://apps.apple.com/de/app/avira-mobile-security/id692893556) | Avira Holding | #21 Utilities | 2025-10-06 | 9,185 | 2013-09-30 |
+| 9 | [Pantomime Party: Scharade](https://apps.apple.com/de/app/pantomime-party-scharade/id1565728161) | Dynamite Studios GmbH | #21 Games: Trivia | 2024-09-15 | 280 | 2021-05-13 |
+| 10 | [Pixel Car Racer](https://apps.apple.com/de/app/pixel-car-racer/id1068808996) | STUDIO FURUKAWA, LLC | #22 Games: Racing | 2019-08-01 | 1,061 | 2016-07-23 |
+| 11 | [Charm King™](https://apps.apple.com/de/app/charm-king/id768769263) | PlayQ Inc | #28 Games: Family | 2023-10-25 | 3,692 | 2014-04-18 |
+| 12 | [Wahrheit Oder Pflicht: Exposed](https://apps.apple.com/de/app/wahrheit-oder-pflicht-exposed/id1217017696) | Boris Mikic | #28 Games: Word | 2025-04-25 | 528 | 2017-03-22 |
+| 13 | [Python3IDE](https://apps.apple.com/de/app/python3ide/id1357215444) | 辉 马 | #31 Developer Tools | 2025-04-25 | 13 | 2018-04-04 |
+| 14 | [NV Charts GPS Navigation AIS](https://apps.apple.com/de/app/nv-charts-gps-navigation-ais/id659569095) | NV Chart Group GmbH | #33 Navigation | 2025-11-12 | 4,946 | 2013-06-17 |
+| 15 | [Ich Hab Noch Nie Party Bomb](https://apps.apple.com/de/app/ich-hab-noch-nie-party-bomb/id1390646086) | Kristian Markovic | #33 Games: Word | 2025-09-21 | 888 | 2018-06-30 |
 
 ## New on the grossing charts
 
-On a top-grossing chart today and on none on 2026-11-15. "First time" means Scout has never seen the app on one before.
+On a top-grossing chart today and on none on 2026-11-16. "First time" means Scout has never seen the app on one before.
 
 | | App | Publisher | Top grossing | First time | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [OnSpace AI: Mobile App Builder](https://apps.apple.com/de/app/onspace-ai-mobile-app-builder/id6746471538) | SoulZ AI Inc. | #11 Developer Tools |  | 3 | 2025-06-24 |
-| 2 | [Colorlogix - Color Design Tool](https://apps.apple.com/de/app/colorlogix-color-design-tool/id1573972480) | Onloft Software LLC | #14 Developer Tools | yes | 9 | 2021-08-02 |
-| 3 | [Dealerts: Alerts für eBay](https://apps.apple.com/de/app/dealerts-alerts-f%C3%BCr-ebay/id1663641861) | GetWipfIt LLC | #18 Shopping | yes | 6 | 2023-06-22 |
-| 4 | [Termiux](https://apps.apple.com/de/app/termiux/id6755708389) | TERMUX LIMITED LIABILITY COMPANY | #21 Developer Tools |  | 5 | 2025-12-19 |
-| 5 | [Generali Mobile Health](https://apps.apple.com/de/app/generali-mobile-health/id1628340179) | Redion Health Solutions GmbH | #22 Medical | yes | 126 | 2022-06-15 |
-| 6 | [Nextpad++](https://apps.apple.com/de/app/nextpad/id6787238415) | Andrey Letov | #25 Developer Tools | yes | 0 | 2026-11-15 |
-| 7 | [LLMAPI: AI Chat & API](https://apps.apple.com/de/app/llmapi-ai-chat-api/id6804648934) | Tashfeen Ahmed | #26 Developer Tools |  | 0 | 2026-09-05 |
-| 8 | [Piano Cat Tiles](https://apps.apple.com/de/app/piano-cat-tiles/id1527040660) | WingsMob Global Ltd. | #29 Games: Music |  | 403 | 2020-08-15 |
-| 9 | [CNBC: Stock Market & Business](https://apps.apple.com/de/app/cnbc-stock-market-business/id398018310) | Versant Media LLC | #31 News |  | 5,836 | 2010-12-06 |
-| 10 | [Alibaba.com B2B-Handel-App](https://apps.apple.com/de/app/alibaba-com-b2b-handel-app/id503451073) | ALIBABA.COM GLOBAL SUPPLIER SERVICES PTE. LTD. | #31 Shopping | yes | 6,453 | 2012-02-24 |
-| 11 | [MealPrapp](https://apps.apple.com/de/app/mealprapp/id6471120057) | Harmonize Coaching | #32 Food & Drink |  | 20 | 2023-12-27 |
-| 12 | [DWIDSapp](https://apps.apple.com/de/app/dwidsapp/id6550906007) | Schlüter Thiemeyer GbR | #34 Sports |  | 156 | 2024-09-14 |
-| 13 | [Ward: Bunkers & Prep Alerts](https://apps.apple.com/de/app/ward-bunkers-prep-alerts/id6740568244) | Ward Technologies B.V. | #34 Navigation |  | 33 | 2025-04-01 |
-| 14 | [PA App](https://apps.apple.com/de/app/pa-app/id6702013244) | The PA Company | #34 Medical |  | 9 | 2025-04-28 |
-| 15 | [Echt oder Fake? Legitly](https://apps.apple.com/de/app/echt-oder-fake-legitly/id6782671532) | OBZENA LLC | #34 Shopping |  | 1 | 2026-07-05 |
+| 1 | [PaperPeace](https://apps.apple.com/de/app/paperpeace/id6772960594) | Timo Beyel | #14 Productivity | yes | 0 | 2026-11-17 |
+| 2 | [حراج](https://apps.apple.com/de/app/%D8%AD%D8%B1%D8%A7%D8%AC/id662557215) | Haraj | #18 Shopping | yes | 553 | 2013-06-24 |
+| 3 | [digital-Facebow](https://apps.apple.com/de/app/digital-facebow/id6782055887) | Karsten Tegtmeyer | #21 Medical | yes | 0 | 2026-09-25 |
+| 4 | [Arcaea](https://apps.apple.com/de/app/arcaea/id1205999125) | lowiro | #21 Games: Music |  | 680 | 2017-03-09 |
+| 5 | [Cookd: Rezepte mit Freunden](https://apps.apple.com/de/app/cookd-rezepte-mit-freunden/id6832017150) | KonKa Labs | #27 Food & Drink | yes | 7 | 2026-11-09 |
+| 6 | [anibis - kaufen & verkaufen](https://apps.apple.com/de/app/anibis-kaufen-verkaufen/id444680675) | SMG Swiss Marketplace Group AG | #28 Shopping |  | 120 | 2011-08-08 |
+| 7 | [Captured Putting](https://apps.apple.com/de/app/captured-putting/id6820870213) | Captured Putting AB | #31 Sports |  | 0 | 2026-11-06 |
+| 8 | [Python3IDE](https://apps.apple.com/de/app/python3ide/id1357215444) | 辉 马 | #31 Developer Tools | yes | 13 | 2018-04-04 |
+| 9 | [SwiftServer - SSH Client](https://apps.apple.com/de/app/swiftserver-ssh-client/id6740036221) | GitSwift LLC | #32 Developer Tools |  | 15 | 2025-02-23 |
+| 10 | [Spice It: Couples Games+](https://apps.apple.com/de/app/spice-it-couples-games/id6740702907) | APPWINGS Ltd | #32 Games: Trivia | yes | 1 | 2025-03-02 |
+| 11 | [SnapWorth: Wiederverkaufswert](https://apps.apple.com/de/app/snapworth-wiederverkaufswert/id6788521307) | Ionut-Silviu Hermeneanu | #35 Shopping |  | 0 | 2026-07-20 |
+| 12 | [Rotaeno](https://apps.apple.com/de/app/rotaeno/id1614771445) | X.D. Network Inc. | #35 Games: Music | yes | 14 | 2022-05-30 |
+| 13 | [Railnav](https://apps.apple.com/de/app/railnav/id6804961721) | Geo++ | #37 Navigation |  | 4 | 2026-09-18 |
+| 14 | [Fiete Cars - KidsKlub](https://apps.apple.com/de/app/fiete-cars-kidsklub/id1096875968) | Ahoiii Entertainment | #37 Games: Racing |  | 1,808 | 2017-03-01 |
+| 15 | [Fahrtenbuch von Tripbook](https://apps.apple.com/de/app/fahrtenbuch-von-tripbook/id6447760823) | Simon Jansen | #38 Finance |  | 34 | 2023-06-02 |
 
 ## Listing changes this week
 
@@ -187,36 +187,36 @@ Apps on a top-grossing chart that changed their name, price, in-app purchases, s
 
 | App | Top grossing | Seen | What changed |
 |---|---|---|---|
-| [Windy.com: Wetter & Regenradar](https://apps.apple.com/de/app/windy-com-wetter-regenradar/id1161387262) | #6 Weather | 2026-11-16 | Renamed from “Windy.com - Welt Wettertracker” to “Windy.com: Wetter & Regenradar”. |
+| [Windy.com: Wetter & Regenradar](https://apps.apple.com/de/app/windy-com-wetter-regenradar/id1161387262) | #3 Weather | 2026-11-16 | Renamed from “Windy.com - Welt Wettertracker” to “Windy.com: Wetter & Regenradar”. |
 | [PURE: Open-Minded Dating App](https://apps.apple.com/de/app/pure-open-minded-dating-app/id690661663) | #7 Lifestyle | 2026-11-10 | Renamed from “PURE: Dating & Chat App” to “PURE: Open-Minded Dating App”. |
-| [Seeking Alpha: Aktien & Börse](https://apps.apple.com/de/app/seeking-alpha-aktien-b%C3%B6rse/id552799694) | #9 Finance | 2026-11-12 | Renamed from “Seeking Alpha: News & Analysis” to “Seeking Alpha: Aktien & Börse”. |
-| [Medizingo: Medizin Lernapp](https://apps.apple.com/de/app/medizingo-medizin-lernapp/id6769168753) | #11 Medical | 2026-11-16 | Renamed from “Medizingo” to “Medizingo: Medizin Lernapp”. |
+| [Medizingo: Medizin Lernapp](https://apps.apple.com/de/app/medizingo-medizin-lernapp/id6769168753) | #8 Medical | 2026-11-16 | Renamed from “Medizingo” to “Medizingo: Medizin Lernapp”. |
+| [ExpressVPN: Ultrasicheres VPN](https://apps.apple.com/de/app/expressvpn-ultrasicheres-vpn/id886492891) | #10 Utilities | 2026-11-17 | Renamed from “ExpressVPN · Secure & Fast VPN” to “ExpressVPN: Ultrasicheres VPN”. |
 | [Feeld: Partnersuche & Chatten](https://apps.apple.com/de/app/feeld-partnersuche-chatten/id887914690) | #11 Lifestyle | 2026-11-16 | Renamed from “Feeld: Offenes Dating App” to “Feeld: Partnersuche & Chatten”. |
-| [Avast Mobile Sicherheit Schutz](https://apps.apple.com/de/app/avast-mobile-sicherheit-schutz/id1276551855) | #13 Utilities | 2026-11-11 | Renamed from “Avast One: Sicherheit & Schutz” to “Avast Mobile Sicherheit Schutz”. |
-| [VibeShort: AI Dramen & Serien](https://apps.apple.com/de/app/vibeshort-ai-dramen-serien/id6758667154) | #16 Entertainment | 2026-11-16 | Renamed from “VibeShort: AI Kurzdramen & TV” to “VibeShort: AI Dramen & Serien”. |
-| [Piano Pop](https://apps.apple.com/de/app/piano-pop/id6479046092) | #18 Games: Music | 2026-11-12 | Publisher name changed from MWM to App Rover. |
-| [Piano Pop](https://apps.apple.com/de/app/piano-pop/id6479046092) | #18 Games: Music | 2026-11-12 | Seller changed from MWM to AppRover. |
-| [Adobe Firefly: AI Generator](https://apps.apple.com/de/app/adobe-firefly-ai-generator/id6742595426) | #18 Graphics & Design | 2026-11-09 | Renamed from “Adobe Firefly KI-Video & Foto” to “Adobe Firefly: AI Generator”. |
-| [Schwangerschafts-App \| Glimmer](https://apps.apple.com/de/app/schwangerschafts-app-glimmer/id1258470013) | #21 Medical | 2026-11-12 | Renamed from “Glimmer (ehemals keleya)” to “Schwangerschafts-App \| Glimmer”. |
-| [Pass2U: Karten für Wallet](https://apps.apple.com/de/app/pass2u-karten-f%C3%BCr-wallet/id1142473931) | #22 Shopping | 2026-11-12 | Renamed from “Pass2U Wallet - Ladenkarte” to “Pass2U: Karten für Wallet”. |
-| [Tidy Everything!](https://apps.apple.com/de/app/tidy-everything/id6824655215) | #23 Games: Family | 2026-11-14 | Renamed from “TidyUp! Everything” to “Tidy Everything!”. |
-| [Equilab: Horse Riding Tracker](https://apps.apple.com/de/app/equilab-horse-riding-tracker/id1133163586) | #23 Sports | 2026-11-10 | Renamed from “Equilab: Pferde und Reiten” to “Equilab: Horse Riding Tracker”. |
+| [Avast Mobile Sicherheit Schutz](https://apps.apple.com/de/app/avast-mobile-sicherheit-schutz/id1276551855) | #11 Utilities | 2026-11-11 | Renamed from “Avast One: Sicherheit & Schutz” to “Avast Mobile Sicherheit Schutz”. |
+| [AI Movie Maker - Filmit](https://apps.apple.com/de/app/ai-movie-maker-filmit/id6755591057) | #13 Graphics & Design | 2026-11-17 | Renamed from “Filmit AI – Video Generator” to “AI Movie Maker - Filmit”. |
+| [VibeShort: AI Dramen & Serien](https://apps.apple.com/de/app/vibeshort-ai-dramen-serien/id6758667154) | #14 Entertainment | 2026-11-16 | Renamed from “VibeShort: AI Kurzdramen & TV” to “VibeShort: AI Dramen & Serien”. |
+| [Chargeprice: E-Ladepreise](https://apps.apple.com/de/app/chargeprice-e-ladepreise/id1552707493) | #15 Navigation | 2026-11-17 | Renamed from “Chargeprice” to “Chargeprice: E-Ladepreise”. |
+| [Piano Pop](https://apps.apple.com/de/app/piano-pop/id6479046092) | #15 Games: Music | 2026-11-12 | Publisher name changed from MWM to App Rover. |
+| [Piano Pop](https://apps.apple.com/de/app/piano-pop/id6479046092) | #15 Games: Music | 2026-11-12 | Seller changed from MWM to AppRover. |
+| [Seeking Alpha: Aktien & Börse](https://apps.apple.com/de/app/seeking-alpha-aktien-b%C3%B6rse/id552799694) | #17 Finance | 2026-11-12 | Renamed from “Seeking Alpha: News & Analysis” to “Seeking Alpha: Aktien & Börse”. |
+| [Racing Kingdom: Auto Drag Race](https://apps.apple.com/de/app/racing-kingdom-auto-drag-race/id6468027706) | #19 Games: Racing | 2026-11-17 | Renamed from “Racing Kingdom Auto Drag Race” to “Racing Kingdom: Auto Drag Race”. |
+| [Stocard — Kundenkarten App](https://apps.apple.com/de/app/stocard-kundenkarten-app/id6761681333) | #21 Shopping | 2026-11-12 | Renamed from “Store Card — Kunderkarten App” to “Stocard — Kundenkarten App”. |
+| [Schwangerschafts-App \| Glimmer](https://apps.apple.com/de/app/schwangerschafts-app-glimmer/id1258470013) | #22 Medical | 2026-11-12 | Renamed from “Glimmer (ehemals keleya)” to “Schwangerschafts-App \| Glimmer”. |
+| [Tidy Everything!](https://apps.apple.com/de/app/tidy-everything/id6824655215) | #24 Games: Family | 2026-11-14 | Renamed from “TidyUp! Everything” to “Tidy Everything!”. |
+| [Pass2U: Karten für Wallet](https://apps.apple.com/de/app/pass2u-karten-f%C3%BCr-wallet/id1142473931) | #25 Shopping | 2026-11-12 | Renamed from “Pass2U Wallet - Ladenkarte” to “Pass2U: Karten für Wallet”. |
 | [Heartopia](https://apps.apple.com/de/app/heartopia/id6746151928) | #26 Games: Family | 2026-11-13 | Publisher name changed from XD Entertainment Co., Ltd. to XD (HK) Limited. |
 | [Heartopia](https://apps.apple.com/de/app/heartopia/id6746151928) | #26 Games: Family | 2026-11-13 | Seller changed from XD Entertainment Co., Ltd. to XD (HK) Limited. |
-| [Owll Translator: KI-Sprachklon](https://apps.apple.com/de/app/owll-translator-ki-sprachklon/id6742527823) | #27 Reference | 2026-11-12 | Moved from Business to Reference. |
-| [BaseChat - Audio Dating App](https://apps.apple.com/de/app/basechat-audio-dating-app/id1249232597) | #27 Lifestyle | 2026-11-09 | Publisher name changed from Mobile Trading GmbH to TELPASS TELEKOMUNIKASYON HIZMETLERI IC VE DIS TIC LTD STI. |
-| [Ubersetzer Mit Foto](https://apps.apple.com/de/app/ubersetzer-mit-foto/id1465903782) | #32 Reference | 2026-11-16 | Renamed from “AR Translator: Translate Photo” to “Ubersetzer Mit Foto”. |
-| [Tiny Ride](https://apps.apple.com/de/app/tiny-ride/id6775941016) | #33 Games: Racing | 2026-11-09 | Publisher name changed from TabTale LTD to Crazy Labs. |
-| [Tiny Ride](https://apps.apple.com/de/app/tiny-ride/id6775941016) | #33 Games: Racing | 2026-11-09 | Seller changed from TabTale LTD to CRAZY LABS BY TABTALE , G.P.. |
-| [Ward: Bunkers & Prep Alerts](https://apps.apple.com/de/app/ward-bunkers-prep-alerts/id6740568244) | #34 Navigation | 2026-11-16 | Publisher name changed from Marijn Klok to Ward Technologies B.V.. |
-| [Ward: Bunkers & Prep Alerts](https://apps.apple.com/de/app/ward-bunkers-prep-alerts/id6740568244) | #34 Navigation | 2026-11-16 | Seller changed from Marijn Klok to Ward Technologies B.V.. |
-| [Echt oder Fake? Legitly](https://apps.apple.com/de/app/echt-oder-fake-legitly/id6782671532) | #34 Shopping | 2026-11-16 | Renamed from “Echtheitsprüfung Fake: Legitly” to “Echt oder Fake? Legitly”. |
-| [NWZonline - News und Podcasts](https://apps.apple.com/de/app/nwzonline-news-und-podcasts/id570922512) | #34 News | 2026-11-10 | Renamed from “NWZonline - Nachrichten” to “NWZonline - News und Podcasts”. |
-| [Rata y Fina: Ausgaben & Budget](https://apps.apple.com/de/app/rata-y-fina-ausgaben-budget/id6787686922) | #35 Finance | 2026-11-13 | Publisher name changed from Lucas Gemperle Ortiz to RATA Y FINA, S.L.. |
-| [Rata y Fina: Ausgaben & Budget](https://apps.apple.com/de/app/rata-y-fina-ausgaben-budget/id6787686922) | #35 Finance | 2026-11-13 | Seller changed from Lucas Gemperle Ortiz to RATA Y FINA, S.L.. |
-| [VIXO: AI Video Generator](https://apps.apple.com/de/app/vixo-ai-video-generator/id6789399947) | #36 Graphics & Design | 2026-11-09 | Moved from Utilities to Graphics & Design. |
-| [VIXO: AI Video Generator](https://apps.apple.com/de/app/vixo-ai-video-generator/id6789399947) | #36 Graphics & Design | 2026-11-09 | Renamed from “VIXO: Motion Art Studio” to “VIXO: AI Video Generator”. |
-| [Drawsy: Zeichnen Lernen mit AR](https://apps.apple.com/de/app/drawsy-zeichnen-lernen-mit-ar/id6746871740) | #37 Graphics & Design | 2026-11-16 | Publisher name changed from EIGEN SOFTWARE LIMITED to Estu LLC. |
+| [Drawsy: Zeichnen Lernen mit AR](https://apps.apple.com/de/app/drawsy-zeichnen-lernen-mit-ar/id6746871740) | #28 Graphics & Design | 2026-11-16 | Publisher name changed from EIGEN SOFTWARE LIMITED to Estu LLC. |
+| [Drawsy: Zeichnen Lernen mit AR](https://apps.apple.com/de/app/drawsy-zeichnen-lernen-mit-ar/id6746871740) | #28 Graphics & Design | 2026-11-16 | Seller changed from EIGEN SOFTWARE LIMITED to Estu LLC. |
+| [Equilab: Horse Riding Tracker](https://apps.apple.com/de/app/equilab-horse-riding-tracker/id1133163586) | #29 Sports | 2026-11-10 | Renamed from “Equilab: Pferde und Reiten” to “Equilab: Horse Riding Tracker”. |
+| [Echt oder Fake? Legitly](https://apps.apple.com/de/app/echt-oder-fake-legitly/id6782671532) | #30 Shopping | 2026-11-16 | Renamed from “Echtheitsprüfung Fake: Legitly” to “Echt oder Fake? Legitly”. |
+| [Rata y Fina: Ausgaben & Budget](https://apps.apple.com/de/app/rata-y-fina-ausgaben-budget/id6787686922) | #31 Finance | 2026-11-13 | Publisher name changed from Lucas Gemperle Ortiz to RATA Y FINA, S.L.. |
+| [Rata y Fina: Ausgaben & Budget](https://apps.apple.com/de/app/rata-y-fina-ausgaben-budget/id6787686922) | #31 Finance | 2026-11-13 | Seller changed from Lucas Gemperle Ortiz to RATA Y FINA, S.L.. |
+| [Owll Translator: KI-Sprachklon](https://apps.apple.com/de/app/owll-translator-ki-sprachklon/id6742527823) | #31 Reference | 2026-11-12 | Moved from Business to Reference. |
+| [NWZonline - News und Podcasts](https://apps.apple.com/de/app/nwzonline-news-und-podcasts/id570922512) | #37 News | 2026-11-10 | Renamed from “NWZonline - Nachrichten” to “NWZonline - News und Podcasts”. |
+| [Vanta: Lokale KI, Self-Hosting](https://apps.apple.com/de/app/vanta-lokale-ki-self-hosting/id6758898098) | #38 Developer Tools | 2026-11-14 | Renamed from “Vanta: Local AI & Self-Hosted” to “Vanta: Lokale KI, Self-Hosting”. |
+| [Ubersetzer Mit Foto](https://apps.apple.com/de/app/ubersetzer-mit-foto/id1465903782) | #39 Reference | 2026-11-16 | Renamed from “AR Translator: Translate Photo” to “Ubersetzer Mit Foto”. |
+| [Eyevo: TCG Karten Scanner](https://apps.apple.com/de/app/eyevo-tcg-karten-scanner/id6748607064) | #40 Reference | 2026-11-11 | Renamed from “Eyevo: TCG Card Value Scanner” to “Eyevo: TCG Karten Scanner”. |
 
 ## Vanished from the App Store
 
@@ -224,6 +224,15 @@ Apps that were on a chart and that Apple no longer lists in this country, two sc
 
 | App | Publisher | Best place seen | Found missing |
 |---|---|---|---|
+| iLohn+Kredit Pro 2026 | Dirk Kerpen | #8 paid, Finance | 2026-11-16 |
+| QTc Tracker für SSRI & SNRI | Peter Holzhauser | #9 paid, Medical | 2026-11-16 |
+| Rarest Krill: Trivia & Quiz | Celian Ghelid | #16 grossing, Games: Trivia | 2026-11-16 |
+| DreamWeave AI:AI Art Generator | L.A.M. BB, s.r.o. | #45 grossing, Graphics & Design | 2026-11-16 |
+| Krillion: Daily Trivia Dive | Adnan Ali | #47 free, Games: Trivia | 2026-11-16 |
+| Krillion Dive: Krillionaire | Magic Eigenvector | #62 free, Games: Trivia | 2026-11-16 |
+| iAmor Family Location Tracker | Esame Marketing Limited | #74 grossing, Navigation | 2026-11-16 |
+| Krillia: Krillion Quiz | hongmei shen | #78 free, Games: Word | 2026-11-16 |
+| Krillion Daily Dive: Fathom | ZEYNEP CEREN GEMICI | #93 free, Games: Word | 2026-11-16 |
 | Day of the Tentacle Remastered | Double Fine Productions, Inc. | #4 paid, Games: Family | 2026-11-15 |
 | CoinLens: KI-Münzscanner | Moruk LLC | #15 paid, Reference | 2026-11-15 |
 | Rizzman KI-Datinghilfe | Moruk LLC | #16 paid, Lifestyle | 2026-11-15 |
@@ -245,15 +254,6 @@ Apps that were on a chart and that Apple no longer lists in this country, two sc
 | TDZ Pro - Bus Truck Simulator | LEKE YAZILIM VE OYUN ANONIM SIRKETI | #70 free, Games: Role Playing | 2026-11-13 |
 | Movia AI: Photo to Video Maker | DEEP LINK META LIMITED | #78 grossing, Photo & Video | 2026-11-13 |
 | Atomia Games: Multiplayer Fun | Senad Bajramovic | #90 paid, Games: Music | 2026-11-13 |
-| culur: Custom Color by Number | CULUR INC. | #91 paid, Graphics & Design | 2026-11-13 |
-| Tango Sequenz | Mihai Stanciu | #28 free, Sports | 2026-11-12 |
-| SpendWave Haushaltsbuch Budget | Robin Guido Schmidt | #65 grossing, Finance | 2026-11-12 |
-| Passburst | TONAS LEPP | #66 free, Graphics & Design | 2026-11-12 |
-| CamperCheck | Objectix Software Solutions GmbH | #85 paid, Travel | 2026-11-12 |
-| Liokum | Nicole Solatre | #89 free, Photo & Video | 2026-11-12 |
-| OmTV daily video | Aditya Permana | #5 free, Lifestyle | 2026-11-11 |
-| Ship Finder | pinkfroot limited | #10 paid, Navigation | 2026-11-11 |
-| EVA AI Soulmate | Novi Limited | #19 grossing, Lifestyle | 2026-11-11 |
 
 ## Climbing the grossing charts
 
@@ -261,21 +261,21 @@ Places gained on the same top-grossing chart over the last 7 days.
 
 | | App | Publisher | Top grossing | Places gained | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [Haushaltsbuch: Kassenbon Scan](https://apps.apple.com/de/app/haushaltsbuch-kassenbon-scan/id6753721422) | Nemanja Pecanin | #7 Shopping | +76 | 8 | 2025-10-14 |
-| 2 | [SUPERSTAR SMTOWN](https://apps.apple.com/de/app/superstar-smtown/id890937532) | Dalcomsoft, Inc. | #16 Games: Music | +72 | 223 | 2014-09-13 |
-| 3 | [Openart AI Kunst & Bildmacher](https://apps.apple.com/de/app/openart-ai-kunst-bildmacher/id6806166363) | Malin Ekengren | #26 Graphics & Design | +68 | 3 | 2026-09-08 |
-| 4 | [WeWard - die Walking-App](https://apps.apple.com/de/app/weward-die-walking-app/id1454213029) | WEWARD | #31 Health & Fitness | +66 | 14,762 | 2021-12-17 |
-| 5 | [Eurowag Navigation - Truck GPS](https://apps.apple.com/de/app/eurowag-navigation-truck-gps/id6476389720) | W.A.G. payment solutions, a.s. | #31 Navigation | +65 | 326 | 2024-07-02 |
-| 6 | [Milanuncios: Segunda mano](https://apps.apple.com/de/app/milanuncios-segunda-mano/id967185651) | ADEVINTA MOTOR SLU | #28 Shopping | +61 | 2,203 | 2015-06-07 |
-| 7 | [Jackpot Madness Slots Casino](https://apps.apple.com/de/app/jackpot-madness-slots-casino/id1355023074) | Bagelcode, Inc. | #38 Games: Casino | +61 | 86 | 2018-04-25 |
-| 8 | [Aosu](https://apps.apple.com/de/app/aosu/id1577324124) | AOSU LIFE INC. | #24 Utilities | +60 | 120 | 2021-08-11 |
-| 9 | [Blink Shell, Build & Code](https://apps.apple.com/de/app/blink-shell-build-code/id1594898306) | Blink Shell, Inc | #18 Developer Tools | +60 | 105 | 2022-02-09 |
-| 10 | [Millionaire Trivia: Quizspiel](https://apps.apple.com/de/app/millionaire-trivia-quizspiel/id1418794453) | Uken Inc. | #18 Games: Trivia | +60 | 3,536 | 2018-09-25 |
-| 11 | [RiverApp - Pegelstände](https://apps.apple.com/de/app/riverapp-pegelst%C3%A4nde/id667012473) | Florian Bessiere | #34 Weather | +58 | 1,004 | 2013-07-04 |
-| 12 | [Sewpal: Schnittmuster-Guide](https://apps.apple.com/de/app/sewpal-schnittmuster-guide/id6754315885) | PIXELCELL.LIMITED | #42 Reference | +54 | 486 | 2025-12-21 |
-| 13 | [Jupyter Notebook - JuCode](https://apps.apple.com/de/app/jupyter-notebook-jucode/id6753707203) | Devang Samirbhai Shah | #46 Developer Tools | +54 | 1 | 2025-10-08 |
-| 14 | [Revive: KI Foto Animation](https://apps.apple.com/de/app/revive-ki-foto-animation/id1616862692) | RefaceAI Limited | #31 Graphics & Design | +53 | 5,303 | 2022-06-09 |
-| 15 | [PredictWind – Seewetter](https://apps.apple.com/de/app/predictwind-seewetter/id477048487) | PredictWind Limited | #10 Weather | +51 | 2,121 | 2012-01-03 |
+| 1 | [Haushaltsbuch: Kassenbon Scan](https://apps.apple.com/de/app/haushaltsbuch-kassenbon-scan/id6753721422) | Nemanja Pecanin | #13 Shopping | +79 | 8 | 2025-10-14 |
+| 2 | [Disney Speedstorm](https://apps.apple.com/de/app/disney-speedstorm/id6449708682) | Gameloft | #24 Games: Racing | +70 | 767 | 2024-07-11 |
+| 3 | [UNUM — Layout for Instagram](https://apps.apple.com/de/app/unum-layout-for-instagram/id1057252115) | UNUM, Inc. | #23 Graphics & Design | +69 | 1,614 | 2016-01-07 |
+| 4 | [SellRaze: List, sell, earn](https://apps.apple.com/de/app/sellraze-list-sell-earn/id6455042085) | SellRaze Inc | #11 Shopping | +68 | 237 | 2023-09-11 |
+| 5 | [Board Kings- Multiplayer Games](https://apps.apple.com/de/app/board-kings-multiplayer-games/id1116488672) | Playtika LTD | #27 Games: Board | +66 | 3,880 | 2017-03-08 |
+| 6 | [Termix Pro: SSH & SFTP Client](https://apps.apple.com/de/app/termix-pro-ssh-sftp-client/id6743685377) | Simon Zvara | #23 Developer Tools | +62 | 44 | 2025-03-24 |
+| 7 | [Tripsy: Reiseplaner](https://apps.apple.com/de/app/tripsy-reiseplaner/id1429967544) | Tripsy LLC | #16 Travel | +58 | 502 | 2018-10-26 |
+| 8 | [Dronk: 20 Dollar Draft & Quiz](https://apps.apple.com/de/app/dronk-20-dollar-draft-quiz/id6764505185) | Jacob Gade Hartmann | #31 Games: Music | +58 | 4 | 2026-05-07 |
+| 9 | [ATC - Live Air Traffic Radio](https://apps.apple.com/de/app/atc-live-air-traffic-radio/id6755132266) | Enhanced Radar | #30 Travel | +56 | 40 | 2026-01-12 |
+| 10 | [NovelBar](https://apps.apple.com/de/app/novelbar/id6453157225) | QVON | #22 Books | +56 | 19 | 2023-08-22 |
+| 11 | [Arznei & Medikamente Alarm](https://apps.apple.com/de/app/arznei-medikamente-alarm/id573916946) | MediSafe Inc. | #35 Medical | +55 | 3,677 | 2012-11-08 |
+| 12 | [Milanuncios: Segunda mano](https://apps.apple.com/de/app/milanuncios-segunda-mano/id967185651) | ADEVINTA MOTOR SLU | #43 Shopping | +55 | 2,203 | 2015-06-07 |
+| 13 | [Claude Code Notifier Companion](https://apps.apple.com/de/app/claude-code-notifier-companion/id6757701908) | TouchTap | #18 Developer Tools | +55 | 0 | 2026-01-28 |
+| 14 | [AI Video Generator - LUHM](https://apps.apple.com/de/app/ai-video-generator-luhm/id6747580630) | HONK International | #41 Graphics & Design | +55 | 204 | 2025-06-27 |
+| 15 | [Backgammon Live™ Board Game](https://apps.apple.com/de/app/backgammon-live-board-game/id739095641) | Come2Play | #34 Games: Board | +55 | 6,113 | 2014-03-23 |
 
 ## Ratings momentum
 
@@ -283,43 +283,43 @@ Fastest ratings growth over 7 days relative to size. Ratings are a rough proxy f
 
 | | App | Publisher | Top grossing | New ratings (7d) | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [Deutsch mit Udi: Sprachkurs](https://apps.apple.com/de/app/deutsch-mit-udi-sprachkurs/id6822989903) | Mihajlo Udlis |  | +573 | 595 | 2026-11-06 |
-| 2 | [Beihilfe Freistaat Sachsen](https://apps.apple.com/de/app/beihilfe-freistaat-sachsen/id6778006972) | Landesamt fuer Steuern und Finanzen |  | +284 | 337 | 2026-10-30 |
-| 3 | [Rommé 500 - Kartenspiele](https://apps.apple.com/de/app/romm%C3%A9-500-kartenspiele/id6809296295) | Shanghai Diguo Network Technology Co., Ltd. |  | +30 | 36 | 2026-10-16 |
-| 4 | [SpinDate](https://apps.apple.com/de/app/spindate/id6744280036) | razorcircuit systems ltd | #46 Social Networking | +48 | 68 | 2025-09-17 |
-| 5 | [NWZonline - News und Podcasts](https://apps.apple.com/de/app/nwzonline-news-und-podcasts/id570922512) | RND RedaktionsNetzwerk Deutschland GmbH | #34 News | +302 | 453 | 2012-11-08 |
-| 6 | [famila GO](https://apps.apple.com/de/app/famila-go/id6752661764) | Bartels-Langness Handelsgesellschaft mbH & Co. KG |  | +107 | 193 | 2026-01-18 |
-| 7 | [Hushee: Tales You Shape](https://apps.apple.com/de/app/hushee-tales-you-shape/id6824464908) | RIVEROLL LIMITED | #36 Entertainment | +25 | 47 | 2026-11-03 |
-| 8 | [Tiny Ride](https://apps.apple.com/de/app/tiny-ride/id6775941016) | Crazy Labs | #33 Games: Racing | +65 | 129 | 2026-06-10 |
-| 9 | [FUTGenie](https://apps.apple.com/de/app/futgenie/id6755731135) | FUTGenie Ltd | #69 Games: Sports | +31 | 64 | 2025-12-21 |
-| 10 | [Parking Loop](https://apps.apple.com/de/app/parking-loop/id6802383216) | Loop Games Oyun Teknolojileri Anonim Sirketi | #30 Games: Board | +234 | 493 | 2026-09-04 |
-| 11 | [Just a Rock](https://apps.apple.com/de/app/just-a-rock/id6810886970) | Heseri Games Inc |  | +25 | 53 | 2026-09-16 |
-| 12 | [Train Empire - Idle Tycoon](https://apps.apple.com/de/app/train-empire-idle-tycoon/id6818543669) | HYPERCELL SIA |  | +57 | 122 | 2026-10-29 |
-| 13 | [CarDash: Videoplayer fürs Auto](https://apps.apple.com/de/app/cardash-videoplayer-f%C3%BCrs-auto/id6797764175) | Laigang Wang | #28 Utilities | +59 | 160 | 2026-08-17 |
-| 14 | [Closet Clash - Fashion Game](https://apps.apple.com/de/app/closet-clash-fashion-game/id6792828605) | Setly Labs, LLC |  | +95 | 269 | 2026-08-16 |
-| 15 | [MenueLounge](https://apps.apple.com/de/app/menuelounge/id6776535078) | Hofmann Menu-Manufaktur GmbH |  | +26 | 74 | 2026-09-16 |
+| 1 | [Whipp: Essensplaner & Rezepte](https://apps.apple.com/de/app/whipp-essensplaner-rezepte/id6778126199) | EVOY LTD | #3 Food & Drink | +38 | 39 | 2026-11-05 |
+| 2 | [Booster Pack Heroes](https://apps.apple.com/de/app/booster-pack-heroes/id6801113954) | Funday Games ApS | #38 Games: Simulation | +27 | 27 | 2026-11-10 |
+| 3 | [Deutsch mit Udi: Sprachkurs](https://apps.apple.com/de/app/deutsch-mit-udi-sprachkurs/id6822989903) | Mihajlo Udlis |  | +574 | 630 | 2026-11-06 |
+| 4 | [MusiChic-Offline Music Player](https://apps.apple.com/de/app/musichic-offline-music-player/id6751705626) | chae limited |  | +47 | 55 | 2026-01-16 |
+| 5 | [Beihilfe Freistaat Sachsen](https://apps.apple.com/de/app/beihilfe-freistaat-sachsen/id6778006972) | Landesamt fuer Steuern und Finanzen |  | +317 | 374 | 2026-10-30 |
+| 6 | [Rommé 500 - Kartenspiele](https://apps.apple.com/de/app/romm%C3%A9-500-kartenspiele/id6809296295) | Shanghai Diguo Network Technology Co., Ltd. |  | +29 | 39 | 2026-10-16 |
+| 7 | [SpinDate](https://apps.apple.com/de/app/spindate/id6744280036) | razorcircuit systems ltd | #55 Social Networking | +56 | 79 | 2025-09-17 |
+| 8 | [NWZonline - News und Podcasts](https://apps.apple.com/de/app/nwzonline-news-und-podcasts/id570922512) | RND RedaktionsNetzwerk Deutschland GmbH | #37 News | +356 | 506 | 2012-11-08 |
+| 9 | [famila GO](https://apps.apple.com/de/app/famila-go/id6752661764) | Bartels-Langness Handelsgesellschaft mbH & Co. KG |  | +149 | 235 | 2026-01-18 |
+| 10 | [Hide Tag](https://apps.apple.com/de/app/hide-tag/id6813233056) | Sebastian Salin |  | +27 | 46 | 2026-09-25 |
+| 11 | [Comunio](https://apps.apple.com/de/app/comunio/id1672796167) | Marko Fritzsche | #30 Sports | +33 | 62 | 2025-08-16 |
+| 12 | [Just a Rock](https://apps.apple.com/de/app/just-a-rock/id6810886970) | Heseri Games Inc |  | +30 | 61 | 2026-09-16 |
+| 13 | [Parking Loop](https://apps.apple.com/de/app/parking-loop/id6802383216) | Loop Games Oyun Teknolojileri Anonim Sirketi | #29 Games: Board | +240 | 523 | 2026-09-04 |
+| 14 | [FUTGenie](https://apps.apple.com/de/app/futgenie/id6755731135) | FUTGenie Ltd | #76 Games: Sports | +30 | 66 | 2025-12-21 |
+| 15 | [The Voicer Choicer](https://apps.apple.com/de/app/the-voicer-choicer/id6818847474) | Aitor Barbany |  | +26 | 59 | 2026-10-28 |
 
 ## Staying power
 
-New apps that were on a chart at least two thirds of the last 14 days.
+New apps that were on a chart at least two thirds of the last 15 days.
 
 | | App | Publisher | Top grossing | Days on chart | Ratings | Released |
 |--:|---|---|---|--:|--:|---|
-| 1 | [Block Out! - Color Sort Puzzle](https://apps.apple.com/de/app/block-out-color-sort-puzzle/id6752672568) | Grand Games A.Ş. | #17 Games: Puzzle | 14/14 | 37,674 | 2026-03-10 |
-| 2 | [Fortnite](https://apps.apple.com/de/app/fortnite/id6483539426) | Epic Games Inc. | #5 Games: Adventure | 14/14 | 14,538 | 2026-05-19 |
-| 3 | [Word Tiles: Worträtsel](https://apps.apple.com/de/app/word-tiles-wortr%C3%A4tsel/id6783815362) | Agave Games | #3 Games: Word | 14/14 | 2,397 | 2026-07-28 |
-| 4 | [DFB Event-App](https://apps.apple.com/de/app/dfb-event-app/id1611136879) | DFB GmbH & Co. KG |  | 14/14 | 21 | 2026-03-01 |
-| 5 | [Intake: Kalorienzähler & Diät](https://apps.apple.com/de/app/intake-kalorienz%C3%A4hler-di%C3%A4t/id6757768955) | Tobias Bechtold |  | 14/14 | 448 | 2026-01-20 |
-| 6 | [Chromagraph Camera](https://apps.apple.com/de/app/chromagraph-camera/id6803329435) | Chromatic Applications LLC |  | 14/14 | 12 | 2026-10-20 |
-| 7 | [Tiny Computers](https://apps.apple.com/de/app/tiny-computers/id6816896250) | Fountain Interactive Ltd |  | 14/14 | 12 | 2026-10-23 |
-| 8 | [DartStreak](https://apps.apple.com/de/app/dartstreak/id6757082762) | Louis Seiger |  | 14/14 | 27 | 2026-01-07 |
-| 9 | [Butler3 Pro](https://apps.apple.com/de/app/butler3-pro/id6758623379) | Heiko Lenhof |  | 14/14 | 7 | 2026-04-09 |
-| 10 | [Sudoooku: Sudoku Rätsel](https://apps.apple.com/de/app/sudoooku-sudoku-r%C3%A4tsel/id6766101699) | Timo Gundacker |  | 14/14 | 9 | 2026-05-12 |
-| 11 | [Coin Master - Board Adventure](https://apps.apple.com/de/app/coin-master-board-adventure/id6745761596) | Moon Active | #3 Games: Board | 14/14 | 9,665 | 2026-03-12 |
-| 12 | [Piatto: Essensplaner & Rezepte](https://apps.apple.com/de/app/piatto-essensplaner-rezepte/id6802251768) | Joao Pedro Ferreira Terrantez | #34 Health & Fitness | 14/14 | 155 | 2026-09-07 |
-| 13 | [mise – Essensplaner](https://apps.apple.com/de/app/mise-essensplaner/id6777471316) | TEGS LABS LTD | #2 Food & Drink | 14/14 | 2,052 | 2026-06-10 |
-| 14 | [Sendungsverfolgung – TrackPack](https://apps.apple.com/de/app/sendungsverfolgung-trackpack/id6762376278) | EpicScale Inc | #2 Shopping | 14/14 | 29 | 2026-06-17 |
-| 15 | [Plants vs. Zombies™ 3: Evolved](https://apps.apple.com/de/app/plants-vs-zombies-3-evolved/id1666636976) | Electronic Arts | #53 Games: Action | 14/14 | 50 | 2026-10-14 |
+| 1 | [Block Out! - Color Sort Puzzle](https://apps.apple.com/de/app/block-out-color-sort-puzzle/id6752672568) | Grand Games A.Ş. | #16 Games: Puzzle | 15/15 | 37,870 | 2026-03-10 |
+| 2 | [Fortnite](https://apps.apple.com/de/app/fortnite/id6483539426) | Epic Games Inc. | #3 Games: Adventure | 15/15 | 14,952 | 2026-05-19 |
+| 3 | [Word Tiles: Worträtsel](https://apps.apple.com/de/app/word-tiles-wortr%C3%A4tsel/id6783815362) | Agave Games | #5 Games: Word | 15/15 | 2,442 | 2026-07-28 |
+| 4 | [DartStreak](https://apps.apple.com/de/app/dartstreak/id6757082762) | Louis Seiger |  | 15/15 | 27 | 2026-01-07 |
+| 5 | [Chromagraph Camera](https://apps.apple.com/de/app/chromagraph-camera/id6803329435) | Chromatic Applications LLC |  | 15/15 | 12 | 2026-10-20 |
+| 6 | [Tiny Computers](https://apps.apple.com/de/app/tiny-computers/id6816896250) | Fountain Interactive Ltd |  | 15/15 | 12 | 2026-10-23 |
+| 7 | [Coin Master - Board Adventure](https://apps.apple.com/de/app/coin-master-board-adventure/id6745761596) | Moon Active | #2 Games: Board | 15/15 | 9,723 | 2026-03-12 |
+| 8 | [Piatto: Essensplaner & Rezepte](https://apps.apple.com/de/app/piatto-essensplaner-rezepte/id6802251768) | Joao Pedro Ferreira Terrantez | #41 Health & Fitness | 15/15 | 164 | 2026-09-07 |
+| 9 | [mise – Essensplaner](https://apps.apple.com/de/app/mise-essensplaner/id6777471316) | TEGS LABS LTD | #2 Food & Drink | 15/15 | 2,063 | 2026-06-10 |
+| 10 | [Butcher Hero: Idle-Action-RPG](https://apps.apple.com/de/app/butcher-hero-idle-action-rpg/id6757722046) | MULTICAST GAMES LIMITED | #4 Games: Role Playing | 15/15 | 1,854 | 2026-01-16 |
+| 11 | [Plants vs. Zombies™ 3: Evolved](https://apps.apple.com/de/app/plants-vs-zombies-3-evolved/id1666636976) | Electronic Arts | #55 Games: Action | 15/15 | 56 | 2026-10-14 |
+| 12 | [Songless.fm ~ Guess the Song!](https://apps.apple.com/de/app/songless-fm-guess-the-song/id6804464432) | Calico Studio Inc. | #2 Games: Music | 15/15 | 96 | 2026-09-11 |
+| 13 | [City Transport Manager](https://apps.apple.com/de/app/city-transport-manager/id6811033778) | PeDePe GbR | #23 Games: Simulation | 15/15 | 409 | 2026-10-15 |
+| 14 | [BA-Secure](https://apps.apple.com/de/app/ba-secure/id6759037657) | Bundesagentur für Arbeit |  | 15/15 | 3,746 | 2026-04-13 |
+| 15 | [DFB Event-App](https://apps.apple.com/de/app/dfb-event-app/id1611136879) | DFB GmbH & Co. KG |  | 15/15 | 22 | 2026-03-01 |
 
 ## What to do with this
 
