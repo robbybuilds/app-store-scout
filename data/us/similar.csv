@@ -1,14 +1,14 @@
 app_id,position,similar_id,name,developer,checked_at
-1049254261,1,1038574481,Kodex,Bruno Philipe Resende Silva,2026-11-10
-1049254261,2,1548193893,Runestone Text Editor,Simon B. Støvring,2026-11-10
-1049254261,3,1436650069,Pyto IDE,Develobile S.p.A.,2026-11-10
-1049254261,4,1447750768,Jayson,Simon B. Støvring,2026-11-10
-1049254261,5,1581290510,Code Editor - Compiler & IDE,Rhythm Software,2026-11-10
-1049254261,6,1473805438,a-Shell,Nicolas Holzschuch,2026-11-10
-1049254261,7,896694807,Git client - Working Copy,Anders Borum,2026-11-10
-1049254261,8,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-10
-1049254261,9,1584825745,Web Inspector,And a Dinosaur,2026-11-10
-1049254261,10,1544728400,xTerminal - SSH Terminal Shell,婉媚 邵,2026-11-10
+1049254261,1,1038574481,Kodex,Bruno Philipe Resende Silva,2026-11-18
+1049254261,2,1548193893,Runestone Text Editor,Simon B. Støvring,2026-11-18
+1049254261,3,1436650069,Pyto IDE,Develobile S.p.A.,2026-11-18
+1049254261,4,1473805438,a-Shell,Nicolas Holzschuch,2026-11-18
+1049254261,5,896694807,Git client - Working Copy,Anders Borum,2026-11-18
+1049254261,6,1581290510,Code Editor - Compiler & IDE,Rhythm Software,2026-11-18
+1049254261,7,1447750768,Jayson,Simon B. Støvring,2026-11-18
+1049254261,8,1584825745,Web Inspector,And a Dinosaur,2026-11-18
+1049254261,9,1544749600,Swifty Compiler: Swift IDE,Hassan Taleb,2026-11-18
+1049254261,10,1672453872,Python Editor App,Andromeda Corp LTD,2026-11-18
 1050023752,1,1031653653,What The Forecast?!!,Byzantine Apps,2026-11-13
 1050023752,2,1542516206,Drone Forecast UAV Air map DJI,Aleksandr Alekseev,2026-11-13
 1050023752,3,1041512978,Weather Gods,Weather Gods Ltd,2026-11-13
@@ -319,16 +319,16 @@ app_id,position,similar_id,name,developer,checked_at
 1471258643,8,1500217654,AnyStories-Top Novels & Books,READ ASAP LTD,2026-11-17
 1471258643,9,6448085430,Novellair,QVON,2026-11-17
 1471258643,10,1628300409,BestNovel: Read Romance Novels,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-17
-1471259009,1,1524592877,WeRead: Popular Books & Novels,"ChangYi Co.,Ltd",2026-11-10
-1471259009,2,1503290173,Kifflire:Fantasy Novel Stories,CHANGDU (HK) TECHNOLOGY LIMITED,2026-11-10
-1471259009,3,1560799482,Mobilis: Novels & Reading Hub,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-10
-1471259009,4,6772875404,NovelMist - Novels & Stories,晓东 王,2026-11-10
-1471259009,5,1529860201,Leera - Reading Best Webnovels,"ChangYi Co.,Ltd",2026-11-10
-1471259009,6,6755107081,Funovel – Reading Good Books,倩 李,2026-11-10
-1471259009,7,1554794636,"Litrad: Booktok, Reading Books",CHANGDU (HK) TECHNOLOGY LIMITED,2026-11-10
-1471259009,8,6763258930,RedChapters,HM Games LLC FZ,2026-11-10
-1471259009,9,6756255372,PoFic: Read Novels & Stories,映翔 罗,2026-11-10
-1471259009,10,6761161349,SnackFic - Stories & Novels,Snack AI Inc.,2026-11-10
+1471259009,1,1524592877,WeRead: Popular Books & Novels,"ChangYi Co.,Ltd",2026-11-18
+1471259009,2,1560799482,Mobilis: Novels & Reading Hub,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-18
+1471259009,3,1503290173,Kifflire:Fantasy Novel Stories,CHANGDU (HK) TECHNOLOGY LIMITED,2026-11-18
+1471259009,4,6772875404,NovelMist - Novels & Stories,晓东 王,2026-11-18
+1471259009,5,1529860201,Leera - Reading Best Webnovels,"ChangYi Co.,Ltd",2026-11-18
+1471259009,6,6755107081,Funovel – Reading Good Books,倩 李,2026-11-18
+1471259009,7,6763258930,RedChapters,HM Games LLC FZ,2026-11-18
+1471259009,8,6756255372,PoFic: Read Novels & Stories,映翔 罗,2026-11-18
+1471259009,9,1554794636,"Litrad: Booktok, Reading Books",CHANGDU (HK) TECHNOLOGY LIMITED,2026-11-18
+1471259009,10,6761161349,SnackFic - Stories & Novels,Snack AI Inc.,2026-11-18
 1473021827,1,977016099,Little Stories: Bedtime Books,Diveo Media,2026-11-12
 1473021827,2,1605488336,BedTime Books－Stories for Kids,Evgenii Krutov,2026-11-12
 1473021827,3,1576064715,Kidly: Bedtime Books for Kids,Kidly,2026-11-12
@@ -439,16 +439,16 @@ app_id,position,similar_id,name,developer,checked_at
 1524592877,8,1621027852,"Magfic-Booktok, Reading Books",Buu mobile limited,2026-11-17
 1524592877,9,1517570623,Amolivro: Audiobook & Story,"CHANGDU TECHNOLOGY (USA) CO.,LTD.",2026-11-17
 1524592877,10,6587560745,"Novelaria - Read Book, Booktok",窕翔 刘,2026-11-17
-1532016070,1,1441645718,5 Second Rule - Group Games,Boris Mikic,2026-11-10
-1532016070,2,1225246161,Most Likely To: Group Games,Boris Mikic,2026-11-10
-1532016070,3,1225190806,5 Second Guess - Group Game,DH3 Games,2026-11-10
-1532016070,4,1217017696,Truth Or Drink Dirty Questions,Boris Mikic,2026-11-10
-1532016070,5,1451659415,Black Humor - Multiplayer,"Condor Eye Enterprise, SOCIEDAD LIMITADA",2026-11-10
-1532016070,6,1210440961,Never Ever: Dirty Adult,Boris Mikic,2026-11-10
-1532016070,7,1500015482,INCOHEARENT,"Hunch Labs, LLC",2026-11-10
-1532016070,8,966580280,Charades! Play Anywhere,Appcano LLC,2026-11-10
-1532016070,9,1269130452,Guess the Word! Charades Game,"Float Tech, LLC",2026-11-10
-1532016070,10,6451004192,21 Questions - Card Games,Linear Lab LLC,2026-11-10
+1532016070,1,1441645718,5 Second Rule - Group Games,Boris Mikic,2026-11-18
+1532016070,2,1225246161,Most Likely To: Group Games,Boris Mikic,2026-11-18
+1532016070,3,1225190806,5 Second Guess - Group Game,DH3 Games,2026-11-18
+1532016070,4,1217017696,Truth Or Drink Dirty Questions,Boris Mikic,2026-11-18
+1532016070,5,1451659415,Black Humor - Multiplayer,"Condor Eye Enterprise, SOCIEDAD LIMITADA",2026-11-18
+1532016070,6,1210440961,Never Ever: Dirty Adult,Boris Mikic,2026-11-18
+1532016070,7,966580280,Charades! Play Anywhere,Appcano LLC,2026-11-18
+1532016070,8,1500015482,INCOHEARENT,"Hunch Labs, LLC",2026-11-18
+1532016070,9,1269130452,Guess the Word! Charades Game,"Float Tech, LLC",2026-11-18
+1532016070,10,6451004192,21 Questions - Card Games,Linear Lab LLC,2026-11-18
 1537890432,1,6451004192,21 Questions - Card Games,Linear Lab LLC,2026-11-17
 1537890432,2,1441645718,5 Second Rule - Group Games,Boris Mikic,2026-11-17
 1537890432,3,1390646086,Never Ever: Dirty & Evil,Kristian Markovic,2026-11-17
@@ -519,16 +519,16 @@ app_id,position,similar_id,name,developer,checked_at
 1559261145,8,1436939490,Flamingo Shop,Flamingo Technologies LLC,2026-11-13
 1559261145,9,1576385234,Haul Shopping,Haul Labs Inc.,2026-11-13
 1559261145,10,6636548136,Her Fantasy Box,Her Fantasy Box,2026-11-13
-1563168194,1,1217017696,Truth Or Drink Dirty Questions,Boris Mikic,2026-11-11
-1563168194,2,1469035952,Truth Or Dare: Freaky Games,Teo Braun,2026-11-11
-1563168194,3,1483925124,Truth or Drink Dirty Dare,Kristian Markovic,2026-11-11
-1563168194,4,1436049430,I Have Never: Dirty Game,Vanilla b.v.,2026-11-11
-1563168194,5,1225246161,Most Likely To: Group Games,Boris Mikic,2026-11-11
-1563168194,6,1437263404,Would You Rather? Adult,Boris Mikic,2026-11-11
-1563168194,7,1390646086,Never Ever: Dirty & Evil,Kristian Markovic,2026-11-11
-1563168194,8,6504657055,Explode 2: Get Exposed,Sebastien Menozzi,2026-11-11
-1563168194,9,1210440961,Never Ever: Dirty Adult,Boris Mikic,2026-11-11
-1563168194,10,1469183094,Most Likely To - Exposed Game,Teo Braun,2026-11-11
+1563168194,1,1217017696,Truth Or Drink Dirty Questions,Boris Mikic,2026-11-18
+1563168194,2,1469035952,Truth Or Dare: Freaky Games,Teo Braun,2026-11-18
+1563168194,3,1483925124,Truth or Drink Dirty Dare,Kristian Markovic,2026-11-18
+1563168194,4,1225246161,Most Likely To: Group Games,Boris Mikic,2026-11-18
+1563168194,5,1436049430,I Have Never: Dirty Game,Vanilla b.v.,2026-11-18
+1563168194,6,1437263404,Would You Rather? Adult,Boris Mikic,2026-11-18
+1563168194,7,1390646086,Never Ever: Dirty & Evil,Kristian Markovic,2026-11-18
+1563168194,8,6504657055,Explode 2: Get Exposed,Sebastien Menozzi,2026-11-18
+1563168194,9,1469183094,Most Likely To - Exposed Game,Teo Braun,2026-11-18
+1563168194,10,1210440961,Never Ever: Dirty Adult,Boris Mikic,2026-11-18
 1565131075,1,1554308508,Topps® Digital Archive,"The Topps Company, Inc.",2026-11-12
 1565131075,2,6747395742,NBA Collect by Topps®,"The Topps Company, Inc.",2026-11-12
 1565131075,3,6474134759,Ultimate Football Manager 27,Gamebasics BV,2026-11-12
@@ -659,16 +659,16 @@ app_id,position,similar_id,name,developer,checked_at
 1621050235,8,1196015787,Weather Up + AccuWeather Data,Contrast,2026-11-08
 1621050235,9,6449742632,Weather Radar - Forecast NOAA,AVIRISE LIMITED (CY),2026-11-08
 1621050235,10,6742397927,Weather Watch-Live Forecast,MacroSmart Technology Limited,2026-11-08
-1628300409,1,6744645984,AstraNovel - Infinite Books,HONGKONG COLLECT VISION LIMITED,2026-11-10
-1628300409,2,1600844711,MegaNovel - fiction & webtoon,SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,2026-11-10
-1628300409,3,1458083055,TapRead - Read Good Story,SevenCat Interactive Technology Limited,2026-11-10
-1628300409,4,1530149551,FantacyStory,HK Qingmo Technology limited,2026-11-10
-1628300409,5,1471258643,ReadNow: Novels & Stories,"CHANGDU TECHNOLOGY (USA) CO.,LTD.",2026-11-10
-1628300409,6,1529860201,Leera - Reading Best Webnovels,"ChangYi Co.,Ltd",2026-11-10
-1628300409,7,1499605819,Readict - novels and more,"VitalTek, Inc.",2026-11-10
-1628300409,8,1524592877,WeRead: Popular Books & Novels,"ChangYi Co.,Ltd",2026-11-10
-1628300409,9,1567518591,Novelory,HK Qingmo Technology limited,2026-11-10
-1628300409,10,6443988199,Yestory - Read Books & Booktok,Yestory Mobile Development Limited.,2026-11-10
+1628300409,1,6744645984,AstraNovel - Infinite Books,HONGKONG COLLECT VISION LIMITED,2026-11-18
+1628300409,2,1600844711,MegaNovel - fiction & webtoon,SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,2026-11-18
+1628300409,3,1458083055,TapRead - Read Good Story,SevenCat Interactive Technology Limited,2026-11-18
+1628300409,4,1471258643,ReadNow: Novels & Stories,"CHANGDU TECHNOLOGY (USA) CO.,LTD.",2026-11-18
+1628300409,5,1530149551,FantacyStory,HK Qingmo Technology limited,2026-11-18
+1628300409,6,1529860201,Leera - Reading Best Webnovels,"ChangYi Co.,Ltd",2026-11-18
+1628300409,7,1499605819,Readict - novels and more,"VitalTek, Inc.",2026-11-18
+1628300409,8,1524592877,WeRead: Popular Books & Novels,"ChangYi Co.,Ltd",2026-11-18
+1628300409,9,6443988199,Yestory - Read Books & Booktok,Yestory Mobile Development Limited.,2026-11-18
+1628300409,10,1567518591,Novelory,HK Qingmo Technology limited,2026-11-18
 1630170714,1,1458083055,TapRead - Read Good Story,SevenCat Interactive Technology Limited,2026-11-05
 1630170714,2,6465031472,MetroNovel - Let Stories Shine,LITERIE PTE. LTD.,2026-11-05
 1630170714,3,6443988199,Yestory - Read Books & Booktok,Yestory Mobile Development Limited.,2026-11-05
@@ -729,6 +729,16 @@ app_id,position,similar_id,name,developer,checked_at
 1661207294,8,6754598724,Field Navigation: Tractor GPS,Vasyl Travlinskyy,2026-11-17
 1661207294,9,1500630352,GOHUNT: Research & Maps,"GOHUNT, LLC",2026-11-17
 1661207294,10,1556584402,Field MapS - Measure Land GPS,Aleksei Metelkin,2026-11-17
+1661796837,1,6498867945,Beat Battle - Musical Chairs,Sofiya Taver,2026-11-18
+1661796837,2,1672785108,Hot Potato - family game,Fantasy Games,2026-11-18
+1661796837,3,6463636342,Partywheel - Quick Party Games,Johannes Bauer,2026-11-18
+1661796837,4,6754628191,Trivia Party Games,Anass Damri,2026-11-18
+1661796837,5,6451126694,Kids Charades!,Mykola Yakovliev,2026-11-18
+1661796837,6,6749456680,Family Trivia Games & Quiz AI,Igor Bidenko,2026-11-18
+1661796837,7,1620433553,The Jackbox Party Pack 9,"Jackbox Games, Inc.",2026-11-18
+1661796837,8,6478282591,Pictionary Word Generator Game,Viren Baid,2026-11-18
+1661796837,9,6468895651,Charades GO,David Baez,2026-11-18
+1661796837,10,6742866733,Heads Up For Kids & Family,ChuChu Train Productions,2026-11-18
 1663675754,1,1038574481,Kodex,Bruno Philipe Resende Silva,2026-11-16
 1663675754,2,1632249346,Terminal#,Vasilii Shaidullin,2026-11-16
 1663675754,3,6740740427,Rev for Vercel,FarFetched,2026-11-16
@@ -999,16 +1009,16 @@ app_id,position,similar_id,name,developer,checked_at
 6447612873,8,6463715971,Sea of Conquest: Pirate War,FunPlus International AG,2026-11-11
 6447612873,9,6471974307,Rescue Cop: Shooting Game,HOMA GAMES,2026-11-11
 6447612873,10,1279226071,War and Peace: Civil War,eRepublik Labs,2026-11-11
-6448362669,1,1501532023,ServerCat - SSH Terminal & VPS,"Early Moon, LLC",2026-11-04
-6448362669,2,1591150334,Docker Server Admin,婉媚 邵,2026-11-04
-6448362669,3,1581548562,Docker Manager GUI - WhaleDeck,Florian Seida,2026-11-04
-6448362669,4,1336634154,SSH Client - Secure ShellFish,Anders Borum,2026-11-04
-6448362669,5,1566480505,PortX - SSH (Deprecated),"NetSarang Computer, Inc.",2026-11-04
-6448362669,6,6446004887,Uptime Kuma Manager,Peng Lyu,2026-11-04
-6448362669,7,6470526961,ProxMate,Lars Herres,2026-11-04
-6448362669,8,6739386670,Termix: SSH Client & Terminal,Simon Zvara,2026-11-04
-6448362669,9,1558156247,Terminal & SSH,Pavlo Kravchenko,2026-11-04
-6448362669,10,1356504527,Commands for Linux Terminal,雷 戴,2026-11-04
+6448362669,1,1501532023,ServerCat - SSH Terminal & VPS,"Early Moon, LLC",2026-11-18
+6448362669,2,1591150334,Docker Server Admin,婉媚 邵,2026-11-18
+6448362669,3,1336634154,SSH Client - Secure ShellFish,Anders Borum,2026-11-18
+6448362669,4,1581548562,Docker Manager GUI - WhaleDeck,Florian Seida,2026-11-18
+6448362669,5,1566480505,PortX - SSH (Deprecated),"NetSarang Computer, Inc.",2026-11-18
+6448362669,6,6739386670,Termix: SSH Client & Terminal,Simon Zvara,2026-11-18
+6448362669,7,1558156247,Terminal & SSH,Pavlo Kravchenko,2026-11-18
+6448362669,8,6470526961,ProxMate,Lars Herres,2026-11-18
+6448362669,9,1356504527,Commands for Linux Terminal,雷 戴,2026-11-18
+6448362669,10,6446004887,Uptime Kuma Manager,Peng Lyu,2026-11-18
 6450535928,1,6444545478,C++ Shell - C++ code compiler,"Phoenix Lab Technology Co., Ltd.",2026-11-13
 6450535928,2,413897608,Pastel,Steven Troughton-Smith,2026-11-13
 6450535928,3,1608857736,Hodor - HTTP(s) Packet Sniffer,"Chengdu Feng Chui Ye Technology Co., Ltd",2026-11-13
@@ -1199,16 +1209,16 @@ app_id,position,similar_id,name,developer,checked_at
 6502703406,8,6458737333,EaShort-Popular short dramas,Easou Tech,2026-11-03
 6502703406,9,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-03
 6502703406,10,6480451978,CafeDrama-Stream Shorts&Series,"Shanghai Shaozhen Technology Co., Ltd.",2026-11-03
-6502895473,1,6743736634,Saros TV - Shorts & Reels,HK Dazzling Quartet Limited,2026-11-11
-6502895473,2,6503675336,HappyShort - Dramas & Movies,"Zhengzhou Tianqiao E-commerce Co., Ltd",2026-11-11
-6502895473,3,6504127360,OneShort - Watch Short Dramas,FutureMaker LTD,2026-11-11
-6502895473,4,6737598824,BestReels,bestnovel,2026-11-11
-6502895473,5,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-11
-6502895473,6,6480451978,CafeDrama-Stream Shorts&Series,"Shanghai Shaozhen Technology Co., Ltd.",2026-11-11
-6502895473,7,6747330930,TapShort-Short Drama&Reels,"Beijing Qingmo Technology Co., Ltd.",2026-11-11
-6502895473,8,6504555661,TouchShort-TV,Sheng Rui Culture,2026-11-11
-6502895473,9,6756036537,ReelRush-Short Drama&TV,"Beijing Yueying Xinghe Technology Co., Ltd",2026-11-11
-6502895473,10,6741800723,ZeroShort - Dramas&TV,"MeiYing Media Co.,Limited",2026-11-11
+6502895473,1,6743736634,Saros TV - Shorts & Reels,HK Dazzling Quartet Limited,2026-11-18
+6502895473,2,6503675336,HappyShort - Dramas & Movies,"Zhengzhou Tianqiao E-commerce Co., Ltd",2026-11-18
+6502895473,3,6737598824,BestReels,bestnovel,2026-11-18
+6502895473,4,6504127360,OneShort - Watch Short Dramas,FutureMaker LTD,2026-11-18
+6502895473,5,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-18
+6502895473,6,6747330930,TapShort-Short Drama&Reels,"Beijing Qingmo Technology Co., Ltd.",2026-11-18
+6502895473,7,6471819118,RedShort,CAIHONG TECH LIMITED,2026-11-18
+6502895473,8,6480451978,CafeDrama-Stream Shorts&Series,"Shanghai Shaozhen Technology Co., Ltd.",2026-11-18
+6502895473,9,6504555661,TouchShort-TV,Sheng Rui Culture,2026-11-18
+6502895473,10,6741800723,ZeroShort - Dramas&TV,"MeiYing Media Co.,Limited",2026-11-18
 6503328539,1,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-03
 6503328539,2,6502895473,"StoReel - Movies, Dramas & TV",Storeel Us Inc.,2026-11-03
 6503328539,3,6737598824,BestReels,bestnovel,2026-11-03
@@ -1219,16 +1229,16 @@ app_id,position,similar_id,name,developer,checked_at
 6503328539,8,6756415022,ToonShort -Popular Dramas & TV,HONG KONG TOONSHORT TECHNOLOGY LIMITED,2026-11-03
 6503328539,9,6448256175,LoveShots - Dramas & Movies,NEWSTAR FOCUS LIMITED,2026-11-03
 6503328539,10,6743736634,Saros TV - Shorts & Reels,HK Dazzling Quartet Limited,2026-11-03
-6503421271,1,6498894314,Shorts - Stream Short Drama,Luni,2026-11-11
-6503421271,2,6736356559,DramaTV – Watch Drama Shorts,DramaTV,2026-11-11
-6503421271,3,6745260515,Shortical - Stream Dramas & TV,Short Entertainment,2026-11-11
-6503421271,4,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-11
-6503421271,5,6448256175,LoveShots - Dramas & Movies,NEWSTAR FOCUS LIMITED,2026-11-11
-6503421271,6,6502703406,Tallflix: Short Dramas & Films,Star Radiance Limited,2026-11-11
-6503421271,7,6463394851,Kalos TV-Short Dramas & Reels,"Storyverse Co., Limited",2026-11-11
-6503421271,8,6502895473,"StoReel - Movies, Dramas & TV",Storeel Us Inc.,2026-11-11
-6503421271,9,6503891345,Drama Pops - Reel Shorts TV,DEEP FLOW SOFTWARE SERVICES,2026-11-11
-6503421271,10,6478104173,ShortsWave: Watch Drama Series,HALOFUN PTE. LTD.,2026-11-11
+6503421271,1,6498894314,Shorts - Stream Short Drama,Luni,2026-11-18
+6503421271,2,6736356559,DramaTV – Watch Drama Shorts,DramaTV,2026-11-18
+6503421271,3,6745260515,Shortical - Stream Dramas & TV,Short Entertainment,2026-11-18
+6503421271,4,6502703406,Tallflix: Short Dramas & Films,Star Radiance Limited,2026-11-18
+6503421271,5,6448256175,LoveShots - Dramas & Movies,NEWSTAR FOCUS LIMITED,2026-11-18
+6503421271,6,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-18
+6503421271,7,6463394851,Kalos TV-Short Dramas & Reels,"Storyverse Co., Limited",2026-11-18
+6503421271,8,6502895473,"StoReel - Movies, Dramas & TV",Storeel Us Inc.,2026-11-18
+6503421271,9,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-18
+6503421271,10,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-18
 6503937276,1,1520179063,NOAA Radar & Weather Forecast,Position Mobile Ltd SEZC,2026-11-12
 6503937276,2,528748182,NWS Weather: Deep Weather,Rate Of Climb Industries,2026-11-12
 6503937276,3,6473724440,NOAA Weather Radar Live Map,Lutech-DN,2026-11-12
@@ -1339,16 +1349,16 @@ app_id,position,similar_id,name,developer,checked_at
 6736381898,8,6748595105,VinylSnap: Scan & Value Record,Next Vision Limited,2026-11-16
 6736381898,9,6794259330,Vessel: Bible Study & Notes,DUOMO APP LIMITED,2026-11-16
 6736381898,10,6747571942,Cardly AI: Sports Card Scanner,Scate,2026-11-16
-6736395270,1,6503603603,Mystery Town: Merge Games,Cedar Games Studio,2026-11-11
-6736395270,2,6747957875,Family Go! - Lifetime Sim game,"KIKO FUN INTERACTIVE ENTERTAINMENT CO., LIMITED",2026-11-11
-6736395270,3,6757261926,Reality Bay: Merge & Discover,Moon Active,2026-11-11
-6736395270,4,6499528122,Tap Gallery: Block Tap Away,AI Games FZ,2026-11-11
-6736395270,5,6743842802,Wool Master 3D - Thread Sort,Snap Brain Games,2026-11-11
-6736395270,6,6752929382,CozySort: Coins,UniRise Studio,2026-11-11
-6736395270,7,6746467003,Merge Magic Academy,ZYMobile,2026-11-11
-6736395270,8,6746838116,Number Tiles - Match Numbers,Easybrain Ltd,2026-11-11
-6736395270,9,6742813290,Holy Hole!,Home Entertainment Limited,2026-11-11
-6736395270,10,6742146628,Tiles In Hole: Black Hole Game,LIHUHU PTE. LTD.,2026-11-11
+6736395270,1,6503603603,Mystery Town: Merge Games,Cedar Games Studio,2026-11-18
+6736395270,2,6757261926,Reality Bay: Merge & Discover,Moon Active,2026-11-18
+6736395270,3,6747957875,Family Go! - Lifetime Sim game,"KIKO FUN INTERACTIVE ENTERTAINMENT CO., LIMITED",2026-11-18
+6736395270,4,6499528122,Tap Gallery: Block Tap Away,AI Games FZ,2026-11-18
+6736395270,5,6743842802,Wool Master 3D - Thread Sort,Snap Brain Games,2026-11-18
+6736395270,6,6752929382,CozySort: Coins,UniRise Studio,2026-11-18
+6736395270,7,6746467003,Merge Magic Academy,ZYMobile,2026-11-18
+6736395270,8,6742813290,Holy Hole!,Home Entertainment Limited,2026-11-18
+6736395270,9,6746838116,Number Tiles - Match Numbers,Easybrain Ltd,2026-11-18
+6736395270,10,6747019708,Cafe Life: Coffee Mania,"Supercent, Inc.",2026-11-18
 6736602732,1,6760000154,StormNet,"Cloudnine Weather, Inc.",2026-11-12
 6736602732,2,6740167974,WeatherAI - Forecast & Radar,Timothy Morse,2026-11-12
 6736602732,3,6462927563,Flash Weather: Future Radar,Flash Scientific Technology,2026-11-12
@@ -1439,16 +1449,16 @@ app_id,position,similar_id,name,developer,checked_at
 6738411328,8,6749557696,XVibe AI - Website App Builder,Tetiana Oliinyk,2026-11-12
 6738411328,9,1550710789,Node.js Lab,Firas Moussa,2026-11-12
 6738411328,10,6499447166,eNES: NES & SNES Retro Emu,Mattia La Spina,2026-11-12
-6738833494,1,6772692707,ReelBee - Short Drama Series,Scoopz Inc.,2026-11-11
-6738833494,2,6742193618,FreeBits: Limitless Drama & TV,Holy Water Limited,2026-11-11
-6738833494,3,6737598824,BestReels,bestnovel,2026-11-11
-6738833494,4,6746744353,RapidTV,炫霖 陈,2026-11-11
-6738833494,5,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-11
-6738833494,6,6757374961,DramaLocal,SiHai,2026-11-11
-6738833494,7,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-11
-6738833494,8,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-11
-6738833494,9,6448256175,LoveShots - Dramas & Movies,NEWSTAR FOCUS LIMITED,2026-11-11
-6738833494,10,6503675336,HappyShort - Dramas & Movies,"Zhengzhou Tianqiao E-commerce Co., Ltd",2026-11-11
+6738833494,1,6742193618,FreeBits: Limitless Drama & TV,Holy Water Limited,2026-11-18
+6738833494,2,6746744353,RapidTV,炫霖 陈,2026-11-18
+6738833494,3,6737598824,BestReels,bestnovel,2026-11-18
+6738833494,4,6772692707,ReelBee - Short Drama Series,TownTalk Labs LLC,2026-11-18
+6738833494,5,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-18
+6738833494,6,6757374961,DramaLocal,SiHai,2026-11-18
+6738833494,7,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-18
+6738833494,8,6475767376,DramaFlow: Dramas & Reels,HONG KONG FOK NANG CONSULTING TECHNOLOGY LIMITED,2026-11-18
+6738833494,9,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-18
+6738833494,10,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-18
 6738940313,1,6475798282,NOVELOUS Light Novels,SHOGAKUKAN INC.,2026-11-17
 6738940313,2,1545075904,Omoi: Manga Reader,KiraKira Media Inc.,2026-11-17
 6738940313,3,6736602181,Renta! Licensed Manga & Comics,"PAPYLESS GLOBAL, INC.",2026-11-17
@@ -1489,16 +1499,16 @@ app_id,position,similar_id,name,developer,checked_at
 6739616715,8,6751086804,Dragon Traveler,GameTree Entertainment,2026-11-05
 6739616715,9,6753709030,Path of Kings,Voodoo,2026-11-05
 6739616715,10,6737684676,Etheria: Restart,XD Entertainment Pte Ltd,2026-11-05
-6739734548,1,1439041310,ShemarooMe,Shemaroo Entertainment Ltd.,2026-11-06
-6739734548,2,6757765539,globopop - Assistir vídeos,GLOBO COM. E PART. S/A,2026-11-06
-6739734548,3,6737598824,BestReels,bestnovel,2026-11-06
-6739734548,4,6503675336,HappyShort - Dramas & Movies,"Zhengzhou Tianqiao E-commerce Co., Ltd",2026-11-06
-6739734548,5,6743736634,Saros TV - Shorts & Reels,HK Dazzling Quartet Limited,2026-11-06
-6739734548,6,6477434409,HoneyReels,HK YAWEN INFORMATION TECHNOLOGY LIMITED,2026-11-06
-6739734548,7,6502895473,"StoReel - Movies, Dramas & TV",Storeel Us Inc.,2026-11-06
-6739734548,8,6502931639,MoboShort - Dramas & Movies,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-06
-6739734548,9,6504127360,OneShort - Watch Short Dramas,FutureMaker LTD,2026-11-06
-6739734548,10,6480451978,CafeDrama-Stream Shorts&Series,"Shanghai Shaozhen Technology Co., Ltd.",2026-11-06
+6739734548,1,1439041310,ShemarooMe,Shemaroo Entertainment Ltd.,2026-11-18
+6739734548,2,6757765539,globopop - Assistir vídeos,GLOBO COM. E PART. S/A,2026-11-18
+6739734548,3,6737598824,BestReels,bestnovel,2026-11-18
+6739734548,4,6503675336,HappyShort - Dramas & Movies,"Zhengzhou Tianqiao E-commerce Co., Ltd",2026-11-18
+6739734548,5,6477434409,HoneyReels,HK YAWEN INFORMATION TECHNOLOGY LIMITED,2026-11-18
+6739734548,6,6502895473,"StoReel - Movies, Dramas & TV",Storeel Us Inc.,2026-11-18
+6739734548,7,6502931639,MoboShort - Dramas & Movies,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-18
+6739734548,8,6743736634,Saros TV - Shorts & Reels,HK Dazzling Quartet Limited,2026-11-18
+6739734548,9,6480451978,CafeDrama-Stream Shorts&Series,"Shanghai Shaozhen Technology Co., Ltd.",2026-11-18
+6739734548,10,6504127360,OneShort - Watch Short Dramas,FutureMaker LTD,2026-11-18
 6739738501,1,6474268307,Enchanted Developers Only,Augustinas Malinauskas,2026-11-13
 6739738501,2,6755102943,Nano AI - for Ollama,一鸣 刘,2026-11-13
 6739738501,3,6748571505,Happy: Codex & Claude Code App,"Bulka, LLC",2026-11-13
@@ -1549,6 +1559,16 @@ app_id,position,similar_id,name,developer,checked_at
 6741714545,8,6741881453,Railway.app Client — Station,FarFetched,2026-11-03
 6741714545,9,6748593720,Ocean for DO,FarFetched,2026-11-03
 6741714545,10,6757406313,OpenCode Mobile App,Rodrigo Mendoza,2026-11-03
+6742771024,1,6752669999,Wall Brawl - Tower Defense TD,HOMA GAMES,2026-11-18
+6742771024,2,6760184819,BagMaster Isekai – Bag Battle,SayGames LTD,2026-11-18
+6742771024,3,6755685940,Claw Master – Roguelike Hero,AI Games FZ,2026-11-18
+6742771024,4,6743435206,Dice Lords,Voodoo,2026-11-18
+6742771024,5,6759306715,Ball of Ages,Rollic Games,2026-11-18
+6742771024,6,6743114573,Idle Sword Master,MAD PIXEL,2026-11-18
+6742771024,7,6752606721,Bullet Heroes: TD RPG Shooter,HOMA GAMES,2026-11-18
+6742771024,8,6752961543,Miner Fighters !,UNICO STUDIO,2026-11-18
+6742771024,9,6757722046,Butcher Hero: Monster Idle RPG,MULTICAST GAMES LIMITED,2026-11-18
+6742771024,10,6736930021,Hex Warriors,Voodoo,2026-11-18
 6742807606,1,6737472826,GPS Speedometer HUD: SpeedAce,"Changsha Liangchao Technology Co., Ltd.",2026-11-17
 6742807606,2,6761100688,Speedometer GPS : MPH Tracker,WE DAO TECH LIMITED,2026-11-17
 6742807606,3,1431235932,GPS Speedometer Odometer HUD,Hoang Tue,2026-11-17
@@ -1609,6 +1629,16 @@ app_id,position,similar_id,name,developer,checked_at
 6743472188,8,6761531281,Just Desserts: Revenge & Merge,Century Games Innovation Pte. Ltd.,2026-11-16
 6743472188,9,6758072393,Fallen Beauty: Merge & Story,KINETIC ENERGY WIRELESS(HONG KONG)LIMITED,2026-11-16
 6743472188,10,6754087834,Glow Tales: Merge & Makeover,Paxie Games,2026-11-16
+6743640328,1,6752606706,Wild Cards,VirtTrade Ltd,2026-11-18
+6743640328,2,6747395742,NBA Collect by Topps®,"The Topps Company, Inc.",2026-11-18
+6743640328,3,6769869241,Ultrapool: Pool Roguelite,offbrand games,2026-11-18
+6743640328,4,6787988987,Fish Away: Idle Fishing,Mamboo Entertainment,2026-11-18
+6743640328,5,6752259371,Dice of Kalma: Dice Game,Pepperbox Studios,2026-11-18
+6743640328,6,6744372975,Idle Chest,Thomas Gunzburger,2026-11-18
+6743640328,7,6445893591,Clans of London,Well Played Games Ltd.,2026-11-18
+6743640328,8,6759608688,Pokermancer,Adam Bray,2026-11-18
+6743640328,9,6751277168,WatchBox: Watch Collector Game,Yonatan Goldshtein,2026-11-18
+6743640328,10,6572296401,Joking Hazard - Official,Goliath Poland Sp z o.o,2026-11-18
 6743641043,1,6747304200,AI App Builder: AppForceStudio,Orderax Inc.,2026-11-10
 6743641043,2,6747975557,Miniceo: AI App Builder,Nerdmask,2026-11-10
 6743641043,3,6751759341,Mosaic AI - AI App Builder,Andrei Vychau,2026-11-10
@@ -1799,6 +1829,26 @@ app_id,position,similar_id,name,developer,checked_at
 6747781542,8,1433840494,RecipeBox - Save Your Recipes!,"RecipeBox, LLC",2026-11-17
 6747781542,9,974683711,Recipe Keeper,Tudorspan Limited,2026-11-17
 6747781542,10,6743496454,CookShelf: Search Cookbooks,CookShelf Inc,2026-11-17
+6748003406,1,6714449541,Honeydew: Recipe & Cookbook AI,Red Honey LLC,2026-11-18
+6748003406,2,1518078585,Stashcook: Recipe Keeper,Stashbox Ltd,2026-11-18
+6748003406,3,6450664772,Scoolinary: Learn & Cook,Scoolinary S.L.,2026-11-18
+6748003406,4,6749500813,RecipeSnap: Recipe Saver,Appable Yazilim Hizmetleri Limited Sirketi,2026-11-18
+6748003406,5,6443578246,Deglaze: Recipe Manager,Deglazed LLC,2026-11-18
+6748003406,6,6478546136,Flavorish | Save Any Recipe,Flavorish,2026-11-18
+6748003406,7,6479693198,Eatr: Tasty Cooking Recipes,Eatr,2026-11-18
+6748003406,8,6744090840,CookGo:Meal Plan&Recipe Keeper,AILIFE TECHNOLOGY PTE. LTD.,2026-11-18
+6748003406,9,1616031688,Aquella Receta,Murilo Araujo,2026-11-18
+6748003406,10,6499526955,Reciply: Recipe & Meal Planner,Little Apps LLC,2026-11-18
+6748126215,1,6747072398,"NaviTerm AI - SSH,SFTP,Tunnels","Wuhan Trivix Technology Co., Ltd",2026-11-18
+6748126215,2,1354319581,Core Shell,Codinn Technologies,2026-11-18
+6748126215,3,6761715966,Termiux - Modern SSH Client,Tahmiez Sandaim,2026-11-18
+6748126215,4,6754670070,Terminal & SSH -,TERMUX LIMITED LIABILITY COMPANY,2026-11-18
+6748126215,5,6757997526,SSH Terminator,"Monarc Systems, Inc",2026-11-18
+6748126215,6,6783049126,Shepherd: AI Agents & SSH,Egor Kolesnikov,2026-11-18
+6748126215,7,6479175758,"Tempest 3 - SSH, RDP & Mosh",Atlas Express LLC,2026-11-18
+6748126215,8,6757482822,VVTerm: Native SSH Client,Vivy Technologies,2026-11-18
+6748126215,9,6760620027,TermCOW - Stable SSH Terminal,Fynetiq LLC,2026-11-18
+6748126215,10,6749602189,"Xcasca - SSH, SFTP Client","NetSarang, Inc.",2026-11-18
 6748342498,1,1537536130,ZingPlay - Conquian,ZINGPLAY INTERNATIONAL PTE. LTD,2026-11-17
 6748342498,2,1622830954,Baraja de Loteria Mexicana,Ricardo Garcia Gonzalez,2026-11-17
 6748342498,3,1069186374,Conquian 333.,Alejandro Garcia,2026-11-17
@@ -2179,16 +2229,16 @@ app_id,position,similar_id,name,developer,checked_at
 6755636826,8,1406175528,MySQL Mobile Client,Filippo Maguolo,2026-11-04
 6755636826,9,6767085653,Cursor,X Corp.,2026-11-04
 6755636826,10,6740740427,Rev for Vercel,FarFetched,2026-11-04
-6755754589,1,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-11
-6755754589,2,6768240254,FreeDrama: Watch Short Stories,Kuku Technologies Limited,2026-11-11
-6755754589,3,6758563145,HotDrama - Dramas & Reels,SKYWORK AI PTE LTD,2026-11-11
-6755754589,4,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-11
-6755754589,5,6478151552,Pocket Saga - Short Dramas,Pocket FM Corp,2026-11-11
-6755754589,6,6757374961,DramaLocal,SiHai,2026-11-11
-6755754589,7,6755513003,Popkon - Trending Short Dramas,WHITE-LIGHT HOLOGRAPHY TECHNOLOGY PTE. LTD.,2026-11-11
-6755754589,8,6502703406,Tallflix: Short Dramas & Films,Star Radiance Limited,2026-11-11
-6755754589,9,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-11
-6755754589,10,6737598824,BestReels,bestnovel,2026-11-11
+6755754589,1,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-18
+6755754589,2,6768240254,FreeDrama: Watch Short Stories,Kuku Technologies Limited,2026-11-18
+6755754589,3,6758563145,HotDrama - Dramas & Reels,SKYWORK AI PTE LTD,2026-11-18
+6755754589,4,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-18
+6755754589,5,6757374961,DramaLocal,SiHai,2026-11-18
+6755754589,6,6478151552,Pocket Saga - Short Dramas,Pocket FM Corp,2026-11-18
+6755754589,7,6502703406,Tallflix: Short Dramas & Films,Star Radiance Limited,2026-11-18
+6755754589,8,6755513003,Popkon - Trending Short Dramas,WHITE-LIGHT HOLOGRAPHY TECHNOLOGY PTE. LTD.,2026-11-18
+6755754589,9,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-18
+6755754589,10,6738081517,DramaReels: Dramas and Series,SKYWORK AI PTE LTD,2026-11-18
 6756160382,1,6797466421,Dream Bay - Merge Resort,Moon Active,2026-11-17
 6756160382,2,6757261926,Reality Bay: Merge & Discover,Moon Active,2026-11-17
 6756160382,3,6746467003,Merge Magic Academy,ZYMobile,2026-11-17
@@ -2279,16 +2329,16 @@ app_id,position,similar_id,name,developer,checked_at
 6757691579,8,6749408774,GraceNotes – Gratitude Journal,Ai Browser,2026-11-16
 6757691579,9,6755150818,Abide-Daily Scripture Study,LEARNOVELTY TECH SDN. BHD.,2026-11-16
 6757691579,10,6805509554,BibleForHer,孟霖 李,2026-11-16
-6757695187,1,6756641249,hololive Dreams,"QualiArts, Inc.",2026-11-04
-6757695187,2,1335529760,BanG Dream! Girls Band Party!,Bushiroad International,2026-11-04
-6757695187,3,1550248186,D4DJ Groovy Mix,Donuts Co. Ltd.,2026-11-04
-6757695187,4,6447435864,Phira,知远 李,2026-11-04
-6757695187,5,1205999125,Arcaea,lowiro,2026-11-04
-6757695187,6,6754203760,AstroDX,Kumoumi Interactive,2026-11-04
-6757695187,7,1637055220,Sonolus,"MACAU FOSFENES TECHNOLOGY CO., LTD.",2026-11-04
-6757695187,8,1499645558,Paradigm: Reboot,"Xiamen TunerGames Network Technology Co., Ltd.",2026-11-04
-6757695187,9,1361473095,MuseDash,peropero,2026-11-04
-6757695187,10,1614771445,Rotaeno,X.D. Network Inc.,2026-11-04
+6757695187,1,6756641249,hololive Dreams,"QualiArts, Inc.",2026-11-18
+6757695187,2,1335529760,BanG Dream! Girls Band Party!,Bushiroad International,2026-11-18
+6757695187,3,1205999125,Arcaea,lowiro,2026-11-18
+6757695187,4,1550248186,D4DJ Groovy Mix,Donuts Co. Ltd.,2026-11-18
+6757695187,5,6447435864,Phira,知远 李,2026-11-18
+6757695187,6,1637055220,Sonolus,"MACAU FOSFENES TECHNOLOGY CO., LTD.",2026-11-18
+6757695187,7,6754203760,AstroDX,Kumoumi Interactive,2026-11-18
+6757695187,8,1499645558,Paradigm: Reboot,"Xiamen TunerGames Network Technology Co., Ltd.",2026-11-18
+6757695187,9,1290687550,Cytus II,Rayark International Limited,2026-11-18
+6757695187,10,1527726533,KALPA - Original Rhythm Game,"QueseraGames Co.,Ltd",2026-11-18
 6757701908,1,6751626168,Vicoa: Claude Code & Codex IDE,BetterBit,2026-11-10
 6757701908,2,6763599135,Pocket Coder: Remote AI Code,salih berkay kokesmer,2026-11-10
 6757701908,3,6764463488,Codex Relay - Remote Codex App,Kang Sungyu,2026-11-10
@@ -2319,16 +2369,16 @@ app_id,position,similar_id,name,developer,checked_at
 6757859949,8,1336634154,SSH Client - Secure ShellFish,Anders Borum,2026-11-17
 6757859949,9,6759521788,KittyLitter,sherif cherfa,2026-11-17
 6757859949,10,6797263135,Heeler for herdr,野 张,2026-11-17
-6758563145,1,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-11
-6758563145,2,6755513003,Popkon - Trending Short Dramas,WHITE-LIGHT HOLOGRAPHY TECHNOLOGY PTE. LTD.,2026-11-11
-6758563145,3,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-11
-6758563145,4,6756415022,ToonShort -Popular Dramas & TV,HONG KONG TOONSHORT TECHNOLOGY LIMITED,2026-11-11
-6758563145,5,6502931639,MoboShort - Dramas & Movies,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-11
-6758563145,6,6758762494,MoboDrama - AI Comic Dramas,"CHANGDU TECHNOLOGY (USA) CO.,LTD.",2026-11-11
-6758563145,7,6737598824,BestReels,bestnovel,2026-11-11
-6758563145,8,6502703406,Tallflix: Short Dramas & Films,Star Radiance Limited,2026-11-11
-6758563145,9,6755374588,"BibiShort - Reel, Drama Series",TOPREEL GLOBAL PTE. LTD.,2026-11-11
-6758563145,10,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-11
+6758563145,1,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-18
+6758563145,2,6755513003,Popkon - Trending Short Dramas,WHITE-LIGHT HOLOGRAPHY TECHNOLOGY PTE. LTD.,2026-11-18
+6758563145,3,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-18
+6758563145,4,6758762494,MoboDrama - AI Comic Dramas,"CHANGDU TECHNOLOGY (USA) CO.,LTD.",2026-11-18
+6758563145,5,6502703406,Tallflix: Short Dramas & Films,Star Radiance Limited,2026-11-18
+6758563145,6,6502931639,MoboShort - Dramas & Movies,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-18
+6758563145,7,6756415022,ToonShort -Popular Dramas & TV,HONG KONG TOONSHORT TECHNOLOGY LIMITED,2026-11-18
+6758563145,8,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-18
+6758563145,9,6737598824,BestReels,bestnovel,2026-11-18
+6758563145,10,6743736634,Saros TV - Shorts & Reels,HK Dazzling Quartet Limited,2026-11-18
 6758586511,1,6740247064,Airclub - Flight Deals,Arcadia Labs Inc.,2026-11-17
 6758586511,2,6811219601,Loop for Flight Crew,DENNIS MARSHALL JINKS III,2026-11-17
 6758586511,3,6759443026,Plotline: Travel Map & Planner,"Plotline Travel, Inc.",2026-11-17
@@ -2339,16 +2389,16 @@ app_id,position,similar_id,name,developer,checked_at
 6758586511,8,6792154160,Rift - Secret Flights & Travel,Soar Flights Inc.,2026-11-17
 6758586511,9,6651302286,Auto Allies,Auto Allies Corporation,2026-11-17
 6758586511,10,6760838076,Trace - Swipe Flight Deals,Trace Travel,2026-11-17
-6758667154,1,6741501595,iDrama – Short Dramas & Reels,HK Good Drama Technology Limited,2026-11-11
-6758667154,2,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-11
-6758667154,3,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-11
-6758667154,4,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-11
-6758667154,5,6739734548,SodaTV - Short Dramas & Reels,Content Republic Limited,2026-11-11
-6758667154,6,6745260515,Shortical - Stream Dramas & TV,Short Entertainment,2026-11-11
-6758667154,7,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-11
-6758667154,8,6768593043,BlinkDrama - Short Dramas,Atlas Ventures Culture & Technology Limited,2026-11-11
-6758667154,9,6465895541,JoyReels - Enjoy Short Dramas,UREELS PTE.LTD.,2026-11-11
-6758667154,10,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-11
+6758667154,1,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-18
+6758667154,2,6741501595,iDrama – Short Dramas & Reels,HK Good Drama Technology Limited,2026-11-18
+6758667154,3,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-18
+6758667154,4,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-18
+6758667154,5,6739734548,SodaTV - Short Dramas & Reels,Content Republic Limited,2026-11-18
+6758667154,6,6745260515,Shortical - Stream Dramas & TV,Short Entertainment,2026-11-18
+6758667154,7,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-18
+6758667154,8,6768593043,BlinkDrama - Short Dramas,Atlas Ventures Culture & Technology Limited,2026-11-18
+6758667154,9,6465895541,JoyReels - Enjoy Short Dramas,UREELS PTE.LTD.,2026-11-18
+6758667154,10,6758563145,HotDrama - Dramas & Reels,SKYWORK AI PTE LTD,2026-11-18
 6758670572,1,6670211416,Lightning Tracker‎,Going Merry LLC,2026-11-15
 6758670572,2,1473753714,Lightning Tracker,Elecont LLC,2026-11-15
 6758670572,3,6670304902,Lightning Tracker My Radar Map,Kain Suite Pte. Ltd.,2026-11-15
@@ -2529,6 +2579,16 @@ app_id,position,similar_id,name,developer,checked_at
 6760998152,8,6755592877,Snacky Dash: Food Maze Puzzle,Voodoo,2026-11-17
 6760998152,9,6797530374,Jam Bus:Sandfall,Nova Games Technology Limited,2026-11-17
 6760998152,10,6761603258,Loop Master: Color Jam Sort,Orange One Limited,2026-11-17
+6761032932,1,6762209450,OpsCat - Server Monitor & SSH,望 余,2026-11-18
+6761032932,2,6791491909,HTTPS Capture Traffic Decrypt,"Space-Time Transformation Technology Co., Ltd.",2026-11-18
+6761032932,3,6760587250,CFPanel,贺 赵,2026-11-18
+6761032932,4,6757950534,FlareKit for Cloudflare,Lessmore Apps,2026-11-18
+6761032932,5,1537745821,Vibe SSH Terminal,婉媚 邵,2026-11-18
+6761032932,6,6758233482,图标帝,"Wuhan Xingyun Technology Co., Ltd.",2026-11-18
+6761032932,7,6761086120,给你个码,鑫 宋,2026-11-18
+6761032932,8,6783891369,Monito - Server Monitor & SSH,THE BORING LAB LIMITED,2026-11-18
+6761032932,9,6817167359,Termini - SSH Client,jianjie lian,2026-11-18
+6761032932,10,6742807404,Easy SSH,Argsment Limited,2026-11-18
 6761100688,1,6746191399,Speedometer: MPH Tracker,Orin Light Limited,2026-11-17
 6761100688,2,6742807606,Speedometer GPS: Speed Monitor,"Duyou Technology Co., Limited",2026-11-17
 6761100688,3,6737472826,GPS Speedometer HUD: SpeedAce,"Changsha Liangchao Technology Co., Ltd.",2026-11-17
@@ -2549,16 +2609,16 @@ app_id,position,similar_id,name,developer,checked_at
 6761128531,8,6760243963,Remodex - Remote AI Coding,Emanuele Di Pietro,2026-11-11
 6761128531,9,6759642335,Visual Claude: Vibe Code,Diep Huu Kha,2026-11-11
 6761128531,10,6760390317,Mobile IDE: AI App Builder,Zeren Brisk,2026-11-11
-6761196011,1,6791660932,Tailscode: Coding Agent Remote,Midgar Oy,2026-11-04
-6761196011,2,6757482822,VVTerm: Native SSH Client,Vivy Technologies,2026-11-04
-6761196011,3,6760459330,"Base44 IDE, AI Code Assistant",Merrick Larsen,2026-11-04
-6761196011,4,6755794662,"rootshell: Local Terminal, SSH",Rootshell LLC,2026-11-04
-6761196011,5,6758050739,Macky: Remote Mac & Terminal,Velosify Private Limited,2026-11-04
-6761196011,6,1629902861,La Terminal: Mosh & SSH Client,"Xibbon, Inc",2026-11-04
-6761196011,7,6755022390,Mobile SSH Terminal,Binaryscript Private Limited,2026-11-04
-6761196011,8,6757859949,Moshi: herdr/tmux on SSH/MOSH,Moshi Tech Ltd.,2026-11-04
-6761196011,9,6742807404,Easy SSH,Argsment Limited,2026-11-04
-6761196011,10,1336634154,SSH Client - Secure ShellFish,Anders Borum,2026-11-04
+6761196011,1,6791660932,Tailscode: Claude Code Remote,Midgar Oy,2026-11-18
+6761196011,2,6749938291,"NovaScale, SSH/Herdr+Tailscale",GalaxNet Ltd.,2026-11-18
+6761196011,3,6757482822,VVTerm: Native SSH Client,Vivy Technologies,2026-11-18
+6761196011,4,6760459330,"Base44 IDE, AI Code Assistant",Merrick Larsen,2026-11-18
+6761196011,5,6749602189,"Xcasca - SSH, SFTP Client","NetSarang, Inc.",2026-11-18
+6761196011,6,6755794662,"rootshell: Local Terminal, SSH",Rootshell LLC,2026-11-18
+6761196011,7,1629902861,La Terminal: Mosh & SSH Client,"Xibbon, Inc",2026-11-18
+6761196011,8,6755022390,Mobile SSH Terminal,Binaryscript Private Limited,2026-11-18
+6761196011,9,6758050739,Macky: Remote Mac & Terminal,Velosify Private Limited,2026-11-18
+6761196011,10,6742807404,Easy SSH,Argsment Limited,2026-11-18
 6761531281,1,6752610996,Merge Bistro™ Cook & Decor,Gaming Flight Limited,2026-11-17
 6761531281,2,6748990366,Aisle Secrets: Merge the Drama,MYBO GAME,2026-11-17
 6761531281,3,6754548168,Pets Harbor: Merge & Restore,Gaming Flight Limited,2026-11-17
@@ -2629,16 +2689,16 @@ app_id,position,similar_id,name,developer,checked_at
 6767423666,8,6760984418,Codync,Pokai Lee,2026-11-08
 6767423666,9,6794280345,AI Game Maker & Engine: Max2D,DREAMLOOP TECHNOLOGIES PRIVATE LIMITED,2026-11-08
 6767423666,10,6788393768,AI Agent Builder Architect,Beniamin Bar Chad,2026-11-08
-6768593043,1,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-11
-6768593043,2,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-11
-6768593043,3,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-11
-6768593043,4,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-11
-6768593043,5,6741501595,iDrama – Short Dramas & Reels,HK Good Drama Technology Limited,2026-11-11
-6768593043,6,6756415022,ToonShort -Popular Dramas & TV,HONG KONG TOONSHORT TECHNOLOGY LIMITED,2026-11-11
-6768593043,7,6758667154,VibeShort: AI Short Dramas,AGILE QUADRANT MEDIA LIMITED,2026-11-11
-6768593043,8,6465895541,JoyReels - Enjoy Short Dramas,UREELS PTE.LTD.,2026-11-11
-6768593043,9,6745260515,Shortical - Stream Dramas & TV,Short Entertainment,2026-11-11
-6768593043,10,6758563145,HotDrama - Dramas & Reels,SKYWORK AI PTE LTD,2026-11-11
+6768593043,1,6475064170,Reel.AI,CREATIVE FITTING HK LIMITED,2026-11-18
+6768593043,2,6468945072,"PopoVibe: Shorts, Big Vibe",HK IReader Technology Limited,2026-11-18
+6768593043,3,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-18
+6768593043,4,6755754589,DramaBox Lite - Mini Drama TV,STORYMATRIX PTE. LTD.,2026-11-18
+6768593043,5,6741501595,iDrama – Short Dramas & Reels,HK Good Drama Technology Limited,2026-11-18
+6768593043,6,6758667154,VibeShort: AI Short Dramas,AGILE QUADRANT MEDIA LIMITED,2026-11-18
+6768593043,7,6756415022,ToonShort -Popular Dramas & TV,HONG KONG TOONSHORT TECHNOLOGY LIMITED,2026-11-18
+6768593043,8,6758563145,HotDrama - Dramas & Reels,SKYWORK AI PTE LTD,2026-11-18
+6768593043,9,6745260515,Shortical - Stream Dramas & TV,Short Entertainment,2026-11-18
+6768593043,10,6465895541,JoyReels - Enjoy Short Dramas,UREELS PTE.LTD.,2026-11-18
 6769601354,1,6778760884,Potto - meal planner,Anete Ziedina,2026-11-17
 6769601354,2,1583947369,Pepper - Recipe Organizer,Pepper App Inc.,2026-11-17
 6769601354,3,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,2026-11-17
@@ -2719,16 +2779,16 @@ app_id,position,similar_id,name,developer,checked_at
 6775775553,8,6790074057,Multiplex — SSH tmux Terminal,Jhen Jie Hong,2026-11-15
 6775775553,9,6793373516,iTmux: Your AI Coding Terminal,邵伟 黄,2026-11-15
 6775775553,10,6746274402,ShadowTerm ssh & mosh Terminal,Carlos Savcic,2026-11-15
-6777230233,1,6475587257,Mealia - AI Grocery Assistant,Mealia,2026-11-11
-6777230233,2,6670216494,Mob: Meal Planner and Recipes,Mouth Group Limited,2026-11-11
-6777230233,3,6670192016,Sayvr,Sayvr Limited,2026-11-11
-6777230233,4,6754413004,TGB: Meal Planner & Recipes,The Good Bite,2026-11-11
-6777230233,5,6741995783,Clove: Import & Share Recipes,Clove Kitchen Inc,2026-11-11
-6777230233,6,6777471316,mise - meal planner,TEGS LABS LTD,2026-11-11
-6777230233,7,6466997127,MiXR.,Stonegate Pub Co Ltd,2026-11-11
-6777230233,8,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,2026-11-11
-6777230233,9,1599994101,First Table,firsttable,2026-11-11
-6777230233,10,6743496454,CookShelf: Search Cookbooks,CookShelf Inc,2026-11-11
+6777230233,1,6475587257,Mealia - AI Grocery Assistant,Mealia,2026-11-18
+6777230233,2,6670192016,Sayvr,Sayvr Limited,2026-11-18
+6777230233,3,6670216494,Mob: Meal Planner and Recipes,Mouth Group Limited,2026-11-18
+6777230233,4,6754413004,TGB: Meal Planner & Recipes,The Good Bite,2026-11-18
+6777230233,5,6741995783,Clove: Import & Share Recipes,Clove Kitchen Inc,2026-11-18
+6777230233,6,6777471316,mise - meal planner,TEGS LABS LTD,2026-11-18
+6777230233,7,1599994101,First Table,firsttable,2026-11-18
+6777230233,8,6466997127,MiXR.,Stonegate Pub Co Ltd,2026-11-18
+6777230233,9,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,2026-11-18
+6777230233,10,6443578246,Deglaze: Recipe Manager,Deglazed LLC,2026-11-18
 6777471316,1,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,2026-11-17
 6777471316,2,6739286231,Osta: Save & Share Recipes,GENERAL DIGITAL CONNOISSEURS LTD.,2026-11-17
 6777471316,3,6783742855,NeatEat - Meal Planner,Streamline Merch LLC,2026-11-17
@@ -2839,16 +2899,16 @@ app_id,position,similar_id,name,developer,checked_at
 6784058421,8,6764505522,PlotJoy,HONG KONG CREATIVE HIVE NETWORK TECHNOLOGY LIMITED,2026-11-03
 6784058421,9,6764501856,Myrelle,"Tianjin Chuyi Network Technology Co., Ltd.",2026-11-03
 6784058421,10,6771766380,Novique  – Nonstop Drama & TV,"Hong Kong Xingfeng Network Technology Co., Limited",2026-11-03
-6785186457,1,6775775553,TermRover - SSH Terminal,Anh Trinh,2026-11-10
-6785186457,2,6798087089,herdrup: agents in your pocket,Jerry Fanelli,2026-11-10
-6785186457,3,6792428012,Drover: Steer AI Coding Agents,KEISUKE NISHITANI,2026-11-10
-6785186457,4,6797263135,Heeler for herdr,野 张,2026-11-10
-6785186457,5,6746274402,ShadowTerm ssh & mosh Terminal,Carlos Savcic,2026-11-10
-6785186457,6,6791874615,HerdrChat,AHMET MERT COBANOGLU,2026-11-10
-6785186457,7,6758669847,Echo - SSH + Mosh Client,Replay Software Limited,2026-11-10
-6785186457,8,6757482822,VVTerm: Native SSH Client,Vivy Technologies,2026-11-10
-6785186457,9,6783049126,Shepherd: AI Agents & SSH,Egor Kolesnikov,2026-11-10
-6785186457,10,6755794662,"rootshell: Local Terminal, SSH",Rootshell LLC,2026-11-10
+6785186457,1,6775775553,TermRover - SSH Terminal,Anh Trinh,2026-11-18
+6785186457,2,6798087089,herdrup: agents in your pocket,Jerry Fanelli,2026-11-18
+6785186457,3,6797263135,Heeler for herdr,野 张,2026-11-18
+6785186457,4,6792428012,Drover: Steer AI Coding Agents,KEISUKE NISHITANI,2026-11-18
+6785186457,5,6791874615,HerdrChat,AHMET MERT COBANOGLU,2026-11-18
+6785186457,6,6746274402,ShadowTerm ssh & mosh Terminal,Carlos Savcic,2026-11-18
+6785186457,7,6828898364,Herdr,"Herdr, Inc.",2026-11-18
+6785186457,8,6757482822,VVTerm: Native SSH Client,Vivy Technologies,2026-11-18
+6785186457,9,6773499691,Remote Pi - Coding Agent,Jacob Moura,2026-11-18
+6785186457,10,6758669847,Echo - SSH + Mosh Client,Replay Software Limited,2026-11-18
 6786178362,1,6820213321,GirlyMaps: Girly Car Maps,Stockimg AI Yazilim Teknolojileri A.S,2026-11-17
 6786178362,2,6822074718,Cutie Maps: Girly Navigation,Music AI Studio,2026-11-17
 6786178362,3,6776157131,CARFACE Car Widgets & Lyrics,Kain Suite Pte. Ltd.,2026-11-17
@@ -2879,16 +2939,16 @@ app_id,position,similar_id,name,developer,checked_at
 6787949200,8,6747609653,Surf Forecast - Swell Scope,Flockatoo Tech Pty Ltd,2026-11-13
 6787949200,9,952022603,FishTrack - Charts & Forecasts,Surfline/Wavetrak,2026-11-13
 6787949200,10,6673897108,Marla Blue - Diving forecasts,Ocean AI,2026-11-13
-6788890577,1,6624293719,Valor - Military Discounts,VALOR US INC.,2026-11-03
-6788890577,2,1470561883,VA Disability Pay,LYNNFIELD LLC,2026-11-03
-6788890577,3,1454836235,Military Money: Pay & Pension,"Deeline Productions, LLC",2026-11-03
-6788890577,4,1622679940,MyVeteransUnited,"Mortgage Research Center, LLC",2026-11-03
-6788890577,5,1434088523,MILITARY STAR® Mobile,Army and Air Force Exchange Service,2026-11-03
-6788890577,6,547310004,Armed Forces Bank,Dickinson Financial Corporation,2026-11-03
-6788890577,7,6770810419,Benefitry: VA Benefits & Money,Benefitry LLC,2026-11-03
-6788890577,8,879120298,USA Jobs - Gov Jobs,Grematech Communication,2026-11-03
-6788890577,9,1481911637,Daily TSP,"Taza Technology, LLC",2026-11-03
-6788890577,10,6738308492,VA Disability Rates Calculator,"Vikorus, LLC",2026-11-03
+6788890577,1,6624293719,Valor - Military Discounts,VALOR US INC.,2026-11-18
+6788890577,2,1470561883,VA Disability Pay,LYNNFIELD LLC,2026-11-18
+6788890577,3,1622679940,MyVeteransUnited,"Mortgage Research Center, LLC",2026-11-18
+6788890577,4,1454836235,Military Money: Pay & Pension,"Deeline Productions, LLC",2026-11-18
+6788890577,5,1434088523,MILITARY STAR® Mobile,Army and Air Force Exchange Service,2026-11-18
+6788890577,6,547310004,Armed Forces Bank,Dickinson Financial Corporation,2026-11-18
+6788890577,7,879120298,USA Jobs - Gov Jobs,Grematech Communication,2026-11-18
+6788890577,8,6770810419,Benefitry: VA Benefits & Money,Benefitry LLC,2026-11-18
+6788890577,9,1235602550,CitiManager – Corporate Cards,Citibank,2026-11-18
+6788890577,10,1481911637,Daily TSP,"Taza Technology, LLC",2026-11-18
 6789207798,1,6776394490,NOAA Weather Radar Live Map .,TERMUX LIMITED LIABILITY COMPANY,2026-11-15
 6789207798,2,6779685922,NWS Weather,Jacob Seastrunk,2026-11-15
 6789207798,3,6800259893,NOAA Weather Radar - Live Map,For The Better,2026-11-15
@@ -3089,26 +3149,26 @@ app_id,position,similar_id,name,developer,checked_at
 6807456482,8,6747242654,Truck Maps: Trucker GPS,Muhammad Arif Jamil,2026-11-17
 6807456482,9,501101523,AMBEST,AM Best,2026-11-17
 6807456482,10,362413088,Trucker Tools,"Trucker Tools, LLC",2026-11-17
-6807514592,1,6754786986,Simmerly: Meal Planner,Maybe Blueberries LLC,2026-11-10
-6807514592,2,6792559460,MealPot: Meal Plans & Recipes,Vanette's Place Global LLC,2026-11-10
-6807514592,3,6761489669,Kitchy - Cook Smarter,Andrew Gallagher,2026-11-10
-6807514592,4,6771623461,FridgeWise: Pantry Inventory,"TasteBot, LLC",2026-11-10
-6807514592,5,6761895927,SmartPrep: Batch Cook Planner,Les Nants,2026-11-10
-6807514592,6,6793438980,Recipe Keeper & Food Planner,Lyrebird Studio Teknoloji Limited Sirketi,2026-11-10
-6807514592,7,6801429174,"Recipes & Meal Planner,Orienna",FAST N FRESH PTY LTD,2026-11-10
-6807514592,8,6775867492,GoFoodie: Learn to Cook,VODELIF LIMITED,2026-11-10
-6807514592,9,6756858421,Peel: Recipe Saver & Meal Plan,Klip Studio LLC,2026-11-10
-6807514592,10,6801052663,ChowWeek: Meal Planner,You Liang Tan,2026-11-10
-6807729703,1,6820876045,"Trekly,",Max Parker,2026-11-11
-6807729703,2,6805897875,Flightsy: AI Flight Tracker,Flame Teknoloji Yatırımları Limited Şirketi,2026-11-11
-6807729703,3,6624300664,Wetolove,"Henan Hounan Electronic Science & Technology Co., Ltd",2026-11-11
-6807729703,4,6790325706,Movas: Your City Companion,com.apexon,2026-11-11
-6807729703,5,6815594481,LOKAL - Meet Locals,Compassfriends Ltd.,2026-11-11
-6807729703,6,6596784653,MeetPanda - China Travel Guide,MOYU USA COMPANY LIMITED,2026-11-11
-6807729703,7,6777955485,Echo - Community&Share,欣欣 黄,2026-11-11
-6807729703,8,6651302286,Auto Allies,Auto Allies Corporation,2026-11-11
-6807729703,9,6569225297,Out x Out: LGBTQ Map & Friends,"Paxst, LLC",2026-11-11
-6807729703,10,6751657898,"Velio:Meetup, travel & friends",Velio Projects Inc,2026-11-11
+6807514592,1,6754786986,Simmerly: Meal Planner,Maybe Blueberries LLC,2026-11-18
+6807514592,2,6792559460,MealPot: Meal Plans & Recipes,Vanette's Place Global LLC,2026-11-18
+6807514592,3,6761489669,Kitchy - Cook Smarter,Andrew Gallagher,2026-11-18
+6807514592,4,6801052663,ChowWeek: Meal Planner,You Liang Tan,2026-11-18
+6807514592,5,6771623461,FridgeWise: Pantry Inventory,"TasteBot, LLC",2026-11-18
+6807514592,6,6793438980,Recipe Keeper & Food Planner,Lyrebird Studio Teknoloji Limited Sirketi,2026-11-18
+6807514592,7,6761895927,SmartPrep: Batch Cook Planner,Les Nants,2026-11-18
+6807514592,8,6775867492,GoFoodie: Learn to Cook,VODELIF LIMITED,2026-11-18
+6807514592,9,6801429174,"Recipes & Meal Planner,Orienna",FAST N FRESH PTY LTD,2026-11-18
+6807514592,10,6756858421,Peel: Recipe Saver & Meal Plan,Klip Studio LLC,2026-11-18
+6807729703,1,6820876045,"Trekly,",Max Parker,2026-11-18
+6807729703,2,6829676643,Saiora.,Teesiht OU,2026-11-18
+6807729703,3,6790325706,Movas: Your City Companion,com.apexon,2026-11-18
+6807729703,4,6805897875,Flightsy: AI Flight Tracker,Flame Teknoloji Yatırımları Limited Şirketi,2026-11-18
+6807729703,5,6815594481,LOKAL - Meet Locals,Compassfriends Ltd.,2026-11-18
+6807729703,6,6624300664,Wetolove,"Henan Hounan Electronic Science & Technology Co., Ltd",2026-11-18
+6807729703,7,6569225297,Out x Out: LGBTQ Map & Friends,"Paxst, LLC",2026-11-18
+6807729703,8,6596784653,MeetPanda - China Travel Guide,MOYU USA COMPANY LIMITED,2026-11-18
+6807729703,9,6777955485,Echo - Community&Share,欣欣 黄,2026-11-18
+6807729703,10,6651302286,Auto Allies,Auto Allies Corporation,2026-11-18
 6808657554,1,6804464432,Songless.fm ~ Guess the Song!,Calico Studio Inc.,2026-11-13
 6808657554,2,6752951225,Guessong: Guess the Song,Seray Catikkas Cimen,2026-11-13
 6808657554,3,6772527432,Songless: Guess the Song,弘宇 杨,2026-11-13
@@ -3169,6 +3229,16 @@ app_id,position,similar_id,name,developer,checked_at
 6819295797,8,6779553740,MotorDex,Matteo Farinacci,2026-11-10
 6819295797,9,6758328352,Scritchy Scratchy,Funday Games ApS,2026-11-10
 6819295797,10,6814630646,Daily Birdie: Three Hole Golf,Spencer Uttley,2026-11-10
+6821392318,1,6830131198,IRL Custom Maps & GPS: Wrapmap,MOBIVERSITE YAZILIM BILISIM REKLAM VE DANISMANLIK HIZMETLERI SANAYI TICARET LIMITED STI,2026-11-18
+6821392318,2,6787737665,TriNav: Car Navigation & Maps,Erdi Tuncalp,2026-11-18
+6821392318,3,6780143186,Game Maps: IRL,MapleByte Digital Ltd.,2026-11-18
+6821392318,4,6769469463,MapGT: Game Maps & Navigation,rotu,2026-11-18
+6821392318,5,6823750834,By Car: Video Player & Cast TV,yakup gumus,2026-11-18
+6821392318,6,6762314031,MapShifter: Stylized Game Map,Filipp Bazun,2026-11-18
+6821392318,7,6767854184,Mappr: Game Maps,EREN KULAKSIZ,2026-11-18
+6821392318,8,6787119953,DriveDeck: Car Widgets & HUD,EntertainTech Solutions,2026-11-18
+6821392318,9,6758915466,Rods: Corner & Road Alerts,"Buildrhaus, MB",2026-11-18
+6821392318,10,6751195451,AutoScreen: Car Screen Mirror,SORO SONS BILGI TEKNOLOJISI TICARET LIMITED SIRKETI,2026-11-18
 6821960062,1,6806164999,CodeSSH - Code Editor,Blakzero Oy,2026-11-11
 6821960062,2,6817167359,Termini - SSH Client,jianjie lian,2026-11-11
 6821960062,3,6739941752,API Testing Tool,ANDREI EDUARD ISTRATE,2026-11-11
@@ -3229,26 +3299,26 @@ app_id,position,similar_id,name,developer,checked_at
 863196620,8,1174559204,AHA Guidelines On-The-Go,American Heart Association,2026-11-17
 863196620,9,875273858,CDC Vaccine Schedules,Centers For Disease Control and Prevention,2026-11-17
 863196620,10,1169487026,AMBOSS Medical Knowledge,AMBOSS,2026-11-17
-877303791,1,933501579,Contraction Timer ＆ Tracker,Going Merry LLC,2026-11-10
-877303791,2,1624921143,Contraction Timer & Tracker,Wachanga LTD,2026-11-10
-877303791,3,844800332,Count the Kicks!,Healthy Birth Day,2026-11-10
-877303791,4,779656557,Baby Tracker - Newborn Log,Nighp Software LLC,2026-11-10
-877303791,5,529815782,The Wonder Weeks - Baby leaps,Domus Technica,2026-11-10
-877303791,6,1093774002,Baby + | Your Baby Tracker,Philips Digital UK Limited,2026-11-10
-877303791,7,1367356707,Storky - Contraction Timer,TappyTaps s.r.o.,2026-11-10
-877303791,8,1662980687,Baby Milestone Tracker Sprouty,Sprouty ltd,2026-11-10
-877303791,9,1444639029,Nara Baby & Pregnancy Tracker,Nara,2026-11-10
-877303791,10,814112299,Pump Log® - Track Breast Milk,Stefanik Software LLC,2026-11-10
-884963367,1,992127700,Sygic Truck & RV Navigation,Sygic a. s.,2026-11-07
-884963367,2,585193266,"Sygic: GPS Navigation, 3D Maps",Sygic a. s.,2026-11-07
-884963367,3,504677517,CoPilot GPS Navigation,Trimble Maps Ltd.,2026-11-07
-884963367,4,955837609,HERE WeGo Maps & Navigation,HERE Europe B.V.,2026-11-07
-884963367,5,1007331679,Magic Earth Navigation & Maps,Magic Lane International BV,2026-11-07
-884963367,6,1614144883,Trucker Guide: Truck GPS Maps,Trucker Guide LLC,2026-11-07
-884963367,7,1610276914,GPS Live Navigation & Live Map,Erasoft Technology,2026-11-07
-884963367,8,1478863996,Hammer: Truck GPS & Maps,TruckersReport.com,2026-11-07
-884963367,9,1249314050,MapFactor Navigator - GPS Maps,MapFactor,2026-11-07
-884963367,10,1072400876,Karta - Offline GPS Maps Nav,Karta,2026-11-07
+877303791,1,933501579,Contraction Timer ＆ Tracker,Going Merry LLC,2026-11-18
+877303791,2,1624921143,Contraction Timer & Tracker,Wachanga LTD,2026-11-18
+877303791,3,844800332,Count the Kicks!,Healthy Birth Day,2026-11-18
+877303791,4,779656557,Baby Tracker - Newborn Log,Nighp Software LLC,2026-11-18
+877303791,5,1367356707,Storky - Contraction Timer,TappyTaps s.r.o.,2026-11-18
+877303791,6,1444639029,Nara Baby & Pregnancy Tracker,Nara,2026-11-18
+877303791,7,529815782,The Wonder Weeks - Baby leaps,Domus Technica,2026-11-18
+877303791,8,1662980687,Baby Milestone Tracker Sprouty,Sprouty ltd,2026-11-18
+877303791,9,1093774002,Baby + | Your Baby Tracker,Philips Digital UK Limited,2026-11-18
+877303791,10,814112299,Pump Log® - Track Breast Milk,Stefanik Software LLC,2026-11-18
+884963367,1,992127700,Sygic Truck & RV Navigation,Sygic a. s.,2026-11-18
+884963367,2,585193266,"Sygic: GPS Navigation, 3D Maps",Sygic a. s.,2026-11-18
+884963367,3,504677517,CoPilot GPS Navigation,Trimble Maps Ltd.,2026-11-18
+884963367,4,955837609,HERE WeGo Maps & Navigation,HERE Europe B.V.,2026-11-18
+884963367,5,1007331679,Magic Earth Navigation & Maps,Magic Lane International BV,2026-11-18
+884963367,6,1614144883,Trucker Guide: Truck GPS Maps,Trucker Guide LLC,2026-11-18
+884963367,7,1610276914,GPS Live Navigation & Live Map,Erasoft Technology,2026-11-18
+884963367,8,1249314050,MapFactor Navigator - GPS Maps,MapFactor,2026-11-18
+884963367,9,1478863996,Hammer: Truck GPS & Maps,TruckersReport.com,2026-11-18
+884963367,10,1608794719,GPS Live Navigation,Gautam Kakadiya,2026-11-18
 896694807,1,1447750768,Jayson,Simon B. Støvring,2026-11-17
 896694807,2,1544749600,Swifty Compiler: Swift IDE,Hassan Taleb,2026-11-17
 896694807,3,1594898306,"Blink Shell, Build & Code","Blink Shell, Inc",2026-11-17
