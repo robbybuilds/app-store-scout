@@ -1,0 +1,101 @@
+date,term,position,app_id,name,publisher,rating_count,released_at
+2026-11-21,recipe,1,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,340547,2021-11-12
+2026-11-21,recipe,2,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432982,2017-07-27
+2026-11-21,recipe,3,974683711,Recipe Keeper,Tudorspan Limited,31527,2015-04-02
+2026-11-21,recipe,4,911422904,NYT Cooking: Quick Tasty Meals,The New York Times Company,550944,2014-09-17
+2026-11-21,recipe,5,312101965,Bon Appétit: Recipes & Cooking,Advance Magazine Publishers Inc.,99357,2009-04-24
+2026-11-21,recipe,6,1433840494,RecipeBox - Save Your Recipes!,"RecipeBox, LLC",14047,2018-11-13
+2026-11-21,recipe,7,1477747816,SuperCook Recipe By Ingredient,AMR Systems LLC,21895,2019-09-25
+2026-11-21,recipe,8,1610039604,Simply Recipes for iOS,Christian Stevenson,78,2022-03-08
+2026-11-21,recipe,9,1303222868,Paprika Recipe Manager 4,Hindsight Labs LLC,54583,2017-11-15
+2026-11-21,recipe,10,771068291,Kitchen Stories Easy Recipes,AJNS New Media,22774,2014-02-11
+2026-11-21,meal planner,1,6777471316,mise - meal planner,TEGS LABS LTD,5170,2026-06-10
+2026-11-21,meal planner,2,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,1710,2023-08-11
+2026-11-21,meal planner,3,6769601354,TapCook: Budget Meal Plans,TestMaxx,8253,2026-07-17
+2026-11-21,meal planner,4,1593779280,ReciMe: Recipes & Meal Planner,ReciMe Pty Ltd,339439,2021-11-12
+2026-11-21,meal planner,5,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,12216,2017-08-03
+2026-11-21,meal planner,6,1612213187,Daily Meal Planner,Futasaji LLC,1863,2022-03-26
+2026-11-21,meal planner,7,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",52833,2013-04-16
+2026-11-21,meal planner,8,6815107888,nomi - meal planner,Christian Sugianto,55,2026-10-18
+2026-11-21,meal planner,9,981637806,Eat This Much - Meal Planner,Eat This Much Inc.,22202,2015-06-15
+2026-11-21,meal planner,10,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,432979,2017-07-27
+2026-11-21,merge,1,1643509748,Merge Cooking®,Happibits,52709,2022-09-19
+2026-11-21,merge,2,1484442152,Merge Mansion: Mystery Story,Metacore Games Oy,204157,2020-09-16
+2026-11-21,merge,3,1521236603,Travel Town - Merge Adventure,Moon Active,194142,2021-02-12
+2026-11-21,merge,4,6503603603,Mystery Town: Merge Games,Cedar Games Studio,19931,2024-10-18
+2026-11-21,merge,5,1208952944,Merge Dragons!,Gram Games,423020,2017-06-28
+2026-11-21,merge,6,6755455500,Hollywood Merge,VoyagerOne,51189,2026-02-27
+2026-11-21,merge,7,6618142292,Flambé®: Merge and Cook,Microfun Limited,16199,2025-05-08
+2026-11-21,merge,8,6471045672,Tasty Travels: Merge Game,Century Games Pte. Ltd.,63514,2024-04-11
+2026-11-21,merge,9,1623318294,Gossip Harbor®: Merge & Story,Microfun Limited,215981,2022-07-07
+2026-11-21,merge,10,6443755785,Seaside Escape®: Merge & Story,Microfun Limited,31996,2022-11-24
+2026-11-21,novel,1,6446470442,Novelmates-Best Stories&Novels,HK IReader Technology Limited,4558,2023-03-30
+2026-11-21,novel,2,6801094167,NovelO - Read Books & Novels,Kynix Group Limited,125,2026-08-24
+2026-11-21,novel,3,1503128132,"GoodNovel - Booktok, Stories",SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,237625,2020-04-23
+2026-11-21,novel,4,306310789,Wattpad - Read & Write Stories,Wattpad Corp,706079,2009-03-08
+2026-11-21,novel,5,1234939196,WebNovel - Read Novels & Manga,Cloudary Holdings Limited,48529,2017-05-16
+2026-11-21,novel,6,1627205148,NovelFlow-Unlimited Books,RNOVEL PTE. LTD.,11942,2022-06-06
+2026-11-21,novel,7,1437708163,NovelReader - World of Novels,Bui Vu,4184,2018-11-15
+2026-11-21,novel,8,1421091911,Dreame - Read Best Romance,STARY PTE. LTD.,170550,2018-08-13
+2026-11-21,novel,9,1568149521,MyPassion: Read Novels & Books,HW FANTASY LIMITED,35936,2021-06-07
+2026-11-21,novel,10,1500217654,AnyStories-Top Novels & Books,READ ASAP LTD,33528,2020-03-13
+2026-11-21,flight,1,382233851,Flightradar24 | Flight Tracker,Flightradar24 AB,686449,2010-07-21
+2026-11-21,flight,2,1358823008,Flighty – Live Flight Tracker,Flighty LLC,163479,2019-08-19
+2026-11-21,flight,3,316793974,FlightAware Flight Tracker,FlightAware,394033,2009-06-04
+2026-11-21,flight,4,415458524,Skyscanner Flights & Travel,Skyscanner,503861,2011-02-17
+2026-11-21,flight,5,904052407,"Hopper: Flights, Hotels & Cars",Hopper,1231271,2015-01-28
+2026-11-21,flight,6,427916203,"Expedia: Hotels, Flights, Cars","Expedia, Inc.",6024438,2011-04-07
+2026-11-21,flight,7,344542975,Southwest Airlines: Travel App,Southwest Airlines Co.,7289479,2009-12-18
+2026-11-21,flight,8,533365777,Flight Tracker +,Impala Studios,291138,2012-07-20
+2026-11-21,flight,9,449945214,United Airlines,United Airlines,8494137,2011-07-20
+2026-11-21,flight,10,382698565,American Airlines,American Airlines,1804761,2010-07-26
+2026-11-21,football,1,1512265589,Madden NFL 27 Mobile Football,Electronic Arts,1358834,2020-08-04
+2026-11-21,football,2,1478902583,Retro Bowl,New Star Games,939156,2020-01-17
+2026-11-21,football,3,1117270703,eFootball™,KONAMI,520720,2017-05-24
+2026-11-21,football,4,6447961802,Football League™ 2026,MOBILE SOCCER,48812,2023-06-26
+2026-11-21,football,5,6759412341,EA College Football Mobile 27,Electronic Arts,45306,2026-07-09
+2026-11-21,football,6,6740756687,PolyFootball,Kyle Miceli,469,2025-06-30
+2026-11-21,football,7,1094930513,EA SPORTS FC Soccer Mobile 27,Electronic Arts,2681803,2016-10-11
+2026-11-21,football,8,6824124102,Street League Football,Hues House LLC,162,2026-11-13
+2026-11-21,football,9,1317374401,American Football Champs,Refined Games Inc,83915,2017-11-27
+2026-11-21,football,10,1566854514,Football Head Coach 27 - FHC,Gamebasics BV,81662,2022-07-21
+2026-11-21,drama,1,6445905219,DramaBox - Stream Drama Shorts,STORYMATRIX PTE. LTD.,903092,2023-04-18
+2026-11-21,drama,2,6670430706,DramaWave - Dramas & Reels,SKYWORK AI PTE LTD,212155,2024-09-23
+2026-11-21,drama,3,1636235979,ReelShort - Stream Drama & TV,NewLeaf Publishing,532580,2022-08-24
+2026-11-21,drama,4,6504849169,NetShort - Popular Dramas & TV,NETSTORY PTE. LTD.,251995,2024-07-12
+2026-11-21,drama,5,6768240254,FreeDrama: Watch Short Stories,Kuku Technologies Limited,34036,2026-06-14
+2026-11-21,drama,6,6498713494,My Drama - Stream Short Dramas,Holy Water Limited,55397,2024-05-09
+2026-11-21,drama,7,6754134922,PineDrama - Short Dramas,TikTok Ltd.,186826,2025-12-23
+2026-11-21,drama,8,6448176203,GoodShort - Short Dramas Hub,SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,541704,2023-06-12
+2026-11-21,drama,9,6768593043,BlinkDrama - HD Short Dramas,Atlas Ventures Culture & Technology Limited,35120,2026-05-29
+2026-11-21,drama,10,6741501595,iDrama – Short Dramas & Reels,HK Good Drama Technology Limited,20464,2025-02-12
+2026-11-21,radar,1,322439990,MyRadar Accurate Weather Radar,"Aviation Data Systems, Inc",1087213,2009-07-17
+2026-11-21,radar,2,382233851,Flightradar24 | Flight Tracker,Flightradar24 AB,686890,2010-07-21
+2026-11-21,radar,3,295646461,The Weather Channel - Radar,The Weather Channel Interactive,6142985,2008-11-09
+2026-11-21,radar,4,1099797635,Radarbot: GPS Speed Cameras,Iteration Mobile S.L,97002,2016-09-04
+2026-11-21,radar,5,749133753,Clime: NOAA Weather Radar Live,Mosaic S.r.l.,1057322,2013-11-25
+2026-11-21,radar,6,1216396545,Storm Radar: Weather Tracker,The Weather Channel Interactive,139179,2017-06-15
+2026-11-21,radar,7,288419283,RadarScope,"Base Velocity, LLC",2817,2019-02-12
+2026-11-21,radar,8,1075599309,Police Scanner: Crime Radar,Sepia Software LLC,28445,2016-01-26
+2026-11-21,radar,9,649264704,Weather Radar - NOAA Channel,Impala Studios,252454,2013-06-11
+2026-11-21,radar,10,281940292,WeatherBug: Weather Forecast,WeatherBug,2194621,2019-02-07
+2026-11-21,forecast,1,295646461,The Weather Channel - Radar,The Weather Channel Interactive,6141592,2008-11-09
+2026-11-21,forecast,2,6742382846,Bill Budget Calendar Forecast,Rainier Paige Dirawatun,21,2025-03-10
+2026-11-21,forecast,3,1069513131,Weather,Apple,1876129,2016-05-10
+2026-11-21,forecast,4,300048137,AccuWeather: Weather Forecast,"AccuWeather International, Inc.",1496239,2008-12-22
+2026-11-21,forecast,5,322439990,MyRadar Accurate Weather Radar,"Aviation Data Systems, Inc",1087173,2009-07-17
+2026-11-21,forecast,6,749133753,Clime: NOAA Weather Radar Live,Mosaic S.r.l.,1057250,2013-11-25
+2026-11-21,forecast,7,281940292,WeatherBug: Weather Forecast,WeatherBug,2194604,2019-02-07
+2026-11-21,forecast,8,1031653653,What The Forecast?!!,"Affiliated Apps, LLC",10360,2015-11-03
+2026-11-21,forecast,9,525994479,Foreca Weather & Radar,Foreca Oy,5071,2012-05-29
+2026-11-21,forecast,10,6767790524,3D Weather: Live Forecast,Phuc Pham,2,2026-08-19
+2026-11-21,gps,1,585027354,Google Maps,Google,7463960,2012-12-13
+2026-11-21,gps,2,323229106,Waze Navigation & Live Traffic,Waze Inc.,3204219,2009-08-01
+2026-11-21,gps,3,915056765,Apple Maps,Apple,64896,2016-06-01
+2026-11-21,gps,4,425589565,GPS Tracks,David Morneault,17860,2011-05-26
+2026-11-21,gps,5,585193266,"Sygic: GPS Navigation, 3D Maps",Sygic a. s.,56939,2013-04-24
+2026-11-21,gps,6,316126557,MapQuest GPS Navigation & Maps,MapQuest Holdings LLC,30546,2009-06-11
+2026-11-21,gps,7,384830320,Life360: Family Safety & GPS,Life360,3172393,2010-08-10
+2026-11-21,gps,8,1610276914,GPS Live Navigation & Live Map,Erasoft Technology,135,2022-02-17
+2026-11-21,gps,9,494286614,Coordinates – GPS Converter,Mapnitude Company Limited,6824,2012-01-18
+2026-11-21,gps,10,1123033235,GPS Fields Area Measure Map,Rento UAB,13234,2016-06-15

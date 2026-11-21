@@ -59,16 +59,16 @@ app_id,position,similar_id,name,developer,checked_at
 1195541934,8,1563767649,RecipeChef: Recipe Manager,Keo Magic,2026-11-07
 1195541934,9,1598423213,Just the Recipe: Cook smarter,Streamliners,2026-11-07
 1195541934,10,1574776971,Pestle: Recipe Manager,Will Bishop,2026-11-07
-1214765807,1,1525846743,Fast&Grand - 3D Real Car Drive,CANDY GAMES TEKNOLOJI LIMITED SIRKETI,2026-11-08
-1214765807,2,1456091972,Car Simulator 2,OppanaGames FZC LLC,2026-11-08
-1214765807,3,6480371584,Urban Street Car Driver,MINOR BUGS,2026-11-08
-1214765807,4,6736580540,DriveCSX Car Crash Simulator,PSV Studio,2026-11-08
-1214765807,5,1108482741,Driving Zone: Germany,Alexander Sivatsky,2026-11-08
-1214765807,6,1499207656,Real Driving School,Oleksii Hohol,2026-11-08
-1214765807,7,1604738089,Parking Master Multiplayer 2,Spektra Games,2026-11-08
-1214765807,8,6471470478,Custom Club: Online Racing 3D,PSV Studio,2026-11-08
-1214765807,9,570426586,Payback 2,Apex Designs Games LLP,2026-11-08
-1214765807,10,1456304437,Car Driving 2026 Traffic Racer,Xsa Software S.R.L.,2026-11-08
+1214765807,1,1525846743,Fast&Grand - 3D Real Car Drive,CANDY GAMES TEKNOLOJI LIMITED SIRKETI,2026-11-21
+1214765807,2,6480371584,Urban Street Car Driver,MINOR BUGS,2026-11-21
+1214765807,3,1456091972,Car Simulator 2,OppanaGames FZC LLC,2026-11-21
+1214765807,4,1108482741,Driving Zone: Germany,Alexander Sivatsky,2026-11-21
+1214765807,5,6471470478,Custom Club: Online Racing 3D,PSV Studio,2026-11-21
+1214765807,6,1604738089,Parking Master Multiplayer 2,Spektra Games,2026-11-21
+1214765807,7,1499207656,Real Driving School,Oleksii Hohol,2026-11-21
+1214765807,8,570426586,Payback 2,Apex Designs Games LLP,2026-11-21
+1214765807,9,6736580540,DriveCSX Car Crash Simulator,PSV Studio,2026-11-21
+1214765807,10,1456304437,Car Driving 2026 Traffic Racer,Xsa Software S.R.L.,2026-11-21
 1232603544,1,6748593720,Ocean for DO,FarFetched,2026-11-20
 1232603544,2,1524366536,DetailsPro,Fun Focus Software LLC,2026-11-20
 1232603544,3,1465448609,TablePlus - Database Client,TablePlus Inc,2026-11-20
@@ -219,16 +219,16 @@ app_id,position,similar_id,name,developer,checked_at
 1437263404,8,1483925124,Truth or Drink Dirty Dare,Kristian Markovic,2026-11-17
 1437263404,9,1469035952,Truth Or Dare: Freaky Games,Teo Braun,2026-11-17
 1437263404,10,1059177218,Adult Charades Party Game,Appcano LLC,2026-11-17
-1439881811,1,288419283,RadarScope,"Base Velocity, LLC",2026-11-12
-1439881811,2,6739154126,WeatherFront - Radar & Models,WeatherFront LLC,2026-11-12
-1439881811,3,6477562536,Vortix Pro: Weather Radar Maps,Digital Edge Creations,2026-11-12
-1439881811,4,6736407724,WeatherWise.app,Interactive Weather Limited,2026-11-12
-1439881811,5,1171250052,wXL23,Josh Green,2026-11-12
-1439881811,6,325683306,MyRadar Weather Radar Pro,"Aviation Data Systems, Inc",2026-11-12
-1439881811,7,526831380,Storm Shield,Mosaic S.r.l.,2026-11-12
-1439881811,8,528748182,NWS Weather: Deep Weather,Rate Of Climb Industries,2026-11-12
-1439881811,9,410148139,NOAA Weather Radio,Christopher Coudriet,2026-11-12
-1439881811,10,1125427067,Tempest Weather,WeatherFlow,2026-11-12
+1439881811,1,288419283,RadarScope,"Base Velocity, LLC",2026-11-21
+1439881811,2,6739154126,WeatherFront - Radar & Models,WeatherFront LLC,2026-11-21
+1439881811,3,6477562536,Vortix Pro: Weather Radar Maps,Digital Edge Creations,2026-11-21
+1439881811,4,6736407724,WeatherWise.app,Interactive Weather Limited,2026-11-21
+1439881811,5,1171250052,wXL23,Josh Green,2026-11-21
+1439881811,6,325683306,MyRadar Weather Radar Pro,"Aviation Data Systems, Inc",2026-11-21
+1439881811,7,526831380,Storm Shield,Mosaic S.r.l.,2026-11-21
+1439881811,8,410148139,NOAA Weather Radio,Christopher Coudriet,2026-11-21
+1439881811,9,528748182,NWS Weather: Deep Weather,Rate Of Climb Industries,2026-11-21
+1439881811,10,1125427067,Tempest Weather,WeatherFlow,2026-11-21
 1442620678,1,1508712998,Spectre VPN,Passion Only,2026-11-17
 1442620678,2,1594898306,"Blink Shell, Build & Code","Blink Shell, Inc",2026-11-17
 1442620678,3,6450956188,Network Sniffer,"CHENGDU MIAOZHI TECHNOLOGY CO., LTD.",2026-11-17
@@ -249,6 +249,16 @@ app_id,position,similar_id,name,developer,checked_at
 1451060960,8,1503858643,Super Charades - Guess It,Johan Jimenez,2026-11-20
 1451060960,9,6748661149,Headbands: Party & Group Games,Frederick Grunst,2026-11-20
 1451060960,10,1498962515,Charades - Guess The Word!,Ivan Gluvacevic,2026-11-20
+1451491030,1,6474272700,Football Referee Lite,Vladimir Pliashkun,2026-11-21
+1451491030,2,1607289341,Football Superstar 2,Lazy Boy Developments,2026-11-21
+1451491030,3,6476927417,Fire Up Football Manager,Kaypora Games Ltda,2026-11-21
+1451491030,4,6743103158,Football Career - Soccer Games,Babuyo Games,2026-11-21
+1451491030,5,6474134759,Ultimate Football Manager 27,Gamebasics BV,2026-11-21
+1451491030,6,1172213338,Soccer Star Top Leagues,Redvel Games,2026-11-21
+1451491030,7,1488431316,Soccer Star 27 Super Football,Redvel Games,2026-11-21
+1451491030,8,889854362,Fantasy Manager Soccer 2025,Taproom SL,2026-11-21
+1451491030,9,1458335828,Idle Eleven - Soccer Tycoon,Gaminho,2026-11-21
+1451491030,10,1068396437,Top Football Manager 2026,Gamegou Limited,2026-11-21
 1453837845,1,1583243200,Headbands: Charades for Adults,Uniqo Lab.,2026-11-17
 1453837845,2,966580280,Charades! Play Anywhere,Appcano LLC,2026-11-17
 1453837845,3,1424246763,Headbands: Charades Party Game,DKraft Studio s.r.o.,2026-11-17
@@ -549,16 +559,16 @@ app_id,position,similar_id,name,developer,checked_at
 1563168194,8,6504657055,Explode 2: Get Exposed,Sebastien Menozzi,2026-11-18
 1563168194,9,1469183094,Most Likely To - Exposed Game,Teo Braun,2026-11-18
 1563168194,10,1210440961,Never Ever: Dirty Adult,Boris Mikic,2026-11-18
-1565131075,1,1554308508,Topps® Digital Archive,"The Topps Company, Inc.",2026-11-12
-1565131075,2,6747395742,NBA Collect by Topps®,"The Topps Company, Inc.",2026-11-12
-1565131075,3,6474134759,Ultimate Football Manager 27,Gamebasics BV,2026-11-12
-1565131075,4,6742242530,Collectibol: Football TCG,Algoritcom Games,2026-11-12
-1565131075,5,1273064549,eFootball™ CHAMPION SQUADS,KONAMI,2026-11-12
-1565131075,6,1638765506,BoxedUp: Sneaker Trading Game,Conwov Ltd,2026-11-12
-1565131075,7,6751347528,Pacwyn 26 Draft & Pack Opener,PACWYN GAMES SP Z O O,2026-11-12
-1565131075,8,6511232646,PACFUT 25,Nauv Technologies,2026-11-12
-1565131075,9,6758414678,Trove - Rip Sports & TCG Packs,Trove Inc.​,2026-11-12
-1565131075,10,775402833,WWE SuperCard Card Battler,2K,2026-11-12
+1565131075,1,1554308508,Topps® Digital Archive,"The Topps Company, Inc.",2026-11-21
+1565131075,2,6747395742,NBA Collect by Topps®,"The Topps Company, Inc.",2026-11-21
+1565131075,3,6474134759,Ultimate Football Manager 27,Gamebasics BV,2026-11-21
+1565131075,4,6742242530,Collectibol: Football TCG,Algoritcom Games,2026-11-21
+1565131075,5,1273064549,eFootball™ CHAMPION SQUADS,KONAMI,2026-11-21
+1565131075,6,1638765506,BoxedUp: Sneaker Trading Game,Conwov Ltd,2026-11-21
+1565131075,7,6751347528,Pacwyn 26 Draft & Pack Opener,PACWYN GAMES SP Z O O,2026-11-21
+1565131075,8,6511232646,PACFUT 25,Nauv Technologies,2026-11-21
+1565131075,9,6758414678,Trove - Rip Sports & TCG Packs,Trove Inc.​,2026-11-21
+1565131075,10,775402833,WWE SuperCard Card Battler,2K,2026-11-21
 1565527320,1,1545704110,Stock Signal: AI Stocks Watch,SAGAMILL PTE. LTD.,2026-11-20
 1565527320,2,1501485233,"Stock Screener, AI Scanner","Ainvest FinTech, Inc.",2026-11-20
 1565527320,3,1531994046,Stock Scanner Screener AI,SAGAMILL PTE. LTD.,2026-11-20
@@ -589,16 +599,16 @@ app_id,position,similar_id,name,developer,checked_at
 1581548562,8,6744579428,ProxMan,Routecore LLC,2026-11-17
 1581548562,9,1582439659,Harbour - Docker Manager,Kacper Kaczmarzyk,2026-11-17
 1581548562,10,1501532023,ServerCat - SSH Terminal & VPS,"Early Moon, LLC",2026-11-17
-1585947003,1,6755629873,UFL: Soccer Game 2026 - Online,XTEN Limited,2026-11-12
-1585947003,2,6764249712,Kickoff Football 26: Be A Pro,Joy Net Games,2026-11-12
-1585947003,3,6449935779,Soccer Manager 2027 - Football,INVINCIBLES STUDIO LTD,2026-11-12
-1585947003,4,1470381963,Soccer Cup 2026: Football Game,Inlogic Software s.r.o.,2026-11-12
-1585947003,5,1068149060,Football Master-Soccer Legend,"TAP TAP STUDIO VIETNAM CO., LTD",2026-11-12
-1585947003,6,981042075,Street Soccer - Futsal 2026,hamza khalid,2026-11-12
-1585947003,7,1386360572,Soccer Games,Puzzle Cats,2026-11-12
-1585947003,8,887118010,Play Football 2026- Real Goal,S Tanveer Hussain,2026-11-12
-1585947003,9,1562842410,Real Soccer – Football Games,RollingStudio,2026-11-12
-1585947003,10,459035295,Top Eleven Be a Soccer Manager,Nordeus,2026-11-12
+1585947003,1,6755629873,UFL: Soccer Game 2026 - Online,XTEN Limited,2026-11-21
+1585947003,2,6764249712,Kickoff Football 26: Be A Pro,Joy Net Games,2026-11-21
+1585947003,3,6449935779,Soccer Manager 2027 - Football,INVINCIBLES STUDIO LTD,2026-11-21
+1585947003,4,1470381963,Soccer Cup 2026: Football Game,Inlogic Software s.r.o.,2026-11-21
+1585947003,5,1068149060,Football Master-Soccer Legend,"TAP TAP STUDIO VIETNAM CO., LTD",2026-11-21
+1585947003,6,1386360572,Soccer Games,Puzzle Cats,2026-11-21
+1585947003,7,981042075,Street Soccer - Futsal 2026,hamza khalid,2026-11-21
+1585947003,8,887118010,Play Football 2026- Real Goal,S Tanveer Hussain,2026-11-21
+1585947003,9,459035295,Top Eleven Be a Soccer Manager,Nordeus,2026-11-21
+1585947003,10,1562842410,Real Soccer – Football Games,RollingStudio,2026-11-21
 1587396851,1,1572826611,SO VEGAN: Healthy Recipes,Plant Future 22 LTD,2026-11-04
 1587396851,2,1333585160,Vegan Recipe Club,Viva,2026-11-04
 1587396851,3,1088859983,Fivesec Health by Alexandra,QPM Invest AB,2026-11-04
@@ -709,16 +719,16 @@ app_id,position,similar_id,name,developer,checked_at
 1630170714,8,6446772145,Moonstories- Werewolf stories,HK IReader Technology Limited,2026-11-05
 1630170714,9,6448085430,Novellair,QVON,2026-11-05
 1630170714,10,6742989602,Lovella: Novels & Audiobooks,FMPROJECT LIMITED,2026-11-05
-1640037895,1,1542440769,Qaly | ECG Reader,"Qaly, Inc.",2026-11-14
-1640037895,2,1664530786,Fractures: Splinting App,Tom Fadial,2026-11-14
-1640037895,3,327963391,Pedi STAT,James M Kempema MD PA,2026-11-14
-1640037895,4,1506944443,AHA ACLS,Massachusetts General Hospital,2026-11-14
-1640037895,5,6612007783,OpenEvidence,OpenEvidence Inc.,2026-11-14
-1640037895,6,798663024,ECG Pro | Road to Mastery,"WMS, Inc",2026-11-14
-1640037895,7,1174559204,AHA Guidelines On-The-Go,American Heart Association,2026-11-14
-1640037895,8,863196620,Sanford Guide Antimicrobial,"Antimicrobial Therapy, Inc.",2026-11-14
-1640037895,9,1581291387,CorePendium,"EM:RAP, Inc.",2026-11-14
-1640037895,10,1026457544,Eko: Digital Stethoscope + ECG,"Eko Health, Inc.",2026-11-14
+1640037895,1,1542440769,Qaly | ECG Reader,"Qaly, Inc.",2026-11-21
+1640037895,2,1664530786,Fractures: Splinting App,Tom Fadial,2026-11-21
+1640037895,3,327963391,Pedi STAT,James M Kempema MD PA,2026-11-21
+1640037895,4,1506944443,AHA ACLS,Massachusetts General Hospital,2026-11-21
+1640037895,5,798663024,ECG Pro | Road to Mastery,"WMS, Inc",2026-11-21
+1640037895,6,1581291387,CorePendium,"EM:RAP, Inc.",2026-11-21
+1640037895,7,1174559204,AHA Guidelines On-The-Go,American Heart Association,2026-11-21
+1640037895,8,6478404244,DocUpdate,Docupdate,2026-11-21
+1640037895,9,6612007783,OpenEvidence,OpenEvidence Inc.,2026-11-21
+1640037895,10,863196620,Sanford Guide Antimicrobial,"Antimicrobial Therapy, Inc.",2026-11-21
 1643541348,1,1552134957,Python3 Charm - AI Leaning,"Phoenix Lab Technology Co., Ltd.",2026-11-10
 1643541348,2,1357215444,Python3IDE,辉 马,2026-11-10
 1643541348,3,6450535928,Code Runner App Compiler & IDE,Cloudbit d.o.o.,2026-11-10
@@ -729,16 +739,16 @@ app_id,position,similar_id,name,developer,checked_at
 1643541348,8,493505744,"pythoni-run code,autocomplete",小文 黄,2026-11-10
 1643541348,9,1397424959,CodeSnack IDE: AI Coding Agent,"Mobibean, LLC",2026-11-10
 1643541348,10,6444545478,C++ Shell - C++ code compiler,"Phoenix Lab Technology Co., Ltd.",2026-11-10
-1644911162,1,6477562536,Vortix Pro: Weather Radar Maps,Digital Edge Creations,2026-11-08
-1644911162,2,488674899,Rain Radar Pro - Live Forecast,DeluxeWare,2026-11-08
-1644911162,3,288419283,RadarScope,"Base Velocity, LLC",2026-11-08
-1644911162,4,458225159,Weather Hi-Def Radar Forecast,"Maple Media Apps, LLC",2026-11-08
-1644911162,5,1041249132,Doppler Radar: Live Rain Map,Voros Innovation,2026-11-08
-1644911162,6,1422605014,Weather Now PRO – Rain Radar,DeluxeWare,2026-11-08
-1644911162,7,1520179063,NOAA Radar & Weather Forecast,Position Mobile Ltd SEZC,2026-11-08
-1644911162,8,945662980,Storm Tracker°,Impala Studios,2026-11-08
-1644911162,9,6448789263,NOAA Weather Radar - SkyFlip,Tien Long Nguyen,2026-11-08
-1644911162,10,528748182,NWS Weather: Deep Weather,Rate Of Climb Industries,2026-11-08
+1644911162,1,6477562536,Vortix Pro: Weather Radar Maps,Digital Edge Creations,2026-11-21
+1644911162,2,488674899,Rain Radar Pro - Live Forecast,DeluxeWare,2026-11-21
+1644911162,3,288419283,RadarScope,"Base Velocity, LLC",2026-11-21
+1644911162,4,1041249132,Doppler Radar: Live Rain Map,Voros Innovation,2026-11-21
+1644911162,5,458225159,Weather Hi-Def Radar Forecast,"Maple Media Apps, LLC",2026-11-21
+1644911162,6,1422605014,Weather Now PRO – Rain Radar,DeluxeWare,2026-11-21
+1644911162,7,945662980,Storm Tracker°,Impala Studios,2026-11-21
+1644911162,8,6448789263,NOAA Weather Radar - SkyFlip,Tien Long Nguyen,2026-11-21
+1644911162,9,1520179063,NOAA Radar & Weather Forecast,Position Mobile Ltd SEZC,2026-11-21
+1644911162,10,528748182,NWS Weather: Deep Weather,Rate Of Climb Industries,2026-11-21
 1661045349,1,6747781542,Delish: Original Fun Recipes,"Hearst Communications, Inc.",2026-11-11
 1661045349,2,1161343509,Crock Pot: Slow Cooker Recipes,Hitbytes Technologies,2026-11-11
 1661045349,3,6745041153,All My Recipes Cookbook,Mustafa Muhaciroglu,2026-11-11
@@ -789,16 +799,16 @@ app_id,position,similar_id,name,developer,checked_at
 1666079454,8,6743824908,Bible Light - Faith & Prayer,LEARNOVELTY TECH SDN. BHD.,2026-11-16
 1666079454,9,6749408774,GraceNotes – Gratitude Journal,Ai Browser,2026-11-16
 1666079454,10,1286409899,KJV Bible Offline - Audio KJV,Watchdis Group B.V,2026-11-16
-1666079570,1,6473724440,NOAA Weather Radar Live Map,Lutech-DN,2026-11-12
-1666079570,2,649264704,Weather Radar - NOAA Channel,Impala Studios,2026-11-12
-1666079570,3,1520179063,NOAA Radar & Weather Forecast,Position Mobile Ltd SEZC,2026-11-12
-1666079570,4,1289108781,National Hurricane Center Data,"LW Brands, LLC",2026-11-12
-1666079570,5,1216396545,Storm Radar: Weather Tracker,The Weather Channel Interactive,2026-11-12
-1666079570,6,6448301535,SKAI - NOAA Weather Radar,"Tightrope Interactive, Inc.",2026-11-12
-1666079570,7,1041249132,Doppler Radar: Live Rain Map,Voros Innovation,2026-11-12
-1666079570,8,1559236118,FOX Weather: Daily Forecasts,"Fox News Network, LLC",2026-11-12
-1666079570,9,945662980,Storm Tracker°,Impala Studios,2026-11-12
-1666079570,10,6503937276,NOAA: Weather Radar & Forecast,LeoStudio Global,2026-11-12
+1666079570,1,6473724440,NOAA Weather Radar Live Map,Lutech-DN,2026-11-21
+1666079570,2,649264704,Weather Radar - NOAA Channel,Impala Studios,2026-11-21
+1666079570,3,1520179063,NOAA Radar & Weather Forecast,Position Mobile Ltd SEZC,2026-11-21
+1666079570,4,1289108781,National Hurricane Center Data,"LW Brands, LLC",2026-11-21
+1666079570,5,1216396545,Storm Radar: Weather Tracker,The Weather Channel Interactive,2026-11-21
+1666079570,6,6448301535,SKAI - NOAA Weather Radar,"Tightrope Interactive, Inc.",2026-11-21
+1666079570,7,1041249132,Doppler Radar: Live Rain Map,Voros Innovation,2026-11-21
+1666079570,8,945662980,Storm Tracker°,Impala Studios,2026-11-21
+1666079570,9,1559236118,FOX Weather: Daily Forecasts,"Fox News Network, LLC",2026-11-21
+1666079570,10,6503937276,NOAA: Weather Radar & Forecast,LeoStudio Global,2026-11-21
 1666079904,1,572700574,FlightStats,LNRS Data Services Limited,2026-11-17
 1666079904,2,399057337,Flightview - Flight Tracker,FlightView Inc.,2026-11-17
 1666079904,3,533365777,Flight Tracker +,Impala Studios,2026-11-17
@@ -989,16 +999,16 @@ app_id,position,similar_id,name,developer,checked_at
 6444920738,8,1407604638,Pura Vida Miami,Pura Vida Miami,2026-11-12
 6444920738,9,1629567966,Daily Provisions,"Union Square Hospitality Group, LLC",2026-11-12
 6444920738,10,6744305418,LUCKIN COFFEE USA,First Ray Holdings (USA) Inc,2026-11-12
-6446075788,1,6502894256,NovelShort - Novels & Fiction,BLACK GEMSTONE CULTURE MEDIA PTE. LTD.,2026-11-08
-6446075788,2,6744429534,motonovel,Tromo Electronics LLC,2026-11-08
-6446075788,3,6479576634,FanFiction | AO3 unofficial,Roman Alifanov,2026-11-08
-6446075788,4,6446772457,Novelpack,HK IReader Technology Limited,2026-11-08
-6446075788,5,6465031472,MetroNovel - Let Stories Shine,LITERIE PTE. LTD.,2026-11-08
-6446075788,6,1552127129,MeloShort-Stream Movies&Dramas,婷婷 乔,2026-11-08
-6446075788,7,1615542845,Tempt: Romance Audiobooks,Womanly Corp,2026-11-08
-6446075788,8,6742989602,Lovella: Novels & Audiobooks,FMPROJECT LIMITED,2026-11-08
-6446075788,9,6446470442,Novelmates-Best Stories&Novels,HK IReader Technology Limited,2026-11-08
-6446075788,10,6450409461,Literie,LITERIE PTE. LTD.,2026-11-08
+6446075788,1,6502894256,NovelShort - Novels & Fiction,BLACK GEMSTONE CULTURE MEDIA PTE. LTD.,2026-11-21
+6446075788,2,6744429534,motonovel,Tromo Electronics LLC,2026-11-21
+6446075788,3,6479576634,FanFiction | AO3 unofficial,Roman Alifanov,2026-11-21
+6446075788,4,6446772457,Novelpack,HK IReader Technology Limited,2026-11-21
+6446075788,5,6465031472,MetroNovel - Let Stories Shine,LITERIE PTE. LTD.,2026-11-21
+6446075788,6,1552127129,MeloShort-Stream Movies&Dramas,婷婷 乔,2026-11-21
+6446075788,7,6742989602,Lovella: Novels & Audiobooks,FMPROJECT LIMITED,2026-11-21
+6446075788,8,1508942129,My Fiction: Stories & Novels,"Crazy Maple Studio, Inc.",2026-11-21
+6446075788,9,6446470442,Novelmates-Best Stories&Novels,HK IReader Technology Limited,2026-11-21
+6446075788,10,6748219088,Amora: Novels & Audiobooks,Riseforward Ltd.,2026-11-21
 6446204098,1,1304504954,WeatherLink,Davis Instruments Corp.,2026-11-20
 6446204098,2,1457810302,Hello Aurora: Northern Lights,Jeremy Barbet,2026-11-20
 6446204098,3,780890907,OpenSnow,"Cloudnine Weather, Inc.",2026-11-20
@@ -1079,16 +1089,16 @@ app_id,position,similar_id,name,developer,checked_at
 6450834358,8,6747957875,Family Go! - Lifetime Sim game,"KIKO FUN INTERACTIVE ENTERTAINMENT CO., LIMITED",2026-11-03
 6450834358,9,6746155186,Family Sim: Life Simulator,"Shenzhen Argo Interactive Entertainment Technology Co., Ltd.",2026-11-03
 6450834358,10,6446404615,Idle Nightclub Tycoon: Manager,Iteration One GmbH,2026-11-03
-6468674686,1,6743496454,CookShelf: Search Cookbooks,CookShelf Inc,2026-11-11
-6468674686,2,1476621703,ckbk: discover great cookbooks,1000 Cookbooks Ltd,2026-11-11
-6468674686,3,1568122827,The Doctor’s Kitchen,Doctor's Kitchen Digital Ltd,2026-11-11
-6468674686,4,6753083711,King Arthur Baking,King Arthur Baking,2026-11-11
-6468674686,5,1572826611,SO VEGAN: Healthy Recipes,Plant Future 22 LTD,2026-11-11
-6468674686,6,6670216494,Mob: Meal Planner and Recipes,Mouth Group Limited,2026-11-11
-6468674686,7,1365223384,America's Test Kitchen,America's Test Kitchen LP,2026-11-11
-6468674686,8,911422904,NYT Cooking: Quick Tasty Meals,The New York Times Company,2026-11-11
-6468674686,9,6469005148,Eater,"Vox Media, Inc.",2026-11-11
-6468674686,10,6446636927,GAIL's Bakery,Gail's,2026-11-11
+6468674686,1,6743496454,CookShelf: Search Cookbooks,CookShelf Inc,2026-11-21
+6468674686,2,1476621703,ckbk: discover great cookbooks,1000 Cookbooks Ltd,2026-11-21
+6468674686,3,1568122827,The Doctor’s Kitchen,Doctor's Kitchen Digital Ltd,2026-11-21
+6468674686,4,6753083711,King Arthur Baking,King Arthur Baking,2026-11-21
+6468674686,5,6670216494,Mob: Meal Planner and Recipes,Mouth Group Limited,2026-11-21
+6468674686,6,1572826611,SO VEGAN: Healthy Recipes,Plant Future 22 LTD,2026-11-21
+6468674686,7,1365223384,America's Test Kitchen,America's Test Kitchen LP,2026-11-21
+6468674686,8,6469005148,Eater,"Vox Media, Inc.",2026-11-21
+6468674686,9,911422904,NYT Cooking: Quick Tasty Meals,The New York Times Company,2026-11-21
+6468674686,10,1314325164,foodByMaria: Greek Recipes,CookBook Co. Pty Ltd,2026-11-21
 6468928108,1,6756808430,Fleet: Planes You’ve Flown,FLEET APP LLC,2026-11-16
 6468928108,2,6742445816,OnlyFlights Live Flight Status,Aliaksandr Huryn,2026-11-16
 6468928108,3,6742110324,2Flights - Live Flight Tracker,Ulugbek Muslitdinov,2026-11-16
@@ -1169,16 +1179,16 @@ app_id,position,similar_id,name,developer,checked_at
 6474100020,8,1183799668,Inito Fertility Monitor,Samplytics,2026-11-19
 6474100020,9,1482581097,Bearable - Symptom Tracker,Bearable Ltd,2026-11-19
 6474100020,10,6448732070,Nourish: Eating Well Made Easy,Nourish Inc.,2026-11-19
-6474134759,1,1273064549,eFootball™ CHAMPION SQUADS,KONAMI,2026-11-12
-6474134759,2,1565131075,Topps Total Football®,Topps Europe Ltd,2026-11-12
-6474134759,3,6745524419,NARUTO: Ninja Cards,Sekai,2026-11-12
-6474134759,4,6751347528,Pacwyn 26 Draft & Pack Opener,PACWYN GAMES SP Z O O,2026-11-12
-6474134759,5,6547851567,Kingdom Life!,SUPERSONIC STUDIOS LTD,2026-11-12
-6474134759,6,775402833,WWE SuperCard Card Battler,2K,2026-11-12
-6474134759,7,6448436365,ARCANE RUSH: Auto Battler,Gear Games Inc,2026-11-12
-6474134759,8,6737688139,HAIKYU!! FLY HIGH,GARENA INTERNATIONAL II PRIVATE LIMITED,2026-11-12
-6474134759,9,6749735622,Saint Seiya EX - Official,Efun Global Company Limited,2026-11-12
-6474134759,10,6511232646,PACFUT 25,Nauv Technologies,2026-11-12
+6474134759,1,6476189877,Champions Elite Football 2027,INVINCIBLES STUDIO LTD,2026-11-21
+6474134759,2,1273064549,eFootball™ CHAMPION SQUADS,KONAMI,2026-11-21
+6474134759,3,6745524419,NARUTO: Ninja Cards,Sekai,2026-11-21
+6474134759,4,1565131075,Topps Total Football®,Topps Europe Ltd,2026-11-21
+6474134759,5,6751347528,Pacwyn 26 Draft & Pack Opener,PACWYN GAMES SP Z O O,2026-11-21
+6474134759,6,6547851567,Kingdom Life!,SUPERSONIC STUDIOS LTD,2026-11-21
+6474134759,7,6736930021,Hex Warriors,Voodoo,2026-11-21
+6474134759,8,775402833,WWE SuperCard Card Battler,2K,2026-11-21
+6474134759,9,6749735622,Saint Seiya EX - Official,Efun Global Company Limited,2026-11-21
+6474134759,10,6511232646,PACFUT 25,Nauv Technologies,2026-11-21
 6478546136,1,6443578246,Deglaze: Recipe Manager,Deglazed LLC,2026-11-17
 6478546136,2,6738133941,Whisk: Recipe Keeper & Planner,Forkflow sp. z o.o.,2026-11-17
 6478546136,3,1597523594,Umami - Recipe Manager,Strange Quark LLC,2026-11-17
@@ -1319,16 +1329,16 @@ app_id,position,similar_id,name,developer,checked_at
 6608970045,8,1666079904,Track My Flight Now,East End Technologies Ltd.,2026-11-17
 6608970045,9,6737717786,Satellite Map - Earth View,Ankagis,2026-11-17
 6608970045,10,6737472826,GPS Speedometer HUD: SpeedAce,"Changsha Liangchao Technology Co., Ltd.",2026-11-17
-6636555692,1,6778259127,20-0: Sports Draft Legends,Nicholas Baumeyer,2026-11-12
-6636555692,2,6744003555,Gridiron Trivia,"Cliq Invite, LLC",2026-11-12
-6636555692,3,6797929772,All Dubs,Vaulty Studios Inc.,2026-11-12
-6636555692,4,6760374401,Hardwood Empire,Finn keating,2026-11-12
-6636555692,5,6563151595,Bitball Baseball,Matthew Steill,2026-11-12
-6636555692,6,6473810245,Super Tiny Football,SMT Games,2026-11-12
-6636555692,7,6779740065,Ultimate 11,Vaulty Studios Inc.,2026-11-12
-6636555692,8,6740080163,Golf Rising Star : Career Sim,军 赵,2026-11-12
-6636555692,9,6780195090,82-0.com,Vaulty Studios Inc.,2026-11-12
-6636555692,10,6743102309,American Football Superstar,军 赵,2026-11-12
+6636555692,1,6778259127,20-0: Sports Draft Legends,Nicholas Baumeyer,2026-11-21
+6636555692,2,6744003555,Gridiron Trivia,"Cliq Invite, LLC",2026-11-21
+6636555692,3,6797929772,All Dubs,Vaulty Studios Inc.,2026-11-21
+6636555692,4,6563151595,Bitball Baseball,Matthew Steill,2026-11-21
+6636555692,5,6473810245,Super Tiny Football,SMT Games,2026-11-21
+6636555692,6,6760374401,Hardwood Empire,Finn keating,2026-11-21
+6636555692,7,6779740065,Ultimate 11,Vaulty Studios Inc.,2026-11-21
+6636555692,8,6743102309,American Football Superstar,军 赵,2026-11-21
+6636555692,9,6740756687,PolyFootball,Kyle Miceli,2026-11-21
+6636555692,10,6740080163,Golf Rising Star : Career Sim,军 赵,2026-11-21
 6670216494,1,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,2026-11-17
 6670216494,2,6743496454,CookShelf: Search Cookbooks,CookShelf Inc,2026-11-17
 6670216494,3,6443578246,Deglaze: Recipe Manager,Deglazed LLC,2026-11-17
@@ -1499,16 +1509,16 @@ app_id,position,similar_id,name,developer,checked_at
 6738940313,8,1623721894,Manga UP!,SQUARE ENIX,2026-11-17
 6738940313,9,1561914474,Alpha Manga: Isekai Manga App,"Alphapolis Co., Ltd.",2026-11-17
 6738940313,10,6739520174,Manga Reader King,Monstera Labs LLC,2026-11-17
-6739154126,1,6736407724,WeatherWise.app,Interactive Weather Limited,2026-11-12
-6739154126,2,1439881811,RadarOmega: Doppler Radar App,SDS Weather LLC,2026-11-12
-6739154126,3,288419283,RadarScope,"Base Velocity, LLC",2026-11-12
-6739154126,4,6736664582,EverythingWeather,Cory Mottice,2026-11-12
-6739154126,5,6756027933,Tornado Tracker by TornadoPath,Ridge Labs LLC,2026-11-12
-6739154126,6,6477562536,Vortix Pro: Weather Radar Maps,Digital Edge Creations,2026-11-12
-6739154126,7,528748182,NWS Weather: Deep Weather,Rate Of Climb Industries,2026-11-12
-6739154126,8,6471449887,Precip - Rain Forecast & Alert,Precipitation Inc.,2026-11-12
-6739154126,9,1216396545,Storm Radar: Weather Tracker,The Weather Channel Interactive,2026-11-12
-6739154126,10,1426025887,Ambient Weather Network,"Ambient,LLC",2026-11-12
+6739154126,1,6736407724,WeatherWise.app,Interactive Weather Limited,2026-11-21
+6739154126,2,1439881811,RadarOmega: Doppler Radar App,SDS Weather LLC,2026-11-21
+6739154126,3,288419283,RadarScope,"Base Velocity, LLC",2026-11-21
+6739154126,4,6736664582,EverythingWeather,Cory Mottice,2026-11-21
+6739154126,5,6756027933,Tornado Tracker by TornadoPath,Ridge Labs LLC,2026-11-21
+6739154126,6,6471449887,Precip - Rain Forecast & Alert,Precipitation Inc.,2026-11-21
+6739154126,7,6477562536,Vortix Pro: Weather Radar Maps,Digital Edge Creations,2026-11-21
+6739154126,8,528748182,NWS Weather: Deep Weather,Rate Of Climb Industries,2026-11-21
+6739154126,9,1426025887,Ambient Weather Network,"Ambient,LLC",2026-11-21
+6739154126,10,526831380,Storm Shield,Mosaic S.r.l.,2026-11-21
 6739386670,1,6752672071,Termix - Remote Access,Luke Gustafson,2026-11-06
 6739386670,2,6448362669,NeoServer SSH Mosh Terminal,"Space-Time Transformation Technology Co., Ltd.",2026-11-06
 6739386670,3,1336634154,SSH Client - Secure ShellFish,Anders Borum,2026-11-06
@@ -1619,26 +1629,26 @@ app_id,position,similar_id,name,developer,checked_at
 6742807606,8,557871911,Speedometer 55 GPS Speed & HUD,Stanislav Dvoychenko,2026-11-17
 6742807606,9,6461211649,Speedometer GPS Speed Trackers,WarthogLab,2026-11-17
 6742807606,10,604836034,Speed Tracker: GPS Speedometer,Oxagile LLC,2026-11-17
-6743102309,1,6677019784,Baseball GOAT,Red falcon,2026-11-12
-6743102309,2,6782369015,MMA Career Simulator,Simone Miali,2026-11-12
-6743102309,3,6787988987,Fish Away: Idle Fishing,Mamboo Entertainment,2026-11-12
-6743102309,4,6547851567,Kingdom Life!,SUPERSONIC STUDIOS LTD,2026-11-12
-6743102309,5,6782400986,Play Any,CROSSAPP LP,2026-11-12
-6743102309,6,6762446115,Pavement Surfer: Skate Master,APIX Educational Systems,2026-11-12
-6743102309,7,6751905612,Lawn City: Idle Grass Cutting,MILKYWAY OYUN YAZILIM BILISIM SANAYI TICARET ANONIM SIRKETI,2026-11-12
-6743102309,8,6758199685,Last Extract,Voodoo,2026-11-12
-6743102309,9,6760320168,Galactic Merge Idle,Voodoo,2026-11-12
-6743102309,10,6758003347,Castle Rivals,Voodoo,2026-11-12
-6743103158,1,6448728113,CLUB - Soccer Manager Game,Formation Games Studio Ltd,2026-11-12
-6743103158,2,6742743290,Country Balls: State Takeover,MAD PIXEL,2026-11-12
-6743103158,3,1562071554,Basketball Star Rising,军 赵,2026-11-12
-6743103158,4,6754779921,MA 3 – President Simulator,OXIWYLE LLC,2026-11-12
-6743103158,5,6547851567,Kingdom Life!,SUPERSONIC STUDIOS LTD,2026-11-12
-6743103158,6,6503986463,MA 2 – President Simulator,OXIWYLE LLC,2026-11-12
-6743103158,7,6465972774,Soccer Dynasty: Club Manager,KONG SOFTWARE JOINT STOCK COMPANY,2026-11-12
-6743103158,8,6747834136,Mafia Life: Underground Boss,UDO GAMES OYUN YAZILIM ANONIM SIRKETI,2026-11-12
-6743103158,9,6736465785,Country Balls: Battle World,MAD PIXEL,2026-11-12
-6743103158,10,400201466,Online Soccer Manager (OSM),Gamebasics BV,2026-11-12
+6743102309,1,6677019784,Baseball GOAT,Red falcon,2026-11-21
+6743102309,2,6787988987,Fish Away: Idle Fishing,Mamboo Entertainment,2026-11-21
+6743102309,3,6547851567,Kingdom Life!,SUPERSONIC STUDIOS LTD,2026-11-21
+6743102309,4,6782369015,MMA Career Simulator,Simone Miali,2026-11-21
+6743102309,5,6762446115,Pavement Surfer: Skate Master,APIX Educational Systems,2026-11-21
+6743102309,6,6782400986,Play Any,CROSSAPP LP,2026-11-21
+6743102309,7,6751905612,Lawn City: Idle Grass Cutting,MILKYWAY OYUN YAZILIM BILISIM SANAYI TICARET ANONIM SIRKETI,2026-11-21
+6743102309,8,6758199685,Last Extract,Voodoo,2026-11-21
+6743102309,9,6758003347,Castle Rivals,Voodoo,2026-11-21
+6743102309,10,6760320168,Galactic Merge Idle,Voodoo,2026-11-21
+6743103158,1,6742743290,Country Balls: State Takeover,MAD PIXEL,2026-11-21
+6743103158,2,6448728113,CLUB - Soccer Manager Game,Formation Games Studio Ltd,2026-11-21
+6743103158,3,1562071554,Basketball Star Rising,军 赵,2026-11-21
+6743103158,4,6754779921,MA 3 – President Simulator,OXIWYLE LLC,2026-11-21
+6743103158,5,6547851567,Kingdom Life!,SUPERSONIC STUDIOS LTD,2026-11-21
+6743103158,6,6465972774,Soccer Dynasty: Club Manager,KONG SOFTWARE JOINT STOCK COMPANY,2026-11-21
+6743103158,7,6503986463,MA 2 – President Simulator,OXIWYLE LLC,2026-11-21
+6743103158,8,6747834136,Mafia Life: Underground Boss,UDO GAMES OYUN YAZILIM ANONIM SIRKETI,2026-11-21
+6743103158,9,6736465785,Country Balls: Battle World,MAD PIXEL,2026-11-21
+6743103158,10,400201466,Online Soccer Manager (OSM),Gamebasics BV,2026-11-21
 6743181258,1,6755757771,Clouder for Cloudflare,Layton Labs AB,2026-11-03
 6743181258,2,1591150334,Docker Server Admin,婉媚 邵,2026-11-03
 6743181258,3,6748314140,Proxmox VE Companion,Proxmox Server Solutions GmbH,2026-11-03
@@ -1739,26 +1749,26 @@ app_id,position,similar_id,name,developer,checked_at
 6744909694,8,6449265212,seats.aero,seats.aero,2026-11-17
 6744909694,9,6743861719,Points Path,Tripsight Inc.,2026-11-17
 6744909694,10,785128002,Steller: Travel Planner App,"Expedition Travel Advisor, Inc.",2026-11-17
-6745089763,1,6786505613,ReadShort - AI Comics,BUBBLE GROUP HK LIMITED,2026-11-11
-6745089763,2,6756415022,ToonShort -Popular Dramas & TV,HONG KONG TOONSHORT TECHNOLOGY LIMITED,2026-11-11
-6745089763,3,6773745107,DramaShine-Drama Shorts Stream,17Funs Game,2026-11-11
-6745089763,4,6755513003,Popkon - Trending Short Dramas,WHITE-LIGHT HOLOGRAPHY TECHNOLOGY PTE. LTD.,2026-11-11
-6745089763,5,6784575016,Shortoo - AI Dramas & Comics,SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,2026-11-11
-6745089763,6,6761456127,Vyntage,"Anhui Qinjiu Film And Television Media Co., Ltd",2026-11-11
-6745089763,7,6770538871,WinkNovel,"HONG KONG XINGYUN NETWORK TECHNOLOGY CO.,LIMITED",2026-11-11
-6745089763,8,6763179077,Ziptale-Endless Dramas&TV,HONG KONG XINGYI NETWORK TECHNOLOGY CO.,2026-11-11
-6745089763,9,6764501856,Myrelle,"Tianjin Chuyi Network Technology Co., Ltd.",2026-11-11
-6745089763,10,6748892000,SixthShort - Stream Drama & TV,HongKong Liutuo Limited,2026-11-11
-6745097949,1,6740740427,Rev for Vercel,FarFetched,2026-11-11
-6745097949,2,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-11
-6745097949,3,6740634400,daily.dev: AI & Tech News Feed,Daily Dev Ltd,2026-11-11
-6745097949,4,1462586500,Python IDE & Jupyter – Juno,Rational Matter,2026-11-11
-6745097949,5,6755731546,Vibecode AI Website Builder,SSoftTeam OU,2026-11-11
-6745097949,6,6749557696,XVibe AI - Website App Builder,Tetiana Oliinyk,2026-11-11
-6745097949,7,6743181258,Cloudflare Remote,Emre Keles,2026-11-11
-6745097949,8,6760243963,Remodex - Remote AI Coding,Emanuele Di Pietro,2026-11-11
-6745097949,9,6444063249,Dev Utils,Ryan Fielder,2026-11-11
-6745097949,10,6444399635,Python Coding Editor & IDE App,Cloudbit d.o.o.,2026-11-11
+6745089763,1,6786505613,ReadShort - Short Dramas & TV,BUBBLE GROUP HK LIMITED,2026-11-21
+6745089763,2,6756415022,ToonShort -Popular Dramas & TV,HONG KONG TOONSHORT TECHNOLOGY LIMITED,2026-11-21
+6745089763,3,6773745107,DramaShine-Drama Shorts Stream,17Funs Game,2026-11-21
+6745089763,4,6755513003,Popkon - Trending Short Dramas,WHITE-LIGHT HOLOGRAPHY TECHNOLOGY PTE. LTD.,2026-11-21
+6745089763,5,6784575016,Shortoo - AI Dramas & Comics,SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,2026-11-21
+6745089763,6,6755374588,"BibiShort - Reel, Drama Series",TOPREEL GLOBAL PTE. LTD.,2026-11-21
+6745089763,7,6761456127,Vyntage,HONG KONG JOYSHOW PEAKS NETWORK TECHNOLOGY LIMITED,2026-11-21
+6745089763,8,6748892000,SixthShort - Stream Drama & TV,HongKong Liutuo Limited,2026-11-21
+6745089763,9,6756036537,ReelRush-Short Drama&TV,"Beijing Yueying Xinghe Technology Co., Ltd",2026-11-21
+6745089763,10,6763179077,Ziptale-Endless Dramas&TV,HONG KONG XINGYI NETWORK TECHNOLOGY CO.,2026-11-21
+6745097949,1,6740740427,Rev for Vercel,FarFetched,2026-11-21
+6745097949,2,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-21
+6745097949,3,6740634400,daily.dev: AI & Tech News Feed,Daily Dev Ltd,2026-11-21
+6745097949,4,1462586500,Python IDE & Jupyter – Juno,Rational Matter,2026-11-21
+6745097949,5,6743181258,Cloudflare Remote,Emre Keles,2026-11-21
+6745097949,6,6755731546,Vibecode AI Website Builder,SSoftTeam OU,2026-11-21
+6745097949,7,6749557696,XVibe AI - Website App Builder,Tetiana Oliinyk,2026-11-21
+6745097949,8,6469385251,Xogot: Godot for iPad & iPhone,"Xibbon, Inc",2026-11-21
+6745097949,9,6448362669,NeoServer SSH Mosh Terminal,"Space-Time Transformation Technology Co., Ltd.",2026-11-21
+6745097949,10,6744783540,Firelog for Firebase Console,Valet Hero LLC,2026-11-21
 6745152251,1,6504657055,Explode 2: Get Exposed,Sebastien Menozzi,2026-11-20
 6745152251,2,6743406417,Exposed Party: Game Reveal Fun,Snash UG (haftungsbeschraenkt),2026-11-20
 6745152251,3,6446330973,Exposed Game: Party Lab,MindShark Games Limited,2026-11-20
@@ -1769,16 +1779,16 @@ app_id,position,similar_id,name,developer,checked_at
 6745152251,8,1553777064,Exposed - Who's Most Likely To,vysgames,2026-11-20
 6745152251,9,1608642541,Xpose・Most Likely Exposed Game,HOOZA LTD,2026-11-20
 6745152251,10,1585131769,Dirty Questions,OnMobi,2026-11-20
-6745254229,1,6746042669,Word Bridges Logic Connections,HYPERCELL SIA,2026-11-12
-6745254229,2,6742409587,Association Master: Word Game,SayGames LTD,2026-11-12
-6745254229,3,6479947010,Connections Word Game,Wixot,2026-11-12
-6745254229,4,6747068105,Word Match Connect: Logic game,Joyteractive,2026-11-12
-6745254229,5,6754191834,Word Bond - Association Game,Metajoy,2026-11-12
-6745254229,6,6760290000,Word Associations Now!,Arrowise Studio,2026-11-12
-6745254229,7,6756910716,Word Match: Card Solitaire,"LE TECH CO.,LIMITED",2026-11-12
-6745254229,8,6753587430,Hexa Words: Match Associations,Severex,2026-11-12
-6745254229,9,6476605686,Word Connect - Top Association,Severex,2026-11-12
-6745254229,10,6742132738,Word Sort Master,"Guangzhou GongchengShi Technology Co.,Ltd",2026-11-12
+6745254229,1,6746042669,Word Bridges Logic Connections,Puzzlevault Ltd,2026-11-21
+6745254229,2,6479947010,Connections Word Game,Wixot,2026-11-21
+6745254229,3,6742409587,Association Master: Word Game,SayGames LTD,2026-11-21
+6745254229,4,6747068105,Word Match Connect: Logic game,Joyteractive,2026-11-21
+6745254229,5,6754191834,Word Bond - Association Game,Metajoy,2026-11-21
+6745254229,6,6760290000,Word Associations Now!,Arrowise Studio,2026-11-21
+6745254229,7,6756910716,Word Match: Card Solitaire,"LE TECH CO.,LIMITED",2026-11-21
+6745254229,8,6753587430,Hexa Words: Match Associations,Severex,2026-11-21
+6745254229,9,6476605686,Word Connect - Top Association,Severex,2026-11-21
+6745254229,10,6742132738,Word Sort Master,"Guangzhou GongchengShi Technology Co.,Ltd",2026-11-21
 6745411191,1,6759989982,CookingGuru: Recipe Manager,CookingGuru,2026-11-17
 6745411191,2,6762059033,Mealhub - Recipe Manager,Fredrik Arntzen Borenstein,2026-11-17
 6745411191,3,1248495163,Prepear: Meal Planner,"Prepear, Inc.",2026-11-17
@@ -1799,6 +1809,16 @@ app_id,position,similar_id,name,developer,checked_at
 6745761596,8,1435266087,Piggy GO - Clash of Coin,"HK DENGSHEN TECHNOLOGY CO., LIMITED",2026-11-16
 6745761596,9,6754087834,Glow Tales: Merge & Makeover,Paxie Games,2026-11-16
 6745761596,10,6755183085,Yarn Loop: Knit Puzzle,Combo Games,2026-11-16
+6746151928,1,6754582466,My Leisure Time,"HONGKONG YUEYOO TECHNOLOGY CO., LIMITED",2026-11-21
+6746151928,2,6503631437,Adorable Garden,Skyborne Games Inc,2026-11-21
+6746151928,3,6472733074,Fairy Village,HyperBeard Inc.,2026-11-21
+6746151928,4,6746392411,Angela World：Avatar Life,KittenDoll,2026-11-21
+6746151928,5,6472632116,"YoYa Time: Build, Share & Play",YoYa Games Ltd,2026-11-21
+6746151928,6,6747178992,Life Sim 3D: Family Simulator,Vira Games Inc.,2026-11-21
+6746151928,7,6745251520,Happy Citizens - Mayor Sim,净 邹,2026-11-21
+6746151928,8,6470771978,Cats Mansion - Cute Merge Game,Ladaneta Games,2026-11-21
+6746151928,9,6446886499,Dustbunny: Emotions to Plants,"Dustbunny Game, LLC",2026-11-21
+6746151928,10,6761046556,Deco Master - DIY Pen ASMR,Whoyaho Corp.,2026-11-21
 6746174019,1,6477230784,101 before one,101 before one LLC,2026-11-16
 6746174019,2,1572670746,Little Lunches: Kids Meals,Little Lunches Corp.,2026-11-16
 6746174019,3,1540196240,BLW Meals: Starting Solids,BLW SOCIAL PTE. LTD.,2026-11-16
@@ -1859,16 +1879,16 @@ app_id,position,similar_id,name,developer,checked_at
 6746973263,8,6802101534,Yettuce: What to Eat,Yettuce,2026-11-15
 6746973263,9,6747031054,PantryAI - Recipe Keeper,FD Digital,2026-11-15
 6746973263,10,6790233582,The Pantry Butler: Recipe Box,My Media Matters LLC,2026-11-15
-6747322602,1,1023950207,Where Am I - Find My Address,GlassWave LLC,2026-11-13
-6747322602,2,6811529725,PatrolAxis Navigation,Seven Sipe,2026-11-13
-6747322602,3,6747159305,Radar Detector: Police Finder,Alperen Sirin,2026-11-13
-6747322602,4,1562022453,Mile-1,OnStarboard LLC,2026-11-13
-6747322602,5,6476321747,DroneSense OpsHub,DroneSense INC,2026-11-13
-6747322602,6,6470309173,Blue Light Maps,Blue Light Maps,2026-11-13
-6747322602,7,1455647091,DroneSense,DroneSense INC,2026-11-13
-6747322602,8,6738631659,TAK Aware,Flight Tactics,2026-11-13
-6747322602,9,1537629838,What Street?,Applorium Ltd,2026-11-13
-6747322602,10,1185316305,MyPatrol - Moja Patrola,MyPatrol LLC,2026-11-13
+6747322602,1,1023950207,Where Am I - Find My Address,GlassWave LLC,2026-11-21
+6747322602,2,6811529725,PatrolAxis Navigation,Seven Sipe,2026-11-21
+6747322602,3,6747159305,Radar Detector: Police Finder,Alperen Sirin,2026-11-21
+6747322602,4,1562022453,Mile-1,OnStarboard LLC,2026-11-21
+6747322602,5,6476321747,DroneSense OpsHub,DroneSense INC,2026-11-21
+6747322602,6,1455647091,DroneSense,DroneSense INC,2026-11-21
+6747322602,7,6738631659,TAK Aware,Flight Tactics,2026-11-21
+6747322602,8,6470309173,Blue Light Maps,Blue Light Maps,2026-11-21
+6747322602,9,1185316305,MyPatrol - Moja Patrola,MyPatrol LLC,2026-11-21
+6747322602,10,1643416096,Police Detector - speed radar,Ildar Murtazin,2026-11-21
 6747734505,1,6760599090,Recipe Importer - Wecipe,Cedric Fonsat,2026-11-19
 6747734505,2,6737542752,WeChef - Recipe Organizer,Relentless,2026-11-19
 6747734505,3,6736670025,Recettes Airfryer- Cookofry,COOKTECH,2026-11-19
@@ -2319,16 +2339,16 @@ app_id,position,similar_id,name,developer,checked_at
 6756415022,8,6749936320,ReelyGo - Stream Short Dramas,TITIAN PTE. LTD.,2026-11-12
 6756415022,9,6503328539,MoreShort: Stream Drama Shorts,SUNRISEAI PTE. LTD.,2026-11-12
 6756415022,10,6756036537,ReelRush-Short Drama&TV,"Beijing Yueying Xinghe Technology Co., Ltd",2026-11-12
-6756426522,1,6755150928,Family Locator: Phone Tracker,RU ART AND DESIGN LLC,2026-11-10
-6756426522,2,6785658767,Location Changer Fake GPS: Pro,Yahor Laba,2026-11-10
-6756426522,3,6743682493,Locella - Family Phone Tracker,Emor Elektronik Hizmetler Ithalat Ihracat Pazarlama Sanayi Ve Ticaret Limited Sirketi,2026-11-10
-6756426522,4,6761761345,Jet eSIM: eSIM for Travel,JET ESIM LTD,2026-11-10
-6756426522,5,6758957754,Share Location: Mobile Tracker,VN CONSULTING COMPANY DOO,2026-11-10
-6756426522,6,6742133107,Route Planner: Swift Way App,Elena Zubkova,2026-11-10
-6756426522,7,6746230747,LocateX – Real Phone Tracker,海东 付,2026-11-10
-6756426522,8,6758764858,Stepin: Location Tracker Live,MOMENT OF EXCELLENCE j.d.o.o.,2026-11-10
-6756426522,9,6746744205,"Phone Tracker, Family Location",Miczon LLC,2026-11-10
-6756426522,10,6742447845,Phone Tracker: GPS Locator,Yehor Siholaiev,2026-11-10
+6756426522,1,6755150928,Family Locator: Phone Tracker,RU ART AND DESIGN LLC,2026-11-21
+6756426522,2,6785658767,Location Changer Fake GPS: Pro,Yahor Laba,2026-11-21
+6756426522,3,6743682493,Locella - Family Phone Tracker,Emor Elektronik Hizmetler Ithalat Ihracat Pazarlama Sanayi Ve Ticaret Limited Sirketi,2026-11-21
+6756426522,4,6761761345,Jet eSIM: eSIM for Travel,JET ESIM LTD,2026-11-21
+6756426522,5,6758957754,Share Location: Mobile Tracker,VN CONSULTING COMPANY DOO,2026-11-21
+6756426522,6,6742133107,Route Planner: Swift Way App,Elena Zubkova,2026-11-21
+6756426522,7,6746230747,LocateX – Real Phone Tracker,海东 付,2026-11-21
+6756426522,8,6758764858,Stepin: Location Tracker Live,MOMENT OF EXCELLENCE j.d.o.o.,2026-11-21
+6756426522,9,6746744205,"Phone Tracker, Family Location",Miczon LLC,2026-11-21
+6756426522,10,6742447845,Phone Tracker: GPS Locator,Yehor Siholaiev,2026-11-21
 6756440767,1,1627514527,Seed Oil Scout: Healthy Dining,Seed Oil Scout,2026-11-17
 6756440767,2,6447645521,Locally Grown: Local Farms,JohnAnge Kernodle,2026-11-17
 6756440767,3,1564147180,Misfits Market Grocery App,Misfits Market,2026-11-17
@@ -2529,16 +2549,16 @@ app_id,position,similar_id,name,developer,checked_at
 6759341434,8,6759430954,WhisperCode,Devin Griffin,2026-11-19
 6759341434,9,6759504065,Lunel,Soham Bharambe,2026-11-19
 6759341434,10,6761265182,AgentsRoom: Dev Remote Control,CHAUVIN Jean-Baptiste Thibault,2026-11-19
-6759412341,1,1566854514,Football Head Coach 27 - FHC,Gamebasics BV,2026-11-12
-6759412341,2,6740756687,PolyFootball,Kyle Miceli,2026-11-12
-6759412341,3,1605197976,Hoop Land,Koality Game LLC,2026-11-12
-6759412341,4,1662360059,Axis Football Mobile,"Axis Games, Inc.",2026-11-12
-6759412341,5,937922348,Big Win Football Manager,Fresh Build Games Inc.,2026-11-12
-6759412341,6,1632904520,Retro Bowl College,New Star Games,2026-11-12
-6759412341,7,1551178669,Golf Dreams,Golf Dreams AB,2026-11-12
-6759412341,8,1524154735,Axis Football 2023,"Axis Games, Inc.",2026-11-12
-6759412341,9,6563151595,Bitball Baseball,Matthew Steill,2026-11-12
-6759412341,10,6782400986,Play Any,CROSSAPP LP,2026-11-12
+6759412341,1,6740756687,PolyFootball,Kyle Miceli,2026-11-21
+6759412341,2,1566854514,Football Head Coach 27 - FHC,Gamebasics BV,2026-11-21
+6759412341,3,1605197976,Hoop Land,Koality Game LLC,2026-11-21
+6759412341,4,1662360059,Axis Football Mobile,"Axis Games, Inc.",2026-11-21
+6759412341,5,1632904520,Retro Bowl College,New Star Games,2026-11-21
+6759412341,6,937922348,Big Win Football Manager,Fresh Build Games Inc.,2026-11-21
+6759412341,7,1551178669,Golf Dreams,Golf Dreams AB,2026-11-21
+6759412341,8,6563151595,Bitball Baseball,Matthew Steill,2026-11-21
+6759412341,9,1524154735,Axis Football 2023,"Axis Games, Inc.",2026-11-21
+6759412341,10,6782400986,Play Any,CROSSAPP LP,2026-11-21
 6759494054,1,6744979439,Restockd,Phrame Studio LLC,2026-11-14
 6759494054,2,1568026219,Drip: Rip TCG & Sports Packs,Flourish Cares Inc,2026-11-14
 6759494054,3,6499444724,Arena Club: Sports & TCG Card,Arena Club,2026-11-14
@@ -2899,16 +2919,16 @@ app_id,position,similar_id,name,developer,checked_at
 6778126199,8,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",2026-11-17
 6778126199,9,6740147353,H20Score - Water Rankings,Pato Apps LLC,2026-11-17
 6778126199,10,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,2026-11-17
-6778744843,1,6776583457,Pocket Scout FC,Mobge Ltd,2026-11-12
-6778744843,2,6761053085,Sport Star - Team Manager Game,Gryphon Games UG,2026-11-12
-6778744843,3,1458335828,Idle Eleven - Soccer Tycoon,Gaminho,2026-11-12
-6778744843,4,6764249712,Kickoff Football 26: Be A Pro,Joy Net Games,2026-11-12
-6778744843,5,6446123740,Football Manager 27 Mobile,"Netflix, Inc.",2026-11-12
-6778744843,6,6782871814,Race Star - Team Manager Game,Gryphon Games UG,2026-11-12
-6778744843,7,1585947003,Total Football: New Season,Gala Sports Technology Limited,2026-11-12
-6778744843,8,1585604439,Football Rising Star,Babuyo Games,2026-11-12
-6778744843,9,6767044929,Footballer Career,Muhammet Furkan Emanet,2026-11-12
-6778744843,10,6742241805,Soccer Referee Simulator 3D,J LABS TEKNOLOJI ANONIM SIRKETI,2026-11-12
+6778744843,1,6776583457,Pocket Scout FC,Mobge Ltd,2026-11-21
+6778744843,2,6761053085,Sport Star - Team Manager Game,Gryphon Games UG,2026-11-21
+6778744843,3,1458335828,Idle Eleven - Soccer Tycoon,Gaminho,2026-11-21
+6778744843,4,6446123740,Football Manager 27 Mobile,"Netflix, Inc.",2026-11-21
+6778744843,5,6782871814,Race Star - Team Manager Game,Gryphon Games UG,2026-11-21
+6778744843,6,1585947003,Total Football: New Season,Gala Sports Technology Limited,2026-11-21
+6778744843,7,6764249712,Kickoff Football 26: Be A Pro,Joy Net Games,2026-11-21
+6778744843,8,1585604439,Football Rising Star,Babuyo Games,2026-11-21
+6778744843,9,6742241805,Soccer Referee Simulator 3D,J LABS TEKNOLOJI ANONIM SIRKETI,2026-11-21
+6778744843,10,6449205872,Soccer Empire,CYBERJOY LIMITED,2026-11-21
 6778760884,1,6769601354,TapCook: Budget Meal Plans,TestMaxx,2026-11-17
 6778760884,2,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,2026-11-17
 6778760884,3,1595938390,Zest: Meal Planner & Recipes,"Culi, Inc.",2026-11-17
@@ -2949,16 +2969,16 @@ app_id,position,similar_id,name,developer,checked_at
 6781347945,8,6793533650,FlyTrack－Live Flight Tracking,MOR TOSBAA MOBIL COZUMLER ANONIM,2026-11-17
 6781347945,9,6766834262,FlyStandby,Matthieu Labbe,2026-11-17
 6781347945,10,6648756794,PointsYeah,PointsYeah Inc,2026-11-17
-6781655348,1,6782572775,Weather & Rain Radar Forecast,Deep Orbit B.V.,2026-11-12
-6781655348,2,6467690935,9Weather: Weather forecast,Amobi Lab,2026-11-12
-6781655348,3,6754548876,Weatherly:Forecast&Radar,Magic Snail,2026-11-12
-6781655348,4,543364901,Meteored - Weather Radar,"Alpred, S.L.",2026-11-12
-6781655348,5,6473724440,NOAA Weather Radar Live Map,Lutech-DN,2026-11-12
-6781655348,6,1363846787,Weather forecast & NOAA Radar,TMEDILAB SOFTWARE JOINT STOCK COMPANY,2026-11-12
-6781655348,7,545993260,Weather & Radar,WetterOnline - Meteorologische Dienstleistungen GmbH,2026-11-12
-6781655348,8,407856257,Climatempo - Previsão do tempo,Climatempo Meteorologia,2026-11-12
-6781655348,9,980123924,RainViewer: Live Weather Radar,MeteoLab Inc.,2026-11-12
-6781655348,10,6752570228,CNN Weather: Radar & Forecast,"CNN Interactive Group, Inc.",2026-11-12
+6781655348,1,6782572775,Weather & Rain Radar Forecast,Deep Orbit B.V.,2026-11-21
+6781655348,2,6467690935,9Weather: Weather forecast,Amobi Lab,2026-11-21
+6781655348,3,543364901,Meteored - Weather Radar,"Alpred, S.L.",2026-11-21
+6781655348,4,1363846787,Weather forecast & NOAA Radar,TMEDILAB SOFTWARE JOINT STOCK COMPANY,2026-11-21
+6781655348,5,6754548876,Weatherly:Forecast&Radar,Magic Snail,2026-11-21
+6781655348,6,6473724440,NOAA Weather Radar Live Map,Lutech-DN,2026-11-21
+6781655348,7,407856257,Climatempo - Previsão do tempo,Climatempo Meteorologia,2026-11-21
+6781655348,8,545993260,Weather & Radar,WetterOnline - Meteorologische Dienstleistungen GmbH,2026-11-21
+6781655348,9,980123924,RainViewer: Live Weather Radar,MeteoLab Inc.,2026-11-21
+6781655348,10,1621050235,Rainbow AI: Weather Radar,Weather Forecast Technologies,2026-11-21
 6783742855,1,6778760884,Potto - meal planner,Anete Ziedina,2026-11-17
 6783742855,2,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",2026-11-17
 6783742855,3,6769601354,TapCook: Budget Meal Plans,TestMaxx,2026-11-17
@@ -3069,16 +3089,16 @@ app_id,position,similar_id,name,developer,checked_at
 6789877680,8,6757801172,PyStudio - Learn & Run Python,Ganesh Kalwane,2026-11-10
 6789877680,9,6759328000,HTML Viewer : Editor & Creator,Hardik Khanesa,2026-11-10
 6789877680,10,6760310359,Pythona - Python 3 IDE,志远 刘,2026-11-10
-6792154160,1,6479599821,Cheap Flights・Flights70,Upscale Ventures Private Limited,2026-11-14
-6792154160,2,6744338376,Soar Travel: Flights & Hotels,Soar Intelligence Inc.,2026-11-14
-6792154160,3,6758649265,Last Minute Hotel・Cheap Hotels,PogoPixel,2026-11-14
-6792154160,4,6498233255,Cheap Hotels・Hotels70,Upscale Ventures Private Limited,2026-11-14
-6792154160,5,6740247064,Airclub - Flight Deals,Arcadia Labs Inc.,2026-11-14
-6792154160,6,1545733226,Cheap Hotels・Hotel Deals,Muhammed Afeef P K,2026-11-14
-6792154160,7,6754620049,Hackney: Compare Rideshares,"Hackney Carriage, LLC",2026-11-14
-6792154160,8,6772085444,THROO - Ride Hailing,MVL Foundation,2026-11-14
-6792154160,9,6751292391,Gondola: Smarter Hotel Booking,"Gondola AI, Inc.",2026-11-14
-6792154160,10,6748958042,Rove - Earn Miles & Travel,Rove Miles,2026-11-14
+6792154160,1,6479599821,Cheap Flights・Flights70,Upscale Ventures Private Limited,2026-11-21
+6792154160,2,6744338376,Soar Travel: Flights & Hotels,Soar Intelligence Inc.,2026-11-21
+6792154160,3,6758649265,Last Minute Hotel・Cheap Hotels,PogoPixel,2026-11-21
+6792154160,4,6498233255,Cheap Hotels・Hotels70,Upscale Ventures Private Limited,2026-11-21
+6792154160,5,6740247064,Airclub - Flight Deals,Arcadia Labs Inc.,2026-11-21
+6792154160,6,6772085444,THROO - Ride Hailing,MVL Foundation,2026-11-21
+6792154160,7,1545733226,Cheap Hotels・Hotel Deals,Muhammed Afeef P K,2026-11-21
+6792154160,8,1607823726,RatePunk: Cheap Plane Tickets,Yard Venture,2026-11-21
+6792154160,9,6754620049,Hackney: Compare Rideshares,"Hackney Carriage, LLC",2026-11-21
+6792154160,10,6751292391,Gondola: Smarter Hotel Booking,"Gondola AI, Inc.",2026-11-21
 6793438980,1,6745537938,Bite Recipes,Sarah Eichenstein,2026-11-15
 6793438980,2,6761450293,Goodlist: Recipe Manager,Jonathan Garcia,2026-11-15
 6793438980,3,6757973440,ChompPrompt: AI Cookbook,Carbon Hands LLC,2026-11-15
@@ -3169,16 +3189,16 @@ app_id,position,similar_id,name,developer,checked_at
 6798603074,8,6741623453,Live Translator: Translate +,"Yuenhe Innovations Co., Ltd.",2026-11-17
 6798603074,9,6740013449,eTranslator-AI Translate,HIGHONE (HK) Inc,2026-11-17
 6798603074,10,6504601136,TransQuick - Word Tool,"Shaanxi Zhuowei Network Technology Co., Ltd.",2026-11-17
-6799906854,1,6789476362,Football Life: Gridiron Career,Akin Aksoy,2026-11-12
-6799906854,2,6743102309,American Football Superstar,军 赵,2026-11-12
-6799906854,3,6797929772,All Dubs,Vaulty Studios Inc.,2026-11-12
-6799906854,4,6794596594,Basketball Star Life Simulator,Akin Aksoy,2026-11-12
-6799906854,5,6766989829,DraftBattle,Pedro Marques,2026-11-12
-6799906854,6,6799354666,17-0 Draft,LEANDRO J LUCCION,2026-11-12
-6799906854,7,6780492053,Undefeated - Game,scott sussman,2026-11-12
-6799906854,8,6786328179,All-Timers: 17-0 & 82-0,AWE Industries LLC,2026-11-12
-6799906854,9,6743102148,Baseball Superstar: MVP Career,军 赵,2026-11-12
-6799906854,10,6781540204,iKnoBall: All-Time Draft Game,Ethan Self,2026-11-12
+6799906854,1,6743102309,American Football Superstar,军 赵,2026-11-21
+6799906854,2,6797929772,All Dubs,Vaulty Studios Inc.,2026-11-21
+6799906854,3,6786328179,All-Timers: 17-0 & 82-0,AWE Industries LLC,2026-11-21
+6799906854,4,6743102148,Baseball Superstar: MVP Career,军 赵,2026-11-21
+6799906854,5,6778055387,162-0: Historic Lineup Game,Avram Shimm,2026-11-21
+6799906854,6,6778259127,20-0: Sports Draft Legends,Nicholas Baumeyer,2026-11-21
+6799906854,7,6766989829,DraftBattle,Pedro Marques,2026-11-21
+6799906854,8,6780195090,82-0.com,Vaulty Studios Inc.,2026-11-21
+6799906854,9,6793136442,Track Star - Team Manager Idle,Gryphon Games UG,2026-11-21
+6799906854,10,6759412341,EA College Football Mobile 27,Electronic Arts,2026-11-21
 6800278507,1,6795233186,DraftParty - Draft Party Game,Andy Lin,2026-11-17
 6800278507,2,6790950688,Last One Standing - Celeb Quiz,tnySocial,2026-11-17
 6800278507,3,6764505185,Dronk: 20 Dollar Draft Games,Jacob Gade Hartmann,2026-11-17
@@ -3229,16 +3249,16 @@ app_id,position,similar_id,name,developer,checked_at
 6804464432,8,6738951508,Hi Beatz - Beat Music Game,Fun Tap X Limited,2026-11-20
 6804464432,9,6445803857,Beat Tiles: Music Game,Cadenverse,2026-11-20
 6804464432,10,975364678,SongPop Classic - Music Trivia,FreshPlanet Inc.,2026-11-20
-6805897875,1,6793533650,FlyTrack－Live Flight Tracking,MOR TOSBAA MOBIL COZUMLER ANONIM,2026-11-14
-6805897875,2,6784370261,Vrolu – Live Flight Tracker,Vrolu LLC,2026-11-14
-6805897875,3,6824269447,BumpCast Flight: Turbulence,Akinyemi & Co Ltd.,2026-11-14
-6805897875,4,6758215295,Sofly: Flight Tracker & Radar,Zhirayr Melikyan,2026-11-14
-6805897875,5,6809028730,Lufthaven: Flight Tracker,Compiler Inc.,2026-11-14
-6805897875,6,6807729703,Ruli - Make a new start,Ria Siti Juariah,2026-11-14
-6805897875,7,6821810841,Live Street Map: Map Explorer,Dhara Hingu,2026-11-14
-6805897875,8,6813012111,ATC Radio - Live Air Traffic,Kovan Apps,2026-11-14
-6805897875,9,6624300664,Wetolove,"Henan Hounan Electronic Science & Technology Co., Ltd",2026-11-14
-6805897875,10,6793805680,Radar Speed Camera Detector,Vasundhara Infotech LLP,2026-11-14
+6805897875,1,6784370261,Vrolu: Flight Tracker & Delays,Vrolu LLC,2026-11-21
+6805897875,2,6793533650,FlyTrack－Live Flight Tracking,MOR TOSBAA MOBIL COZUMLER ANONIM,2026-11-21
+6805897875,3,6824269447,BumpCast Flight: Turbulence,Akinyemi & Co Ltd.,2026-11-21
+6805897875,4,6758215295,Sofly: Flight Tracker & Radar,Zhirayr Melikyan,2026-11-21
+6805897875,5,6809028730,Lufthaven: Flight Tracker,Compiler Inc.,2026-11-21
+6805897875,6,6821810841,Live Street Map: Map Explorer,Dhara Hingu,2026-11-21
+6805897875,7,6807729703,Ruli - Make a new start,Ria Siti Juariah,2026-11-21
+6805897875,8,6809173786,FlyBud – Flight & Turbulence,Jaume Ros,2026-11-21
+6805897875,9,6624300664,Wetolove,"Henan Hounan Electronic Science & Technology Co., Ltd",2026-11-21
+6805897875,10,6781347945,SeatMap: Flight Seat Info,TravelScript - Flights & Hotels,2026-11-21
 6806824902,1,6747291112,Web Feature Check,Transporter Lab GmbH,2026-11-06
 6806824902,2,6757370654,MiniVibe,Silicon Valley Tablet Company,2026-11-06
 6806824902,3,6708242399,GitBoost,Individual Corp.,2026-11-06
@@ -3359,6 +3379,16 @@ app_id,position,similar_id,name,developer,checked_at
 6821960062,8,6799075435,JSON Master,Volodymyr Sichka,2026-11-11
 6821960062,9,6813368417,Hellosix: Sixcine,朝阳 徐,2026-11-11
 6821960062,10,6783891369,Monito - Server Monitor & SSH,THE BORING LAB LIMITED,2026-11-11
+6824124102,1,6778920182,Project Jazzgame,VEETEE Games LTD,2026-11-21
+6824124102,2,6749212052,GORAG - Physics Sandbox,Ivan Ivanov,2026-11-21
+6824124102,3,6753212939,Unmatched Basketball 2.0,William Supian,2026-11-21
+6824124102,4,6744168445,Basketball Master: Slam Hero,UDO GAMES OYUN YAZILIM ANONIM SIRKETI,2026-11-21
+6824124102,5,6761532588,Mechastick Fighter,GIVE UP GAMES FZCO,2026-11-21
+6824124102,6,928915592,Toy Boxing 3D,Kouichi Hayashi,2026-11-21
+6824124102,7,6473810245,Super Tiny Football,SMT Games,2026-11-21
+6824124102,8,1639530120,Toribash,Nabi Studios,2026-11-21
+6824124102,9,6466640916,Touchdown Tumble,Solus Games,2026-11-21
+6824124102,10,6642676261,Rooftops Parkour Freerun,Ivan Ivanov,2026-11-21
 686664992,1,1246091778,NOAA Marine Weather & Forecast,ZipoApps,2026-11-20
 686664992,2,1202655934,NOAA Marine Forecast: Buoycast,"Skipjack Studios, LLC",2026-11-20
 686664992,3,1191010451,Marine Weather Forecast Pro,"LW Brands, LLC",2026-11-20
