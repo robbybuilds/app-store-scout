@@ -429,16 +429,16 @@ app_id,position,similar_id,name,developer,checked_at
 1508942129,8,1495582649,"JoyLit: Novels, Stories","Techdelic Investment Co., Limited",2026-11-17
 1508942129,9,1499605819,Readict - novels and more,"VitalTek, Inc.",2026-11-17
 1508942129,10,1291247971,MoboReader: Top Novels & Books,CHANGDU (HK) TECHNOLOGY LIMITED,2026-11-17
-1512938504,1,1559497253,Carnets - Jupyter (with scipy),Nicolas Holzschuch,2026-11-14
-1512938504,2,1465448609,TablePlus - Database Client,TablePlus Inc,2026-11-14
-1512938504,3,1049254261,Textastic Code Editor,Alexander Blach,2026-11-14
-1512938504,4,1594420480,Prompt 3,"Panic, Inc.",2026-11-14
-1512938504,5,1462586500,Python IDE & Jupyter – Juno,Rational Matter,2026-11-14
-1512938504,6,896694807,Git client - Working Copy,Anders Borum,2026-11-14
-1512938504,7,1336634154,SSH Client - Secure ShellFish,Anders Borum,2026-11-14
-1512938504,8,6480347047,Code - Editor Git and Terminal,Morella Folesani,2026-11-14
-1512938504,9,1594898306,"Blink Shell, Build & Code","Blink Shell, Inc",2026-11-14
-1512938504,10,1450994949,Carnets - Jupyter,Nicolas Holzschuch,2026-11-14
+1512938504,1,1559497253,Carnets - Jupyter (with scipy),Nicolas Holzschuch,2026-11-22
+1512938504,2,1462586500,Python IDE & Jupyter – Juno,Rational Matter,2026-11-22
+1512938504,3,1594420480,Prompt 3,"Panic, Inc.",2026-11-22
+1512938504,4,1049254261,Textastic Code Editor,Alexander Blach,2026-11-22
+1512938504,5,1465448609,TablePlus - Database Client,TablePlus Inc,2026-11-22
+1512938504,6,896694807,Git client - Working Copy,Anders Borum,2026-11-22
+1512938504,7,1336634154,SSH Client - Secure ShellFish,Anders Borum,2026-11-22
+1512938504,8,1594898306,"Blink Shell, Build & Code","Blink Shell, Inc",2026-11-22
+1512938504,9,6480347047,Code - Editor Git and Terminal,Morella Folesani,2026-11-22
+1512938504,10,1450994949,Carnets - Jupyter,Nicolas Holzschuch,2026-11-22
 1518078585,1,6443578246,Deglaze: Recipe Manager,Deglazed LLC,2026-11-17
 1518078585,2,6736664843,Tastemade Cooking,"Tastemade, Inc.",2026-11-17
 1518078585,3,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,2026-11-17
@@ -519,16 +519,16 @@ app_id,position,similar_id,name,developer,checked_at
 1544749600,8,1594898306,"Blink Shell, Build & Code","Blink Shell, Inc",2026-11-11
 1544749600,9,1624454660,nRF Device Firmware Update,Nordic Semiconductor ASA,2026-11-11
 1544749600,10,6450956188,Network Sniffer,"CHENGDU MIAOZHI TECHNOLOGY CO., LTD.",2026-11-11
-1551292695,1,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-14
-1551292695,2,6450956188,Network Sniffer,"CHENGDU MIAOZHI TECHNOLOGY CO., LTD.",2026-11-14
-1551292695,3,1038574481,Kodex,Bruno Philipe Resende Silva,2026-11-14
-1551292695,4,1555924269,Debug Anywhere,浩鑫 庄,2026-11-14
-1551292695,5,1632249346,Terminal#,Vasilii Shaidullin,2026-11-14
-1551292695,6,1049254261,Textastic Code Editor,Alexander Blach,2026-11-14
-1551292695,7,1584825745,Web Inspector,And a Dinosaur,2026-11-14
-1551292695,8,1544728400,xTerminal - SSH Terminal Shell,婉媚 邵,2026-11-14
-1551292695,9,1594898306,"Blink Shell, Build & Code","Blink Shell, Inc",2026-11-14
-1551292695,10,1543537943,a-Shell mini,Nicolas Holzschuch,2026-11-14
+1551292695,1,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-22
+1551292695,2,6450956188,Network Sniffer,"CHENGDU MIAOZHI TECHNOLOGY CO., LTD.",2026-11-22
+1551292695,3,1581290510,Code Editor - Compiler & IDE,Rhythm Software,2026-11-22
+1551292695,4,1594898306,"Blink Shell, Build & Code","Blink Shell, Inc",2026-11-22
+1551292695,5,1038574481,Kodex,Bruno Philipe Resende Silva,2026-11-22
+1551292695,6,1508712998,Spectre VPN,Passion Only,2026-11-22
+1551292695,7,1632249346,Terminal#,Vasilii Shaidullin,2026-11-22
+1551292695,8,1544728400,xTerminal - SSH Terminal Shell,婉媚 邵,2026-11-22
+1551292695,9,1624454660,nRF Device Firmware Update,Nordic Semiconductor ASA,2026-11-22
+1551292695,10,1568442831,Desktop Browser • Zoomable,Actowise LLC,2026-11-22
 1556961805,1,1458083055,TapRead - Read Good Story,SevenCat Interactive Technology Limited,2026-11-17
 1556961805,2,6447497607,Fatednovel- Web novel & Story,HK IReader Technology Limited,2026-11-17
 1556961805,3,6465031472,MetroNovel - Let Stories Shine,LITERIE PTE. LTD.,2026-11-17
@@ -579,6 +579,16 @@ app_id,position,similar_id,name,developer,checked_at
 1565527320,8,1539653456,AInvest: Stock Market Tracker,"Ainvest FinTech, Inc.",2026-11-20
 1565527320,9,1600631237,Finview: Stock Screener Signal,YDMX Ltd,2026-11-20
 1565527320,10,552799694,Seeking Alpha: News & Analysis,Seeking Alpha Ltd.,2026-11-20
+1572826611,1,1446617122,Vegan Friendly,The Association For a Vegan Future (RA),2026-11-22
+1572826611,2,757712938,Garden Plate,Burleigh Creative,2026-11-22
+1572826611,3,1088859983,Fivesec Health by Alexandra,QPM Invest AB,2026-11-22
+1572826611,4,1587396851,Plant Based Recipe Club,The Happy Pear,2026-11-22
+1572826611,5,1568122827,The Doctor’s Kitchen,Doctor's Kitchen Digital Ltd,2026-11-22
+1572826611,6,6468674686,Guardian Feast: Daily Recipes,Guardian News and Media Limited,2026-11-22
+1572826611,7,1333585160,Vegan Recipe Club,Viva,2026-11-22
+1572826611,8,1476621703,ckbk: discover great cookbooks,1000 Cookbooks Ltd,2026-11-22
+1572826611,9,6670216494,Mob: Meal Planner and Recipes,Mouth Group Limited,2026-11-22
+1572826611,10,6743496454,CookShelf: Search Cookbooks,CookShelf Inc,2026-11-22
 1574776971,1,1548466041,Mela - Recipe Manager,Silvio Rizzi,2026-11-17
 1574776971,2,1461650987,Crouton: Recipe Manager,Crouton LLC,2026-11-17
 1574776971,3,1073341917,Recipe Keeper: CookBook,CookBook Co. Pty Ltd,2026-11-17
@@ -619,16 +629,16 @@ app_id,position,similar_id,name,developer,checked_at
 1587396851,8,1446617122,Vegan Friendly,The Association For a Vegan Future (RA),2026-11-04
 1587396851,9,1549026164,Vegibe - Vegan Recipes,Johannes Wicovsky,2026-11-04
 1587396851,10,6468674686,Guardian Feast: Daily Recipes,Guardian News and Media Limited,2026-11-04
-1594898306,1,1555924269,Debug Anywhere,浩鑫 庄,2026-11-13
-1594898306,2,1624454660,nRF Device Firmware Update,Nordic Semiconductor ASA,2026-11-13
-1594898306,3,6450956188,Network Sniffer,"CHENGDU MIAOZHI TECHNOLOGY CO., LTD.",2026-11-13
-1594898306,4,6448629269,Device Info Tool,IDB LLC,2026-11-13
-1594898306,5,1661004679,WebView - Tester,Tommy Gaessler,2026-11-13
-1594898306,6,1447750768,Jayson,Simon B. Støvring,2026-11-13
-1594898306,7,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-13
-1594898306,8,1544749600,Swifty Compiler: Swift IDE,Hassan Taleb,2026-11-13
-1594898306,9,896694807,Git client - Working Copy,Anders Borum,2026-11-13
-1594898306,10,6469298113,Vibe Code: AI Code Generator,Malik Hamza Khalid,2026-11-13
+1594898306,1,1624454660,nRF Device Firmware Update,Nordic Semiconductor ASA,2026-11-22
+1594898306,2,1555924269,Debug Anywhere,浩鑫 庄,2026-11-22
+1594898306,3,6448629269,Device Info Tool,IDB LLC,2026-11-22
+1594898306,4,6450956188,Network Sniffer,"CHENGDU MIAOZHI TECHNOLOGY CO., LTD.",2026-11-22
+1594898306,5,1447750768,Jayson,Simon B. Støvring,2026-11-22
+1594898306,6,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-22
+1594898306,7,896694807,Git client - Working Copy,Anders Borum,2026-11-22
+1594898306,8,1661004679,WebView - Tester,Tommy Gaessler,2026-11-22
+1594898306,9,1544749600,Swifty Compiler: Swift IDE,Hassan Taleb,2026-11-22
+1594898306,10,1551292695,Proxyman - Capture HTTPS,Proxyman LLC,2026-11-22
 1595938390,1,1352600944,Cooklist: Pantry Meals Recipes,"Cooklist, Inc",2026-11-17
 1595938390,2,1217456898,"Tasty: Recipes, Cooking Videos",BuzzFeed,2026-11-17
 1595938390,3,771068291,Kitchen Stories Easy Recipes,AJNS New Media,2026-11-17
@@ -989,6 +999,16 @@ app_id,position,similar_id,name,developer,checked_at
 6444399635,8,1509085044,Bluetooth Inspector,George Garside,2026-11-16
 6444399635,9,6748534773,Supanator: Supabase Manager,Layton Labs AB,2026-11-16
 6444399635,10,6738411328,Python Coding,婉媚 邵,2026-11-16
+6444545478,1,1608857736,Hodor - HTTP(s) Packet Sniffer,"Chengdu Feng Chui Ye Technology Co., Ltd",2026-11-22
+6444545478,2,6450535928,Code Runner App Compiler & IDE,Cloudbit d.o.o.,2026-11-22
+6444545478,3,6751136011,DBConnect,Quang Nguyen,2026-11-22
+6444545478,4,6503167083,WIFI Analyzer - DNS Speed Test,Phan Nhut,2026-11-22
+6444545478,5,1357215444,Python3IDE,辉 马,2026-11-22
+6444545478,6,6753763875,Vip Proxy Server,Moad Slimani,2026-11-22
+6444545478,7,6738366063,SMS Verification Number GetSMS,CODE MAGNET,2026-11-22
+6444545478,8,6448794019,"Code Editor: HTML, Python, JS",Julian Lau,2026-11-22
+6444545478,9,6737447574,XML Viewer & XML Editor,Utsav Mangla,2026-11-22
+6444545478,10,1475741280,SSH Client - Terminal & Termux,Moon Technolabs Pvt Ltd,2026-11-22
 6444920738,1,1589267208,Dorsia Members Club,Elomi Corporation,2026-11-12
 6444920738,2,6448799631,TableOne Reservations,Frank Besson,2026-11-12
 6444920738,3,6447012323,Blackbird: VIP Dining Rewards,"Blackbird Labs, Inc",2026-11-12
@@ -1089,6 +1109,16 @@ app_id,position,similar_id,name,developer,checked_at
 6450834358,8,6747957875,Family Go! - Lifetime Sim game,"KIKO FUN INTERACTIVE ENTERTAINMENT CO., LIMITED",2026-11-03
 6450834358,9,6746155186,Family Sim: Life Simulator,"Shenzhen Argo Interactive Entertainment Technology Co., Ltd.",2026-11-03
 6450834358,10,6446404615,Idle Nightclub Tycoon: Manager,Iteration One GmbH,2026-11-03
+6464310229,1,6449245166,"FreeFM: Audibooks, Good Novels",FMPROJECT LIMITED,2026-11-22
+6464310229,2,1499605819,Readict - novels and more,"VitalTek, Inc.",2026-11-22
+6464310229,3,6742989602,Lovella: Novels & Audiobooks,FMPROJECT LIMITED,2026-11-22
+6464310229,4,1289618861,Gutenberg | eBook Reader,Webron Software LTD,2026-11-22
+6464310229,5,1628300409,BestNovel: Read Romance Novels,CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-22
+6464310229,6,6744645984,AstraNovel - Infinite Books,HONGKONG COLLECT VISION LIMITED,2026-11-22
+6464310229,7,6467104147,Moonlit - Werewolf Audiobooks,FMPROJECT LIMITED,2026-11-22
+6464310229,8,1627205148,NovelFlow-Unlimited Books,RNOVEL PTE. LTD.,2026-11-22
+6464310229,9,1529860201,Leera - Reading Best Webnovels,"ChangYi Co.,Ltd",2026-11-22
+6464310229,10,1600844711,MegaNovel - fiction & webtoon,SINGAPORE NEW READING TECHNOLOGY PTE. LTD.,2026-11-22
 6468674686,1,6743496454,CookShelf: Search Cookbooks,CookShelf Inc,2026-11-21
 6468674686,2,1476621703,ckbk: discover great cookbooks,1000 Cookbooks Ltd,2026-11-21
 6468674686,3,1568122827,The Doctor’s Kitchen,Doctor's Kitchen Digital Ltd,2026-11-21
@@ -1689,16 +1719,16 @@ app_id,position,similar_id,name,developer,checked_at
 6743640328,8,6759608688,Pokermancer,Adam Bray,2026-11-18
 6743640328,9,6751277168,WatchBox: Watch Collector Game,Yonatan Goldshtein,2026-11-18
 6743640328,10,6572296401,Joking Hazard - Official,Goliath Poland Sp z o.o,2026-11-18
-6743641043,1,6747304200,AI App Builder: AppForceStudio,Orderax Inc.,2026-11-10
-6743641043,2,6747975557,Miniceo: AI App Builder,Nerdmask,2026-11-10
-6743641043,3,6751759341,Mosaic AI - AI App Builder,Andrei Vychau,2026-11-10
-6743641043,4,6743502908,Bfloat Go: AI App Builder,Bfloat Inc,2026-11-10
-6743641043,5,6745845226,App Factory - AI App Maker,Johnny Vishnevskiy,2026-11-10
-6743641043,6,6755592800,"MiniApps Store, AI App Builder","Zoomerang, Inc.",2026-11-10
-6743641043,7,6744902959,Scabld,Scabld,2026-11-10
-6743641043,8,6755661882,Appik: Premium AI App Builder,"APP51, Corp.",2026-11-10
-6743641043,9,6744751580,Michelangelo: Vibe Coding,GIACOMO SARDO,2026-11-10
-6743641043,10,6760206636,VibeKit - AI App Builder,Brian Boisjoli,2026-11-10
+6743641043,1,6747304200,AI App Builder: AppForceStudio,Orderax Inc.,2026-11-22
+6743641043,2,6747975557,Miniceo: AI App Builder,Nerdmask,2026-11-22
+6743641043,3,6743502908,Bfloat Go: AI App Builder,Bfloat Inc,2026-11-22
+6743641043,4,6751759341,Mosaic AI - AI App Builder,Andrei Vychau,2026-11-22
+6743641043,5,6745845226,App Factory - AI App Maker,Johnny Vishnevskiy,2026-11-22
+6743641043,6,6755592800,"MiniApps Store, AI App Builder","Zoomerang, Inc.",2026-11-22
+6743641043,7,6744902959,Scabld,Scabld,2026-11-22
+6743641043,8,6755661882,Appik: Premium AI App Builder,"APP51, Corp.",2026-11-22
+6743641043,9,6744751580,Michelangelo: Vibe Coding,GIACOMO SARDO,2026-11-22
+6743641043,10,6743953567,Spokesite - Vibe Coding,Treefarm Studio LLC,2026-11-22
 6743685377,1,502633252,Buffer Editor - Code Editor,Blakzero Oy,2026-11-19
 6743685377,2,1537745821,Vibe SSH Terminal,婉媚 邵,2026-11-19
 6743685377,3,6752672071,Termix - Remote Access,Luke Gustafson,2026-11-19
@@ -1769,6 +1799,16 @@ app_id,position,similar_id,name,developer,checked_at
 6745097949,8,6469385251,Xogot: Godot for iPad & iPhone,"Xibbon, Inc",2026-11-21
 6745097949,9,6448362669,NeoServer SSH Mosh Terminal,"Space-Time Transformation Technology Co., Ltd.",2026-11-21
 6745097949,10,6744783540,Firelog for Firebase Console,Valet Hero LLC,2026-11-21
+6745120053,1,6749012623,Imposter Game — Fakeit,smak apps,2026-11-22
+6745120053,2,6754861642,Imposter AI - Timer Party Game,Tomi Arakaki,2026-11-22
+6745120053,3,6753783454,Imposter Game - Faky,Prosperize,2026-11-22
+6745120053,4,1299191826,Out of the Loop,Tasty Rook,2026-11-22
+6745120053,5,6751921938,Imposter Game: Who Is It?,Calico Studio Inc.,2026-11-22
+6745120053,6,1562982547,Impostor Party® Games,Jesus Calleja Rodriguez,2026-11-22
+6745120053,7,6743079008,Blippi's Curiosity Club,Moonbug Entertainment Ltd,2026-11-22
+6745120053,8,6473058122,Charades Guess Game · Guessly,smak apps,2026-11-22
+6745120053,9,6752291600,Spaceship Defense TD,Funnel Entertainment,2026-11-22
+6745120053,10,1436433223,Spy: Imposter Game,Matvey Kavtorov,2026-11-22
 6745152251,1,6504657055,Explode 2: Get Exposed,Sebastien Menozzi,2026-11-20
 6745152251,2,6743406417,Exposed Party: Game Reveal Fun,Snash UG (haftungsbeschraenkt),2026-11-20
 6745152251,3,6446330973,Exposed Game: Party Lab,MindShark Games Limited,2026-11-20
@@ -1859,16 +1899,16 @@ app_id,position,similar_id,name,developer,checked_at
 6746768148,8,1463931486,Lowrance: app for anglers,Navico Norway AS,2026-11-15
 6746768148,9,1116089313,ActiveCaptain®,Garmin,2026-11-15
 6746768148,10,1305237481,BaseMap: 3D Hunting Maps & GPS,BaseMap Inc,2026-11-15
-6746864440,1,6755069139,TapRush: Party word game,Rmb Studios,2026-11-14
-6746864440,2,1475069754,Hexa Jigsaw Puzzle ®,Ilyon Dynamics Ltd.,2026-11-14
-6746864440,3,6761975936,Party Roulette Group: PartyGo,Rohitkumar Kansagra,2026-11-14
-6746864440,4,1509475852,Password Group Party Game,DH3 Games,2026-11-14
-6746864440,5,6753659486,Perfect Match: Headsynch,Rmb Studios,2026-11-14
-6746864440,6,6756533285,Imposter: Party & Group Games,Titun LLC,2026-11-14
-6746864440,7,6758512466,Spectrum: Mind Reading Game,Zinance Inc.,2026-11-14
-6746864440,8,6737725447,5 sec to name 3 things game,Silvia Lang,2026-11-14
-6746864440,9,1448679510,Charades: Family Games Night,Kristian Markovic,2026-11-14
-6746864440,10,1633537144,Only Girls — For the Girls,Artem Tischenko,2026-11-14
+6746864440,1,6755069139,TapRush: Party word game,Rmb Studios,2026-11-22
+6746864440,2,1475069754,Hexa Jigsaw Puzzle ®,Ilyon Dynamics Ltd.,2026-11-22
+6746864440,3,6761975936,Party Roulette Group: PartyGo,Rohitkumar Kansagra,2026-11-22
+6746864440,4,6757776346,Taco Car Ghost Cheers Pizza,Two4Tea,2026-11-22
+6746864440,5,1509475852,Password Group Party Game,DH3 Games,2026-11-22
+6746864440,6,6753659486,Perfect Match: Headsynch,Rmb Studios,2026-11-22
+6746864440,7,6758512466,Spectrum: Mind Reading Game,Zinance Inc.,2026-11-22
+6746864440,8,6756533285,Imposter: Party & Group Games,Titun LLC,2026-11-22
+6746864440,9,6749168388,Guess The Person - Who Am I?,Appcano LLC,2026-11-22
+6746864440,10,6737725447,5 sec to name 3 things game,Silvia Lang,2026-11-22
 6746973263,1,6761450293,Goodlist: Recipe Manager,Jonathan Garcia,2026-11-15
 6746973263,2,6761620692,Sesame: Recipe Saver,Julien Rumsey,2026-11-15
 6746973263,3,6760093386,Cravie: Recipe Keeper,Arvine Labs,2026-11-15
@@ -2419,26 +2459,26 @@ app_id,position,similar_id,name,developer,checked_at
 6757695187,8,1499645558,Paradigm: Reboot,"Xiamen TunerGames Network Technology Co., Ltd.",2026-11-18
 6757695187,9,1290687550,Cytus II,Rayark International Limited,2026-11-18
 6757695187,10,1527726533,KALPA - Original Rhythm Game,"QueseraGames Co.,Ltd",2026-11-18
-6757701908,1,6751626168,Vicoa: Claude Code & Codex IDE,BetterBit,2026-11-10
-6757701908,2,6763599135,Pocket Coder: Remote AI Code,salih berkay kokesmer,2026-11-10
-6757701908,3,6764463488,Codex Relay - Remote Codex App,Kang Sungyu,2026-11-10
-6757701908,4,6748571505,Happy: Codex & Claude Code App,"Bulka, LLC",2026-11-10
-6757701908,5,6760390317,Mobile IDE: AI App Builder,Zeren Brisk,2026-11-10
-6757701908,6,6757406313,OpenCode Mobile App,Rodrigo Mendoza,2026-11-10
-6757701908,7,6760681118,Drops for Claude Code,Parra LLC,2026-11-10
-6757701908,8,6761128531,Mobile IDE for Codex AI GPT,Uladzsislau Luchkouski,2026-11-10
-6757701908,9,6759795486,Mobile IDE for Antigravity AI,Uladzsislau Luchkouski,2026-11-10
-6757701908,10,6758554297,"Happier - Remote Claude, Codex",Leeroy Brun,2026-11-10
-6757722046,1,6758199685,Last Extract,Voodoo,2026-11-15
-6757722046,2,6764201639,Idle Cat Gunner: Shooter RPG,Neptune Company,2026-11-15
-6757722046,3,6752251959,Harvest King: Farm Defense TD,HOMA GAMES,2026-11-15
-6757722046,4,6453469520,Idle Cult Empire - Evil Tycoon,Lion Studios Plus,2026-11-15
-6757722046,5,6738657101,Planet Crusher: Mine & Attack,Gryphon Games UG,2026-11-15
-6757722046,6,6736930021,Hex Warriors,Voodoo,2026-11-15
-6757722046,7,6474403133,Blood Invasion: Vampire RPG,SayGames LTD,2026-11-15
-6757722046,8,6747216965,Gear Truck!,Neptune Company,2026-11-15
-6757722046,9,6759000921,Idle Dot Shooter!,"INFINITY GAMES, LDA",2026-11-15
-6757722046,10,6743368869,Draft Showdown,Voodoo,2026-11-15
+6757701908,1,6751626168,Vicoa: Claude Code & Codex IDE,BetterBit,2026-11-22
+6757701908,2,6763599135,Pocket Coder: Remote AI Code,salih berkay kokesmer,2026-11-22
+6757701908,3,6764463488,Codex Relay - Remote Codex App,Kang Sungyu,2026-11-22
+6757701908,4,6748571505,Happy: Codex & Claude Code App,"Bulka, LLC",2026-11-22
+6757701908,5,6754570005,N8N Automations — Nathan,FarFetched,2026-11-22
+6757701908,6,6757406313,OpenCode Mobile App,Rodrigo Mendoza,2026-11-22
+6757701908,7,6760390317,Mobile IDE: AI App Builder,Zeren Brisk,2026-11-22
+6757701908,8,6760681118,Drops for Claude Code,Parra LLC,2026-11-22
+6757701908,9,6759795486,Mobile IDE for Antigravity AI,Uladzsislau Luchkouski,2026-11-22
+6757701908,10,6757859949,Moshi: herdr/tmux on SSH/MOSH,Moshi Tech Ltd.,2026-11-22
+6757722046,1,6758199685,Last Extract,Voodoo,2026-11-22
+6757722046,2,6764201639,Idle Cat Gunner: Shooter RPG,Neptune Company,2026-11-22
+6757722046,3,6752251959,Harvest King: Farm Defense TD,HOMA GAMES,2026-11-22
+6757722046,4,6474403133,Blood Invasion: Vampire RPG,SayGames LTD,2026-11-22
+6757722046,5,6759000921,Idle Dot Shooter!,"INFINITY GAMES, LDA",2026-11-22
+6757722046,6,6453469520,Idle Cult Empire - Evil Tycoon,Lion Studios Plus,2026-11-22
+6757722046,7,6736930021,Hex Warriors,Voodoo,2026-11-22
+6757722046,8,6738657101,Planet Crusher: Mine & Attack,Gryphon Games UG,2026-11-22
+6757722046,9,6747216965,Gear Truck!,Neptune Company,2026-11-22
+6757722046,10,6755585789,Overgeared Hero: Merge RPG,"5minlab Co., Ltd.",2026-11-22
 6757859949,1,6766130217,Orca IDE,Lovecast LLC,2026-11-17
 6757859949,2,6787819824,T3 Code - Remote Claude & more,"T3 Tools, Inc.",2026-11-17
 6757859949,3,6748571505,Happy: Codex & Claude Code App,"Bulka, LLC",2026-11-17
@@ -2619,16 +2659,16 @@ app_id,position,similar_id,name,developer,checked_at
 6760426161,8,1532019790,Fixxology,Rigby Rush LLC,2026-11-03
 6760426161,9,6457063336,Thirst Drinks,Olympus Shaving Enterprises LLC,2026-11-03
 6760426161,10,6767017681,PlateBuilder,PlateBuilder LLC,2026-11-03
-6760459330,1,6752278381,pocketvibe - vibe code with ai,Ryan Kotzebue,2026-11-13
-6760459330,2,6756734020,Snapp AI: Build Apps with AI,Sincapp Mobi LTD,2026-11-13
-6760459330,3,6754607882,AI app builder: Vibecode,FREE MOBILE APPS STUDIO ONE MEMBER COMPANY LIMITED,2026-11-13
-6760459330,4,6760250429,AppScout: Find & Build Apps,Elfarabey LLC,2026-11-13
-6760459330,5,6788393768,AI Agent Builder Architect,Beniamin Bar Chad,2026-11-13
-6760459330,6,6761858277,Lovable AI App Builder Guide,Mats Vink,2026-11-13
-6760459330,7,6745845226,App Factory - AI App Maker,Johnny Vishnevskiy,2026-11-13
-6760459330,8,6760642500,Sesori: Remote AI Coding Agent,DigitalBlock Labs LTD,2026-11-13
-6760459330,9,6766077801,OpenMono: AI Coding Agent,Clean Router,2026-11-13
-6760459330,10,6760206636,VibeKit - AI App Builder,Brian Boisjoli,2026-11-13
+6760459330,1,6752278381,pocketvibe - vibe code with ai,Ryan Kotzebue,2026-11-22
+6760459330,2,6756734020,Snapp AI: Build Apps with AI,Sincapp Mobi LTD,2026-11-22
+6760459330,3,6754607882,AI app builder: Vibecode,FREE MOBILE APPS STUDIO ONE MEMBER COMPANY LIMITED,2026-11-22
+6760459330,4,6760250429,AppScout: Find & Build Apps,Elfarabey LLC,2026-11-22
+6760459330,5,6788393768,AI Agent Builder Architect,Beniamin Bar Chad,2026-11-22
+6760459330,6,6761858277,Lovable AI App Builder Guide,Mats Vink,2026-11-22
+6760459330,7,6760206636,VibeKit - AI App Builder,Brian Boisjoli,2026-11-22
+6760459330,8,6760642500,Sesori: Remote AI Coding Agent,DigitalBlock Labs LTD,2026-11-22
+6760459330,9,6745845226,App Factory - AI App Maker,Johnny Vishnevskiy,2026-11-22
+6760459330,10,6770260745,AI App Builder Architect,Beniamin Bar Chad,2026-11-22
 6760676817,1,6504798650,Bible Path: Widgets & Stories,DEEP FLOW SOFTWARE SERVICES,2026-11-16
 6760676817,2,6762030901,Talko: Learn English with AI,Soly Limited,2026-11-16
 6760676817,3,6744358897,LangLearn: AI English Tutor,AIFLAME TECHNOLOGY PTE. LTD.,2026-11-16
@@ -2709,6 +2749,16 @@ app_id,position,similar_id,name,developer,checked_at
 6761196011,8,6755022390,Mobile SSH Terminal,Binaryscript Private Limited,2026-11-18
 6761196011,9,6758050739,Macky: Remote Mac & Terminal,Velosify Private Limited,2026-11-18
 6761196011,10,6742807404,Easy SSH,Argsment Limited,2026-11-18
+6761265182,1,6760410435,amux - agent multiplexer,ethan steininger,2026-11-22
+6761265182,2,6760642500,Sesori: Remote AI Coding Agent,DigitalBlock Labs LTD,2026-11-22
+6761265182,3,6758480324,Control: AI Agent Remote,Sagaya Abdul,2026-11-22
+6761265182,4,6759910797,OpenLens- OpenCode client,Martyn Pekala,2026-11-22
+6761265182,5,6769380881,Cmux Remote,jaehyun jang,2026-11-22
+6761265182,6,6761014424,IM.codes,Lei Sun,2026-11-22
+6761265182,7,6758554297,"Happier - Remote Claude, Codex",Leeroy Brun,2026-11-22
+6761265182,8,6758913845,littleclaw - AI Coding Agents,NIKLAS FUNK,2026-11-22
+6761265182,9,6760534630,Zedra - AI Coding Agents,Tan Le,2026-11-22
+6761265182,10,6758266443,VibeTerm,Yuzuru Honda,2026-11-22
 6761531281,1,6752610996,Merge Bistro™ Cook & Decor,Gaming Flight Limited,2026-11-17
 6761531281,2,6748990366,Aisle Secrets: Merge the Drama,MYBO GAME,2026-11-17
 6761531281,3,6754548168,Pets Harbor: Merge & Restore,Gaming Flight Limited,2026-11-17
@@ -3069,16 +3119,16 @@ app_id,position,similar_id,name,developer,checked_at
 6788890577,8,6770810419,Benefitry: VA Benefits & Money,Benefitry LLC,2026-11-18
 6788890577,9,1235602550,CitiManager – Corporate Cards,Citibank,2026-11-18
 6788890577,10,1481911637,Daily TSP,"Taza Technology, LLC",2026-11-18
-6789207798,1,6776394490,NOAA Weather Radar Live Map .,TERMUX LIMITED LIABILITY COMPANY,2026-11-15
-6789207798,2,6779685922,NWS Weather,Jacob Seastrunk,2026-11-15
-6789207798,3,6800259893,NOAA Weather Radar - Live Map,For The Better,2026-11-15
-6789207798,4,6765485112,Weather Radar Live: Radaris,Murat Kalayci,2026-11-15
-6789207798,5,547809867,WeatherMax+,Chris Williams,2026-11-15
-6789207798,6,6771460673,NOAA Weather Radar: Unofficial,Kyle Nelson,2026-11-15
-6789207798,7,6774499990,Rain Forecast & Rain Radar,Nguyen Thi Kha,2026-11-15
-6789207798,8,6779130456,Weather Wizard : 14D Forecast,COMPASSMOBI,2026-11-15
-6789207798,9,6807859090,Bravo Weather: Rain Radar,Andrew Barron,2026-11-15
-6789207798,10,6760324478,WeatherAlarmApp,Jason Borchardt,2026-11-15
+6789207798,1,6765485112,Weather Radar Live: Radaris,Murat Kalayci,2026-11-22
+6789207798,2,6779685922,NWS Weather,Jacob Seastrunk,2026-11-22
+6789207798,3,6800259893,NOAA Weather Radar - Live Map,For The Better,2026-11-22
+6789207798,4,547809867,WeatherMax+,Chris Williams,2026-11-22
+6789207798,5,6771460673,NOAA Weather Radar: Unofficial,Kyle Nelson,2026-11-22
+6789207798,6,6774499990,Rain Forecast & Rain Radar,Nguyen Thi Kha,2026-11-22
+6789207798,7,6779130456,Weather Wizard : 14D Forecast,COMPASSMOBI,2026-11-22
+6789207798,8,6807859090,Bravo Weather: 16-Day Forecast,Andrew Barron,2026-11-22
+6789207798,9,6755743104,MesoRadar: Storm & Snow Radar,Ingenio Productions LLC,2026-11-22
+6789207798,10,6757626999,YAWA NOAA Weather,Widgetal Digital LLC,2026-11-22
 6789877680,1,6759642335,Visual Claude: Vibe Code,Diep Huu Kha,2026-11-10
 6789877680,2,6781042920,Kodo: Offline AI Agents & IDE,THEODOR TIBERIUS STEFAN,2026-11-10
 6789877680,3,6761702641,Text Editor : Code Editor,Devashy Rangpariya,2026-11-10
@@ -3239,6 +3289,16 @@ app_id,position,similar_id,name,developer,checked_at
 6802304499,8,6761161349,SnackFic - Stories & Novels,Snack AI Inc.,2026-11-20
 6802304499,9,1613279560,"Pinknovel - Booktok, Stories",CHANGYI (HK) TECHNOLOGY LIMITED,2026-11-20
 6802304499,10,6760353881,StoryPort: Romance & Fantasy,志浩 卓,2026-11-20
+6804267808,1,6810750447,Mimic Party Game - Meme Party,Prosperize,2026-11-22
+6804267808,2,6813545317,Mimic Party !,FoliesAPP,2026-11-22
+6804267808,3,6818316719,Mimic Party Brasil,wallace bezerra da silva,2026-11-22
+6804267808,4,6755734296,Make it Meme - Party Game,prealpha Games,2026-11-22
+6804267808,5,6815280618,Mimicbox: Mimic Party Game,Matys Bouziane,2026-11-22
+6804267808,6,6789351696,ColorBox Mustard: Beat Maker,OPTOELECTRONICS FUTURE LTD,2026-11-22
+6804267808,7,6789756267,Paint & Vanish: Hide & Seek,Abdulaziz Ali,2026-11-22
+6804267808,8,6760079433,Horror Playtime : Multiplayer,ARDA SAYIR,2026-11-22
+6804267808,9,6788498566,Gartic Phone,Gartic,2026-11-22
+6804267808,10,6814707652,Mimik Challenge: Funny Sounds,GAIA TECHNOLOGY PTE. LTD,2026-11-22
 6804464432,1,6808657554,Songspot: Guess the song!,Fintan Keenan,2026-11-20
 6804464432,2,6752951225,Guessong: Guess the Song,Seray Catikkas Cimen,2026-11-20
 6804464432,3,6754511325,Tapzz: Guess the Song Quiz,Aymeric Granier,2026-11-20
@@ -3249,6 +3309,16 @@ app_id,position,similar_id,name,developer,checked_at
 6804464432,8,6738951508,Hi Beatz - Beat Music Game,Fun Tap X Limited,2026-11-20
 6804464432,9,6445803857,Beat Tiles: Music Game,Cadenverse,2026-11-20
 6804464432,10,975364678,SongPop Classic - Music Trivia,FreshPlanet Inc.,2026-11-20
+6804930165,1,6762319872,Penny: Deal Scanner & Alerts,Rogue Labs LLC (United States),2026-11-22
+6804930165,2,6799002491,Hidden Clearances,Rios LLC,2026-11-22
+6804930165,3,6829435739,Deals Soldier,Esra Yuce,2026-11-22
+6804930165,4,6794188884,Drop: Clearance Finder,PlatePal,2026-11-22
+6804930165,5,6754340285,Deals Finder Black Friday 2026,Clicflux Ltd,2026-11-22
+6804930165,6,6785759548,ClearanceFinds,nicholas vicino,2026-11-22
+6804930165,7,6757320510,DealHawk: Clearance Finder,DealHawk,2026-11-22
+6804930165,8,1229313383,BrickSeek,AKSOLOGY LLC,2026-11-22
+6804930165,9,6737444593,SeekerPro,Anthony bartkowski,2026-11-22
+6804930165,10,6802011559,Penny List: Clearance Finder,Alex Gameli Heyman,2026-11-22
 6805897875,1,6784370261,Vrolu: Flight Tracker & Delays,Vrolu LLC,2026-11-21
 6805897875,2,6793533650,FlyTrack－Live Flight Tracking,MOR TOSBAA MOBIL COZUMLER ANONIM,2026-11-21
 6805897875,3,6824269447,BumpCast Flight: Turbulence,Akinyemi & Co Ltd.,2026-11-21
@@ -3379,6 +3449,16 @@ app_id,position,similar_id,name,developer,checked_at
 6821960062,8,6799075435,JSON Master,Volodymyr Sichka,2026-11-11
 6821960062,9,6813368417,Hellosix: Sixcine,朝阳 徐,2026-11-11
 6821960062,10,6783891369,Monito - Server Monitor & SSH,THE BORING LAB LIMITED,2026-11-11
+6822730153,1,6738729779,GTag: GPS Map Camera,Devang Kunjadiya,2026-11-22
+6822730153,2,6746744205,"Phone Tracker, Family Location",Miczon LLC,2026-11-22
+6822730153,3,6760290061,Compass & Location Tracker,AppHolic,2026-11-22
+6822730153,4,6779616188,Earthive: GPS Map & Navigation,Funsol Technologies FZE LLC,2026-11-22
+6822730153,5,6748598501,Compass App - Qibla finder,CoreBit Solutions,2026-11-22
+6822730153,6,6753331684,Locator: My Family & Friend,Mazahr Kaleem,2026-11-22
+6822730153,7,6808904677,GPS Maps: Route Planner,Nguyen Thi Thu Huong,2026-11-22
+6822730153,8,6758307448,Sky Radar: Live Flights,Hoang Vixtor,2026-11-22
+6822730153,9,6810490991,OrbiScope,Beya Network Technology Limited,2026-11-22
+6822730153,10,6801191530,CamRoam: Live Map & GPS,HONG KONG WANHONG INTERNATIONAL LIMITED,2026-11-22
 6824124102,1,6778920182,Project Jazzgame,VEETEE Games LTD,2026-11-21
 6824124102,2,6749212052,GORAG - Physics Sandbox,Ivan Ivanov,2026-11-21
 6824124102,3,6753212939,Unmatched Basketball 2.0,William Supian,2026-11-21
@@ -3389,6 +3469,16 @@ app_id,position,similar_id,name,developer,checked_at
 6824124102,8,1639530120,Toribash,Nabi Studios,2026-11-21
 6824124102,9,6466640916,Touchdown Tumble,Solus Games,2026-11-21
 6824124102,10,6642676261,Rooftops Parkour Freerun,Ivan Ivanov,2026-11-21
+6829435739,1,6804930165,Scavenger: Penny Deal Finder,Scale Ventures LLC,2026-11-22
+6829435739,2,6762319872,Penny: Deal Scanner & Alerts,Rogue Labs LLC (United States),2026-11-22
+6829435739,3,6802011559,Penny List: Clearance Finder,Alex Gameli Heyman,2026-11-22
+6829435739,4,6799002491,Hidden Clearances,Rios LLC,2026-11-22
+6829435739,5,6794188884,Drop: Clearance Finder,PlatePal,2026-11-22
+6829435739,6,6785759548,ClearanceFinds,nicholas vicino,2026-11-22
+6829435739,7,6754340285,Deals Finder Black Friday 2026,Clicflux Ltd,2026-11-22
+6829435739,8,6737444593,SeekerPro,Anthony bartkowski,2026-11-22
+6829435739,9,6757320510,DealHawk: Clearance Finder,DealHawk,2026-11-22
+6829435739,10,6744944189,Pallet Liquidation,"Segistics, LLC",2026-11-22
 686664992,1,1246091778,NOAA Marine Weather & Forecast,ZipoApps,2026-11-20
 686664992,2,1202655934,NOAA Marine Forecast: Buoycast,"Skipjack Studios, LLC",2026-11-20
 686664992,3,1191010451,Marine Weather Forecast Pro,"LW Brands, LLC",2026-11-20
@@ -3429,6 +3519,16 @@ app_id,position,similar_id,name,developer,checked_at
 744920098,8,1527821908,Minn Kota Fishing,Johnson Outdoors Inc.,2026-11-17
 744920098,9,6466307868,onX Fish: Midwest Fishing Maps,"onXmaps, Inc.",2026-11-17
 744920098,10,991884112,Dockwa,"Dockwa, Inc.",2026-11-17
+795495986,1,1510387870,Recipe Keeper & Planner - Kuri,"Know Eat All, Inc.",2026-11-22
+795495986,2,961524722,Seeds: Plant-based meals,Plant HI Design,2026-11-22
+795495986,3,771068291,Kitchen Stories Easy Recipes,AJNS New Media,2026-11-22
+795495986,4,905229928,SideСhef: Easy Cooking Recipes,SideChef Group Limited,2026-11-22
+795495986,5,1583973507,Spillt: Recipe & Meal Plan App,"Betterfeed, Inc",2026-11-22
+795495986,6,1131174924,Healthy Recipe Book : FitMe,Hitbytes Technologies,2026-11-22
+795495986,7,1500190823,Pantry Inventory: FridgeBuddy,Charles-Adrien Fournier,2026-11-22
+795495986,8,1286293692,MyDiet: Healthy & Easy Recipes,Hitbytes Technologies,2026-11-22
+795495986,9,1224895623,Healthy Air Fryer Recipes,CONTENT ARCADE DUBAI LTD FZE,2026-11-22
+795495986,10,294363034,BigOven Recipes & Meal Planner,BigOven.com,2026-11-22
 863196620,1,311852560,USPSTF Prevention TaskForce,AHRQ,2026-11-17
 863196620,2,1001640662,MDCalc Medical Calculator,"MD Aware, LLC",2026-11-17
 863196620,3,334265345,UpToDate,"UpToDate, Inc.",2026-11-17
@@ -3469,16 +3569,16 @@ app_id,position,similar_id,name,developer,checked_at
 896694807,8,1624454660,nRF Device Firmware Update,Nordic Semiconductor ASA,2026-11-17
 896694807,9,1555924269,Debug Anywhere,浩鑫 庄,2026-11-17
 896694807,10,6450956188,Network Sniffer,"CHENGDU MIAOZHI TECHNOLOGY CO., LTD.",2026-11-17
-899058990,1,333425918,MealBoard - Meal Planner,Ray Bernardo,2026-11-10
-899058990,2,1215348056,Plan to Eat,"Plan To Eat, LLC",2026-11-10
-899058990,3,294363034,BigOven Recipes & Meal Planner,BigOven.com,2026-11-10
-899058990,4,1248495163,Prepear: Meal Planner,"Prepear, Inc.",2026-11-10
-899058990,5,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,2026-11-10
-899058990,6,905229928,SideСhef: Easy Cooking Recipes,SideChef Group Limited,2026-11-10
-899058990,7,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",2026-11-10
-899058990,8,1619509620,Meal Planner & Grocery List,JOJO APPS,2026-11-10
-899058990,9,1133637674,Samsung Food: Meal Planner,Whisk food,2026-11-10
-899058990,10,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,2026-11-10
+899058990,1,333425918,MealBoard - Meal Planner,Ray Bernardo,2026-11-22
+899058990,2,1215348056,Plan to Eat,"Plan To Eat, LLC",2026-11-22
+899058990,3,1248495163,Prepear: Meal Planner,"Prepear, Inc.",2026-11-22
+899058990,4,294363034,BigOven Recipes & Meal Planner,BigOven.com,2026-11-22
+899058990,5,905229928,SideСhef: Easy Cooking Recipes,SideChef Group Limited,2026-11-22
+899058990,6,575756462,eMeals - Healthy Meal Plans,"eMeals, Inc.",2026-11-22
+899058990,7,1249805978,MealPrepPro Planner & Recipes,Nibble Apps Ltd,2026-11-22
+899058990,8,1619509620,Meal Planner & Grocery List,JOJO APPS,2026-11-22
+899058990,9,6460821436,Meal Planner & Weekly Menu,Raquel Martinez Figueirido,2026-11-22
+899058990,10,737369088,Paleo Plate: Diet Recipes,Burleigh Creative,2026-11-22
 931396143,1,6755229086,Bible Vod: Audio& Bible Chat,"Life Agents, LLC",2026-11-16
 931396143,2,6760951765,Bible Scroll: Chat & Study,Bickster LLC,2026-11-16
 931396143,3,6785862331,KJV Notes,NOVANEST PTE. LTD.,2026-11-16
