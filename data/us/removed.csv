@@ -1,10 +1,22 @@
 app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,missing_since,confirmed_on,returned_on
-1126113478,Touchscreen Test,Vishal Singh,Business,top-paid,6000,21,2026-11-13,2026-11-22,,
-6755439205,Word Search Supreme,Matthew Wehrle,Games,top-paid,7019,44,2026-11-19,2026-11-22,,
-6747313834,Run Countdown,Christopher Lamb,Sports,top-paid,6004,58,2026-11-17,2026-11-22,,
-1188361104,Toll & Gas Calculator TollGuru,MapUp Inc.,Navigation,top-grossing,6010,74,2026-11-19,2026-11-22,,
-6828467823,Dunovi,Nguyen Xuan Mai,Graphics & Design,top-free,6027,84,2026-11-15,2026-11-22,,
-6499309650,Kafi,Posunko Antoni,Food & Drink,top-grossing,6023,88,2026-11-17,2026-11-22,,
+6799726353,Embroidery Grove Companion,Cassie Edgar,Graphics & Design,top-paid,6027,21,2026-11-22,2026-11-24,,
+6833670326,PolyBuzz • Fate Cards,Erlangga Putrawan,Book,top-free,6018,22,2026-11-22,2026-11-24,,
+6739630070,Ello: Reading & Math Tutor,"Ello Technology, Inc.",Education,top-free,6017,52,2026-11-22,2026-11-24,,
+6779758855,Mahjong with Nana,Cassie Edgar,Games,top-paid,7005,55,2026-11-20,2026-11-24,,
+6636543626,Authenticator App－2FA・MFA・OTP,FLOOMIX LTD,Utilities,top-grossing,6002,61,2026-11-22,2026-11-24,,
+316133247,LDOCE,"Enfour, Inc.",Reference,top-paid,6006,65,2026-11-14,2026-11-24,,
+6804561823,Beluni,Jonathan David Evans,Graphics & Design,top-free,6027,65,2026-11-22,2026-11-24,,
+6820876045,"Trekly,",Max Parker,Travel,top-grossing,6003,70,2026-11-21,2026-11-24,,
+6743828427,阿福,"Ant Yikang (Guangzhou) Information Technology Co., Ltd.",Medical,top-free,6020,77,2026-11-15,2026-11-24,,
+6753928362,Smart Cleaner-Ai Cleaner,"TINY BOLT (HK) CO., LIMITED",Productivity,top-free,6007,87,2026-11-22,2026-11-24,,
+6636492811,Gem Genius AI,Trisphere Apps LLC,Shopping,top-paid,6024,90,2026-11-21,2026-11-24,,
+6813456910,Cash Advance • Money Borrowing,Ay Kredieten,Finance,top-free,6015,95,2026-11-22,2026-11-24,,
+1126113478,Touchscreen Test,Vishal Singh,Business,top-paid,6000,21,2026-11-13,2026-11-22,2026-11-24,
+6755439205,Word Search Supreme,Matthew Wehrle,Games,top-paid,7019,44,2026-11-19,2026-11-22,2026-11-24,
+6747313834,Run Countdown,Christopher Lamb,Sports,top-paid,6004,58,2026-11-17,2026-11-22,2026-11-24,
+1188361104,Toll & Gas Calculator TollGuru,MapUp Inc.,Navigation,top-grossing,6010,74,2026-11-19,2026-11-22,2026-11-24,
+6828467823,Dunovi,Nguyen Xuan Mai,Graphics & Design,top-free,6027,84,2026-11-15,2026-11-22,2026-11-24,
+6499309650,Kafi,Posunko Antoni,Food & Drink,top-grossing,6023,88,2026-11-17,2026-11-22,2026-11-24,
 1476380919,Cleaner Guru: Clean Up Storage,GM UniverseApps Limited,Utilities,top-grossing,6002,3,2026-11-20,2026-11-21,2026-11-22,
 6749500972,哔咔漫岛-二次元日韩耽美漫画大全,wuhanmanciyuan,Book,top-paid,6018,3,2026-11-20,2026-11-21,2026-11-22,
 1454590301,10bII Financial Calculator PRO,Incpt.Mobis,Finance,top-paid,6015,13,2026-11-13,2026-11-21,2026-11-22,
@@ -75,8 +87,6 @@ app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,miss
 6827146984,Reminova: Drama AI Photo,Mahira Vanya,Photo & Video,top-free,6008,41,2026-11-15,2026-11-16,2026-11-17,
 6474685600,Demus: Easy Music Streaming,Simon Zvara,Music,top-free,6011,56,2026-11-15,2026-11-16,2026-11-17,2026-11-20
 6825787585,Krillion: Daily Trivia Dive,Adnan Ali,Games,top-grossing,7018,60,2026-11-15,2026-11-16,2026-11-17,
-316133247,LDOCE,"Enfour, Inc.",Reference,top-paid,6006,65,2026-11-14,2026-11-16,2026-11-17,2026-11-19
-6743828427,阿福,"Ant Yikang (Guangzhou) Information Technology Co., Ltd.",Medical,top-free,6020,77,2026-11-15,2026-11-16,2026-11-17,2026-11-18
 6824909896,DooDrama,Nguyen Minh Thach,Entertainment,top-free,6016,94,2026-11-15,2026-11-16,2026-11-17,
 6826721306,Krillion Trivia Descend,BlueMind Software,Games,top-free,7018,100,2026-11-15,2026-11-16,2026-11-17,
 1114170869,Day of the Tentacle Remastered,"Double Fine Productions, Inc.",Games,top-paid,7009,26,2026-11-14,2026-11-15,2026-11-16,2026-11-20

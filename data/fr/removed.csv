@@ -1,6 +1,12 @@
 app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,missing_since,confirmed_on,returned_on
-6828467823,Dunovi,Nguyen Xuan Mai,Graphics & Design,top-free,6027,50,2026-11-15,2026-11-22,,
-1126113478,Touchscreen Test,Vishal Singh,Business,top-paid,6000,74,2026-11-21,2026-11-22,,
+6458000100,Partage d'écran ：Caster sur TV,Hong Kong Runhe Industrial Limited,Utilities,top-grossing,6002,21,2026-11-22,2026-11-24,,
+6820876045,"Trekly,",Max Parker,Travel,top-grossing,6003,65,2026-11-16,2026-11-24,,
+6818526253,SongPopper,ET Edutainment,Games,top-grossing,7011,79,2026-11-10,2026-11-24,,
+6833670326,PolyBuzz • Fate Cards,Erlangga Putrawan,Book,top-free,6018,82,2026-11-22,2026-11-24,,
+583728698,Assistant de jeux de lettres,Diagonal SAS,Games,top-grossing,7019,83,2026-11-22,2026-11-24,,
+6804561823,Beluni,Jonathan David Evans,Graphics & Design,top-grossing,6027,92,2026-11-22,2026-11-24,,
+6828467823,Dunovi,Nguyen Xuan Mai,Graphics & Design,top-free,6027,50,2026-11-15,2026-11-22,2026-11-24,
+1126113478,Touchscreen Test,Vishal Singh,Business,top-paid,6000,74,2026-11-21,2026-11-22,2026-11-24,
 6749500972,哔咔漫岛-二次元日韩耽美漫画大全,wuhanmanciyuan,Book,top-paid,6018,4,2026-11-09,2026-11-21,2026-11-22,
 1568149521,My Passion: Lire amour Stories,HW FANTASY LIMITED,Book,top-grossing,6018,5,2026-11-20,2026-11-21,2026-11-22,
 6797764175,CarDash : vidéos en voiture,Laigang Wang,Utilities,top-grossing,6002,5,2026-11-20,2026-11-21,2026-11-22,
@@ -31,7 +37,7 @@ app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,miss
 6752334517,JOrthodontie 25,key4events,Medical,top-free,6020,71,2026-11-07,2026-11-20,2026-11-21,
 1537956680,Musée de l'Opéra du Duomo,D'Uva Workshop s.r.l.,Travel,top-paid,6003,79,2026-11-19,2026-11-20,2026-11-21,
 6798252631,Rolia-Votre aventure narrative,ANKARA YONDER EGITIM HIZMETLERI ANONIM SIRKETI,Entertainment,top-grossing,6016,87,2026-11-17,2026-11-20,2026-11-21,
-1627212190,AÉSIO mutuelle,AESIO MUTUELLE,Health & Fitness,top-free,6013,88,2026-11-19,2026-11-20,2026-11-21,
+1627212190,AÉSIO mutuelle,AESIO MUTUELLE,Health & Fitness,top-free,6013,88,2026-11-19,2026-11-20,2026-11-21,2026-11-24
 6744271488,Recent Follow - Tracker Suivis,Bob Wei,Entertainment,top-grossing,6016,91,2026-11-11,2026-11-20,2026-11-21,
 1255141711,iFake - Funny Fake Messages Creator,Tien Nguyen,Social Networking,top-paid,6005,4,2026-11-18,2026-11-19,2026-11-20,
 6757801598,Custom Cars: Online Drive,FEYZULLAH KAR,Games,top-paid,7013,4,2026-11-18,2026-11-19,2026-11-20,
@@ -44,7 +50,7 @@ app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,miss
 6755671530,Poly Chat IA,Gold Mesa 1 LLC,Productivity,top-free,6007,57,2026-11-16,2026-11-19,2026-11-20,
 6757989691,Imposteur .,TERMUX LIMITED LIABILITY COMPANY,Games,top-grossing,7019,65,2026-11-18,2026-11-19,2026-11-20,
 6827901499,PolyBuzz : personnages IA,Evert Pfannenstiel,Graphics & Design,top-grossing,6027,70,2026-11-18,2026-11-19,2026-11-20,
-6812831502,Krivo : appli pour couples,MOLVERINE CORP,Lifestyle,top-free,6012,86,2026-11-14,2026-11-19,2026-11-20,
+6812831502,Krivo : appli pour couples,MOLVERINE CORP,Lifestyle,top-free,6012,86,2026-11-14,2026-11-19,2026-11-20,2026-11-24
 415007304,Sexy Maria,LET Software ApS,Entertainment,top-paid,6016,7,2026-11-17,2026-11-18,2026-11-19,2026-11-21
 6792386170,Roulette Grand Royale,SIGNAL INDUSTRIES LTD,Games,top-free,7006,15,2026-11-08,2026-11-18,2026-11-19,
 1575194801,Scan Shot・Scanner PDF et OCR,Scanner App PDF Tool,Business,top-grossing,6000,16,2026-11-17,2026-11-18,2026-11-19,

@@ -1,10 +1,19 @@
 app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,missing_since,confirmed_on,returned_on
-6828467823,Dunovi,Nguyen Xuan Mai,Graphics & Design,top-free,6027,52,2026-11-15,2026-11-22,,
-1126113478,Touchscreen Test,Vishal Singh,Business,top-paid,6000,70,2026-11-21,2026-11-22,,
-6754452970,Marshall・Geräteverbindung,Stefan Lozan,Music,top-grossing,6011,74,2026-11-21,2026-11-22,,
-1526639352,fornota: Altblockflöte,Bernhard Krenz,Music,top-paid,6011,91,2026-11-15,2026-11-22,,
-6824496518,Puffy Closet: Anziehspiel,Merve Kavaklioglu,Games,top-paid,7009,92,2026-11-08,2026-11-22,,
-1475409786,100 лучших рецептов Mom Story,Viktoriia Urmach,Food & Drink,top-paid,6023,94,2026-11-21,2026-11-22,,
+6820876045,"Trekly,",Max Parker,Travel,top-grossing,6003,11,2026-11-22,2026-11-24,,
+6636543626,Authenticator App－2FA・TOTP・OTP,FLOOMIX LTD,Utilities,top-grossing,6002,18,2026-11-22,2026-11-24,,
+6777303123,CmdDeck: Linux-Befehle & Netz,Yoshihiko Ishikawa,Developer Tools,top-grossing,6026,31,2026-11-22,2026-11-24,,
+6636492811,Gem Genius AI,Trisphere Apps LLC,Shopping,top-paid,6024,62,2026-11-21,2026-11-24,,
+6804561823,Beluni,Jonathan David Evans,Graphics & Design,top-grossing,6027,65,2026-11-22,2026-11-24,,
+6756656688,ADAC Camping / Stellplatz 2026,PiNCAMP GmbH,Travel,top-grossing,6003,72,2026-11-22,2026-11-24,,
+6833670326,PolyBuzz • Fate Cards,Erlangga Putrawan,Book,top-free,6018,85,2026-11-22,2026-11-24,,
+6758007786,AI Cleaner Speicher Reinigung,Komal Gangani,Utilities,top-free,6002,94,2026-11-21,2026-11-24,,
+6821285972,Singfl,Grole Prike,Music,top-grossing,6011,96,2026-11-11,2026-11-24,,
+6828467823,Dunovi,Nguyen Xuan Mai,Graphics & Design,top-free,6027,52,2026-11-15,2026-11-22,2026-11-24,
+1126113478,Touchscreen Test,Vishal Singh,Business,top-paid,6000,70,2026-11-21,2026-11-22,2026-11-24,
+6754452970,Marshall・Geräteverbindung,Stefan Lozan,Music,top-grossing,6011,74,2026-11-21,2026-11-22,2026-11-24,
+1526639352,fornota: Altblockflöte,Bernhard Krenz,Music,top-paid,6011,91,2026-11-15,2026-11-22,2026-11-24,
+6824496518,Puffy Closet: Anziehspiel,Merve Kavaklioglu,Games,top-paid,7009,92,2026-11-08,2026-11-22,2026-11-24,
+1475409786,100 лучших рецептов Mom Story,Viktoriia Urmach,Food & Drink,top-paid,6023,94,2026-11-21,2026-11-22,2026-11-24,
 1568149521,MyPassion: Stories Liebe lesen,HW FANTASY LIMITED,Book,top-grossing,6018,5,2026-11-20,2026-11-21,2026-11-22,
 6749500972,哔咔漫岛-二次元日韩耽美漫画大全,wuhanmanciyuan,Book,top-paid,6018,10,2026-11-09,2026-11-21,2026-11-22,
 1040149161,ScanGuru: Dokumente Scannen,GM UniverseApps Limited,Business,top-grossing,6000,20,2026-11-20,2026-11-21,2026-11-22,
@@ -35,9 +44,9 @@ app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,miss
 1027760029,Venice Panorama - DEU,D'Uva Workshop s.r.l.,Travel,top-paid,6003,13,2026-11-15,2026-11-20,2026-11-21,
 1537956680,Museum der Oper del Duomo,D'Uva Workshop s.r.l.,Travel,top-paid,6003,13,2026-11-19,2026-11-20,2026-11-21,
 1138626916,Greek English Lexicon - LSJ,Trang Hoai,Reference,top-paid,6006,17,2026-11-11,2026-11-20,2026-11-21,2026-11-22
-1606505499,TeacherTool 7,Udo Hilwerling,Education,top-paid,6017,24,2026-11-18,2026-11-20,2026-11-21,
-1638672996,TeacherTool 7 Flex,Udo Hilwerling,Education,top-paid,6017,27,2026-11-17,2026-11-20,2026-11-21,
-1219948639,TeacherTool Complete,Udo Hilwerling,Education,top-grossing,6017,61,2026-11-12,2026-11-20,2026-11-21,
+1606505499,TeacherTool 7,Udo Hilwerling,Education,top-paid,6017,24,2026-11-18,2026-11-20,2026-11-21,2026-11-24
+1638672996,TeacherTool 7 Flex,Udo Hilwerling,Education,top-paid,6017,27,2026-11-17,2026-11-20,2026-11-21,2026-11-24
+1219948639,TeacherTool Complete,Udo Hilwerling,Education,top-grossing,6017,61,2026-11-12,2026-11-20,2026-11-21,2026-11-24
 414120314,40 Patiencen,Giorgio Di Falco,Games,top-paid,7005,63,2026-11-19,2026-11-20,2026-11-21,
 6764001819,HashPower-BTC,United states happy Banana Inc,Business,top-grossing,6000,69,2026-11-13,2026-11-20,2026-11-21,
 6770676459,Thermify: Rezepte umwandeln,Markus Springer,Food & Drink,top-grossing,6023,69,2026-11-19,2026-11-20,2026-11-21,
