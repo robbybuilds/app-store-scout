@@ -1,5 +1,7 @@
 app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,missing_since,confirmed_on,returned_on
 6820876045,"Trekly,",Max Parker,Travel,top-grossing,6003,14,2026-11-16,2026-11-24,,
+472208016,酷狗音乐 - 就是歌多,"Guangzhou KuGou Technology CO. , LTD",Music,top-grossing,6011,21,2026-11-22,2026-11-24,,
+378272803,DaF Wörterbuch Deutsch-Deutsch,Langenscheidt-Verlag Gesellschaft m.b.H.,Reference,top-paid,6006,32,2026-11-22,2026-11-24,,
 6804561823,Beluni,Jonathan David Evans,Graphics & Design,top-grossing,6027,40,2026-11-22,2026-11-24,,
 6636492811,Gem Genius AI,Trisphere Apps LLC,Shopping,top-paid,6024,41,2026-11-21,2026-11-24,,
 583728698,Assistant de jeux de lettres,Diagonal SAS,Games,top-paid,7019,49,2026-11-22,2026-11-24,,
@@ -8,8 +10,10 @@ app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,miss
 6776995890,速影AI-seedance 2.5影视级视频一键生成,"Nanjing Yanmao Information Technology Co., Ltd.",Utilities,top-grossing,6002,53,2026-11-10,2026-11-24,,
 6458000100,미러링 ・ 미러링 TV,Hong Kong Runhe Industrial Limited,Utilities,top-grossing,6002,64,2026-11-22,2026-11-24,,
 6743828427,蚂蚁阿福-蚂蚁旗下AI健康助手,"Ant Yikang (Guangzhou) Information Technology Co., Ltd.",Medical,top-free,6020,73,2026-11-22,2026-11-24,,
+474236235,Race Horses Champions for iPhone,Lucas Ferreira Franca,Games,top-paid,7013,74,2026-11-22,2026-11-24,,
 6828439581,Pixlet.,STIVO TECH LTD EOOD,Graphics & Design,top-free,6027,75,2026-11-21,2026-11-24,,
 6824447759,Budlet,Katharina Mertens,Lifestyle,top-grossing,6012,88,2026-11-15,2026-11-24,,
+376971699,Großes Englisch Wörterbuch,Langenscheidt-Verlag Gesellschaft m.b.H.,Reference,top-paid,6006,89,2026-11-22,2026-11-24,,
 6821285972,Singfl,Grole Prike,Music,top-grossing,6011,98,2026-11-13,2026-11-24,,
 6499309650,Kafi,Posunko Antoni,Food & Drink,top-grossing,6023,19,2026-11-21,2026-11-22,2026-11-24,
 6828467823,Dunovi,Nguyen Xuan Mai,Graphics & Design,top-free,6027,42,2026-11-19,2026-11-22,2026-11-24,
@@ -141,5 +145,5 @@ app_id,name,publisher,genre,best_chart,best_genre_id,best_rank,last_charted,miss
 6756906015,"망고톡 - 영상채팅,외국인 친구 사귀기",Shin DongYoon,Lifestyle,top-grossing,6012,88,2026-11-03,2026-11-11,2026-11-12,
 6733227200,EV Charger Map Tesla And More,XIAOCHUAN HE,Navigation,top-grossing,6010,90,2026-11-04,2026-11-11,2026-11-12,
 6820156980,Slimee - Slime Puzzle Game,D-oneApp,Games,top-free,7004,95,2026-11-05,2026-11-11,2026-11-12,
-1477562735,마이 프리티걸 스토리,SeungYong Kim,Games,top-free,7009,97,2026-11-04,2026-11-11,2026-11-12,
+1477562735,마이 프리티걸 스토리,SeungYong Kim,Games,top-free,7009,97,2026-11-04,2026-11-11,2026-11-12,2026-11-24
 595972982,Greeting Cards App - Pro,Sublime applications pty limited,Social Networking,top-paid,6005,97,2026-11-04,2026-11-11,2026-11-12,

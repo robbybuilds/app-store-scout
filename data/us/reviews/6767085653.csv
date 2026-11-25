@@ -21,6 +21,7 @@ id,rating,version,date,title,body
 14548314857,1,1.8.0,2026-09-14,musk made this service worse,Became much worse when ilon musk bought it
 14525494380,1,1.8.0,2026-09-08,Grok Login Broken,Logging in via grok seems to be broken
 14525213927,1,1.8.0,2026-09-08,cheat me,"Breaking promises, junk software"
+14822591838,2,1.18.0,2026-11-22,iPhone Duo can’t use remote control,"Remote control only available at the outer mini display, when unfold the duo, it disappears"
 14740798275,2,1.16.0,2026-11-02,Mobile is so buggy,I love cursor but the mobile app is barely usable. The chat input box glitches frequently and I lose around half of all lengthy prompts I type before being able to send them.
 14650142067,2,1.13.0,2026-10-10,Great but Useless without approvals,"I love the app, it’s amazing but any time an approval is needed it’s on my laptop instead of letting me approve on my phone. That makes the entire experience useless whenever I hit that issue"
 14628614445,2,1.12.0,2026-10-04,Worthless for anything not simple,"Horrible spaghetti code generated, put literals into the code instead of using the user preferences, even when the fields are already there. Having to review at a detailed level requirements, architecture, design, and coding. I’m very disappointed with this."
@@ -35,6 +36,7 @@ id,rating,version,date,title,body
 14623737573,4,1.12.0,2026-10-03,Cursor Remote,I use Cursor desktop heavily. I’m wondering whether Cursor mobile supports interacting with the tasks running in the desktop. Now ChatGPT Supports this function .
 14621589046,4,1.12.0,2026-10-03,A few features missing,"I’d love to be able to copy the final response from the prompt by having a copy button like in the desktop application. That way I can use that as an input for another agent chat in the mobile app. Currently I have to press and hold, select the text in pieces (when there are tables it’s such a pain), then paste in the other chat."
 14582055635,4,1.9.0,2026-09-23,Good,Would like to be able to see the usage in app
+14822457530,5,1.18.0,2026-11-22,Excellent,Engineering at its finest
 14810988311,5,1.18.0,2026-11-20,Plan usage in app?,Is it possible to show the plan usage in the app?
 14775718040,5,1.17.0,2026-11-11,Agents on vacation,"Cursor is great! I can have my agents work when I’m out of town, at school, or just away from my PC! Would recommend for heavy AI coders!"
 14772743365,5,1.17.0,2026-11-10,Favorite Software Engineer,"Having started building our app from “scratch” up to version 2.7 without very little code assist, I found Cursor extremely easy to use, Cursor understands complex ideas and formats excellent solutions. Highly recommend for individuals that have a project that they need finished or upgrades added with very little flaws. Powerful."
